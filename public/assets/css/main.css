@@ -1628,7 +1628,7 @@ body.body {
     --vtc-text-pera-text-2: #ccccd5;
     --vtc-text-pera-text-3: #5a5f6a;
     --vtc-text-text-white-text-1: #ffffff;
-    --vtc-bg-main-bg-1: #ff7a01;
+    --vtc-bg-main-bg-1: #00A1E1;
     --vtc-bg-main-bg-2: #fc253f;
     --vtc-bg-main-bg-3: #fd965b;
     --vtc-bg-main-bg-4: #23342e;
@@ -2758,7 +2758,7 @@ body.body {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #ffaa60;
+    background-color: #00A1E1;
     background-position: left center;
     transition-delay: 0.1s;
     transition-timing-function: ease-in-out;
@@ -2842,7 +2842,7 @@ body.body {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #ffaa60;
+    background-color: #00A1E1;
     background-position: left center;
     transition-delay: 0.1s;
     transition-timing-function: ease-in-out;
@@ -11184,7 +11184,7 @@ body.body {
     width: 89%;
     bottom: 30px;
     bottom: 30px;
-    height: 120px;
+    height: 90px;
     margin: 0px 30px;
     opacity: 0;
     transform: perspective(540px) rotateY(0deg) translateY(-100px);
