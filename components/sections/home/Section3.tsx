@@ -43,7 +43,7 @@ export default function Section3() {
                                     </div>
                                     <div className="heading1">
                                         <h3>
-                                            <span className="counter">3</span>+
+                                            <span className="counter">10</span>+
                                         </h3>
                                         <div className="space10" />
                                         <p>Years Experience</p>
