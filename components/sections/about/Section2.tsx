@@ -9,8 +9,8 @@ export default function Section2() {
                     <div className="row">
                         <div className="col-lg-7 m-auto text-center">
                             <div className="heading1">
-                                <span className="span">Our Mission</span>
-                                <h2>Success Our Guiding Mission</h2>
+                                <span className="span"> Our Vision & Values</span>
+                                <h2>In What We Believe</h2>
                                 <div className="space16" />
                                 <p> We believe that by connecting talented professionals with leading companies, we can create opportunities for growth, innovation</p>
                             </div>

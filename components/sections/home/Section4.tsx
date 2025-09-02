@@ -52,7 +52,7 @@ export default function Section4() {
                                     <div className="icon">
                                         <img src="assets/img/icons/service1-icon2.png" alt="" />
                                     </div>
-                                    <div className="space16" />
+                                    <div className="space16"/>
                                     <div className="heading1-w">
                                         <h4>
                                             <Link href="/service-details">CRM Consulting</Link>
