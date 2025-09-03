@@ -12,7 +12,7 @@ export default function Section2() {
                                 <span className="span"> Our Vision & Values</span>
                                 <h2>In What We Believe</h2>
                                 <div className="space16" />
-                                <p> We believe that by connecting talented professionals with leading companies, we can create opportunities for growth, innovation</p>
+                                <p> CodM Software is a Sliver Salesforce Consulting Partner committed to delivering quality services and achieving 100% customer satisfaction.</p>
                             </div>
                         </div>
                     </div>
@@ -25,10 +25,10 @@ export default function Section2() {
                                 </div>
                                 <div className="heading1">
                                     <h5>
-                                        <Link href="#">Connecting Talent Opportunity</Link>
+                                        <Link href="#">Our Mission</Link>
                                     </h5>
                                     <div className="space16" />
-                                    <p>With a focus integrity, collaboration, and personalized service, we strive</p>
+                                    <p>To overcome key business challenges by providing innovative business solutions that increase efficiency with our products, and execution excellence promoting Equality, Sustainability and Quality.</p>
                                 </div>
                             </div>
                         </div>
@@ -39,10 +39,10 @@ export default function Section2() {
                                 </div>
                                 <div className="heading1">
                                     <h5>
-                                        <Link href="#">Careers, Elevating Businesses</Link>
+                                        <Link href="#">Our Vision</Link>
                                     </h5>
                                     <div className="space16" />
-                                    <p>Our commitment excellence guides everything we do ,understanding </p>
+                                    <p>We strive to continuously work hard to make our customers satisfied with our innovative products and talented staff. With a dedicated team in our workforce, we are able to develop long-term and mutually beneficial relationships with our partners </p>
                                 </div>
                             </div>
                         </div>
@@ -53,10 +53,15 @@ export default function Section2() {
                                 </div>
                                 <div className="heading1">
                                     <h5>
-                                        <Link href="#"> Driving Success Together</Link>
+                                        <Link href="#">Core Values</Link>
                                     </h5>
                                     <div className="space16" />
-                                    <p> DWe believe that connecting talented professionals leading companies</p>
+                                    <p> E- Employee Centric 
+                                    N- Nurture
+                                    E- Empathy
+                                    R- Resourceful
+                                    G- Goal Oriented 
+                                    Y- Yearn</p>
                                 </div>
                             </div>
                         </div>

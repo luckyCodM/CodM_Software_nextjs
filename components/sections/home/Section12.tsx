@@ -4,17 +4,17 @@ export default function Section12() {
     return (
         <>
             {/*===== CTA AREA START =======*/}
-            <div className="cta">
+            {/* <div className="cta">
                 <div className="container">
                     <div className="row cta-border align-items-center">
                         <div className="col-lg-6">
                             <div className="heading1-w">
                                 <h2>Get a Free Consultation</h2>
                                 <div className="space16" />
-                                {/* <p>
+                                <p>
                                     Feel free to customize this paragraph to better reflect the <br />
                                     specific services offered by your IT solution &amp; the unique
-                                </p> */}
+                                </p>
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -36,7 +36,7 @@ export default function Section12() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/*===== CTA AREA START =======*/}
         </>
     );

@@ -4,7 +4,7 @@ export default function Section3() {
     return (
         <>
             {/*===== CTA AREA START =======*/}
-            <div className="cta">
+            {/* <div className="cta">
                 <div className="container">
                     <div className="row cta-border align-items-center">
                         <div className="col-lg-6">
@@ -33,7 +33,7 @@ export default function Section3() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/*===== CTA AREA START =======*/}
         </>
     );

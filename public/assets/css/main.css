@@ -2554,7 +2554,7 @@ body.body {
     cursor: pointer;
     display: block;
     border-radius: 50px;
-    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 0 2px #b7533a;
     z-index: 1;
     opacity: 0;
     visibility: hidden;
@@ -2576,7 +2576,7 @@ body.body {
     text-align: center;
     line-height: 56px;
     font-size: 18px;
-    color: #03256c;
+    color: #129fdb;
     left: 0;
     top: 0;
     height: 56px;
@@ -2618,7 +2618,7 @@ body.body {
 }
 
 .progress-wrap svg.progress-circle path {
-    stroke: #03256c; /* --- Lijn progres kleur --- */
+    stroke: #129fdb; /* --- Lijn progres kleur --- */
     stroke-width: 4;
     box-sizing: border-box;
     transition: all 200ms linear;
@@ -2779,7 +2779,7 @@ body.body {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgb(3, 0, 0);
+    background-color: #b7533a   ;
     transform: scaleY(0);
     transform-origin: center;
     transform-style: preserve-3d;
@@ -2863,7 +2863,7 @@ body.body {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgb(3, 0, 0);
+    background-color: #b7533a;
     transform: scaleY(0);
     transform-origin: center;
     transform-style: preserve-3d;
@@ -8580,7 +8580,7 @@ body.body {
 .hero-area3 .main-heading .reating-area .reating .stars ul li {
     display: inline-block;
     color: #ffd600;
-    margin: 0px 2px;
+    margin: 0px 0px;
 }
 .hero-area3 .main-heading .reating-area .reating .stars ul li:nth-last-child(1) {
     color: #fff;
@@ -11102,7 +11102,7 @@ body.body {
 .project-two {
     position: relative;
     display: block;
-    padding: 140px 0 157px;
+    padding: 100px 0 80px;
 }
 
 .project-two__top {
@@ -11511,7 +11511,7 @@ body.body {
 }
 .tes1 .tes1-slider .single-slider ul.stars li {
     display: inline-block;
-    background-color: rgba(255, 124, 1, 0.1294117647);
+    background-color: #e6f7fe;
     height: 32px;
     width: 32px;
     line-height: 32px;
@@ -11526,7 +11526,7 @@ body.body {
     font-size: var(--f-fs-font-fs20);
     line-height: var(--f-fs-font-fs30);
     font-weight: var(--f-fw-medium);
-    padding: 24px 0px;
+    padding: 15px 0px;
 }
 .tes1 .tes1-slider .single-slider .bottom-heading h4 a {
     font-size: var(--f-fs-font-fs24);
@@ -13086,6 +13086,7 @@ body.body {
 }
 .tes9 .tes6-all-slider .single-slider .stars {
     padding-top: 4px;
+    padding-bottom: 10px;
 }
 .tes9 .tes6-all-slider .single-slider .stars li {
     display: inline-block;
@@ -16627,7 +16628,7 @@ body.body {
     font-weight: 600;
     line-height: 18px; /* 100% */
     display: inline-block;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 .header-area.header-area1 .main-menu-ex ul li .tp-submenu .homemenu-thumb .bottom-heading:hover {
     color: #ff7a01;

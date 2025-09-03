@@ -82,6 +82,11 @@ export default function Section8({ classList }: any) {
                             <SwiperSlide className="single-slider">
                                 <div className="row">
                                     <div className="col-md-8">
+                                        
+                                        <div className="pera">
+                                            <p>“But don't just take our word for it—hear what our satisfied clients have to say. From Fortune 500 companies to small”</p>
+                                        </div>
+
                                         <ul className="stars">
                                             <li>
                                                 <i className="fa-solid fa-star" />
@@ -99,14 +104,13 @@ export default function Section8({ classList }: any) {
                                                 <i className="fa-solid fa-star" />
                                             </li>
                                         </ul>
-                                        <div className="pera">
-                                            <p>“But don't just take our word for it—hear what our satisfied clients have to say. From Fortune 500 companies to small”</p>
-                                        </div>
+
                                         <div className="bottom-heading">
                                             <h4>
                                                 <Link href="#">Amir Jamil</Link>
                                             </h4>
                                             <p>Vp,Daily Naws</p>
+                                            
                                         </div>
                                     </div>
                                     {/* <div className="col-md-4">
@@ -119,7 +123,12 @@ export default function Section8({ classList }: any) {
                             <SwiperSlide className="single-slider">
                                 <div className="row">
                                     <div className="col-md-8">
-                                        <ul className="stars">
+                                        
+                                        <div className="pera">
+                                            <p>“Our dedication to excellence, and commitment to building long-lasting partnerships have”</p>
+                                        </div>
+
+                                         <ul className="stars">
                                             <li>
                                                 <i className="fa-solid fa-star" />
                                             </li>
@@ -136,9 +145,7 @@ export default function Section8({ classList }: any) {
                                                 <i className="fa-solid fa-star" />
                                             </li>
                                         </ul>
-                                        <div className="pera">
-                                            <p>“Our dedication to excellence, and commitment to building long-lasting partnerships have”</p>
-                                        </div>
+
                                         <div className="bottom-heading">
                                             <h4>
                                                 <Link href="#">Usman Khan</Link>
@@ -156,6 +163,11 @@ export default function Section8({ classList }: any) {
                             <SwiperSlide className="single-slider">
                                 <div className="row">
                                     <div className="col-md-8">
+                                        
+                                        <div className="pera">
+                                            <p>“But don't just take our word for it—hear what our satisfied clients have to say. From Fortune 500 companies to small”</p>
+                                        </div>
+
                                         <ul className="stars">
                                             <li>
                                                 <i className="fa-solid fa-star" />
@@ -173,9 +185,7 @@ export default function Section8({ classList }: any) {
                                                 <i className="fa-solid fa-star" />
                                             </li>
                                         </ul>
-                                        <div className="pera">
-                                            <p>“But don't just take our word for it—hear what our satisfied clients have to say. From Fortune 500 companies to small”</p>
-                                        </div>
+
                                         <div className="bottom-heading">
                                             <h4>
                                                 <Link href="#">Amir Jamil</Link>
@@ -193,7 +203,12 @@ export default function Section8({ classList }: any) {
                             <SwiperSlide className="single-slider">
                                 <div className="row">
                                     <div className="col-md-8">
-                                        <ul className="stars">
+                                        
+                                        <div className="pera">
+                                            <p>“Our dedication to excellence, and commitment to building long-lasting partnerships have”</p>
+                                        </div>
+
+                                            <ul className="stars">
                                             <li>
                                                 <i className="fa-solid fa-star" />
                                             </li>
@@ -210,9 +225,7 @@ export default function Section8({ classList }: any) {
                                                 <i className="fa-solid fa-star" />
                                             </li>
                                         </ul>
-                                        <div className="pera">
-                                            <p>“Our dedication to excellence, and commitment to building long-lasting partnerships have”</p>
-                                        </div>
+
                                         <div className="bottom-heading">
                                             <h4>
                                                 <Link href="#">Usman Khan</Link>
