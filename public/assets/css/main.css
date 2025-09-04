@@ -1739,7 +1739,7 @@ body.body {
 
 .heading1 span.span {
     display: inline-block;
-    color: var(vtc-text-text-white-text-1);
+    color: var(--vtc-text-text-white-text-1);
     font-size: var(--f-fs-font-fs16);
     line-height: var(--f-fs-font-fs16);
     font-weight: var(--f-fw-medium);
@@ -8332,12 +8332,12 @@ body.body {
 }
 .hero-area1 .main-heading span.span {
     display: inline-block;
-    color: var(--vtc-bg-main-bg-1);
+    color: var(--vtc-text-text-white-text-1);
     font-size: var(--f-fs-font-fs16);
     line-height: var(--f-fs-font-fs16);
     font-weight: var(--f-fw-medium);
     border-radius: 4px;
-    background-color: rgba(255, 124, 1, 0.1568627451);
+    background-color: #00A1E1;
     padding: 8px 12px;
     margin-bottom: 16px;
 }

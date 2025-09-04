@@ -9,9 +9,9 @@ export default function Section1() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="main-heading">
-                                {/* <span className="span" data-aos="fade-right" data-aos-duration={800}>
-                                    CODM SOFTWARE
-                                </span> */}
+                                <span className="span" data-aos="fade-right" data-aos-duration={800}>
+                                    No Code Low Code
+                                </span>
                                 <h1 className="text-anime-style-3">Best Salesforce Consulting in India </h1>
                                 <div className="space16" />
                                 <p data-aos="fade-right" data-aos-duration={1000}>
