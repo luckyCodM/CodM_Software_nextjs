@@ -43,6 +43,14 @@ const swiperOptions = {
             slidesPerView: 7,
             spaceBetween: 30,
         },
+        1800: {
+            slidesPerView: 8,
+            spaceBetween: 30,
+        },
+         2000: {
+            slidesPerView: 9,
+            spaceBetween: 30,
+        },
     },
 };
 
@@ -80,6 +88,12 @@ export default function Section2({ backgroundColor }: { backgroundColor: string 
                                     <img src="assets/img/logo/slider-logo8.png" alt="recrute" />
                                 </SwiperSlide>
                                 <SwiperSlide>
+                                    <img src="assets/img/logo/slider-logo9.png" alt="recrute" />
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img src="assets/img/logo/slider-logo10.png" alt="recrute" />
+                                </SwiperSlide>
+                                <SwiperSlide>
                                     <img src="assets/img/logo/slider-logo1.png" alt="recrute" />
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -100,6 +114,16 @@ export default function Section2({ backgroundColor }: { backgroundColor: string 
                                 <SwiperSlide>
                                     <img src="assets/img/logo/slider-logo7.png" alt="recrute" />
                                 </SwiperSlide>
+                                <SwiperSlide>
+                                    <img src="assets/img/logo/slider-logo8.png" alt="recrute" />
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img src="assets/img/logo/slider-logo9.png" alt="recrute" />
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img src="assets/img/logo/slider-logo10.png" alt="recrute" />
+                                </SwiperSlide>
+
                             </Swiper>
                         </div>
                     </div>

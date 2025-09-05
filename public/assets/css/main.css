@@ -1630,7 +1630,7 @@ body.body {
     --vtc-text-text-white-text-1: #ffffff;
     --vtc-bg-main-bg-1: #00A1E1;
     --vtc-bg-main-bg-2: #fc253f;
-    --vtc-bg-main-bg-3: #fd965b;
+    --vtc-bg-main-bg-3: #b7533a;
     --vtc-bg-main-bg-4: #23342e;
     --vtc-bg-main-bg-5: #19326a;
     --vtc-bg-main-bg-6: #52b5e9;
@@ -1701,14 +1701,14 @@ body.body {
     line-height: var(--f-fs-font-fs16);
     font-weight: var(--f-fw-medium);
     border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.1764705882);
+    background-color: #00A1E1;
     padding: 8px 12px;
     margin-bottom: 16px;
 }
 .heading1-w h2 {
     font-size: var(--f-fs-font-fs44);
     line-height: var(--f-fs-font-fs54);
-    color: var(--vtc-text-text-white-text-1);
+    color: var(--vtc-bg-main-bg-1);
     font-weight: var(--f-fw-bold);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1763,7 +1763,7 @@ body.body {
 .heading1 h2 {
     font-size: var(--f-fs-font-fs44);
     line-height: var(--f-fs-font-fs54);
-    color: var(--vtc-text-heading-text-1);
+    color: var(--vtc-bg-main-bg-1);
     font-weight: var(--f-fw-bold);
     transition: all 0.4s;
 }
@@ -2746,7 +2746,7 @@ body.body {
     color: var(--vtc-text-text-white-text-1);
     text-transform: capitalize;
     padding: 18px 22px 18px 22px;
-    background-color: var(--vtc-bg-main-bg-1);
+    background-color: var(--vtc-bg-main-bg-3);
     overflow: hidden;
     z-index: 1;
     border-radius: 4px;
@@ -2758,7 +2758,7 @@ body.body {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #00A1E1;
+    background-color: #b7533a;
     background-position: left center;
     transition-delay: 0.1s;
     transition-timing-function: ease-in-out;
@@ -2916,7 +2916,7 @@ body.body {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgb(3, 0, 0);
+    background-color: #00A1E1;
     background-position: left center;
     transition-delay: 0.1s;
     transition-timing-function: ease-in-out;
@@ -2937,7 +2937,7 @@ body.body {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #ffaa60;
+    background-color: #00A1E1;
     transform: scaleY(0);
     transform-origin: center;
     transform-style: preserve-3d;
@@ -4613,7 +4613,7 @@ body.body {
 ::::::::::::::::::::::::::
 */
 .service1 {
-    background-color: var(--vtc-text-heading-text-1);
+    background-color: var(--vtc-bg-main-bg-3);
 }
 
 .service1-box {
@@ -5513,7 +5513,7 @@ body.body {
     color: #f6aa32;
 }
 .service8 .service-box:hover {
-    background-color: #081120;
+    background-color: #00A1E1;
     transform: translateY(-10px);
     transition: all 0.4s;
 }
@@ -5794,7 +5794,7 @@ body.body {
 ::::::::::::::::::::::::::
 */
 .cta {
-    background-color: var(--vtc-text-heading-text-1);
+    background-color: var(--vtc-bg-main-bg-1);
     padding-top: 60px;
 }
 .cta .cta-border {
@@ -6178,7 +6178,7 @@ body.body {
 }
 
 .cta9 {
-    background-color: #2a9134;
+    background-color: #00A1E1;
 }
 .cta9 .images {
     text-align: end;
@@ -6355,7 +6355,7 @@ body.body {
 */
 .hero1-slider {
     padding: 50px 0px;
-    background-color: var(--vtc-text-heading-text-1);
+    background-color: var(--vtc-text-white-text-1);
 }
 
 .hero9-slider {
@@ -8344,7 +8344,7 @@ body.body {
 .hero-area1 .main-heading h1 {
     font-size: var(--f-fs-font-fs64);
     line-height: var(--f-fs-font-fs70);
-    color: var(--vtc-text-heading-text-1);
+    color: var(--vtc-bg-main-bg-1);
     font-weight: var(--f-fw-bold);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -8421,7 +8421,7 @@ body.body {
     line-height: var(--f-fs-font-fs16);
     font-weight: var(--f-fw-medium);
     border-radius: 4px;
-    background-color: var(--vtc-bg-common-bg3);
+    background-color: var(--vtc-bg-common-bg1);
     padding: 8px 12px;
     margin-bottom: 16px;
 }

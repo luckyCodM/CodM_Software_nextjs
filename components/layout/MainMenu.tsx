@@ -7,7 +7,7 @@ export default function MainMenu() {
                 <Link href="#">
                     Home <i className="fa-solid fa-angle-down" />
                 </Link>
-                <div className="tp-submenu">
+                {/* <div className="tp-submenu">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="all-images-menu">
@@ -28,7 +28,7 @@ export default function MainMenu() {
                                         Home V1
                                     </Link>
                                 </div>
-                                {/* <div className="homemenu-thumb">
+                                <div className="homemenu-thumb">
                                     <div className="img1">
                                         <img src="assets/img/demo/demo2.png" alt="" />
                                     </div>
@@ -44,8 +44,8 @@ export default function MainMenu() {
                                     <Link href="/index2" className="bottom-heading">
                                         Home V2
                                     </Link>
-                                </div> */}
-                                {/* <div className="homemenu-thumb">
+                                </div>
+                                <div className="homemenu-thumb">
                                     <div className="img1">
                                         <img src="assets/img/demo/demo3.png" alt="" />
                                     </div>
@@ -61,8 +61,8 @@ export default function MainMenu() {
                                     <Link href="/index3" className="bottom-heading">
                                         Home V3
                                     </Link>
-                                </div> */}
-                                {/* <div className="homemenu-thumb">
+                                </div>
+                                <div className="homemenu-thumb">
                                     <div className="img1">
                                         <img src="assets/img/demo/demo4.png" alt="" />
                                     </div>
@@ -78,8 +78,8 @@ export default function MainMenu() {
                                     <Link href="/index4" className="bottom-heading">
                                         Home V4
                                     </Link>
-                                </div> */}
-                                {/* <div className="homemenu-thumb" style={{ margin: "0 0 20px 0" }}>
+                                </div>
+                                <div className="homemenu-thumb" style={{ margin: "0 0 20px 0" }}>
                                     <div className="img1">
                                         <img src="assets/img/demo/demo5.png" alt="" />
                                     </div>
@@ -95,98 +95,98 @@ export default function MainMenu() {
                                     <Link href="/index5" className="bottom-heading">
                                         Home V5
                                     </Link>
-                                </div> */}
+                                </div>
                             </div>
-                            {/* <div className="all-images-menu">
-                                <div className="homemenu-thumb">
-                                    <div className="img1">
-                                        <img src="assets/img/demo/demo6.png" alt="" />
-                                    </div>
-                                    <div className="homemenu-btn">
-                                        <Link className="header-btn1" href="/index6">
-                                            Multi Page <i className="fa-solid fa-arrow-right" />
+                                <div className="all-images-menu">
+                                    <div className="homemenu-thumb">
+                                        <div className="img1">
+                                            <img src="assets/img/demo/demo6.png" alt="" />
+                                        </div>
+                                        <div className="homemenu-btn">
+                                            <Link className="header-btn1" href="/index6">
+                                                Multi Page <i className="fa-solid fa-arrow-right" />
+                                            </Link>
+                                            <div className="space16" />
+                                            <Link className="header-btn1" href="/single-index6">
+                                                One page <i className="fa-solid fa-arrow-right" />
+                                            </Link>
+                                        </div>
+                                        <Link href="/index6" className="bottom-heading">
+                                            Home V6
                                         </Link>
-                                        <div className="space16" />
-                                        <Link className="header-btn1" href="/single-index6">
-                                            One page <i className="fa-solid fa-arrow-right" />
+                                    </div>
+                                    <div className="homemenu-thumb">
+                                        <div className="img1">
+                                            <img src="assets/img/demo/demo7.png" alt="" />
+                                        </div>
+                                        <div className="homemenu-btn">
+                                            <Link className="header-btn1" href="/index7">
+                                                Multi Page <i className="fa-solid fa-arrow-right" />
+                                            </Link>
+                                            <div className="space16" />
+                                            <Link className="header-btn1" href="/single-index7">
+                                                One page <i className="fa-solid fa-arrow-right" />
+                                            </Link>
+                                        </div>
+                                        <Link href="/index7" className="bottom-heading">
+                                            Home V7
                                         </Link>
                                     </div>
-                                    <Link href="/index6" className="bottom-heading">
-                                        Home V6
-                                    </Link>
+                                    <div className="homemenu-thumb">
+                                        <div className="img1">
+                                            <img src="assets/img/demo/demo8.png" alt="" />
+                                        </div>
+                                        <div className="homemenu-btn">
+                                            <Link className="header-btn1" href="/index8">
+                                                Multi Page <i className="fa-solid fa-arrow-right" />
+                                            </Link>
+                                            <div className="space16" />
+                                            <Link className="header-btn1" href="/single-index8">
+                                                One page <i className="fa-solid fa-arrow-right" />
+                                            </Link>
+                                        </div>
+                                        <Link href="/index8" className="bottom-heading">
+                                            Home V8
+                                        </Link>
+                                    </div>
+                                    <div className="homemenu-thumb">
+                                        <div className="img1">
+                                            <img src="assets/img/demo/demo9.png" alt="" />
+                                        </div>
+                                        <div className="homemenu-btn">
+                                            <Link className="header-btn1" href="/index9">
+                                                Multi Page <i className="fa-solid fa-arrow-right" />
+                                            </Link>
+                                            <div className="space16" />
+                                            <Link className="header-btn1" href="/single-index9">
+                                                One page <i className="fa-solid fa-arrow-right" />
+                                            </Link>
+                                        </div>
+                                        <Link href="/index9" className="bottom-heading">
+                                            Home V9
+                                        </Link>
+                                    </div>
+                                    <div className="homemenu-thumb" style={{ margin: "0 0 20px 0" }}>
+                                        <div className="img1">
+                                            <img src="assets/img/demo/demo10.png" alt="" />
+                                        </div>
+                                        <div className="homemenu-btn">
+                                            <Link className="header-btn1" href="/index10">
+                                                Multi Page <i className="fa-solid fa-arrow-right" />
+                                            </Link>
+                                            <div className="space16" />
+                                            <Link className="header-btn1" href="/single-index10">
+                                                One page <i className="fa-solid fa-arrow-right" />
+                                            </Link>
+                                        </div>
+                                        <Link href="/index10" className="bottom-heading">
+                                            Home V10
+                                        </Link>
+                                    </div>
                                 </div>
-                                <div className="homemenu-thumb">
-                                    <div className="img1">
-                                        <img src="assets/img/demo/demo7.png" alt="" />
-                                    </div>
-                                    <div className="homemenu-btn">
-                                        <Link className="header-btn1" href="/index7">
-                                            Multi Page <i className="fa-solid fa-arrow-right" />
-                                        </Link>
-                                        <div className="space16" />
-                                        <Link className="header-btn1" href="/single-index7">
-                                            One page <i className="fa-solid fa-arrow-right" />
-                                        </Link>
-                                    </div>
-                                    <Link href="/index7" className="bottom-heading">
-                                        Home V7
-                                    </Link>
-                                </div>
-                                <div className="homemenu-thumb">
-                                    <div className="img1">
-                                        <img src="assets/img/demo/demo8.png" alt="" />
-                                    </div>
-                                    <div className="homemenu-btn">
-                                        <Link className="header-btn1" href="/index8">
-                                            Multi Page <i className="fa-solid fa-arrow-right" />
-                                        </Link>
-                                        <div className="space16" />
-                                        <Link className="header-btn1" href="/single-index8">
-                                            One page <i className="fa-solid fa-arrow-right" />
-                                        </Link>
-                                    </div>
-                                    <Link href="/index8" className="bottom-heading">
-                                        Home V8
-                                    </Link>
-                                </div>
-                                <div className="homemenu-thumb">
-                                    <div className="img1">
-                                        <img src="assets/img/demo/demo9.png" alt="" />
-                                    </div>
-                                    <div className="homemenu-btn">
-                                        <Link className="header-btn1" href="/index9">
-                                            Multi Page <i className="fa-solid fa-arrow-right" />
-                                        </Link>
-                                        <div className="space16" />
-                                        <Link className="header-btn1" href="/single-index9">
-                                            One page <i className="fa-solid fa-arrow-right" />
-                                        </Link>
-                                    </div>
-                                    <Link href="/index9" className="bottom-heading">
-                                        Home V9
-                                    </Link>
-                                </div>
-                                <div className="homemenu-thumb" style={{ margin: "0 0 20px 0" }}>
-                                    <div className="img1">
-                                        <img src="assets/img/demo/demo10.png" alt="" />
-                                    </div>
-                                    <div className="homemenu-btn">
-                                        <Link className="header-btn1" href="/index10">
-                                            Multi Page <i className="fa-solid fa-arrow-right" />
-                                        </Link>
-                                        <div className="space16" />
-                                        <Link className="header-btn1" href="/single-index10">
-                                            One page <i className="fa-solid fa-arrow-right" />
-                                        </Link>
-                                    </div>
-                                    <Link href="/index10" className="bottom-heading">
-                                        Home V10
-                                    </Link>
-                                </div>
-                            </div> */}
                         </div>
                     </div>
-                </div>
+                </div> */}
             </li>
             <li>
                 <Link href="/about">About Us</Link>

@@ -31,7 +31,7 @@ export default function Section5() {
     return (
         <>
             {/*=====PROJECT AREA START=======*/}
-            <section className="project-two d-none d-lg-block" id="project">
+            {/* <section className="project-two d-none d-lg-block" id="project">
                 <div className="project-two__bottom">
                     <div className="container">
                         <div className="row">
@@ -51,9 +51,9 @@ export default function Section5() {
                         </div>
                         <div className="space60" />
                         <div className="project-two__carousel-container" data-aos="fade-up" data-aos-duration={900}>
-                            <Swiper {...swiperOptions} className="project-two__carousel owl-carousel owl-theme thm-owl__carousel project-style1-carousel owl-dot-style1 pb-5">
-                                {/*Portfolio Two Single Start*/}
-                                <SwiperSlide className="project-two__single-box">
+                            <Swiper {...swiperOptions} className="project-two__carousel owl-carousel owl-theme thm-owl__carousel project-style1-carousel owl-dot-style1 pb-5"> */}
+                                {/* Portfolio Two Single Start */}
+                                {/* <SwiperSlide className="project-two__single-box">
                                     <ul className="project-two__box list-unstyled">
                                         <li className={activeIndex === 0 ? "active" : ""} onMouseEnter={() => handleMouseEnter(0)}>
                                             <div className="project-two__box-content">
@@ -143,10 +143,10 @@ export default function Section5() {
                                             </div>
                                         </li>
                                     </ul>
-                                </SwiperSlide>
+                                </SwiperSlide> */}
                                 {/*Portfolio Two Single End*/}
                                 {/*Portfolio Two Single Start*/}
-                                <SwiperSlide className="project-two__single-box">
+                                {/* <SwiperSlide className="project-two__single-box">
                                     <ul className="project-two__box list-unstyled">
                                         <li className={activeIndex === 3 ? "active" : ""} onMouseEnter={() => handleMouseEnter(3)}>
                                             <div className="project-two__box-content">
@@ -236,10 +236,10 @@ export default function Section5() {
                                             </div>
                                         </li>
                                     </ul>
-                                </SwiperSlide>
+                                </SwiperSlide> */}
                                 {/*Portfolio Two Single End*/}
                                 {/*Portfolio Two Single Start*/}
-                                <SwiperSlide className="project-two__single-box">
+                                {/* <SwiperSlide className="project-two__single-box">
                                     <ul className="project-two__box list-unstyled">
                                         <li className={activeIndex === 6 ? "active" : ""} onMouseEnter={() => handleMouseEnter(6)}>
                                             <div className="project-two__box-content">
@@ -329,14 +329,75 @@ export default function Section5() {
                                             </div>
                                         </li>
                                     </ul>
-                                </SwiperSlide>
+                                </SwiperSlide> */}
                                 {/*Portfolio Two Single End*/}
-                                <div className="swiper-pagination"></div>
+                                {/* <div className="swiper-pagination"></div>
                             </Swiper>
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
+
+              <div className="work8 sp overflow-hidden">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6 m-auto text-center">
+                            <div className="heading1">
+                                <span className="span" data-aos="zoom-in-left" data-aos-duration={700}>
+                                     How we work
+                                </span>
+                                <h2 className="text-anime-style-3">How it works</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="space30" />
+                    <div className="row _relative">
+                        <div className="col-lg-4 col-md-6">
+                            <div className="work87-box" data-aos="zoom-in-up" data-aos-duration={1200}>
+                                <div className="icon">
+                                    <img src="assets/img/icons/service8-icon3.svg" alt="" />
+                                </div>
+                                <div className="heading">
+                                    <h4>
+                                        <Link href="/service-details">Applicant Review</Link>
+                                    </h4>
+                                    <p>The applicant review process is vital step in ensuring that only.</p>
+                                </div>
+                                <img src="assets/img/shapes/work7-arrow1.png" alt="" className="shape1" />
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="work87-box" data-aos="zoom-in-up" data-aos-duration={1000}>
+                                <div className="icon">
+                                    <img src="assets/img/icons/service8-icon4.svg" alt="" />
+                                </div>
+                                <div className="heading">
+                                    <h4>
+                                        <Link href="/service-details">Job Analysis</Link>
+                                    </h4>
+                                    <p>Job analysis is a critical process understanding defining specific.</p>
+                                </div>
+                                <img src="assets/img/shapes/work7-arrow2.png" alt="" className="shape2" />
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="work87-box" data-aos="zoom-in-up" data-aos-duration={800}>
+                                <div className="icon">
+                                    <img src="assets/img/icons/service8-icon5.svg" alt="" />
+                                </div>
+                                <div className="heading">
+                                    <h4>
+                                        <Link href="/service-details">Job Place Check</Link>
+                                    </h4>
+                                    <p>Job Place Check is an essential component our best Recrute. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
             {/*=====PROJECT AREA END=======*/}
         </>
     );
