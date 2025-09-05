@@ -115,11 +115,11 @@ export default function Section4() {
                         <div className="col-lg-4" data-aos="zoom-in-up" data-aos-duration={1200}>
                             <div className="service-box">
                                 <div className="icon">
-                                    <img src="assets/img/icons/service8-icon1.svg" alt="" />
+                                    {/* <img src="assets/img/icons/service8-icon1.svg" alt="" /> */}
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Accounting Finance</Link>
+                                        <Link href="/service-details">Financial Services Cloud</Link>
                                     </h4>
                                     <p>We excel in connected highly best skilled accounting &amp; finance professionals with organizations that demand precision</p>
                                     <Link href="/service-details" className="learn">
@@ -134,11 +134,11 @@ export default function Section4() {
                         <div className="col-lg-4" data-aos="zoom-in-up" data-aos-duration={1000}>
                             <div className="service-box">
                                 <div className="icon">
-                                    <img src="assets/img/icons/service8-icon2.svg" alt="" />
+                                    {/* <img src="assets/img/icons/service8-icon2.svg" alt="" /> */}
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Digital marketing</Link>
+                                        <Link href="/service-details">Agentforce & AI</Link>
                                     </h4>
                                     <p>We excel in connected highly best skilled accounting &amp; finance professionals with organizations that demand precision</p>
                                     <Link href="/service-details" className="learn">
@@ -153,11 +153,11 @@ export default function Section4() {
                         <div className="col-lg-4" data-aos="zoom-in-up" data-aos-duration={800}>
                             <div className="service-box">
                                 <div className="icon">
-                                    <img src="assets/img/icons/service8-icon3.svg" alt="" />
+                                    {/* <img src="assets/img/icons/service8-icon3.svg" alt="" /> */}
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Business consulting</Link>
+                                        <Link href="/service-details">Education Cloud</Link>
                                     </h4>
                                     <p>We excel in connected highly best skilled accounting &amp; finance professionals with organizations that demand precision</p>
                                     <Link href="/service-details" className="learn">
@@ -172,11 +172,11 @@ export default function Section4() {
                         <div className="col-lg-4" data-aos="zoom-in-up" data-aos-duration={1100}>
                             <div className="service-box">
                                 <div className="icon">
-                                    <img src="assets/img/icons/service8-icon4.svg" alt="" />
+                                    {/* <img src="assets/img/icons/service8-icon4.svg" alt="" /> */}
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">technology services</Link>
+                                        <Link href="/service-details">Salesforce Customer 360</Link>
                                     </h4>
                                     <p>We excel in connected highly best skilled accounting &amp; finance professionals with organizations that demand precision</p>
                                     <Link href="/service-details" className="learn">
@@ -191,11 +191,11 @@ export default function Section4() {
                         <div className="col-lg-4" data-aos="zoom-in-up" data-aos-duration={900}>
                             <div className="service-box">
                                 <div className="icon">
-                                    <img src="assets/img/icons/service8-icon5.svg" alt="" />
+                                    {/* <img src="assets/img/icons/service8-icon5.svg" alt="" /> */}
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">logistic services</Link>
+                                        <Link href="/service-details">Industries Services</Link>
                                     </h4>
                                     <p>We excel in connected highly best skilled accounting &amp; finance professionals with organizations that demand precision</p>
                                     <Link href="/service-details" className="learn">
@@ -210,11 +210,11 @@ export default function Section4() {
                         <div className="col-lg-4" data-aos="zoom-in-up" data-aos-duration={700}>
                             <div className="service-box">
                                 <div className="icon">
-                                    <img src="assets/img/icons/service8-icon6.svg" alt="" />
+                                    {/* <img src="assets/img/icons/service8-icon6.svg" alt="" /> */}
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">front line support</Link>
+                                        <Link href="/service-details">Banking</Link>
                                     </h4>
                                     <p>We excel in connected highly best skilled accounting &amp; finance professionals with organizations that demand precision</p>
                                     <Link href="/service-details" className="learn">
