@@ -1708,7 +1708,7 @@ body.body {
 .heading1-w h2 {
     font-size: var(--f-fs-font-fs44);
     line-height: var(--f-fs-font-fs54);
-    color: var(--vtc-bg-main-bg-1);
+    color: var(--vtc-text-text-white-text-1);
     font-weight: var(--f-fw-bold);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

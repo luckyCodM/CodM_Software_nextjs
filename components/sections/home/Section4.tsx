@@ -115,7 +115,7 @@ export default function Section4() {
                         <div className="col-lg-4" data-aos="zoom-in-up" data-aos-duration={1200}>
                             <div className="service-box">
                                 <div className="icon">
-                                    {/* <img src="assets/img/icons/service8-icon1.svg" alt="" /> */}
+                                    <img src="assets/img/icons/service8-icon6.svg" alt="" />
                                 </div>
                                 <div className="heading">
                                     <h4>
@@ -134,7 +134,7 @@ export default function Section4() {
                         <div className="col-lg-4" data-aos="zoom-in-up" data-aos-duration={1000}>
                             <div className="service-box">
                                 <div className="icon">
-                                    {/* <img src="assets/img/icons/service8-icon2.svg" alt="" /> */}
+                                    <img src="assets/img/icons/service8-icon4.svg" alt="" />
                                 </div>
                                 <div className="heading">
                                     <h4>
@@ -153,7 +153,7 @@ export default function Section4() {
                         <div className="col-lg-4" data-aos="zoom-in-up" data-aos-duration={800}>
                             <div className="service-box">
                                 <div className="icon">
-                                    {/* <img src="assets/img/icons/service8-icon3.svg" alt="" /> */}
+                                    <img src="assets/img/icons/service8-icon3.svg" alt="" />
                                 </div>
                                 <div className="heading">
                                     <h4>
@@ -172,7 +172,7 @@ export default function Section4() {
                         <div className="col-lg-4" data-aos="zoom-in-up" data-aos-duration={1100}>
                             <div className="service-box">
                                 <div className="icon">
-                                    {/* <img src="assets/img/icons/service8-icon4.svg" alt="" /> */}
+                                    <img src="assets/img/icons/service8-icon4.svg" alt="" />
                                 </div>
                                 <div className="heading">
                                     <h4>
@@ -191,7 +191,7 @@ export default function Section4() {
                         <div className="col-lg-4" data-aos="zoom-in-up" data-aos-duration={900}>
                             <div className="service-box">
                                 <div className="icon">
-                                    {/* <img src="assets/img/icons/service8-icon5.svg" alt="" /> */}
+                                    <img src="assets/img/icons/service8-icon5.svg" alt="" />
                                 </div>
                                 <div className="heading">
                                     <h4>
@@ -210,7 +210,7 @@ export default function Section4() {
                         <div className="col-lg-4" data-aos="zoom-in-up" data-aos-duration={700}>
                             <div className="service-box">
                                 <div className="icon">
-                                    {/* <img src="assets/img/icons/service8-icon6.svg" alt="" /> */}
+                                    <img src="assets/img/icons/service8-icon6.svg" alt="" />
                                 </div>
                                 <div className="heading">
                                     <h4>
