@@ -96,7 +96,7 @@ export default function Section11() {
                                 <span className="span" data-aos="zoom-in-left" data-aos-duration={700}>
                                     Our Blog &amp; News
                                 </span>
-                                <h2 className="text-anime-style-3"> Latest Trends in Talent Acquisition</h2>
+                                <h2 className="text-anime-style-3"> Blogs, News & AI  Updates</h2>
                                 <div className="space16" />
                                 <p data-aos="fade-left" data-aos-duration={900}>
                                     Whether you're looking to navigate your career path or enhance your organization's hiring practices, our blog is your go-to destination for valuable insights
@@ -114,20 +114,20 @@ export default function Section11() {
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 16 August 2023
+                                            <img src="assets/img/icons/date2.png" alt="" /> 26 August 2025
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ben Stokes
+                                            <img src="assets/img/icons/user2.png" alt="" /> Bhav Malhotra
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Career Compass: Navigating Your Professional Path</Link>
+                                        <Link href="/blog-details">Best Practices Omniscript &amp;  Data Mapper and IP </Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Our blog covers a wide range of topics, from tips for optimizing your hiring process </p>
+                                    <p>Our blog shares IT insights, industry trends, and expert tips to help businesses and professionals grow. </p>
                                     <div className="space16" />
                                     <Link href="/blog-details" className="learn">
-                                        Read More
+                                         Explore Now
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
                                         </span>
@@ -143,20 +143,20 @@ export default function Section11() {
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 16 August 2023
+                                            <img src="assets/img/icons/date2.png" alt="" /> 28 August 2025
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ben Stokes
+                                            <img src="assets/img/icons/user2.png" alt="" /> Tannu Singh
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Talent Chronicles: Stories from the Hiring Frontline</Link>
+                                        <Link href="/blog-details">Financial Services Cloud: Key Features for 2025</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Whether you're a hiring manager looking to stay ahead of industry trends or a candidate </p>
-                                    <div className="blog1-border" />
+                                    <p>Salesforce Financial Services Cloud (FSC) is a specialized CRM platform designed to meet the unique needs </p>
+                                    <div className="space16" />
                                     <Link href="/blog-details" className="learn">
-                                        Read More
+                                        Explore Now
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
                                         </span>
@@ -175,17 +175,17 @@ export default function Section11() {
                                             <img src="assets/img/icons/date2.png" alt="" /> 16 August 2023
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ben Stokes
+                                            <img src="assets/img/icons/user2.png" alt="" /> Ankit Rawat
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Recruitology: Where Recruitment Meets Technology</Link>
+                                        <Link href="/blog-details">Configuring Custom Domains in Salesforce</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Stay tuned for regular updates and valuable insights from our team of staffing experts. </p>
+                                    <p>Setting up a custom domain in Salesforce allows companies to personalize their Salesforce URLs, </p>
                                     <div className="space16" />
                                     <Link href="/blog-details" className="learn">
-                                        Read More
+                                        Explore Now
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
                                         </span>

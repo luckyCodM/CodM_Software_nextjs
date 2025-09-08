@@ -145,7 +145,7 @@ export default function Section5() {
                                     </ul>
                                 </SwiperSlide> */}
                                 {/*Portfolio Two Single End*/}
-                                {/*Portfolio Two Single Start*/}
+                                {/* Portfolio Two Single Start */}
                                 {/* <SwiperSlide className="project-two__single-box">
                                     <ul className="project-two__box list-unstyled">
                                         <li className={activeIndex === 3 ? "active" : ""} onMouseEnter={() => handleMouseEnter(3)}>

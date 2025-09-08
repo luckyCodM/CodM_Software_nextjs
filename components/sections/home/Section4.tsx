@@ -115,7 +115,7 @@ export default function Section4() {
                         <div className="col-lg-4" data-aos="zoom-in-up" data-aos-duration={1200}>
                             <div className="service-box">
                                 <div className="icon">
-                                    <img src="assets/img/icons/service8-icon6.svg" alt="" />
+                                    <img src="assets/img/icons/service8-icon1.svg" alt="" />
                                 </div>
                                 <div className="heading">
                                     <h4>
@@ -134,7 +134,7 @@ export default function Section4() {
                         <div className="col-lg-4" data-aos="zoom-in-up" data-aos-duration={1000}>
                             <div className="service-box">
                                 <div className="icon">
-                                    <img src="assets/img/icons/service8-icon4.svg" alt="" />
+                                    <img src="assets/img/icons/service8-icon2.svg" alt="" />
                                 </div>
                                 <div className="heading">
                                     <h4>

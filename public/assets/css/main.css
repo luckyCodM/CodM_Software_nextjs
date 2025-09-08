@@ -2096,7 +2096,7 @@ body.body {
 }
 .heading4-w h5 a:hover {
     transition: all 0.4s;
-    color: var(--vtc-bg-main-bg-6);
+    color: var(--vtc-bg-main-bg-1);
 }
 .heading4-w p {
     color: var(--vtc-text-pera-text-2);
@@ -2145,7 +2145,7 @@ body.body {
 }
 .heading5 h5 a:hover {
     transition: all 0.4s;
-    color: var(--vtc-bg-main-bg-2);
+    color: var(--vtc-bg-main-bg-1);
 }
 .heading5 h4 a {
     display: inline-block;
@@ -2156,7 +2156,7 @@ body.body {
     transition: all 0.4s;
 }
 .heading5 h4 a:hover {
-    color: var(--vtc-bg-main-bg-2);
+    color: var(--vtc-bg-main-bg-1);
     transition: all 0.4s;
 }
 .heading5 p {
@@ -2842,7 +2842,7 @@ body.body {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #00A1E1;
+    background-color: #f5f3f4;
     background-position: left center;
     transition-delay: 0.1s;
     transition-timing-function: ease-in-out;
@@ -2863,7 +2863,7 @@ body.body {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #b7533a;
+    background-color: #f5f3f4;
     transform: scaleY(0);
     transform-origin: center;
     transform-style: preserve-3d;
@@ -2878,7 +2878,7 @@ body.body {
     transition: all 0.4s linear;
 }
 .theme-btn2:hover {
-    color: var(--vtc-text-text-white-text-1);
+    color: var(--vtc-text-pera-text-1);
 }
 .theme-btn2 span {
     position: relative;
@@ -14037,7 +14037,7 @@ body.body {
 }
 .blog5 .blog2-box .heading5 h4 a:hover {
     transition: all 0.4s;
-    color: var(--vtc-bg-main-bg-2);
+    color: var(--vtc-bg-main-bg-1);
 }
 .blog5 .blog2-box .heading5 .tags {
     margin-bottom: 12px;
@@ -14070,7 +14070,7 @@ body.body {
 }
 .blog5 .blog2-box a.learn:hover {
     transition: all 0.4s;
-    color: var(--vtc-bg-main-bg-2);
+    color: var(--vtc-bg-main-bg-1);
 }
 .blog5 .blog2-box:hover {
     transition: all 0.4s;
@@ -14547,7 +14547,7 @@ body.body {
     font-size: var(--f-fs-font-fs18);
     line-height: var(--f-fs-font-fs18);
     font-weight: var(--f-fw-medium);
-    color: #696b6d;
+    color: #00A1E1;
 }
 .blog-details-box .users li::after {
     content: "";

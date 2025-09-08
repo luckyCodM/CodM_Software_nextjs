@@ -129,6 +129,11 @@ export default function Section2({ backgroundColor }: { backgroundColor: string 
                     </div>
                 </div>
             </div>
+
+
+
+
+            
             {/*=====HERO SLIDER AREA END=======*/}
         </>
     );
