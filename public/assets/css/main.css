@@ -141,6 +141,16 @@ CSS LIST
         transform: scale(1);
     }
 }
+
+hr {
+    margin: 0rem 0;
+    color: #b7533a;
+    border: 0;
+    border-top: 2px solid;
+    opacity: 1.25;
+}
+
+
 .shape-animaiton1 {
     position: relative;
     animation-name: shape-animaiton1;

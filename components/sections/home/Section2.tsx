@@ -58,6 +58,7 @@ export default function Section2({ backgroundColor }: { backgroundColor: string 
     return (
         <>
             {/*=====HERO SLIDER AREA END=======*/}
+            <hr />
             <div className={`hero1-slider ${!backgroundColor ? "" : backgroundColor}`}>
                 <div className="container">
                     <div className="row">
@@ -127,13 +128,11 @@ export default function Section2({ backgroundColor }: { backgroundColor: string 
                             </Swiper>
                         </div>
                     </div>
+                   
                 </div>
+                 
             </div>
-
-
-
-
-            
+            <hr/>
             {/*=====HERO SLIDER AREA END=======*/}
         </>
     );

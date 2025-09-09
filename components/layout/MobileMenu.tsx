@@ -55,7 +55,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                     <ul>
                         <li className="has-dropdown">
                             <div className="menu-item-with-toggle">
-                                <Link href="/home" className={isHashNav("#") ? "hash-nav" : ""} onClick={(e) => e.preventDefault()}>
+                                <Link href="/" className={isHashNav("#") ? "hash-nav" : ""} onClick={(e) => e.preventDefault()}>
                                     Home
                                 </Link>
                                 {/* <span className={`submenu-button${openSubMenus["home"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("home")}>
