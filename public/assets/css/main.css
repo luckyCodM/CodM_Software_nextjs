@@ -1708,7 +1708,7 @@ body.body {
 .heading1-w h2 {
     font-size: var(--f-fs-font-fs44);
     line-height: var(--f-fs-font-fs54);
-    color: var(--vtc-text-text-white-text-1);
+    color: var(--vtc-text-pera-text-2);
     font-weight: var(--f-fw-bold);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1724,7 +1724,7 @@ body.body {
     }
 }
 .heading1-w p {
-    color: var(--vtc-text-pera-text-2);
+    color: var(--vtc-text-pera-text-3);
     font-size: var(--f-fs-font-fs18);
     line-height: var(--f-fs-font-fs28);
     font-weight: var(--f-fw-medium);
@@ -7337,9 +7337,9 @@ body.body {
     transform: translateY(-10px);
 }
 .contact1 .contact1-box .icon {
-    height: 70px;
+    height: 100iconpx;
     line-height: 80px;
-    width: 70px;
+    width: 100px;
     text-align: center;
     background-color: var(--vtc-bg-common-bg1);
     border-radius: 50%;
@@ -7412,7 +7412,7 @@ body.body {
 }
 
 .contact3 {
-    background-color: var(--vtc-bg-common-bg4);
+    background-color: var(--vtc-bg-common-bg1);
     position: relative;
 }
 .contact3 .contact3-box {
@@ -7442,7 +7442,7 @@ body.body {
     padding-bottom: 12px;
 }
 .contact3 .contact3-form {
-    background-color: var(--vtc-bg-main-bg-4);
+    background-color: var(--vtc-bg-main-bg-1);
     border-radius: 4px;
     padding: 32px;
     margin-left: 30px;
@@ -7473,8 +7473,8 @@ body.body {
     border: none;
     width: 100%;
     margin-top: 20px;
-    background-color: #394843;
-    color: #c4c8c7;
+    background-color: #ba8152;
+    color: #b5b8b7;
     font-weight: var(--f-fw-medium);
     font-size: var(--f-fs-font-fs18);
     line-height: var(--f-fs-font-fs18);

@@ -4,7 +4,7 @@ export default function Section6() {
     return (
         <>
             {/*=====PROJECT AREA START=======*/}
-            <section className="project-two d-lg-block d-lg-none">
+            {/* <section className="project-two d-lg-block d-lg-none">
                 <div className="project-two__bottom">
                     <div className="container">
                         <div className="row">
@@ -24,9 +24,9 @@ export default function Section6() {
                         </div>
                         <div className="space60" />
                         <div className="project-two__carousel-container">
-                            <div className="project-two__carousel owl-carousel owl-theme thm-owl__carousel project-style1-carousel owl-dot-style1">
+                            <div className="project-two__carousel owl-carousel owl-theme thm-owl__carousel project-style1-carousel owl-dot-style1"> */}
                                 {/*Portfolio Two Single Start*/}
-                                <div className="project-two__single-box">
+                                {/* <div className="project-two__single-box">
                                     <ul className="project-two__box project-two__box2 list-unstyled">
                                         <li className="active">
                                             <div className="project-two__box-content project-two__box-content2">
@@ -58,10 +58,10 @@ export default function Section6() {
                                             </div>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                                 {/*Portfolio Two Single End*/}
                                 {/*Portfolio Two Single Start*/}
-                                <div className="project-two__single-box">
+                                {/* <div className="project-two__single-box">
                                     <ul className="project-two__box project-two__box2 list-unstyled">
                                         <li className="active">
                                             <div className="project-two__box-content project-two__box-content2">
@@ -93,10 +93,10 @@ export default function Section6() {
                                             </div>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                                 {/*Portfolio Two Single End*/}
                                 {/*Portfolio Two Single Start*/}
-                                <div className="project-two__single-box">
+                                {/* <div className="project-two__single-box">
                                     <ul className="project-two__box project-two__box2 list-unstyled">
                                         <li className="active">
                                             <div className="project-two__box-content project-two__box-content2">
@@ -128,13 +128,13 @@ export default function Section6() {
                                             </div>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                                 {/*Portfolio Two Single End*/}
-                            </div>
+                            {/* </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             {/*=====PROJECT AREA END=======*/}
         </>
     );
