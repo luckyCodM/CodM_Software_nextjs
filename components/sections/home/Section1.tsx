@@ -20,13 +20,13 @@ export default function Section1() {
                                 </p>
                                 <div className="space30" />
                                 <div className="hero1-buttons" data-aos="fade-right" data-aos-duration={1200}>
-                                    <Link className="theme-btn1" href="/service">
+                                    <Link className="theme-btn1" href="/service-details-right">
                                         Get Free CRM Audit
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
                                         </span>
                                     </Link>
-                                    <Link className="theme-btn2" href="/service">
+                                    <Link className="theme-btn2" href="tel:+91 9871717425">
                                         Talk to a Salesfroce Expert
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />

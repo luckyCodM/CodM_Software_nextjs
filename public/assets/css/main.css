@@ -316,7 +316,7 @@ body.body {
 }
 
 .sp {
-    padding: 100px 0px;
+    padding: 20px 0px;
 }
 
 .sp2 {
@@ -1648,7 +1648,7 @@ body.body {
     --vtc-bg-common-bg2: #f5f3f4;
     --vtc-bg-common-bg3: #28284d;
     --vtc-bg-common-bg4: #fffaec;
-    --vtc-bg-common-bg5: #fff4ef;
+    --vtc-bg-common-bg5: #a54d23;
     --vtc-bg-common-bg6: #e9ebea;
     --vtc-bg-common-bg7: #ecf3f6;
     --vtc-bg-common-bg8: #e5e7ea;
@@ -1718,7 +1718,7 @@ body.body {
 .heading1-w h2 {
     font-size: var(--f-fs-font-fs44);
     line-height: var(--f-fs-font-fs54);
-    color: var(--vtc-text-pera-text-2);
+    color: var(--vtc-text-text-white-text-1);
     font-weight: var(--f-fw-bold);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1734,7 +1734,7 @@ body.body {
     }
 }
 .heading1-w p {
-    color: var(--vtc-text-pera-text-3);
+    color: var(--vtc-text-pera-text-2);
     font-size: var(--f-fs-font-fs18);
     line-height: var(--f-fs-font-fs28);
     font-weight: var(--f-fw-medium);
@@ -6395,7 +6395,7 @@ body.body {
     text-align: center;
 }
 .logo-slider-area .slider-pera p {
-    color: var(--vtc-text-heading-text-1);
+    color: var(--vtc-bg-main-bg-1);
     text-align: center;
     font-weight: var(--f-fw-bold);
     font-size: var(--f-fs-font-fs20);
@@ -7422,7 +7422,7 @@ body.body {
 }
 
 .contact3 {
-    background-color: var(--vtc-bg-common-bg1);
+    background-color: var(--vtc-bg-common-bg5);
     position: relative;
 }
 .contact3 .contact3-box {
@@ -7483,7 +7483,7 @@ body.body {
     border: none;
     width: 100%;
     margin-top: 20px;
-    background-color: #ba8152;
+    background-color: #ffffff;
     color: #b5b8b7;
     font-weight: var(--f-fw-medium);
     font-size: var(--f-fs-font-fs18);
@@ -7502,7 +7502,7 @@ body.body {
 }
 .contact3 .contact3-form .single-input input::placeholder,
 .contact3 .contact3-form .single-input textarea::placeholder {
-    color: #c4c8c7;
+    color: #000026;
     font-weight: var(--f-fw-medium);
     font-size: var(--f-fs-font-fs18);
     line-height: var(--f-fs-font-fs18);
@@ -12990,7 +12990,7 @@ body.body {
 }
 .tes8 .tes8-slider-area .single-slider p {
     color: var(--Home-Page-1-text-colors, #02000e);
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 36px; /* 150% */
@@ -13033,12 +13033,12 @@ body.body {
     line-height: 60px;
     border: none;
     border-radius: 50%;
-    background-color: #141339;
+    background-color: #b7533a;
     color: #fff;
     transition: all 0.4s;
 }
 .tes8 .tes8-slider-area .arrows-button button:hover {
-    background-color: #f6aa32;
+    background-color: #b7533a;
     transition: all 0.4s;
 }
 .tes8 .tes8-slider-area .arrows-button .tes8-next-arrow {
