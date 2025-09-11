@@ -7,7 +7,7 @@ export default function MainMenu() {
                 <Link href="/">
                     Home <i className="fa-solid fa-angle-down" />
                 </Link>
-                    <div className="tp-submenu">
+                    {/* <div className="tp-submenu">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="all-images-menu">
@@ -186,7 +186,7 @@ export default function MainMenu() {
                                     </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
             </li>
             <li>
                 <Link href="/about">About Us</Link>
