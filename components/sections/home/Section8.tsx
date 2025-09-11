@@ -512,7 +512,7 @@ const swiperOptions = {
     },
 };
 
-export default function Section7() {
+export default function Section8() {
     return (
         <>
             {/*=====TESTIMONIAL AREA START=======*/}
