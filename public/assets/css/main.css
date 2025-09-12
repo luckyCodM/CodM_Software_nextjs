@@ -11559,14 +11559,14 @@ body.body {
     width: 48px;
     border: none;
     border-radius: 4px;
-    background-color: var(--vtc-bg-common-bg1);
+    background-color: var(--vtc-bg-common-bg5);
     margin-right: 10px;
-    color: var(--vtc-text-heading-text-1);
+    color: var(--vtc-text-text-white-text-1);
     transition: all 0.4s;
 }
 .tes1 .tes7-buttons button:hover {
     color: var(--vtc-text-text-white-text-1);
-    background-color: var(--vtc-bg-main-bg-1);
+    background-color: var(--vtc-bg-main-bg-3);
     transition: all 0.4s;
 }
 

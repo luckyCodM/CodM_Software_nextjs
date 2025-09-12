@@ -12,16 +12,16 @@ export default function Section1() {
                                 <span className="span" data-aos="fade-right" data-aos-duration={800}>
                                     No Code Low Code
                                 </span>
-                                <h1 className="text-anime-style-3">Best Salesforce Consulting in India </h1>
+                                <h1 className="text-anime-style-3">Expert Salesforce Consulting </h1>
                                 <div className="space16" />
                                 <p data-aos="fade-right" data-aos-duration={1000}>
-                                    Transforming businesses through expert Salesforce development <br />
-                                    Increase efficiency, drive innovation, dominate the market.
+                                    Transforming businesses through excellent salesforce solutions, <br />
+                                    unlock new ideas, enhance operations, innovate continuously.
                                 </p>
                                 <div className="space30" />
                                 <div className="hero1-buttons" data-aos="fade-right" data-aos-duration={1200}>
                                     <Link className="theme-btn1" href="/service-details-right">
-                                        Get Free CRM Audit
+                                        See Our Expertise
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
                                         </span>

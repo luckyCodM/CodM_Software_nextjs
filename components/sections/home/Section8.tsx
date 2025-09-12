@@ -52,7 +52,7 @@ export default function Section8({ classList }: any) {
             {/*=====TESTIMONIAL AREA START=======*/}
             <div className={`tes1 sp overflow-hidden ${classList}`}>
 
-                 <div className="tes9 sp overflow-hidden" id="tes" style={{ backgroundColor: "#F3F5F2" }}>
+                 <div className="tes9 sp overflow-hidden" id="tes" style={{ backgroundColor: "#eacdc7" }}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">

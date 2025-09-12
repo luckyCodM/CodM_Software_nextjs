@@ -64,7 +64,7 @@ export default function Section2({ backgroundColor }: { backgroundColor: string 
                 <div className="container">
                     <div className="row">
                         <div className="slider-pera">
-                            <p> More Than 5K+ Brands With Work CodM Software</p>
+                            <p>Our Partners in Success</p>
                         </div>
                     </div>
                 </div>

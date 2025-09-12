@@ -15,10 +15,10 @@ export default function Section3() {
                                     </div>
                                     <div className="heading1">
                                         <h3>
-                                            <span className="counter">98</span>%
+                                            <span className="counter">20</span>+
                                         </h3>
                                         <div className="space10" />
-                                        <p>Successful Client</p>
+                                        <p>Project Completed</p>
                                     </div>
                                 </div>
                             </div>
@@ -29,10 +29,10 @@ export default function Section3() {
                                     </div>
                                     <div className="heading1">
                                         <h3>
-                                            <span className="counter">79</span>%
+                                            <span className="counter">35</span>+
                                         </h3>
                                         <div className="space10" />
-                                        <p>Team Advisors</p>
+                                        <p>Certified Experts</p>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ export default function Section3() {
                                 <span className="span" data-aos="fade-left" data-aos-duration={700}>
                                     Why Choose Us
                                 </span>
-                                <h2 className="text-anime-style-3">Why Companies Choose CodM as Their Salesforce Partner</h2>
+                                <h2 className="text-anime-style-3">Why CodM stands out as your Salesforce Partner</h2>
                                 <div className="space16" />
                                 {/* <p data-aos="fade-left" data-aos-duration={900}>
                                     Founded in 2021, CodM specializes in world-class Salesforce CRM implementation and consulting services, with a global presence in two key locations India and the Barcelona.
@@ -74,7 +74,7 @@ export default function Section3() {
                                                 <span>
                                                     <i className="fa-solid fa-check" />
                                                 </span>
-                                                360-Degree Customer View
+                                                360-degree customer view
                                             </li>
                                         </ul>
                                     </div>
@@ -84,7 +84,7 @@ export default function Section3() {
                                                 <span>
                                                     <i className="fa-solid fa-check" />
                                                 </span>
-                                                Co-Operation In Real Time
+                                                Co-operational in real time
                                             </li>
                                         </ul>
                                     </div>
@@ -94,7 +94,7 @@ export default function Section3() {
                                                 <span>
                                                     <i className="fa-solid fa-check" />
                                                 </span>
-                                                Integration Of Social Media
+                                                Social Media integration
                                             </li>
                                         </ul>
                                     </div>
@@ -104,7 +104,7 @@ export default function Section3() {
                                                 <span>
                                                     <i className="fa-solid fa-check" />
                                                 </span>
-                                                Automation Of The Workflow
+                                                Automated workflow
                                             </li>
                                         </ul>
                                     </div>
@@ -112,7 +112,7 @@ export default function Section3() {
                                 <div className="space30" />
                                 <div className="" data-aos="fade-left" data-aos-duration={1100}>
                                     <Link className="theme-btn1" href="/about">
-                                        About US
+                                        About Us
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
                                         </span>
