@@ -16,7 +16,7 @@ export default function Home() {
                 <Section2 />
                 <Section3 />
                 <Section4 />
-                {/* <Section5 classList="about-page-testimonial" /> */}
+                <Section5 />
                 <Section6 classList="about-page-team" />
                 <Section7 />
             </Layout>

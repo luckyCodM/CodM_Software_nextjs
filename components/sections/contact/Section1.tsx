@@ -72,7 +72,7 @@ export default function Section1() {
                                         </div>
                                         <div className="heading1">
                                             <p>Mail us</p>
-                                            <h4><Link href="mailto:hr@codmsoftware.com">hr@codmsoftware.com</Link></h4>
+                                            <h4><Link href="mailto:hr@codmsoftware.com">sales@codmsoftware.com</Link></h4>
                                         </div>
                                     </div>
                                 </div>
