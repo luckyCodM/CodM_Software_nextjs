@@ -15,12 +15,13 @@ export default function Section7() {
                         <div className="col-lg-6">
                             <div className="heading1 work1-heading">
                                 <span className="span" data-aos="zoom-in-left" data-aos-duration={700}>
-                                    WHAT WE DO
+                                    What We Do
                                 </span>
-                                <h2 className="text-anime-style-3">Extend Your Team Capacity With Reliable Staff Augmentation Services</h2>
+                                <h2 className="text-anime-style-3">Expand Without Limits with Staff Augmentation</h2>
                                 <div className="space16" />
                                 <p data-aos="fade-left" data-aos-duration={900}>
-                                    CodM will help you improve your performance in the Salesforce ecosystem. Our staff augmentation services allow you to select the perfect candidates and adapt their work to your methods while reducing the legal risks, time, and cost of inefficient hiring. 
+                                    CodM will help you to scale your team and improve performance with Salesforce-certified experts through staff augmentation service. 
+                                    We can help you access the right talent tailored to the business need and cost-effective. 
                                 </p>
                                 <div className="space10" />
                                 <div className="" data-aos="fade-left" data-aos-duration={900}>
@@ -34,7 +35,7 @@ export default function Section7() {
                                             <h4>
                                                 <Link href="/service-details">Sourcing the Best</Link>
                                             </h4>
-                                            <p>We offer a partnership to help your company bridge gaps, find solutions, and solve problems with Salesforce specialists.</p>
+                                            <p>Access to skilled and certified talent</p>
                                         </div>
                                     </div>
                                 </div>
@@ -49,7 +50,7 @@ export default function Section7() {
                                             <h4>
                                                 <Link href="/service-details">Volume Hiring</Link>
                                             </h4>
-                                            <p>Remember to keep your blog content informative, engaging, and relevant to your target audience</p>
+                                            <p>Flexible and scalable team as per business</p>
                                         </div>
                                     </div>
                                 </div>
@@ -64,7 +65,7 @@ export default function Section7() {
                                             <h4>
                                                 <Link href="/service-details">Partners in Team Building</Link>
                                             </h4>
-                                            <p>This will help drive traffic to your website &amp; establish your agency as a trusted authority</p>
+                                            <p>Cost-effective and effortless resource management</p>
                                         </div>
                                     </div>
                                 </div>

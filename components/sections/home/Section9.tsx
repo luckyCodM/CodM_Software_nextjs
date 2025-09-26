@@ -186,7 +186,7 @@ export default function Section9() {
                                         <div className="col-md-12">
                                             <div className="button">
                                                 <button className="theme-btn1">
-                                                    Submit Naw
+                                                    Submit Now
                                                     <span>
                                                         <i className="fa-solid fa-arrow-right" />
                                                     </span>

@@ -39,7 +39,7 @@ export default function Section5() {
                                 <span className="span" data-aos="zoom-in-left" data-aos-duration={700}>
                                      DEVELOPMENT LIFE CYCLE 
                                 </span>
-                                <h2 className="text-anime-style-3">How it works</h2>
+                                <h2 className="text-anime-style-3">Turning Vision into Reality</h2>
                             </div>
                         </div>
                     </div>
@@ -52,9 +52,9 @@ export default function Section5() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Define Requirements</Link>
+                                        <Link href="/service-details">Requirement Analysis</Link>
                                     </h4>
-                                    <p>The applicant review process is vital step in ensuring that only.</p>
+                                    <p>Understanding the need, analyzing and documenting all the requirements.</p>
                                 </div>
                                 <img src="assets/img/shapes/work7-arrow1.png" alt="" className="shape1" />
                             </div>
@@ -68,7 +68,7 @@ export default function Section5() {
                                     <h4>
                                         <Link href="/service-details">Planning</Link>
                                     </h4>
-                                    <p>Job analysis is a critical process understanding defining specific.</p>
+                                    <p>Defining scope, timelines, resources, and risk assessments for execution</p>
                                 </div>
                                 <img src="assets/img/shapes/work7-arrow2.png" alt="" className="shape2" />
                             </div>
@@ -80,9 +80,9 @@ export default function Section5() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Development</Link>
+                                        <Link href="/service-details">Design</Link>
                                     </h4>
-                                    <p>Job Place Check is an essential component our best Recrute. </p>
+                                    <p>To guide development by creating system architecture, user interface/user experience, and database design.</p>
                                 </div>
                                 
                             </div>
@@ -95,9 +95,9 @@ export default function Section5() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Testing</Link>
+                                        <Link href="/service-details">Development</Link>
                                     </h4>
-                                    <p>The applicant review process is vital step in ensuring that only.</p>
+                                    <p>Writing efficient, scalable and clean code to implement the solutions.</p>
                                 </div>
                                 <img src="assets/img/shapes/work7-arrow1.png" alt="" className="shape1" />
                             </div>
@@ -109,9 +109,9 @@ export default function Section5() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Designing & Software Development</Link>
+                                        <Link href="/service-details">Testing</Link>
                                     </h4>
-                                    <p>Job analysis is a critical process understanding defining specific.</p>
+                                    <p>Ensuring quality through religious testing to identify and fix bugs.</p>
                                 </div>
                                 <img src="assets/img/shapes/work7-arrow2.png" alt="" className="shape2" />
                             </div>
@@ -123,9 +123,9 @@ export default function Section5() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Operations & maintenance </Link>
+                                        <Link href="/service-details">Deployment & Maintenance</Link>
                                     </h4>
-                                    <p>Job Place Check is an essential component our best Recrute. </p>
+                                    <p>Launching product and providing support.</p>
                                 </div>
                             </div>
                         </div>

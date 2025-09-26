@@ -63,9 +63,9 @@ export default function Section3() {
                                 </span>
                                 <h2 className="text-anime-style-3">Why CodM stands out as your Salesforce Partner</h2>
                                 <div className="space16" />
-                                {/* <p data-aos="fade-left" data-aos-duration={900}>
+                                <p data-aos="fade-left" data-aos-duration={900}>
                                     Founded in 2021, CodM specializes in world-class Salesforce CRM implementation and consulting services, with a global presence in two key locations India and the Barcelona.
-                                </p> */}
+                                </p>
                                 <div className="space10" />
                                 <div className="row" data-aos="fade-left" data-aos-duration={800}>
                                     <div className="col-lg-6">

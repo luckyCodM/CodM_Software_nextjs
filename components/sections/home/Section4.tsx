@@ -27,7 +27,7 @@ export default function Section4() {
                                     <h4>
                                         <Link href="/service-details">Financial Services Cloud</Link>
                                     </h4>
-                                    <p>We excel in connected highly best skilled accounting &amp; finance professionals with organizations that demand precision</p>
+                                    <p>Leveraging FSC to provide a 360 degree view of clients by integrating data and automating the process- helping</p>
                                     <Link href="/service-details" className="learn">
                                         learn more
                                         <span>
@@ -46,7 +46,7 @@ export default function Section4() {
                                     <h4>
                                         <Link href="/service-details">Agentforce & AI</Link>
                                     </h4>
-                                    <p>We excel in connected highly best skilled accounting &amp; finance professionals with organizations that demand precision</p>
+                                    <p>Enhancing customer support using Agentforce & AI. real-time data, faster automation and smarter service</p>
                                     <Link href="/service-details" className="learn">
                                         learn more
                                         <span>
@@ -65,7 +65,7 @@ export default function Section4() {
                                     <h4>
                                         <Link href="/service-details">Education Cloud</Link>
                                     </h4>
-                                    <p>We excel in connected highly best skilled accounting &amp; finance professionals with organizations that demand precision</p>
+                                    <p>Streamline operations and enhance student engagement with the Salesforce education cloud</p>
                                     <Link href="/service-details" className="learn">
                                         learn more
                                         <span>
@@ -84,7 +84,7 @@ export default function Section4() {
                                     <h4>
                                         <Link href="/service-details">Salesforce Customer 360</Link>
                                     </h4>
-                                    <p>We excel in connected highly best skilled accounting &amp; finance professionals with organizations that demand precision</p>
+                                    <p> Helping businesses deliver seamless and personalized solutions using salesforce customer 360 degree </p>
                                     <Link href="/service-details" className="learn">
                                         learn more
                                         <span>
@@ -103,7 +103,7 @@ export default function Section4() {
                                     <h4>
                                         <Link href="/service-details">Industries Services</Link>
                                     </h4>
-                                    <p>We excel in connected highly best skilled accounting &amp; finance professionals with organizations that demand precision</p>
+                                    <p>Accelerate growth using the salesforce industry cloud - tailored solutions and integration build for your unique</p>
                                     <Link href="/service-details" className="learn">
                                         learn more
                                         <span>
@@ -122,7 +122,7 @@ export default function Section4() {
                                     <h4>
                                         <Link href="/service-details">Banking</Link>
                                     </h4>
-                                    <p>We excel in connected highly best skilled accounting &amp; finance professionals with organizations that demand precision</p>
+                                    <p>Helping banks to enhance their customer relationship and streamline processes using Salesforce Banking Service</p>
                                     <Link href="/service-details" className="learn">
                                         learn more
                                         <span>

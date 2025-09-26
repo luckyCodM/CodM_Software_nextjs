@@ -58,7 +58,7 @@ export default function Section8({ classList }: any) {
                         <div className="col-lg-6">
                             <div className="heading1">
                                 <span className="span" data-aos="fade-right" data-aos-duration={900}>
-                                     Client Testimonials
+                                     Voices of Our Clients
                                 </span>
                                 <h2 className="text-anime-style-3">What People Say About CodM Software</h2>
                             </div>
