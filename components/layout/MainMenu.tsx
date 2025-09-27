@@ -5,7 +5,8 @@ export default function MainMenu() {
         <ul>
             <li>
                 <Link href="/">
-                    Home <i className="fa-solid fa-angle-down" />
+                    Home 
+                    {/* <i className="fa-solid fa-angle-down" /> */}
                 </Link>
                         {/* <div className="tp-submenu">
                             <div className="row">
