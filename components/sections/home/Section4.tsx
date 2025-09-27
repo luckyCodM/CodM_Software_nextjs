@@ -137,7 +137,7 @@ export default function Section4() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="button text-center">
-                                <Link className="theme-btn3" href="/service">
+                                <Link className="theme-btn3" href="/error">
                                     view more services
                                 </Link>
                             </div>
