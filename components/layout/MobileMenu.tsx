@@ -150,11 +150,11 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                 </ul> */}
                         </li>
                         <li>
-                            <Link href="/about">About Us</Link>
+                            <Link href="/error">About Us</Link>
                         </li>
                         <li className="has-dropdown">
                             <div className="menu-item-with-toggle">
-                                <Link href="#" onClick={(e) => e.preventDefault()}>
+                                <Link href="/error" onClick={(e) => e.preventDefault()}>
                                     Service
                                 </Link>
                                 <span className={`submenu-button${openSubMenus["service"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("service")}>
@@ -162,18 +162,18 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                 </span>
                             </div>
                             <ul className="sub-menu" style={{ display: openSubMenus["service"] ? "block" : "none" }}>
-                                <li>
+                                {/* <li>
                                     <Link href="/service">Service</Link>
-                                </li>
+                                </li> */}
                                 <li className="has-dropdown has-dropdown1">
-                                    <div className="menu-item-with-toggle">
+                                    {/* <div className="menu-item-with-toggle">
                                         <Link href="#" onClick={(e) => e.preventDefault()} className="main">
                                             Service Details
                                         </Link>
                                         <span className={`submenu-button${openSubMenus["service-details"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("service-details")}>
                                             <em />
                                         </span>
-                                    </div>
+                                    </div> */}
                                     <ul className="sub-menu" style={{ display: openSubMenus["service-details"] ? "block" : "none" }}>
                                         {/* <li>
                                             <Link href="/service-details-left">Details Left</Link>
@@ -191,7 +191,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                         <li className="has-dropdown">
                             <div className="menu-item-with-toggle">
                                 <Link href="#" onClick={(e) => e.preventDefault()}>
-                                    Pages
+                                    Contact
                                 </Link>
                                 <span className={`submenu-button${openSubMenus["pages"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("pages")}>
                                     <em />
@@ -207,14 +207,14 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                 {/* <li>
                                     <Link href="/testimonial">Testimonial</Link>
                                 </li> */}
-                                <li>
+                                {/* <li>
                                     <Link href="/error">404</Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </li>
                         <li className="has-dropdown">
                             <div className="menu-item-with-toggle">
-                                <Link href="#" onClick={(e) => e.preventDefault()}>
+                                <Link href="/error" onClick={(e) => e.preventDefault()}>
                                     Blog
                                 </Link>
                                 <span className={`submenu-button${openSubMenus["blog"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("blog")}>
@@ -238,7 +238,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                         </li>
                         <li className="has-dropdown">
                             <div className="menu-item-with-toggle">
-                                <Link href="#" onClick={(e) => e.preventDefault()}>
+                                <Link href="/error" onClick={(e) => e.preventDefault()}>
                                     Project
                                 </Link>
                                 <span className={`submenu-button${openSubMenus["project"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("project")}>
@@ -262,12 +262,12 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                         </li>
                     </ul>
                     <div className="mobile-button">
-                        <Link className="theme-btn1" href="service">
+                        {/* <Link className="theme-btn1" href="service">
                             Learn More
                             <span>
                                 <i className="fa-solid fa-arrow-right" />
                             </span>
-                        </Link>
+                        </Link> */}
                     </div>
                     <div className="single-footer-items">
                         <h3>Contact Us</h3>

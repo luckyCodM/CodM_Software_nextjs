@@ -189,10 +189,10 @@ export default function MainMenu() {
                         </div> */}
             </li>
             <li>
-                <Link href="/about">About Us</Link>
+                <Link href="/error">Company</Link>
             </li>
             <li className="dropdown-menu-parrent">
-                <Link href="#" className="main1">
+                <Link href="/error" className="main1">
                     Service <i className="fa-solid fa-angle-down" />
                 </Link>
                 {/* <ul>
@@ -219,7 +219,7 @@ export default function MainMenu() {
                         </ul>
                     </li>
                 </ul> */}
-                 <div className="mega-menu-all">
+                 {/* <div className="mega-menu-all">
                     <div className="row">
                         <div className="col-md-3">
                             <div className="mega-menu-single dis1">
@@ -298,13 +298,13 @@ export default function MainMenu() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </li>
             <li className="dropdown-menu-parrent">
-                <Link href="#" className="main1">
-                    Pages <i className="fa-solid fa-angle-down" />
+                <Link href="/error" className="main1">
+                    Poducts <i className="fa-solid fa-angle-down" />
                 </Link>
-                <div className="mega-menu-all">
+                {/* <div className="mega-menu-all">
                     <div className="row">
                         <div className="col-md-3">
                             <div className="mega-menu-single dis1">
@@ -383,10 +383,10 @@ export default function MainMenu() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </li>
             <li className="dropdown-menu-parrent">
-                <Link href="#" className="main1">
+                <Link href="/error" className="main1">
                     Blog <i className="fa-solid fa-angle-down" />
                 </Link>
                   {/* <div className="mega-menu-all">
@@ -497,7 +497,7 @@ export default function MainMenu() {
                 </ul> */}
             </li>
             <li className="dropdown-menu-parrent">
-                <Link className="main1" href="#">
+                <Link className="main1" href="/error">
                     Project <i className="fa-solid fa-angle-down" />
                 </Link>
                 {/* <ul>
