@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <>
             <Layout>
-                <SectionHeader title="HR Consulting & Staffing Support" group_page="" current_page="HR Consulting & Staffing Support" display="d-none" />
+                <SectionHeader title="Financial Services Cloud" group_page="" current_page="Financial Services Cloud" display="d-none" />
                 <Section1 />
                 <Section2 />
                 <Section3 />

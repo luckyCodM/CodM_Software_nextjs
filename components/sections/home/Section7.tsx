@@ -33,7 +33,7 @@ export default function Section7() {
                                         </div>
                                         <div className="heading1">
                                             <h4>
-                                                <Link href="/service-details">Sourcing the Best</Link>
+                                                <Link href="/">Sourcing the Best</Link>
                                             </h4>
                                             <p>Access to skilled and certified talent</p>
                                         </div>
@@ -48,7 +48,7 @@ export default function Section7() {
                                         </div>
                                         <div className="heading1">
                                             <h4>
-                                                <Link href="/service-details">Volume Hiring</Link>
+                                                <Link href="/">Volume Hiring</Link>
                                             </h4>
                                             <p>Flexible and scalable team as per business</p>
                                         </div>
@@ -63,7 +63,7 @@ export default function Section7() {
                                         </div>
                                         <div className="heading1">
                                             <h4>
-                                                <Link href="/service-details">Partners in Team Building</Link>
+                                                <Link href="/">Partners in Team Building</Link>
                                             </h4>
                                             <p>Cost-effective and effortless resource management</p>
                                         </div>

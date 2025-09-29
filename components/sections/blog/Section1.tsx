@@ -15,19 +15,19 @@ export default function Section1() {
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 16 August 2023
+                                            <img src="assets/img/icons/date2.png" alt="" /> 28 August 2025
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ben Stokes
+                                            <img src="assets/img/icons/user2.png" alt="" /> Bhav Malhotra
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Career Compass: Navigating Your Professional Path</Link>
+                                        <Link href="/">Best Practices Omniscript & Data Mapper and IP</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Our blog covers a wide range of topics, from tips for optimizing your hiring process </p>
+                                    <p>Our blog shares IT insights, industry trends, and expert tips to help businesses and professionals grow.</p>
                                     <div className="space16" />
-                                    <Link href="/blog-details" className="learn">
+                                    <Link href="/" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -44,19 +44,19 @@ export default function Section1() {
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 16 August 2023
+                                            <img src="assets/img/icons/date2.png" alt="" /> 26 August 2025
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ben Stokes
+                                            <img src="assets/img/icons/user2.png" alt="" /> Tannu Singh
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Talent Chronicles: Stories from the Hiring Frontline</Link>
+                                        <Link href="/">Financial Services Cloud: Key Features for 2025</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>Whether you're a hiring manager looking to stay ahead of industry trends or a candidate </p>
                                     <div className="space16" />
-                                    <Link href="/blog-details" className="learn">
+                                    <Link href="/" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -73,19 +73,19 @@ export default function Section1() {
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 16 August 2023
+                                            <img src="assets/img/icons/date2.png" alt="" /> 16 August 2025
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ben Stokes
+                                            <img src="assets/img/icons/user2.png" alt="" /> Ankit Rawat
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Recruitology: Where Recruitment Meets Technology</Link>
+                                        <Link href="/">Configuring Custom Domains in Salesforce</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Stay tuned for regular updates and valuable insights from our team of staffing experts. </p>
+                                    <p>Salesforce Financial Services Cloud (FSC) is a specialized CRM platform designed to meet the unique needs </p>
                                     <div className="space16" />
-                                    <Link href="/blog-details" className="learn">
+                                    <Link href="/" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -102,19 +102,19 @@ export default function Section1() {
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 16 August 2023
+                                            <img src="assets/img/icons/date2.png" alt="" /> 2 September  2024
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ben Stokes
+                                            <img src="assets/img/icons/user2.png" alt="" /> Ankit Rawat
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Career Compass: Navigating Your Professional Path</Link>
+                                        <Link href="/">Price Rule</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Our blog covers a wide range of topics, from tips for optimizing your hiring process </p>
+                                    <p>A systematic approach guiding businesses in setting prices for products or services, balancing factors like demand, costs</p>
                                     <div className="space16" />
-                                    <Link href="/blog-details" className="learn">
+                                    <Link href="/" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -134,16 +134,16 @@ export default function Section1() {
                                             <img src="assets/img/icons/date2.png" alt="" /> 16 August 2023
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ben Stokes
+                                            <img src="assets/img/icons/user2.png" alt="" /> Bhav Malhotra
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">The Staffing Scoop: Expert Advice and Industry News</Link>
+                                        <Link href="/">Salesforce CPQ Product Validation Rule</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Whether you're a hiring manager seeking strategies to streamline your recruitment </p>
+                                    <p>In Salesforce CPQ, Product Validation Rules empower businesses to enforce specific criteria or conditions to ensure accurate configuration and pricing, </p>
                                     <div className="space16" />
-                                    <Link href="/blog-details" className="learn">
+                                    <Link href="/" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -160,19 +160,19 @@ export default function Section1() {
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 16 August 2023
+                                            <img src="assets/img/icons/date2.png" alt="" /> 10 October 2023
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ben Stokes
+                                            <img src="assets/img/icons/user2.png" alt="" /> Tannu Singh
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">HR Insights: Unlocking the Secrets of Staffing</Link>
+                                        <Link href="/">Salesforce winter 23 release</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Stay tuned for regular updates and expert insights from our team of staffing</p>
+                                    <p>In Salesforce CPQ, Product Validation Rules empower businesses to enforce specific criteria or conditions to ensure accurate configuration</p>
                                     <div className="space16" />
-                                    <Link href="/blog-details" className="learn">
+                                    <Link href="/" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -189,19 +189,19 @@ export default function Section1() {
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 16 August 2023
+                                            <img src="assets/img/icons/date2.png" alt="" /> 16 July 2023
                                         </Link>
                                         <Link href="#">
                                             <img src="assets/img/icons/user2.png" alt="" /> Ben Stokes
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">The Staffing Strategist: Your Guide to Talent Acquisition</Link>
+                                        <Link href="/">Named Credentials</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>We believe that knowledge is power, and our blog serves as a platform to provide </p>
+                                    <p>A named credential specifies the URL of a callout endpoint and its required authentication parameters in one definition.</p>
                                     <div className="space16" />
-                                    <Link href="/blog-details" className="learn">
+                                    <Link href="/" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -218,19 +218,19 @@ export default function Section1() {
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 16 August 2023
+                                            <img src="assets/img/icons/date2.png" alt="" /> 2 October 2022
                                         </Link>
                                         <Link href="#">
                                             <img src="assets/img/icons/user2.png" alt="" /> Ben Stokes
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Recruitology 101: Tips and Trends for Hiring Success</Link>
+                                        <Link href="/">Salesforce winter 24 release</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Information you need to make informed decisions &amp; navigate the ever-evolving </p>
+                                    <p> Winter ’24 Release brings powerful new features, enhancements, and innovations to elevate productivity and customer experiences.</p>
                                     <div className="space16" />
-                                    <Link href="/blog-details" className="learn">
+                                    <Link href="/" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -239,7 +239,7 @@ export default function Section1() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        {/* <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
                                     <img src="assets/img/blog/blog2-img9.png" alt="" />
@@ -267,9 +267,9 @@ export default function Section1() {
                                     </Link>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
-                    <div className="space30" />
+                    {/* <div className="space30" />
                     <div className="row">
                         <div className="col-12 m-auto">
                             <div className="theme-pagination text-center">
@@ -299,7 +299,7 @@ export default function Section1() {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             {/*===== BLOG AREA END =======*/}

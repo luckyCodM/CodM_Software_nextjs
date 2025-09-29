@@ -19,7 +19,7 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Executive Search Services</Link>
+                                            <Link href="/error">Financial Services Cloud</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Whether you're looking for temporary staffing, direct hire placements, </p>
@@ -39,7 +39,7 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">HR Consulting &amp; Staffing</Link>
+                                            <Link href="/error">Agentforce &amp; AI</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Whether you're looking for temporary staffing, direct hire placements, </p>
@@ -59,7 +59,7 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Temporary Staffing Services</Link>
+                                            <Link href="/error">Education Cloud</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Whether you're looking for temporary staffing, direct hire placements, </p>
@@ -79,7 +79,7 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Temp-to-Hire Programs</Link>
+                                            <Link href="/error">Salesforce Customer 360</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Whether you're looking for temporary staffing, direct hire placements, </p>
@@ -87,7 +87,7 @@ export default function Section1() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        {/* <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
                                     <img src="assets/img/service/service1-img5.png" alt="" />
@@ -106,8 +106,8 @@ export default function Section1() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
+                        </div> */}
+                        {/* <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
                                     <img src="assets/img/service/service1-img6.png" alt="" />
@@ -166,8 +166,8 @@ export default function Section1() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
+                        </div> */}
+                        {/* <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
                                     <img src="assets/img/service/service1-img9.png" alt="" />
@@ -186,10 +186,10 @@ export default function Section1() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="space60" />
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-12 m-auto">
                             <div className="theme-pagination text-center">
                                 <ul>
@@ -218,7 +218,7 @@ export default function Section1() {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             {/*=====SERVICE AREA END=======*/}

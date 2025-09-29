@@ -15,7 +15,7 @@ export default function Section1() {
                                     <ul className="service-list">
                                         <li>
                                             <Link href="/service-details">
-                                                HR Consulting &amp; Staffing
+                                                Financial Services Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -23,7 +23,7 @@ export default function Section1() {
                                         </li>
                                         <li>
                                             <Link href="/service-details">
-                                                Screening Services
+                                                Agentforce & AI
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -31,7 +31,7 @@ export default function Section1() {
                                         </li>
                                         <li>
                                             <Link href="/service-details">
-                                                Specific Recruitment
+                                                Education Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -39,7 +39,7 @@ export default function Section1() {
                                         </li>
                                         <li>
                                             <Link href="/service-details">
-                                                Direct Hire Solutions
+                                                Salesforce Customer 360
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -47,7 +47,7 @@ export default function Section1() {
                                         </li>
                                         <li>
                                             <Link href="/service-details">
-                                                Recruitment Expertise
+                                                OmniStudio Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -79,7 +79,7 @@ export default function Section1() {
                                     <ul className="icons">
                                         <li>
                                             <Link href="#">
-                                                <i className="fa-brands fa-facebook-f" />
+                                                <i className="fa-brands fa-youtube" />
                                             </Link>
                                         </li>
                                         <li>
@@ -94,7 +94,7 @@ export default function Section1() {
                                         </li>
                                         <li>
                                             <Link href="#">
-                                                <i className="fa-brands fa-instagram" />
+                                                <i className="fa-brands fa-pinterest" />
                                             </Link>
                                         </li>
                                     </ul>
@@ -109,7 +109,7 @@ export default function Section1() {
                                             <img src="assets/img/service/service-details-img1.png" alt="" />
                                         </div>
                                         <div className="space30" />
-                                        <h2>HR Consulting &amp; Staffing </h2>
+                                        <h2>Financial Services Cloud </h2>
                                         <div className="space16" />
                                         <p>Our HR consulting and staffing support services provide guidance and expertise in areas such as compliance, workforce planning, and talent management, helping you optimize your staffing strategy for long-term success.</p>
                                         <div className="space30" />

@@ -58,21 +58,11 @@ export default function Section8({ classList }: any) {
                         <div className="col-lg-6">
                             <div className="heading1">
                                 <span className="span" data-aos="fade-right" data-aos-duration={900}>
-                                     Voices of Our Clients
+                                     Client Testimonials
                                 </span>
-                                <h2 className="text-anime-style-3">What People Say About CodM Software</h2>
+                                <h2 className="text-anime-style-3">Voices of Our Clients</h2>
                             </div>
                         </div>
-                        {/* <div className="col-lg-6">
-                            <div className="arrows-button">
-                                <button className="tes6-next-arrow">
-                                    <i className="fa-solid fa-angle-left" />
-                                </button>
-                                <button className="tes6-prev-arrow">
-                                    <i className="fa-solid fa-angle-right" />
-                                </button>
-                            </div>
-                        </div> */}
                         <div className="col-lg-6">
                             <div className="tes7-buttons" data-aos="fade-right" data-aos-duration={900}>
                                 <button className="testimonial-prev-arrow1">

@@ -25,10 +25,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Financial Services Cloud</Link>
+                                        <Link href="/">Financial Services Cloud</Link>
                                     </h4>
-                                    <p>Leveraging FSC to provide a 360 degree view of clients by integrating data and automating the process- helping</p>
-                                    <Link href="/service-details" className="learn">
+                                    <p>Leveraging FSC to provide a 360 degree view of clients by integrating data and automating processes to deliver smarter services.</p>
+                                    <Link href="/" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -44,10 +44,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Agentforce & AI</Link>
+                                        <Link href="/">Agentforce & AI</Link>
                                     </h4>
-                                    <p>Enhancing customer support using Agentforce & AI. real-time data, faster automation and smarter service</p>
-                                    <Link href="/service-details" className="learn">
+                                    <p>Enhancing customer support using Agentforce & AI. real-time data, faster automation and smarter service.</p>
+                                    <Link href="/" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -63,10 +63,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Education Cloud</Link>
+                                        <Link href="/">Education Cloud</Link>
                                     </h4>
-                                    <p>Streamline operations and enhance student engagement with the Salesforce education cloud</p>
-                                    <Link href="/service-details" className="learn">
+                                    <p>A platform for everything you need from streamlined operations to enhanced student engagement with the education cloud.</p>
+                                    <Link href="/" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -82,10 +82,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Salesforce Customer 360</Link>
+                                        <Link href="/">Salesforce Customer 360</Link>
                                     </h4>
-                                    <p> Helping businesses deliver seamless and personalized solutions using salesforce customer 360 degree </p>
-                                    <Link href="/service-details" className="learn">
+                                    <p> Helping businesses deliver the seamless, personalized solutions with Salesforce Customer 360 degree. </p>
+                                    <Link href="/" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -101,10 +101,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Industries Services</Link>
+                                        <Link href="/">Industries Services</Link>
                                     </h4>
-                                    <p>Accelerate growth using the salesforce industry cloud - tailored solutions and integration build for your unique</p>
-                                    <Link href="/service-details" className="learn">
+                                    <p>Accelerate growth using the industry cloud - tailored solutions and integration build for your unique requirements.</p>
+                                    <Link href="/" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -120,10 +120,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Banking</Link>
+                                        <Link href="/">Banking</Link>
                                     </h4>
-                                    <p>Helping banks to enhance their customer relationship and streamline processes using Salesforce Banking Service</p>
-                                    <Link href="/service-details" className="learn">
+                                    <p>Helping banks to enhance their customer relationship and streamline processes using Salesforce Banking Service.</p>
+                                    <Link href="/" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -137,7 +137,7 @@ export default function Section4() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="button text-center">
-                                <Link className="theme-btn3" href="/error">
+                                <Link className="theme-btn3" href="/service">
                                     view more services
                                 </Link>
                             </div>

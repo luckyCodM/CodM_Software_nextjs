@@ -303,7 +303,7 @@ export default function MainMenu() {
             </li>
             <li className="dropdown-menu-parrent">
                 <Link href="/error" className="main1">
-                    Poducts <i className="fa-solid fa-angle-down" />
+                    Product <i className="fa-solid fa-angle-down" />
                 </Link>
                 {/* <div className="mega-menu-all">
                     <div className="row">

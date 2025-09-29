@@ -38,16 +38,6 @@ export default function Section10({ classList }: any) {
                                     </div>
                                     <div className="icons">
                                         <ul>
-                                            {/* <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-instagram" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-facebook-f" />
-                                                </Link>
-                                            </li> */}
                                             <li>
                                                 <Link href="#">
                                                     <i className="fa-brands fa-linkedin-in" />
@@ -77,16 +67,6 @@ export default function Section10({ classList }: any) {
                                     </div>
                                     <div className="icons">
                                         <ul>
-                                            {/* <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-instagram" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-facebook-f" />
-                                                </Link>
-                                            </li> */}
                                             <li>
                                                 <Link href="#">
                                                     <i className="fa-brands fa-linkedin-in" />
@@ -116,16 +96,6 @@ export default function Section10({ classList }: any) {
                                     </div>
                                     <div className="icons">
                                         <ul>
-                                            {/* <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-instagram" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-facebook-f" />
-                                                </Link>
-                                            </li> */}
                                             <li>
                                                 <Link href="#">
                                                     <i className="fa-brands fa-linkedin-in" />
