@@ -56,12 +56,12 @@ export default function Section2() {
                                         <Link href="#">Core Values</Link>
                                     </h5>
                                     <div className="space16" />
-                                    <p> E- Employee Centric 
-                                    N- Nurture
-                                    E- Empathy
-                                    R- Resourceful
-                                    G- Goal Oriented 
-                                    Y- Yearn</p>
+                                    <p>E- Employee Centric </p>
+                                    <p>N- Nurture</p>
+                                    <p>E- Empathy</p>
+                                    <p>R- Resourceful</p>
+                                    <p>G- Goal Oriented</p>
+                                    <p>Y- Yearn</p> 
                                 </div>
                             </div>
                         </div>

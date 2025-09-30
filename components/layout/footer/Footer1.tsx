@@ -75,13 +75,13 @@ export default function Footer() {
                                         <Link href="/error">About Us</Link>
                                     </li>
                                     <li>
-                                        <Link href="/error">Service</Link>
+                                        <Link href="/service">Service</Link>
                                     </li>
                                     <li>
                                         <Link href="/error">Testimonial</Link>
                                     </li>
                                     <li>
-                                        <Link href="/contact">Contact US</Link>
+                                        <Link href="/contact">Contact Us</Link>
                                     </li>
                                 </ul>
                             </div>

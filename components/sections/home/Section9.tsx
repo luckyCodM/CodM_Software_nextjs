@@ -111,9 +111,9 @@ export default function Section9() {
                                 <span className="span" data-aos-duration={800} data-aos="zoom-in-left">
                                     Contact Us
                                 </span>
-                                <h2 className="text-anime-style-3">Get in Touch Let's Start the Conversation</h2>
+                                <h2 className="text-anime-style-3">Get in Touch- Let’s start the Conversation</h2>
                                 <div className="space16" />
-                                <p>We're here to help you find the right staffing solutions for your needs. Whether you're a company looking to hire top talent or a candidate seeking your next career opportunity,</p>
+                                <p>Have a project in mind? Let’s connect and discover how CodM Software can help you achieve your goals.</p>
                                 <div className="space10" />
                                 <div className="" data-aos="fade-right" data-aos-duration={900}>
                                     <div className="contact3-box">
@@ -146,9 +146,9 @@ export default function Section9() {
                         <div className="col-lg-6">
                             <div className="contact3-form" data-aos="zoom-in-up" data-aos-duration={800}>
                                 <div className="heading3-w">
-                                    <h5>Send us a Message</h5>
+                                    <h5>Let’s Build Something Great</h5>
                                     <div className="space16" />
-                                    <p>Feel free to reach out to us with any questions, inquiries, or staffing requirements you may have. Our experienced</p>
+                                    <p>Looking for the right Salesforce or CRM solution? Send us your query and we’ll guide you through.</p>
                                 </div>
                                 <div className="space10" />
                                 <form action="#">

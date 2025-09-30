@@ -78,43 +78,6 @@ export default function Section1() {
                                 </div>
                             </div>
                         </div>
-                            {/* <div className="contact-page-box">
-                                <div className="row">
-                                    <div className="col-lg-6">
-                                        <div className="contact-box">
-                                            <div className="icon">
-                                                <Image
-                                                    src="/assets/img/icons/contact-icon1.png"
-                                                    alt="contact icon"
-                                                    width={40}
-                                                    height={40}
-                                                />
-                                            </div>
-                                            <div className="heading1">
-                                                <p>Gives us a Call</p>
-                                                <h4><Link href="tel:+91 9871717425">+91 9871717425</Link></h4>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-6">
-                                        <div className="contact-box contact-box2">
-                                            <div className="icon">
-                                                <Image
-                                                    src="/assets/img/icons/contact-icon2.png"
-                                                    alt="contact icon"
-                                                    width={40}
-                                                    height={40}
-                                                />
-                                            </div>
-                                            <div className="heading1">
-                                                <p>Send me Mail</p>
-                                                <h4><Link href="mailto:sales@codmsoftware.com">sales@codmsoftware.com</Link></h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> */}
                     </div>
 
                     <div className="col-lg-6">

@@ -16,9 +16,9 @@ export default function Section1() {
                                         </div>
                                         <div className="conter-box conter-box1">
                                             <h3>
-                                                <span className="counter">1590</span>+
+                                                <span className="counter">20</span>+
                                             </h3>
-                                            <p>Years of Experienced</p>
+                                            <p>Project Completed</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
@@ -70,7 +70,7 @@ export default function Section1() {
                                 <div className="space30" />
                                 <div className="">
                                     <Link className="theme-btn1" href="#">
-                                        About Us
+                                        Contact Us
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
                                         </span>

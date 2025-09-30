@@ -190,10 +190,10 @@ export default function MainMenu() {
                         </div> */}
             </li>
             <li>
-                <Link href="/error">Company</Link>
+                <Link href="/about">Company</Link>
             </li>
             <li className="dropdown-menu-parrent">
-                <Link href="/error" className="main1">
+                <Link href="#" className="main1">
                     Service <i className="fa-solid fa-angle-down" />
                 </Link>
                 {/* <ul>
@@ -220,28 +220,28 @@ export default function MainMenu() {
                         </ul>
                     </li>
                 </ul> */}
-                 {/* <div className="mega-menu-all">
+                 <div className="mega-menu-all">
                     <div className="row">
                         <div className="col-md-3">
                             <div className="mega-menu-single dis1">
                                 <h3>Our Services</h3>
                                 <ul>
                                     <li>
-                                        <Link href="/service">Service</Link>
+                                        <Link href="/financial-services-cloud">Financial</Link>
                                     </li>
                                     <li>
-                                        <Link href="/service-details-left">Details Left</Link>
+                                        <Link href="/agentforce-&-ai">Agentforce</Link>
                                     </li>
                                     <li>
-                                        <Link href="/service-details-right">Details Right</Link>
+                                        <Link href="/error">Education</Link>
                                     </li>
                                     <li>
-                                        <Link href="/service-details">Single Details</Link>
+                                        <Link href="/error">Customer 360</Link>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        {/* <div className="col-md-3">
                             <div className="mega-menu-single">
                                 <h3>News / Blog</h3>
                                 <ul>
@@ -259,8 +259,8 @@ export default function MainMenu() {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                        <div className="col-md-3">
+                        </div> */}
+                        {/* <div className="col-md-3">
                             <div className="mega-menu-single">
                                 <h3>Page's</h3>
                                 <ul>
@@ -278,8 +278,8 @@ export default function MainMenu() {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                        <div className="col-md-3">
+                        </div> */}
+                        {/* <div className="col-md-3">
                             <div className="mega-menu-single">
                                 <h3>Our Project's</h3>
                                 <ul>
@@ -297,9 +297,9 @@ export default function MainMenu() {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
-                </div> */}
+                </div>
             </li>
             <li className="dropdown-menu-parrent">
                 <Link href="/error" className="main1">

@@ -27,7 +27,7 @@ export default function Section2() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Executive Search Services</Link>
+                                            <Link href="/financial-services-cloud">Agentforce & AI</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Whether you're looking for temporary staffing, direct hire placements, </p>
@@ -47,7 +47,7 @@ export default function Section2() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">HR Consulting &amp; Staffing</Link>
+                                            <Link href="/error"> Education Cloud </Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Whether you're looking for temporary staffing, direct hire placements, </p>
@@ -67,7 +67,7 @@ export default function Section2() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Temporary Staffing Services</Link>
+                                            <Link href="/error">Salesforce Customer 360</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Whether you're looking for temporary staffing, direct hire placements, </p>

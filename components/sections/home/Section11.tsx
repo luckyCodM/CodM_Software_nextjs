@@ -10,12 +10,14 @@ export default function Section11() {
                         <div className="col-lg-8 m-auto text-center">
                             <div className="heading1">
                                 <span className="span" data-aos="zoom-in-left" data-aos-duration={700}>
-                                    Our Blog &amp; News
+                                   Blogs &amp; AI Updates
                                 </span>
-                                <h2 className="text-anime-style-3"> Blogs, News & AI  Updates</h2>
+                                <h2 className="text-anime-style-3"> The Knowledge Hub </h2>
                                 <div className="space16" />
                                 <p data-aos="fade-left" data-aos-duration={900}>
-                                    Whether you're looking to navigate your career path or enhance your organization's hiring practices, our blog is your go-to destination for valuable insights
+                                    Stay updated with the latest trends, tips, and tech insights from our experts.
+                                    Discover ideas that drive innovation and smarter business decisions.
+
                                 </p>
                             </div>
                         </div>
@@ -100,7 +102,7 @@ export default function Section11() {
                                     <div className="space16" />
                                     <p>Setting up a custom domain in Salesforce allows companies to personalize their Salesforce URLs, </p>
                                     <div className="space16" />
-                                    <Link href="/blog" className="learn">
+                                    <Link href="/blog-details-left" className="learn">
                                         Explore Now
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />

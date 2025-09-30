@@ -9,9 +9,9 @@ export default function Section12() {
                     <div className="row">
                         <div className="col-lg-5">
                             <div className="heading6-w">
-                                <h2>Get a Free Consultation</h2>
+                                <h2>Stay Connected</h2>
                                 <div className="space16" />
-                                    <p>Feel free to customize this paragraph to better reflect the specific services offered by your IT solution &amp; the unique </p>
+                                    <p>Subscribe to get fresh blogs, product updates, and expert tips. Your next idea could start here. </p>
                                 <div className="form-area">
                                     <form action="#">
                                         <input type="email" placeholder="Your Email Address" />
