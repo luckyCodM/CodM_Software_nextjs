@@ -150,7 +150,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                 </ul> */}
                         </li>
                         <li>
-                            <Link href="/error">About Us</Link>
+                            <Link href="/about">About Us</Link>
                         </li>
                         <li className="has-dropdown">
                             <div className="menu-item-with-toggle">
@@ -190,27 +190,27 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                         </li>
                         <li className="has-dropdown">
                             <div className="menu-item-with-toggle">
-                                <Link href="#" onClick={(e) => e.preventDefault()}>
+                                <Link href="contact" onClick={(e) => e.preventDefault()}>
                                     Contact
                                 </Link>
-                                <span className={`submenu-button${openSubMenus["pages"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("pages")}>
+                                {/* <span className={`submenu-button${openSubMenus["pages"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("pages")}>
                                     <em />
-                                </span>
+                                </span> */}
                             </div>
-                            <ul className="sub-menu" style={{ display: openSubMenus["pages"] ? "block" : "none" }}>
+                            {/* <ul className="sub-menu" style={{ display: openSubMenus["pages"] ? "block" : "none" }}>
                                 <li>
                                     <Link href="/contact">Contact</Link>
                                 </li>
-                                {/* <li>
+                                <li>
                                     <Link href="/team">Team</Link>
-                                </li> */}
-                                {/* <li>
+                                </li>
+                                <li>
                                     <Link href="/testimonial">Testimonial</Link>
-                                </li> */}
-                                {/* <li>
+                                </li>
+                                <li>
                                     <Link href="/error">404</Link>
-                                </li> */}
-                            </ul>
+                                </li>
+                            </ul> */}
                         </li>
                         <li className="has-dropdown">
                             <div className="menu-item-with-toggle">
@@ -284,7 +284,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                 <img src="assets/img/icons/footer-icon2.png" alt="" />
                             </div>
                             <div className="pera">
-                                <Link href="mailto:info@mail.com">sales@codmsoftware.com</Link>
+                                <Link href="mailto:sales@codmsoftware.com">sales@codmsoftware.com</Link>
                             </div>
                         </div>
                         <div className="contact-box">
@@ -292,32 +292,33 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                 <img src="assets/img/icons/footer-icon3.png" alt="" />
                             </div>
                             <div className="pera">
-                                <Link href="tel:+880123456789"> 
+                                <Link href="#"> 
                                    Supertech Astralis Plot No. 1, Sector 94<br /> Noida, Uttar Pradesh 201301
                                 </Link>
                             </div>
                         </div>
                     </div>
                     <div className="contact-infos">
-                        <h3>Our Location</h3>
+                        <h3>Social Media</h3>
                         <ul className="social-icon">
                             <li>
-                                <Link href="#">
+                                <Link href="https://www.linkedin.com/company/codmsoftware/" target="_blank" rel="noopener noreferrer">
                                     <i className="fa-brands fa-linkedin-in" />
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
+                                <Link href="https://x.com/CodMSoftware" target="_blank" rel="noopener noreferrer">
                                     <i className="fa-brands fa-x-twitter" />
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
+                                <Link href="https://www.youtube.com/@CodMSoftware" 
+                                              target="_blank" rel="noopener noreferrer">
                                     <i className="fa-brands fa-youtube" />
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
+                                <Link href="https://in.pinterest.com/codmsoftware" target="_blank" rel="noopener noreferrer">
                                     <i className="fa-brands fa-pinterest" />
                                 </Link>
                             </li>

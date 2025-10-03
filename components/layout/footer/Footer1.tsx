@@ -112,7 +112,7 @@ export default function Footer() {
                                         <img src="assets/img/icons/footer-icon3.png" alt="" />
                                     </div>
                                     <div className="pera">
-                                        <Link href="tel:+91 9871717425">
+                                        <Link href="#">
                                             Supertech Astralis Plot No.1, Sector 94 <br/> Noida, Uttar Pradesh 201301
                                         </Link>
                                     </div>
