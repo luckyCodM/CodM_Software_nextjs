@@ -27,7 +27,7 @@ export default function Section2() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/financial-services-cloud">Agentforce & AI</Link>
+                                            <Link href="/agentforce-&-ai">Agentforce & AI</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Whether you're looking for temporary staffing, direct hire placements, </p>

@@ -20,22 +20,24 @@ export default function Footer() {
                                 </div>
                                 <ul className="social-icon">
                                     <li>
-                                        <Link href="#">
+                                        <Link href="https://www.linkedin.com/company/codmsoftware/" target="_blank" rel="noopener noreferrer">
                                             <i className="fa-brands fa-linkedin-in" />
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="https://x.com/CodMSoftware" target="_blank" rel="noopener noreferrer">
                                             <i className="fa-brands fa-x-twitter" />
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="https://www.youtube.com/@CodMSoftware" 
+                                              target="_blank" rel="noopener noreferrer">
                                             <i className="fa-brands fa-youtube" />
+                                            
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="https://in.pinterest.com/codmsoftware" target="_blank" rel="noopener noreferrer">
                                             <i className="fa-brands fa-pinterest" />
                                         </Link>
                                     </li>
@@ -47,10 +49,10 @@ export default function Footer() {
                                 <h3>Services</h3>
                                 <ul className="menu-list">
                                     <li>
-                                        <Link href="#">Financial Services Cloud</Link>
+                                        <Link href="/financial-services-cloud">Financial Services Cloud</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Agentforce & Al</Link>
+                                        <Link href="agentforce-&-ai">Agentforce & Al</Link>
                                     </li>
                                     <li>
                                         <Link href="#">Education Cloud&nbsp;</Link>
@@ -72,13 +74,13 @@ export default function Footer() {
                                         <Link href="/">Home </Link>
                                     </li>
                                     <li>
-                                        <Link href="/error">About Us</Link>
+                                        <Link href="/about">About Us</Link>
                                     </li>
                                     <li>
                                         <Link href="/service">Service</Link>
                                     </li>
                                     <li>
-                                        <Link href="/error">Testimonial</Link>
+                                        <Link href="/blog">Blog</Link>
                                     </li>
                                     <li>
                                         <Link href="/contact">Contact Us</Link>

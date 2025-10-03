@@ -64,7 +64,7 @@ export default function Section1() {
                                 </div>
                                 <div className="details-box2">
                                     <h3>Download Brochure</h3>
-                                    <p>Join us on this journey as we share our expertise, ignite conversations</p>
+                                    {/* <p>Join us on this journey as we share our expertise, ignite conversations</p> */}
                                     <div className="space10" />
                                     <Link href="#" className="download-btn1">
                                         <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
@@ -125,17 +125,17 @@ export default function Section1() {
                                         <div className="space30" />
                                         <h3>Why Choose CodM Software for Agentforce & AI Services?</h3>
                                         <div className="space16" />
-                                        <p>1. Certified Salesforce Experts- We have Salesforce-certified consultants and developers who specializes in FSC implementation.</p>
+                                        <p>1. Salesforce Expertise- We are a trusted Salesforce partner with certified experts who bring deep domain knowledge and technical expertise in implementing Service Cloud & Einstein AI.</p>
                                         <div className="space16" />
-                                        <p>2. Industry-Specific Knowledge- We provide FSC support & solutions to meet the unique needs of every industry, whether it's banking, insurance, manufacturing, or education.</p>
+                                        <p>2. Customized Solutions- As per the unique industry-specific requirements, we provide customized Agentforce & AI tools, which ensure maximum impact & ROI.</p>
                                         <div className="space16" />
-                                        <p>3. End-to-End Implementation- We provide end-to-end support for FSC implementation from setup to integration, customization, and training.</p>
+                                        <p>3. End-to-End Support- From strategy, implementation, training & support we provide support and guide you in every step of the journey.</p>
                                         <div className="space16" />
-                                        <p>4. Security & Compliance First- We follow industry best practices to ensure your data stays secure and your system remains compliant.</p>
+                                        <p>4. Proven Track Record- We have successfully delivered customer service solutions to our clients globally and helped them in improving efficiency and customer satisfaction.</p>
                                         <div className="space16" />
-                                        <p>5. Proven Track Record- We’ve successfully delivered Salesforce support & solutions for various financial institutions that were looking to improve their efficiency and client satisfaction rate.</p>
+                                        <p>5. Security & Compliance- To ensure that the data and information of your customers is safe and secure, we follow best industry practices for data protection and regulatory compliance.</p>
                                         <div className="space16" />
-                                        <p>6. Ongoing Support & Optimization- We provide continuous maintenance and proactive guidance to ensure your FSC evolves with your business needs.</p>
+                                        <p>6. Continuous Innovation- To ensure you stay ahead of the competition, we stay updated on the latest AI advancements and Salesforce features.</p>
                                     </div>
                                 </article>
                                 <div className="space30" />
@@ -186,41 +186,41 @@ export default function Section1() {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingTwo">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                    Can CodM Software customize FSC for my business processes?
+                                                    Is technical knowledge required to use these tools?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Absolutely. We tailor FSC to your company's specific requirements, whether they are workflows, client engagement strategies, or compliance requirements. </div>
+                                                <div className="accordion-body">No. The Salesforce interface is user-friendly, and it requires minimal technical knowledge to guide agents using AI suggestions. We also provide training and overall support to ensure smooth adoption. </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingThree">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                                    How does FSC help with regulatory compliance?
+                                                    Can AI in Salesforce replace human agents?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">To manage the compliance FSC has built-in tools that can track all the client interactions, and it can securely store sensitive financial data, which results in reducing risk for your organization. </div>
+                                                <div className="accordion-body">TAI can enhance, not replace, human agents. It automates the monotonous work and provides meaningful insights, but it cannot replace the empathy and human judgment that are essential for customer interactions. </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingFour">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                                    Can FSC integrate with my existing systems?
+                                                    How quickly can Agentforce & AI solutions be implemented?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Yes, FSC can be integrated with your core systems, any third-party apps, and financial platforms for a seamless experience. </div>
+                                                <div className="accordion-body">Implementation time can vary depending upon the complexity of the business process and unique requirements. It can take anywhere from a few weeks to a few months, with CodM Software assisting in planning and execution. </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingFive">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                                    Is Financial Services Cloud secure?
+                                                    Is AI safe for handling sensitive customer information?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseFive" className="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Yes, Salesforce offers enterprise-grade security. At CodM Software, we implement additional best practices to protect your client data and ensure privacy. </div>
+                                                <div className="accordion-body">Yes. Salesforce’s Einstein AI follows strict data privacy protocols and encryption standards. CodM Software ensures that your deployment complies with industry regulations and security best practices. </div>
                                             </div>
                                         </div>
                                     </div>

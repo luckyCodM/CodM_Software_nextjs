@@ -64,7 +64,7 @@ export default function Section1() {
                                 </div>
                                 <div className="details-box2">
                                     <h3>Download Brochure</h3>
-                                    <p>Join us on this journey as we share our expertise, ignite conversations</p>
+                                    {/* <p>Join us on this journey as we share our expertise, ignite conversations</p> */}
                                     <div className="space10" />
                                     <Link href="#" className="download-btn1">
                                         <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
