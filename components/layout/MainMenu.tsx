@@ -241,7 +241,7 @@ export default function MainMenu() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        {/* <div className="col-md-3">
                             <div className="mega-menu-single">
                                 <h3>News / Blog</h3>
                                 <ul>
@@ -259,7 +259,7 @@ export default function MainMenu() {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                         {/* <div className="col-md-3">
                             <div className="mega-menu-single">
                                 <h3>Page's</h3>

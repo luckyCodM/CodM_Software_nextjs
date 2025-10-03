@@ -121,7 +121,7 @@ export default function Section9() {
                                             <img src="assets/img/icons/contact3-icon1.png" alt="" />
                                         </div>
                                         <div className="heading3">
-                                            <h6>Gives us a Call</h6>
+                                            <h6>Gives us Call</h6>
                                             <h5>
                                                 <Link href="tel:+91 9871717425<">+91 9871717425</Link>
                                             </h5>
@@ -152,6 +152,7 @@ export default function Section9() {
                                 </div>
                                 <div className="space10" />
                                 <form action="#">
+                                    
                                     <div className="row">
                                         <div className="col-md-6">
                                             <div className="single-input">

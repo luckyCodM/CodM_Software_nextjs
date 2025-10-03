@@ -7502,7 +7502,7 @@ body.body {
 }
 .contact3 .contact3-form .single-input input::placeholder,
 .contact3 .contact3-form .single-input textarea::placeholder {
-    color: #000026;
+    color: #b5b8b7;
     font-weight: var(--f-fw-medium);
     font-size: var(--f-fs-font-fs18);
     line-height: var(--f-fs-font-fs18);

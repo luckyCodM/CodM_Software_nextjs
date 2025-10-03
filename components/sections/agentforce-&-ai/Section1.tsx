@@ -30,7 +30,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/">
+                                            <Link href="/error">
                                                 Education Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
@@ -38,7 +38,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/">
+                                            <Link href="/error">
                                                 Salesforce Customer 360
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
@@ -46,7 +46,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/">
+                                            <Link href="/error">
                                                 OmniStudio Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
@@ -176,7 +176,7 @@ export default function Section1() {
                                         <div className="accordion-item active">
                                             <h2 className="accordion-header" id="flush-headingOne">
                                                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                    1. What is the difference between Agentforce & AI in Salesforce?
+                                                    What is the difference between Agentforce & AI in Salesforce?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">

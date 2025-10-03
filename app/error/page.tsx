@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <>
             <Layout>
-                <SectionHeader title="Error 404" group_page="" current_page="Error 404" display="d-none" />
+                <SectionHeader title="Coming soon" group_page="" current_page="Coming soon" display="d-none" />
                 <>
                     {/*=====ERROR AREA START=======*/}
                     <div className="error-page sp">
@@ -19,10 +19,10 @@ export default function Home() {
                                         </div>
                                         <div className="space50" />
                                         <div className="heading1 text-center">
-                                            <h2> Sorry, Page Not Found!</h2>
+                                            <h2> Coming soon</h2>
                                             <div className="space16" />
                                             <p>
-                                                Sorry, the page you are looking for doesn’t exist or has <br /> been moved. Here are some helpful links.
+                                                Our website is under construction. We’re working hard to give you the best experience. Stay tuned!
                                             </p>
                                             <div className="space30" />
                                             <div className="button">

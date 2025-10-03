@@ -161,21 +161,21 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                     <em />
                                 </span>
                             </div>
-                            <ul className="sub-menu" style={{ display: openSubMenus["service"] ? "block" : "none" }}>
-                                {/* <li>
+                            {/* <ul className="sub-menu" style={{ display: openSubMenus["service"] ? "block" : "none" }}>
+                                <li>
                                     <Link href="/service">Service</Link>
-                                </li> */}
+                                </li>
                                 <li className="has-dropdown has-dropdown1">
-                                    {/* <div className="menu-item-with-toggle">
+                                    <div className="menu-item-with-toggle">
                                         <Link href="#" onClick={(e) => e.preventDefault()} className="main">
                                             Service Details
                                         </Link>
                                         <span className={`submenu-button${openSubMenus["service-details"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("service-details")}>
                                             <em />
                                         </span>
-                                    </div> */}
+                                    </div>
                                     <ul className="sub-menu" style={{ display: openSubMenus["service-details"] ? "block" : "none" }}>
-                                        {/* <li>
+                                        <li>
                                             <Link href="/service-details-left">Details Left</Link>
                                         </li>
                                         <li>
@@ -183,14 +183,14 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                         </li>
                                         <li>
                                             <Link href="/service-details">Single Details</Link>
-                                        </li> */}
+                                        </li>
                                     </ul>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </li>
                         <li className="has-dropdown">
                             <div className="menu-item-with-toggle">
-                                <Link href="contact" onClick={(e) => e.preventDefault()}>
+                                <Link href="/contact" onClick={(e) => e.preventDefault()}>
                                     Contact
                                 </Link>
                                 {/* <span className={`submenu-button${openSubMenus["pages"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("pages")}>
@@ -292,8 +292,8 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                 <img src="assets/img/icons/footer-icon3.png" alt="" />
                             </div>
                             <div className="pera">
-                                <Link href="#"> 
-                                   Supertech Astralis Plot No. 1, Sector 94<br /> Noida, Uttar Pradesh 201301
+                                <Link href="https://maps.app.goo.gl/raw5PFBoNkRiFTtQA" target="_blank_Page_Map" rel="noopener noreferrer"> 
+                                   Supertech Astralis Plot No. 1,<br /> Sector 94, Noida, Uttar Pradesh 201301
                                 </Link>
                             </div>
                         </div>
@@ -302,7 +302,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                         <h3>Social Media</h3>
                         <ul className="social-icon">
                             <li>
-                                <Link href="https://www.linkedin.com/company/codmsoftware/" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://www.linkedin.com/company/codmsoftware/" target="_blankLinkedin" rel="noopener noreferrer">
                                     <i className="fa-brands fa-linkedin-in" />
                                 </Link>
                             </li>
