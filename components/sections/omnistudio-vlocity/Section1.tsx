@@ -34,40 +34,41 @@ export default function Section1() {
                                     <div className="space10" />
                                     <ul className="service-list">
                                         <li>
-                                            <Link href="/service-details">
-                                                Talent Chronicles Stories
+                                            <Link href="/financial-services-cloud">
+                                                Financial Services Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
-                                                Navigating Professional
+                                            <Link href="/agentforce-&-ai">
+                                                Agentforce & AI
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
-                                                Recruitology Recruitment
+                                            <Link href="/error">
+                                                Education Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
-                                                The Staffing Scoop
+                                            <Link href="/error">
+                                                Salesforce Customer 360
+
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
-                                                Stories of Success
+                                            <Link href="/error">
+                                                OmniStudio Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -90,7 +91,7 @@ export default function Section1() {
                                                     <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
                                                 </Link>
                                                 <h5>
-                                                    <Link href="/blog-details">The Staffing Strategist Your Guide to Talent</Link>
+                                                    <Link href="/blog-details">Financial Services Cloud: Key Features for 2025</Link>
                                                 </h5>
                                             </div>
                                         </div>
@@ -105,7 +106,7 @@ export default function Section1() {
                                                     <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
                                                 </Link>
                                                 <h5>
-                                                    <Link href="/blog-details">HR Insights Unlocking the Secrets Staffing</Link>
+                                                    <Link href="/blog-details">Configuring Custom Domains in Salesforce</Link>
                                                 </h5>
                                             </div>
                                         </div>
@@ -120,7 +121,7 @@ export default function Section1() {
                                                     <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
                                                 </Link>
                                                 <h5>
-                                                    <Link href="/blog-details">Recruitology 101 Tips and Trends for Hiring</Link>
+                                                    <Link href="/blog-details">Salesforce CPQ Product Validation Rule</Link>
                                                 </h5>
                                             </div>
                                         </div>
@@ -135,7 +136,7 @@ export default function Section1() {
                                                     <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
                                                 </Link>
                                                 <h5>
-                                                    <Link href="/blog-details">Career Navigating Your Professional Path</Link>
+                                                    <Link href="/blog-details">Salesforce winter 23 release</Link>
                                                 </h5>
                                             </div>
                                         </div>
@@ -144,11 +145,11 @@ export default function Section1() {
                                 <div className="details-box-call">
                                     <h3>If You Need Any Help Contact With Us</h3>
                                     <div className="space10" />
-                                    <Link href="tel:+917052101786" className="call-btn">
-                                        <img src="assets/img/icons/details-call.png" alt="" /> +91 705 2101 786
+                                    <Link href="tel:+91 9871717425" className="call-btn">
+                                        <img src="assets/img/icons/details-call.png" alt="" /> +91 9871717425
                                     </Link>
                                 </div>
-                                <div className="details-box2">
+                                {/* <div className="details-box2">
                                     <h3>Our Tags</h3>
                                     <div className="space10" />
                                     <ul className="tags">
@@ -180,17 +181,18 @@ export default function Section1() {
                                             <Link href="#">3D Images</Link>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                                 <div className="details-box2">
-                                    <h3>Download Brochure</h3>
-                                    <p>Join us on this journey as we share our expertise, ignite conversations</p>
+                                    <h3> About Me </h3>
+                                    <p>Boost your business with our customised CRM solutions. Optimised processes, improved customer relationships and
+                                        scalable growth we deliver innovations for your success.</p>
                                     <div className="space10" />
-                                    <Link href="#" className="download-btn1">
+                                    <Link href="/assets/img/codmsoftware_pdf/CodM_Software_Portfolio_Profile.pdf" className="download-btn1">
                                         <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
                                     </Link>
-                                    <Link href="#" className="download-btn2">
+                                    {/* <Link href="/assets/img/codmsoftware_pdf/CodM_Software_Portfolio_Profile.pdf" className="download-btn2">
                                         <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
-                                    </Link>
+                                    </Link> */}
                                 </div>
                             </div>
                         </div>
@@ -203,13 +205,13 @@ export default function Section1() {
                                         </div>
                                         <ul className="users">
                                             <li>
-                                                <img className="author" src="assets/img/blog/blog-details-othor.png" alt="" /> <Link href="#">Alex Robartson</Link>
+                                                <img className="author" src="assets/img/blog/blog-details-othor.png" alt="" /> <Link href="#">Bhav Malhotra </Link>
                                             </li>
                                             <li>
-                                                <img src="assets/img/icons/blog-details-icon1.png" alt="" /> <Link href="#"> 8/05/2025</Link>
+                                                <img src="assets/img/icons/blog-details-icon1.png" alt="" /> <Link href="#"> March 11, 2025</Link>
                                             </li>
                                             <li>
-                                                <img src="assets/img/icons/blog-details-icon2.png" alt="" /> <Link href="#"> Staffing Agency</Link>
+                                                <img src="assets/img/icons/blog-details-icon2.png" alt="" /> <Link href="#"> Omnistudio (Vlocity)</Link>
                                             </li>
                                             <li>
                                                 <img src="assets/img/icons/blog-details-icon3.png" alt="" /> <Link href="#"> 2 Comments</Link>
@@ -217,11 +219,16 @@ export default function Section1() {
                                         </ul>
                                         <div className="space10" />
                                         <div className="heading1">
-                                            <h2>Talent Chronicles: Stories from the Hiring Frontline</h2>
+                                            <h2>Omnistudio (Vlocity)</h2>
                                             <div className="space16" />
-                                            <p>Welcome to our blog, where we share valuable insights, tips, and industry news to empower both clients and candidates in the world of staffing and recruitment we believe that knowledge is power, and our blog serves as a platform to provide </p>
+                                            <p>Salesforce OmniStudio is a comprehensive suite of low-code tools designed to help businesses quickly build and deploy digital-first,
+                                                industry-specific experiences across multiple channels. It empowers users to create guided interactions, automate business processes,
+                                                and seamlessly integrate with both Salesforce and external systems—all without requiring extensive coding expertise.</p>
                                             <div className="space16" />
-                                            <p>Whether you're a hiring manager seeking strategies to streamline your recruitment process or a job seeker looking for career advice and interview tips, our blog has something for everyone. Stay tuned for regular updates and expert insights </p>
+                                            <p> OmniStudio bridges the gap between low-code and pro-code development, making it accessible for non-developers to create effective solutions while giving developers the flexibility to extend functionality when needed.
+                                                Its powerful toolkit—comprising OmniScript, FlexCards, Data Mapper, and Integration Procedures (IP)—enables businesses to design scalable,
+                                                high-performing, and maintainable digital workflows. Adhering to best practices for each component ensures optimal efficiency, performance,
+                                                and long-term sustainability. </p>
                                         </div>
                                     </div>
                                 </article>
@@ -235,39 +242,41 @@ export default function Section1() {
                                         </div>
                                         <div className="space30" />
                                         <div className="heading1">
-                                            <h3>Recruit ology Tips &amp; Trends for Hiring Success</h3>
+                                            <h3>What is omnistudio?</h3>
                                             <div className="space16" />
-                                            <p>Welcome to our blog, where we share valuable insights, tips, and industry news to empower both clients and candidates in the world of staffing and recruitment we believe that knowledge is power, and our blog serves as a platform to provide </p>
-                                            <div className="space16" />
-                                            <p>Whether you're a hiring manager seeking strategies to streamline your recruitment process or a job seeker looking for career advice and interview tips, our blog has something for everyone. Stay tuned for regular updates and expert insights </p>
+                                            <p>Salesforce OmniStudio provides a powerful suite of tools for building guided
+                                                interactions, integrating data, and streamlining digital workflows. When working with
+                                                OmniScript, FlexCards, Data Mapper and Integration Procedures (IP), following
+                                                best practices ensures scalability, performance, and maintainability. Here are the top
+                                                best practices for each component. </p>
                                         </div>
-                                        <div className="space30" />
+                                        <div className="space20" />
                                         <div className="project-details-list">
                                             <ul>
                                                 <li>
                                                     <span>
                                                         <i className="fa-solid fa-check" />
                                                     </span>
-                                                    Looking for top talent for permanent roles
+                                                    Low-Code and Pro-Code Balance –  Allows both non-developers and developers to build solutions.
                                                 </li>
                                                 <li>
                                                     <span>
                                                         <i className="fa-solid fa-check" />
                                                     </span>
-                                                    Concerned about cultural fit when hiring
+                                                    Multi-Channel Deployment – Works across web, mobile, and other digital channels.
                                                 </li>
                                                 <li>
                                                     <span>
                                                         <i className="fa-solid fa-check" />
                                                     </span>
-                                                    Require specialized skills for short-term projects
+                                                    Pre-Built Industry Solutions – Integrated with Salesforce Industries (formerly Vlocity).
                                                 </li>
-                                                <li>
+                                                {/* <li>
                                                     <span>
                                                         <i className="fa-solid fa-check" />
                                                     </span>
                                                     Seeking executive-level talent to drive your organization's success
-                                                </li>
+                                                </li> */}
                                             </ul>
                                         </div>
                                     </div>
@@ -285,7 +294,7 @@ export default function Section1() {
                                                 <img src="assets/img/blog/blog-details-video-img.png" alt="" />
                                             </div>
                                             <div className="video-buttton play-btn">
-                                                <Link href="#" onClick={() => setIsOpen(true)} id="play-video play-btn" className="video-play-button">
+                                                <Link href="https://youtu.be/sSYxWnBm6Vk?si=QY3wC15k110tXzxf" onClick={() => setIsOpen(true)} id="play-video play-btn" className="video-play-button">
                                                     <span />
                                                 </Link>
                                             </div>
@@ -294,9 +303,9 @@ export default function Section1() {
                                     <div className="col-md-6">
                                         <div className="space30" />
                                         <div className="heading1">
-                                            <h3>Unleash Your Business </h3>
+                                            <h3>Field History Tracking </h3>
                                             <div className="space16" />
-                                            <p>We're committed to not providing exceptional staffing solutions but also empowering our clients &amp; candidates</p>
+                                            <p>Refine Operational Insights with Advanced Field History Tracking Capabilities.</p>
                                             <div className="space20" />
                                             <div className="project-details-list">
                                                 <ul>
@@ -304,20 +313,27 @@ export default function Section1() {
                                                         <span>
                                                             <i className="fa-solid fa-check" />
                                                         </span>
-                                                        Staffing solution is right for you
+                                                        Enhanced Visibility
                                                     </li>
                                                     <li>
                                                         <span>
                                                             <i className="fa-solid fa-check" />
                                                         </span>
-                                                        Skills for short-term projects
+                                                        Improved Audit Trail
                                                     </li>
                                                     <li>
                                                         <span>
                                                             <i className="fa-solid fa-check" />
                                                         </span>
-                                                        Need to fill a position quickly
+                                                        Data Analysis and Insights
                                                     </li>
+                                                    <li>
+                                                        <span>
+                                                            <i className="fa-solid fa-check" />
+                                                        </span>
+                                                        Efficient Troubleshooting
+                                                    </li>
+
                                                 </ul>
                                             </div>
                                         </div>
@@ -326,7 +342,7 @@ export default function Section1() {
                                 <div className="tags-icons">
                                     <div className="row align-items-center">
                                         <div className="col-lg-6">
-                                            <div className="details-tags">
+                                            {/* <div className="details-tags">
                                                 <ul>
                                                     <li className="text">Post Tags:</li>
                                                     <li>
@@ -336,7 +352,7 @@ export default function Section1() {
                                                         <Link href="#">Business</Link>
                                                     </li>
                                                 </ul>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="details-icons">
@@ -365,57 +381,152 @@ export default function Section1() {
                                 <div className="blog-details-border" />
                                 <div className="heading1">
                                     <h3 />
-                                    <h3>Blog Comments (2)</h3>
+                                    <h3>OmniScripts</h3>
                                 </div>
                                 <div className="blog-details-commnet-boxs">
                                     <div className="commnet-box">
                                         <div className="top-area">
                                             <div className="author-area">
                                                 <div className="image">
-                                                    <img src="assets/img/blog/comment-img1.png" alt="" />
+                                                    {/* <img src="assets/img/blog/comment-img1.png" alt="" /> */}
                                                 </div>
                                                 <div className="heading">
                                                     <h5>
-                                                        <Link href="#">Matthew Larson</Link>
+                                                        <Link href="#">1. Design for Modularity and Reusability</Link>
                                                     </h5>
-                                                    <p>8/01/2023</p>
+                                                    {/* <p>8/01/2023</p> */}
                                                 </div>
                                             </div>
-                                            <Link href="#" className="reply-btn">
+                                            {/* <Link href="#" className="reply-btn">
                                                 <span>
                                                     <i className="fa-solid fa-reply" />
                                                 </span>
                                                 Reply
-                                            </Link>
+                                            </Link> */}
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p>Wow, I'm really impressed by the depth of content in the blog section. It's clear that Recrute values not only connecting clients with top talent but also empowering them with knowledge and resources.</p>
+                                            <p>Break down OmniScripts into reusable components (e.g., use child OmniScripts and reusable FlexCards).</p>
+                                            <div className="space10" />
+                                            <p>Leverage reusable actions and templates to minimize redundant configurations.</p>
+
                                         </div>
                                     </div>
+
                                     <div className="commnet-box commnet-box2">
                                         <div className="top-area">
                                             <div className="author-area">
                                                 <div className="image">
-                                                    <img src="assets/img/blog/comment-img2.png" alt="" />
+                                                    {/* <img src="assets/img/blog/comment-img2.png" alt="" /> */}
                                                 </div>
                                                 <div className="heading">
                                                     <h5>
-                                                        <Link href="#">Sergio Daugherty</Link>
+                                                        <Link href="#">2. Optimize Performance</Link>
                                                     </h5>
-                                                    <p>8/01/2023</p>
+                                                    {/* <p>8/01/2023</p> */}
                                                 </div>
                                             </div>
-                                            <Link href="#" className="reply-btn">
+                                            {/* <Link href="#" className="reply-btn">
                                                 <span>
                                                     <i className="fa-solid fa-reply" />
                                                 </span>
                                                 Reply
-                                            </Link>
+                                            </Link> */}
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p>The blog covers a wide range of topics, from industry trends to practical advice for both employers and job seekers. I especially appreciate how the team at rectute provides actionable insights that can make</p>
+                                            <p>Reduce the number of steps and elements to enhance user experience.</p>
+                                            <div className="space10" />
+                                            <p>Use conditional rendering and pre-fill data to minimize unnecessary API calls.</p>
+                                            <div className="space10" />
+                                            <p>Avoid unnecessary data retrieval by using Integration Procedures for backend processing.</p>
+                                        </div>
+                                    </div>
+                                    <div className="commnet-box">
+                                        <div className="top-area">
+                                            <div className="author-area">
+                                                <div className="image">
+                                                    {/* <img src="assets/img/blog/comment-img1.png" alt="" /> */}
+                                                </div>
+                                                <div className="heading">
+                                                    <h5>
+                                                        <Link href="#">3. Enable Error Handling and Logging</Link>
+                                                    </h5>
+                                                    {/* <p>8/01/2023</p> */}
+                                                </div>
+                                            </div>
+                                            {/* <Link href="#" className="reply-btn">
+                                                <span>
+                                                    <i className="fa-solid fa-reply" />
+                                                </span>
+                                                Reply
+                                            </Link> */}
+                                        </div>
+                                        <div className="space16" />
+                                        <div className="heading1">
+                                            <p>Implement clear error messages to guide users.</p>
+                                            <div className="space10" />
+                                            <p>Use the OmniScript Debugger to troubleshoot issues effectively.</p>
+
+                                        </div>
+                                    </div>
+
+                                    <div className="commnet-box commnet-box2">
+                                        <div className="top-area">
+                                            <div className="author-area">
+                                                <div className="image">
+                                                    {/* <img src="assets/img/blog/comment-img2.png" alt="" /> */}
+                                                </div>
+                                                <div className="heading">
+                                                    <h5>
+                                                        <Link href="#">4. Utilize DataRaptor and Integration Procedures Efficiently</Link>
+                                                    </h5>
+                                                    {/* <p>8/01/2023</p> */}
+                                                </div>
+                                            </div>
+                                            {/* <Link href="#" className="reply-btn">
+                                                <span>
+                                                    <i className="fa-solid fa-reply" />
+                                                </span>
+                                                Reply
+                                            </Link> */}
+                                        </div>
+                                        <div className="space16" />
+                                        <div className="heading1">
+                                            <p>Use DataRaptor Extract to retrieve data instead of making API calls directly.</p>
+                                            <div className="space10" />
+                                            <p>Use Integration Procedures to process and transform data before displaying it in OmniScript.</p>
+                                        </div>
+                                    </div>
+
+                                               <div className="commnet-box">
+                                        <div className="top-area">
+                                            <div className="author-area">
+                                                <div className="image">
+                                                    {/* <img src="assets/img/blog/comment-img1.png" alt="" /> */}
+                                                </div>
+                                                <div className="heading">
+                                                    <h5>
+                                                        <Link href="#">5. Follow UI/UX Best Practices</Link>
+                                                    </h5>
+                                                    {/* <p>8/01/2023</p> */}
+                                                </div>
+                                            </div>
+                                            {/* <Link href="#" className="reply-btn">
+                                                <span>
+                                                    <i className="fa-solid fa-reply" />
+                                                </span>
+                                                Reply
+                                            </Link> */}
+                                        </div>
+                                        <div className="space16" />
+                                        <div className="heading1">
+                                            <p>Keep OmniScripts intuitive with clear labels and guided steps.</p>
+                                            <div className="space10" />
+                                            <p>Use Progress Bars and Conditional Views to enhance user experience.</p>
+                                            <div className="space10" />
+                                            <p>Minimize the number of clicks required for users to complete tasks.</p>
+
                                         </div>
                                     </div>
                                 </div>
@@ -426,43 +537,59 @@ export default function Section1() {
                                         <div className="space16" />
                                         <p>Real difference in navigating the complexities of hiring and career development. Keep up the fantastic work</p>
                                     </div>
-                                    <form action="#">
+                                    <form
+                                        action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DH40000008jfE"
+                                        method="POST"
+                                        autoComplete="off"
+                                        name="ContactForm">
+                                        {/* Required hidden Salesforce fields */}
+                                        <input type="hidden" name="oid" value="00DH40000008jfE" />
+                                        <input type="hidden" name="retURL" value="codmsoftware.com" />
+                                        <input type="hidden" name="lead_source" value="Web" />
+
                                         <div className="row">
-                                            <div className="col-lg-6">
+                                            <div className="col-md-6">
                                                 <div className="single-input">
-                                                    <input type="text" placeholder="First Name" />
+                                                    <input type="text" name="first_name" placeholder="Your Name" required />
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6">
+
+                                            <div className="col-md-6">
                                                 <div className="single-input">
-                                                    <input type="text" placeholder="Last Name" />
+                                                    <input type="text" name="last_name" placeholder="Last Name" required />
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6">
+
+                                            <div className="col-md-6">
                                                 <div className="single-input">
-                                                    <input type="email" placeholder="Email" />
+                                                    <input type="email" name="email" placeholder="Email" required />
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6">
+
+                                            <div className="col-md-6">
                                                 <div className="single-input">
-                                                    <input type="number" placeholder="Phone" />
+                                                    <input type="tel" name="phone" placeholder="Phone" />
                                                 </div>
                                             </div>
-                                            <div className="col-lg-12">
+
+                                            <div className="col-md-12">
                                                 <div className="single-input">
-                                                    <input type="text" placeholder="Subject" />
+                                                    <input type="text" name="subject" placeholder="Company" />
                                                 </div>
                                             </div>
-                                            <div className="col-lg-12">
+
+                                            <div className="col-md-12">
                                                 <div className="single-input">
-                                                    <textarea name="" id="" rows={4} placeholder="Message" defaultValue={""} />
+                                                    <textarea rows={5} name="description" placeholder="Message"></textarea>
                                                 </div>
-                                                <div className="space30" />
+                                            </div>
+
+                                            <div className="col-md-12">
                                                 <div className="button">
-                                                    <button className="theme-btn1" type="submit">
+                                                    <button type="submit" className="theme-btn1">
                                                         Submit Now
                                                         <span>
-                                                            <i className="fa-solid fa-arrow-right" />
+                                                            <i className="fa-solid fa-arrow-right"></i>
                                                         </span>
                                                     </button>
                                                 </div>

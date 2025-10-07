@@ -64,14 +64,14 @@ export default function Section1() {
                                 </div>
                                 <div className="details-box2">
                                     <h3>Download Brochure</h3>
-                                    {/* <p>Join us on this journey as we share our expertise, ignite conversations</p> */}
+                                    <p>Boost your business with our customised CRM solutions. Optimised processes, improved customer relationships and scalable growth we deliver innovations for your success.</p>
                                     <div className="space10" />
-                                    <Link href="#" className="download-btn1">
+                                    <Link href="/assets/img/codmsoftware_pdf/CodM_Software_Portfolio_Profile.pdf" className="download-btn1">
                                         <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
                                     </Link>
-                                    <Link href="#" className="download-btn2">
+                                    {/* <Link href="#" className="download-btn2">
                                         <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
-                                    </Link>
+                                    </Link> */}
                                 </div>
                                 <div className="details-box2">
                                     <h3>Follow Us</h3>

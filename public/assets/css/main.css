@@ -7484,7 +7484,7 @@ body.body {
     width: 100%;
     margin-top: 20px;
     background-color: #ffffff;
-    color: #b5b8b7;
+    color: #081120;
     font-weight: var(--f-fw-medium);
     font-size: var(--f-fs-font-fs18);
     line-height: var(--f-fs-font-fs18);
@@ -7770,7 +7770,7 @@ body.body {
     width: 100%;
     margin-top: 20px;
     padding: 16px;
-    color: #60656e;
+    color: #081120;
     font-weight: var(--f-fw-medium);
     font-size: var(--f-fs-font-fs18);
 }

@@ -1,7 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import SectionHeader from "@/components/layout/SectionHeader";
 import Section1 from "@/components/sections/service/Section1";
-import Section3 from "@/components/sections/about/Section3";
+import Section3 from "@/components/sections/about-us/Section3";
 
 export default function Home() {
     return (

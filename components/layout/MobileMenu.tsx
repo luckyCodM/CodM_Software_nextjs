@@ -53,15 +53,34 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                 </div>
                 <div className="mobile-nav">
                     <ul>
-                        <li className="has-dropdown">
-                            <div className="menu-item-with-toggle">
+                          <li>
+                            <Link href="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link href="/about-us">About Us</Link>
+                        </li>
+                        <li>
+                            <Link href="/service">Service</Link>
+                        </li>
+                        <li>
+                            <Link href="/field-history-tracking">Product</Link>
+                        </li>
+                        <li>
+                           <Link href="/blog">Blog</Link>
+                        </li>
+                        <li>
+                           <Link href="/contact">Contact Us</Link>
+                        </li>
+                       
+                        {/* <li className="has-dropdown"> */}
+                            {/* <div className="menu-item-with-toggle">
                                 <Link href="/" className={isHashNav("#") ? "hash-nav" : ""} onClick={(e) => e.preventDefault()}>
                                     Home
                                 </Link>
-                                {/* <span className={`submenu-button${openSubMenus["home"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("home")}>
+                                <span className={`submenu-button${openSubMenus["home"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("home")}>
                                     <em />
-                                </span> */}
-                            </div>
+                                </span>
+                            </div> */}
                                 {/* <ul className={`sub-menu${openSubMenus["home"] ? " open-sub" : ""}`} style={{ display: openSubMenus["home"] ? "block" : "none" }}>
                                     <li className="has-dropdown has-dropdown1">
                                         <div className="menu-item-with-toggle">
@@ -148,19 +167,20 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                         </ul>
                                     </li>
                                 </ul> */}
-                        </li>
-                        <li>
-                            <Link href="/about">About Us</Link>
-                        </li>
-                        <li className="has-dropdown">
-                            <div className="menu-item-with-toggle">
-                                <Link href="/error" onClick={(e) => e.preventDefault()}>
+                        {/* </li> */}
+                        
+                        {/* <li className="has-dropdown"> */}
+                            {/* <li>
+                            <Link href="/service">Service</Link>
+                        </li> */}
+                            {/* <div className="menu-item-with-toggle">
+                                <Link href="/service" onClick={(e) => e.preventDefault()}>
                                     Service
                                 </Link>
                                 <span className={`submenu-button${openSubMenus["service"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("service")}>
                                     <em />
                                 </span>
-                            </div>
+                            </div> */}
                             {/* <ul className="sub-menu" style={{ display: openSubMenus["service"] ? "block" : "none" }}>
                                 <li>
                                     <Link href="/service">Service</Link>
@@ -187,16 +207,19 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                     </ul>
                                 </li>
                             </ul> */}
-                        </li>
-                        <li className="has-dropdown">
-                            <div className="menu-item-with-toggle">
+                        {/* </li> */}
+                        {/* <li className="has-dropdown"> */}
+                             {/* <li>
+                            <Link href="/field-history-tracking">Product</Link>
+                        </li> */}
+                            {/* <div className="menu-item-with-toggle">
                                 <Link href="/contact" onClick={(e) => e.preventDefault()}>
                                     Contact
                                 </Link>
-                                {/* <span className={`submenu-button${openSubMenus["pages"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("pages")}>
+                                <span className={`submenu-button${openSubMenus["pages"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("pages")}>
                                     <em />
-                                </span> */}
-                            </div>
+                                </span>
+                            </div> */}
                             {/* <ul className="sub-menu" style={{ display: openSubMenus["pages"] ? "block" : "none" }}>
                                 <li>
                                     <Link href="/contact">Contact</Link>
@@ -211,16 +234,19 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                     <Link href="/error">404</Link>
                                 </li>
                             </ul> */}
-                        </li>
-                        <li className="has-dropdown">
-                            <div className="menu-item-with-toggle">
+                        {/* </li> */}
+                        {/* <li className="has-dropdown"> */}
+                            {/* <li>
+                            <Link href="/blog">Blog</Link>
+                            </li> */}
+                            {/* <div className="menu-item-with-toggle">
                                 <Link href="/error" onClick={(e) => e.preventDefault()}>
                                     Blog
                                 </Link>
                                 <span className={`submenu-button${openSubMenus["blog"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("blog")}>
                                     <em />
                                 </span>
-                            </div>
+                            </div> */}
                             {/* <ul className="sub-menu" style={{ display: openSubMenus["blog"] ? "block" : "none" }}>
                                 <li>
                                     <Link href="/blog">Blog</Link>
@@ -235,16 +261,19 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                     <Link href="/blog-details">Blog Details</Link>
                                 </li>
                             </ul> */}
-                        </li>
-                        <li className="has-dropdown">
-                            <div className="menu-item-with-toggle">
+                        {/* </li> */}
+                        {/* <li className="has-dropdown">
+                             <li>
+                            <Link href="/contact">Contact Us</Link>
+                            </li> */}
+                            {/* <div className="menu-item-with-toggle">
                                 <Link href="/error" onClick={(e) => e.preventDefault()}>
                                     Project
                                 </Link>
                                 <span className={`submenu-button${openSubMenus["project"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("project")}>
                                     <em />
                                 </span>
-                            </div>
+                            </div> */}
                             {/* <ul className="sub-menu" style={{ display: openSubMenus["project"] ? "block" : "none" }}>
                                 <li>
                                     <Link href="/project">Project</Link>
@@ -259,15 +288,15 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                     <Link href="/project-details">Project Details</Link>
                                 </li>
                             </ul> */}
-                        </li>
+                        {/* </li> */}
                     </ul>
                     <div className="mobile-button">
-                        {/* <Link className="theme-btn1" href="service">
-                            Learn More
+                        <Link className="theme-btn1" href="service">
+                            Explore Now
                             <span>
                                 <i className="fa-solid fa-arrow-right" />
                             </span>
-                        </Link> */}
+                        </Link>
                     </div>
                     <div className="single-footer-items">
                         <h3>Contact Us</h3>

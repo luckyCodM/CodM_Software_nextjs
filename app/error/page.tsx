@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Layout from "@/components/layout/Layout";
 import SectionHeader from "@/components/layout/SectionHeader";
-import Section2 from "@/components/sections/about/Section3";
+import Section2 from "@/components/sections/about-us/Section3";
 export default function Home() {
     return (
         <>

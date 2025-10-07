@@ -249,7 +249,7 @@ export default function MainMenu() {
                                         <Link href="/blog">Blog</Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog-details-left">Details Left</Link>
+                                        <Link href="/Omnistudio_Vlocity">Details Left</Link>
                                     </li>
                                     <li>
                                         <Link href="/blog-details-right">Details Right</Link>
@@ -301,11 +301,11 @@ export default function MainMenu() {
                     </div>
                 </div>
             </li>
-            {/* <li className="dropdown-menu-parrent">
-                <Link href="/error" className="main1">
+            <li className="dropdown-menu-parrent">
+                <Link href="/field-history-tracking" className="main1">
                     Product 
-                    <i className="fa-solid fa-angle-down" />
-                </Link> */}
+                    {/* <i className="fa-solid fa-angle-down" /> */}
+                </Link>
                 {/* <div className="mega-menu-all">
                     <div className="row">
                         <div className="col-md-3">
@@ -386,7 +386,7 @@ export default function MainMenu() {
                         </div>
                     </div>
                 </div> */}
-            {/* </li> */}
+            </li>
             <li className="dropdown-menu-parrent">
                 <Link href="#" className="main1">
                     Blog <i className="fa-solid fa-angle-down" />
