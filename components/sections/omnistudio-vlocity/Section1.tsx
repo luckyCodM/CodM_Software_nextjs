@@ -183,7 +183,7 @@ export default function Section1() {
                                     </ul>
                                 </div> */}
                                 <div className="details-box2">
-                                    <h3> About Me </h3>
+                                    <h3> About Us </h3>
                                     <p>Boost your business with our customised CRM solutions. Optimised processes, improved customer relationships and
                                         scalable growth we deliver innovations for your success.</p>
                                     <div className="space10" />
@@ -499,7 +499,7 @@ export default function Section1() {
                                         </div>
                                     </div>
 
-                                               <div className="commnet-box">
+                                    <div className="commnet-box">
                                         <div className="top-area">
                                             <div className="author-area">
                                                 <div className="image">

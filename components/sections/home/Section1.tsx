@@ -20,7 +20,7 @@ export default function Section1() {
                                 </p>
                                 <div className="space30" />
                                 <div className="hero1-buttons" data-aos="fade-right" data-aos-duration={1200}>
-                                    <Link className="theme-btn1" href="/error">
+                                    <Link className="theme-btn1" href="/service">
                                         See Our Expertise
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
