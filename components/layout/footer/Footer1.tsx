@@ -112,7 +112,7 @@ export default function Footer() {
                                         <img src="assets/img/icons/footer-icon3.png" alt="" />
                                     </div>
                                     <div className="pera">
-                                        <Link href="#">
+                                        <Link href="https://maps.app.goo.gl/jgc5Jq8gupKgrDhb9" target="_blank" rel="noopener noreferrer">
                                             Supertech Astralis Plot No.1, Sector 94 <br/> Noida, Uttar Pradesh 201301
                                         </Link>
                                     </div>
