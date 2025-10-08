@@ -43,7 +43,7 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMen
                     <div className="col-12">
                         <div className="mobile-header-elements">
                             <div className="mobile-logo">
-                                <Link href="/index1">
+                                <Link href="/">
                                     <img src="assets/img/logo/header-logo1.png" alt="" />
                                 </Link>
                             </div>

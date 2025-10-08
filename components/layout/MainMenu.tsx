@@ -190,7 +190,7 @@ export default function MainMenu() {
                         </div> */}
             </li>
             <li>
-                <Link href="/about">Company</Link>
+                <Link href="/about-us">Company</Link>
             </li>
             <li className="dropdown-menu-parrent">
                 <Link href="#" className="main1">

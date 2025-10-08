@@ -10,7 +10,7 @@ export default function Footer() {
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="single-footer-items footer-logo-area">
                                 <div className="footer-logo">
-                                    <Link href="">
+                                    <Link href="/">
                                         <img src="assets/img/logo/footer-logo1.png" alt="" />
                                     </Link>
                                 </div>
@@ -52,7 +52,7 @@ export default function Footer() {
                                         <Link href="/financial-services-cloud">Financial Services Cloud</Link>
                                     </li>
                                     <li>
-                                        <Link href="agentforce-&-ai">Agentforce & Al</Link>
+                                        <Link href="/agentforce-&-ai">Agentforce & Al</Link>
                                     </li>
                                     <li>
                                         <Link href="#">Education Cloud&nbsp;</Link>
@@ -74,7 +74,7 @@ export default function Footer() {
                                         <Link href="/">Home </Link>
                                     </li>
                                     <li>
-                                        <Link href="/about">About Us</Link>
+                                        <Link href="/about-us">About Us</Link>
                                     </li>
                                     <li>
                                         <Link href="/service">Service</Link>
