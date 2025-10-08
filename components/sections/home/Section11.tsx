@@ -68,7 +68,7 @@ export default function Section11() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/">Financial Services Cloud: Key Features for 2025</Link>
+                                        <Link href="/blog">Financial Services Cloud: Key Features for 2025</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>Salesforce Financial Services Cloud (FSC) is a specialized CRM platform designed to meet the unique needs </p>
@@ -97,12 +97,12 @@ export default function Section11() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/">Configuring Custom Domains in Salesforce</Link>
+                                        <Link href="/blog">Configuring Custom Domains in Salesforce</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>Setting up a custom domain in Salesforce allows companies to personalize their Salesforce URLs, </p>
                                     <div className="space16" />
-                                    <Link href="/blog-details-left" className="learn">
+                                    <Link href="/blog" className="learn">
                                         Explore Now
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
