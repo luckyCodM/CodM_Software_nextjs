@@ -30,10 +30,10 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Price Rule</Link>
+                                        <Link href="/blog-details">Financial Services Cloud: Key Features for 2025</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>A systematic approach guiding businesses in setting prices for products or services, balancing factors like demand, costs </p>
+                                    <p>Whether you're a hiring manager looking to stay ahead of industry trends or a candidate </p>
                                     <div className="space16" />
                                     <Link href="/blog-details" className="learn">
                                         Read More
@@ -59,10 +59,10 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Salesforce winter 23 release</Link>
+                                        <Link href="/blog-details">Configuring Custom Domains in Salesforce</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>In Salesforce CPQ, Product Validation Rules empower businesses to enforce specific criteria or conditions to ensure accurate configuration</p>
+                                    <p>Salesforce Financial Services Cloud (FSC) is a specialized CRM platform designed to meet the unique needs</p>
                                     <div className="space16" />
                                     <Link href="/blog-details" className="learn">
                                         Read More
@@ -88,10 +88,10 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Salesforce winter 24 release</Link>
+                                        <Link href="/blog-details">Named Credentials</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Winter ’24 Release brings powerful new features, enhancements, and innovations to elevate productivity and customer experiences.</p>
+                                    <p>A named credential specifies the URL of a callout endpoint and its required authentication parameters in one definition.</p>
                                     <div className="space16" />
                                     <Link href="/blog-details" className="learn">
                                         Read More

@@ -69,7 +69,7 @@ export default function Section1() {
                                 </div>
                                 <div className="space30" />
                                 <div className="">
-                                    <Link className="theme-btn1" href="#">
+                                    <Link className="theme-btn1" href="/contact">
                                         Contact Us
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />

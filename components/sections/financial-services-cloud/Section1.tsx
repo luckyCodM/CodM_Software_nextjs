@@ -78,22 +78,23 @@ export default function Section1() {
                                     <div className="space10" />
                                     <ul className="icons">
                                         <li>
-                                            <Link href="#">
-                                                <i className="fa-brands fa-youtube" />
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">
+                                            <Link href="https://x.com/CodMSoftware" target="_blank" rel="noopener noreferrer">
                                                 <i className="fa-brands fa-x-twitter" />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
+                                            <Link href="https://www.linkedin.com/company/codmsoftware/" target="_blank" rel="noopener noreferrer">
                                                 <i className="fa-brands fa-linkedin-in" />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
+                                            <Link href="https://www.youtube.com/@CodMSoftware"
+                                                target="_blank" rel="noopener noreferrer">
+                                                <i className="fa-brands fa-youtube" />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="https://in.pinterest.com/codmsoftware" target="_blank" rel="noopener noreferrer">
                                                 <i className="fa-brands fa-pinterest" />
                                             </Link>
                                         </li>

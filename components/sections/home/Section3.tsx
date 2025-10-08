@@ -111,7 +111,7 @@ export default function Section3() {
                                 </div>
                                 <div className="space30" />
                                 <div className="" data-aos="fade-left" data-aos-duration={1100}>
-                                    <Link className="theme-btn1" href="/error">
+                                    <Link className="theme-btn1" href="/about-us">
                                         About Us
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />

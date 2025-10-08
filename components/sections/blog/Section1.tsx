@@ -51,7 +51,7 @@ export default function Section1() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/">Financial Services Cloud: Key Features for 2025</Link>
+                                        <Link href="/financial-service-2025">Financial Services Cloud: Key Features for 2025</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>Whether you're a hiring manager looking to stay ahead of industry trends or a candidate </p>
