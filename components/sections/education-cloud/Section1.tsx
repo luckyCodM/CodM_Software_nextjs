@@ -15,7 +15,7 @@ export default function Section1() {
                                     <ul className="service-list">
                                         <li>
                                             <Link href="#">
-                                                Agentforce & AI
+                                                Education Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -30,8 +30,8 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/education-cloud">
-                                                Education Cloud
+                                            <Link href="/agentforce-ai">
+                                                Agentforce & AI
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -75,7 +75,7 @@ export default function Section1() {
                                     <div className="space10" />
                                     <ul className="icons">
                                         <li>
-                                             <Link href="https://x.com/CodMSoftware"
+                                            <Link href="https://x.com/CodMSoftware"
                                                 target="_blank" rel="noopener noreferrer">
                                                 <i className="fa-brands fa-x-twitter" />
                                             </Link>
@@ -87,7 +87,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                           <Link href="https://www.youtube.com/@CodMSoftware"
+                                            <Link href="https://www.youtube.com/@CodMSoftware"
                                                 target="_blank" rel="noopener noreferrer">
                                                 <i className="fa-brands fa-youtube" />
                                             </Link>
@@ -110,39 +110,44 @@ export default function Section1() {
                                             <img src="assets/img/service/service-details-img1.png" alt="" />
                                         </div>
                                         <div className="space30" />
-                                        <h2>Agentforce & AI </h2>
+                                        <h2>What is Salesforce Education Cloud?</h2>
                                         <div className="space16" />
-                                        <p>Agentforce provides customer service agents with tools and real-time data to boost productivity, resolve issues, and offer personalized solutions.</p>
+                                        <p>Salesforce Education Cloud is a platform designed for educational institutions to streamline their end-to-end processes from staff recruitment, admissions, student success, alumni engagement, and other operations in a single platform. It gives a complete view of every student and stakeholder.</p>
                                         <div className="space10" />
-                                        <p>AI in Salesforce uses Einstein to automate manual tasks, provide better insights, forecast trends, and guide agents with smart suggestions to improve efficiency and customer satisfaction.</p>
+                                        <p>Whether you’re a school, college, university, or training institute, Education Cloud helps you:</p>
+                                        <div className="space10" />
+                                        <p>✔ Personalize student experiences</p>
+                                        <p>✔ Improve communication and engagement</p>
+                                        <p>✔ Streamline administrative tasks</p>
+                                        <p>✔ Make data-driven decisions for better outcomes</p>
                                         <div className="space30" />
-                                        <h3>Benefits of Agentforce and AI in Salesforce</h3>
+                                        <h3>Benefits of Education Cloud</h3>
                                         <div className="space16" />
-                                        <p>1. Improved Agent Productivity- Agents can access everything in one place to reduce the overall data handling time whether it is customer data, knowledge bases, or workflow.</p>
+                                        <p>1. 360-degree Student View: It helps you to track every interaction with students from enrollment to graduation in one platform.</p>
                                         <div className="space10" />
-                                        <p>2. Enhanced Customer Experience- We provide personalized interaction that are powered by AI suggestions, and advanced analytics to create more meaning ful interactions.</p>
+                                        <p>2. Improved Student Engagement: It helps you to use personalized communication and automation to boost student involvement, engagement, and satisfaction.</p>
                                         <div className="space10" />
-                                        <p>3. Faster Case Resolution- Automation tools are used to ensure all the cases are addressed on priority by the agents.</p>
+                                        <p>3. Streamlined admission and recruitment process: Education Cloud helps institutions to simplify their admission and recruitment processes by managing applications, compiling leads, and converting them into enrolled students and staff.</p>
                                         <div className="space10" />
-                                        <p>4. Data-Driven Decisions- To help the managers observe performance and forecast customer needs accurately AI-driven tools are used.</p>
+                                        <p>4. Enhanced Efficiency: It helps you to automate your daily manual tasks, manage all the data, and free the staff from manual data management tasks to focus on student success.</p>
                                         <div className="space10" />
-                                        <p>5. Seamless Collaboration- To help agents to share the best practices and work together in real-time integrated communication tools are used.</p>
+                                        <p>5. Stronger Alumni and Donor Relationships: Education Cloud can effectively manage the institute's alumni database, fundraising and other campaigns, and donor engagements from a single platform.</p>
                                         <div className="space10" />
-                                        <p>6. Scalability- AI-powered solutions can help transform workload without any compromise in the service quality irrespective of the team size.</p>
+                                        <p>6. Scalable and Customizable: You can tailor the system according to your institution's unique needs and processes, ensuring the system evolves as the organization grows.</p>
                                         <div className="space30" />
-                                        <h3>Why Choose CodM Software for Agentforce & AI Services?</h3>
+                                        <h3>Why choose CodM Software for Salesforce Education Cloud implementation?</h3>
                                         <div className="space16" />
-                                        <p>1. Salesforce Expertise- We are a trusted Salesforce partner with certified experts who bring deep domain knowledge and technical expertise in implementing Service Cloud & Einstein AI.</p>
+                                        <p>1. Education-Focused Expertise: Our expert team at CodM understands the unique challenges and needs of educational institutions and customizes Salesforce solutions to meet those needs.</p>
                                         <div className="space16" />
-                                        <p>2. Customized Solutions- As per the unique industry-specific requirements, we provide customized Agentforce & AI tools, which ensure maximum impact & ROI.</p>
+                                        <p>2. Certified Salesforce Professional: We bring technical expertise, Salesforce certifications, and industry knowledge to deliver reliable, scalable Education Cloud solutions.</p>
                                         <div className="space16" />
-                                        <p>3. End-to-End Support- From strategy, implementation, training & support we provide support and guide you in every step of the journey.</p>
+                                        <p>3. End-to-End Support: From strategy, system design, implementation, training, and support, we provide support and guide you in every step of the journey.</p>
                                         <div className="space16" />
-                                        <p>4. Proven Track Record- We have successfully delivered customer service solutions to our clients globally and helped them in improving efficiency and customer satisfaction.</p>
+                                        <p>4. Custom solutions for every institution: We understand that no two institutions are the same; that’s why we built the Education Cloud solutions that align with your institute’s processes, students’ needs, and organizational goals.</p>
                                         <div className="space16" />
                                         <p>5. Security & Compliance- To ensure that the data and information of your customers is safe and secure, we follow best industry practices for data protection and regulatory compliance.</p>
                                         <div className="space16" />
-                                        <p>6. Continuous Innovation- To ensure you stay ahead of the competition, we stay updated on the latest AI advancements and Salesforce features.</p>
+                                        <p>6. Proven Track Record: We have helped multiple institutions implement Education Cloud and helped them improve their operations, student engagement, and outcomes.</p>
                                     </div>
                                 </article>
                                 <div className="space30" />
@@ -183,51 +188,41 @@ export default function Section1() {
                                         <div className="accordion-item active">
                                             <h2 className="accordion-header" id="flush-headingOne">
                                                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                    What is the difference between Agentforce & AI in Salesforce?
+                                                    Who can use Salesforce Education Cloud?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Agentsforce aims on providing agents with tools, workflow, and data access to enhance productivity, while AI focuses on advanced algorithms to provide insights, forecasts, and automation to guide agents and enhance decision-making.</div>   
+                                                <div className="accordion-body">Education Cloud is ideal for schools, colleges, universities, training institutes, online education institutions, etc. It can be used by all educational institutions that are looking to streamline their processes and improve engagement, operations, and student success.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingTwo">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                    Is technical knowledge required to use these tools?
+                                                    Can CodM Software customize Education Cloud to our requirements?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">No. The Salesforce interface is user-friendly, and it requires minimal technical knowledge to guide agents using AI suggestions. We also provide training and overall support to ensure smooth adoption. </div>
+                                                <div className="accordion-body">Yes, we can tailor Salesforce Education Cloud to align with your unique needs and requirements, whether it is the admission process, communication workflow, support service for students and administrative staff, etc. </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingThree">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                                    Can AI in Salesforce replace human agents?
+                                                    Can Education Cloud help with student retention?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">TAI can enhance, not replace, human agents. It automates the monotonous work and provides meaningful insights, but it cannot replace the empathy and human judgment that are essential for customer interactions. </div>
+                                                <div className="accordion-body">Definitely, with real-time data and personalized engagement tools, institutions can proactively support at-risk students, improving retention and graduation rates. </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingFour">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                                    How quickly can Agentforce & AI solutions be implemented?
+                                                    How secure is the data on Education Cloud?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Implementation time can vary depending upon the complexity of the business process and unique requirements. It can take anywhere from a few weeks to a few months, with CodM Software assisting in planning and execution. </div>
-                                            </div>
-                                        </div>
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header" id="flush-headingFive">
-                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                                    Is AI safe for handling sensitive customer information?
-                                                </button>
-                                            </h2>
-                                            <div id="flush-collapseFive" className="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Yes. Salesforce’s Einstein AI follows strict data privacy protocols and encryption standards. CodM Software ensures that your deployment complies with industry regulations and security best practices. </div>
+                                                <div className="accordion-body">Salesforce provides enterprise-grade security, and CodM Software follows best practices to ensure your data is protected, compliant, and accessible only to authorized users. </div>
                                             </div>
                                         </div>
                                     </div>

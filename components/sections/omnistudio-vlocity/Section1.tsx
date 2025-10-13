@@ -238,7 +238,7 @@ export default function Section1() {
                                 <article>
                                     <div className="blog-details-box">
                                         <div className="image">
-                                            <img src="assets/img/blog/blog-details-img2.png" alt="" />
+                                            <img src="assets/img/blog/Omni-blog1.png" alt="" />
                                         </div>
                                         <div className="space30" />
                                         <div className="heading1">

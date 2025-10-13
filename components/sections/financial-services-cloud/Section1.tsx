@@ -64,12 +64,9 @@ export default function Section1() {
                                 </div>
                                 <div className="details-box2">
                                     <h3>Download Brochure</h3>
-                                    {/* <p>Join us on this journey as we share our expertise, ignite conversations</p> */}
+                                    <p>Boost your business with our customised CRM solutions. Optimised processes, improved customer relationships and scalable growth we deliver innovations for your success.</p>
                                     <div className="space10" />
-                                    <Link href="#" className="download-btn1">
-                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
-                                    </Link>
-                                    <Link href="#" className="download-btn2">
+                                    <Link href="/assets/img/codmsoftware_pdf/CodM_Software_Portfolio_Profile.pdf" className="download-btn1">
                                         <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
                                     </Link>
                                 </div>
@@ -78,12 +75,14 @@ export default function Section1() {
                                     <div className="space10" />
                                     <ul className="icons">
                                         <li>
-                                            <Link href="https://x.com/CodMSoftware" target="_blank" rel="noopener noreferrer">
+                                            <Link href="https://x.com/CodMSoftware"
+                                                target="_blank" rel="noopener noreferrer">
                                                 <i className="fa-brands fa-x-twitter" />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="https://www.linkedin.com/company/codmsoftware/" target="_blank" rel="noopener noreferrer">
+                                            <Link href="https://www.linkedin.com/company/codmsoftware/"
+                                                target="_blank" rel="noopener noreferrer">
                                                 <i className="fa-brands fa-linkedin-in" />
                                             </Link>
                                         </li>
@@ -94,7 +93,8 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="https://in.pinterest.com/codmsoftware" target="_blank" rel="noopener noreferrer">
+                                            <Link href="https://in.pinterest.com/codmsoftware"
+                                                target="_blank" rel="noopener noreferrer">
                                                 <i className="fa-brands fa-pinterest" />
                                             </Link>
                                         </li>
@@ -115,15 +115,15 @@ export default function Section1() {
                                         <p>FSC is a platform that brings together the client information, sales data, service etc for the financial sector. FSC provides a 360 degree view of clients and helps in automating everyday process to help deliver the exceptional service.</p>
                                         <p>FSC helps you in:</p>
                                         <p>-Strengthen client relationships</p>
-                                        <p>-Stramline workflow</p>
+                                        <p>-Streamline workflow</p>
                                         <p>-Maintain Regulatory compliance</p>
-                                        <p>-Financial advice as per requiremets</p>
+                                        <p>-Financial advice as per requirements</p>
                                         <div className="space30" />
                                         <h3>Benefits of Financial Service Cloud</h3>
                                         <div className="space16" />
                                         <p>1. 360 degree client view- An all in one place to access complete client profiles, financial accounts, interaction, and goals.</p>
                                         <p>2. Personalized Client experience- Helps in delivering tailored solution, recommendations and financial advice with real time insights.</p>
-                                        <p>3. Improved Productivity- Automate tasks, manage workflow effecintly, and let the team foucus on building client relationships</p>
+                                        <p>3. Improved Productivity- Automate tasks, manage workflow efficiently, and let the team foucus on building client relationships</p>
                                         <p>4. Built-in Compliance and Security- While protecting client data also stay compliant with industry regulations.</p>
                                         <p>5. Streamlined Collaboration- Teams across various department can work together with shared data and simplified process.</p>
                                         <p>6. Scalable for Growth- FSC evolves with your business, supporting everything from startups to large enterprises.</p>

@@ -291,7 +291,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                         {/* </li> */}
                     </ul>
                     <div className="mobile-button">
-                        <Link className="theme-btn1" href="service">
+                        <Link className="theme-btn1" href="/service">
                             Explore Now
                             <span>
                                 <i className="fa-solid fa-arrow-right" />

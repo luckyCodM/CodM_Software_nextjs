@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "CODM SOFTWARE | Salesforce Consulting Ridge Partner",
-    description: "CodM Software: Top Salesforce CRM consultants in India. Expert API integration, cloud solutions & data automation to boost efficiency.",
+    description: "CodM Software Top Salesforce CRM consultants in India. Expert API integration, cloud solutions & data automation to boost efficiency.",
 };
 
 export default function RootLayout({

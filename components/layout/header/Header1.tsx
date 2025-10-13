@@ -24,7 +24,7 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMen
                                     <div className="header2-buttons">
                                         <div className="button">
                                             <Link className="theme-btn1" href="/contact">
-                                                Get A Quote
+                                                Start Your Project
                                                 <span>
                                                     <i className="fa-solid fa-arrow-right" />
                                                 </span>

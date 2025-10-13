@@ -198,17 +198,17 @@ export default function Section1() {
                                 <article>
                                     <div className="blog-details-box">
                                         <div className="image">
-                                            <img src="assets/img/blog/blog2-fin1.png" alt="" />
+                                            <img src="assets/img/blog/winter-23.png" alt="" />
                                         </div>
                                         <ul className="users">
                                             <li>
-                                                <img className="author" src="assets/img/blog/blogF-img1.png" alt="" /> <Link href="#"> Tannu Singh </Link>
+                                                <img className="author" src="assets/img/blog/blog-details-othor.png" alt="" /> <Link href="#">Bhav Malhotra </Link>
                                             </li>
                                             <li>
-                                                <img src="assets/img/icons/blog-details-icon1.png" alt="" /> <Link href="#"> March 11, 2025</Link>
+                                                <img src="assets/img/icons/blog-details-icon1.png" alt="" /> <Link href="#"> October 11, 2023</Link>
                                             </li>
                                             <li>
-                                                <img src="assets/img/icons/blog-details-icon2.png" alt="" /> <Link href="#">Financial Services Cloud 2025 </Link>
+                                                <img src="assets/img/icons/blog-details-icon2.png" alt="" /> <Link href="#">Winter 23 release</Link>
                                             </li>
                                             <li>
                                                 <img src="assets/img/icons/blog-details-icon3.png" alt="" /> <Link href="#"> 2 Comments</Link>
@@ -216,51 +216,11 @@ export default function Section1() {
                                         </ul>
                                         <div className="space10" />
                                         <div className="heading1">
-                                            <h2>What is Salesforce Financial Services Cloud?</h2>
+                                            <h2>Salesforce winter 23 release</h2>
                                             <div className="space16" />
-                                            <p>Salesforce Financial Services Cloud (FSC) is a specialized CRM platform built on Salesforce's core infrastructure, designed to help financial institutions
-                                                deliver personalized advice, manage customer interactions, and streamline operations across banking, wealth management, and insurance. Financial Services Cloud
-                                                provides your users with the tools that let them focus on high-value customer activities instead of routine, administrative tasks. As an admin, you get the
-                                                trusted power, security, and scalability of the Salesforce platform—tailored to streamline implementation for financial institutions. Start with a Financial
-                                                Services Cloud trial org. Or install the Financial Services Cloud managed package and the unmanaged extension package. Connect data from your banking, portfolio
-                                                management, financial planning, and other systems. And then configure the app to suit how your users like to work.</p>
-                                            <div className="space16" />
-                                            <p>Key Components of Financial Services Cloud:</p>
-                                            <div className="space16" />
-                                            <div className="project-details-list">
-                                                <ul>
-                                                    <li>
-                                                        <span>
-                                                            <i className="fa-solid fa-check" />
-                                                        </span>
-                                                        AI-Driven Insights & Automation
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <i className="fa-solid fa-check" />
-                                                        </span>
-                                                        360-Degree Customer View
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <i className="fa-solid fa-check" />
-                                                        </span>
-                                                        Enhanced Compliance & Security
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <i className="fa-solid fa-check" />
-                                                        </span>
-                                                        Omnichannel Engagement & Client Servicing
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <i className="fa-solid fa-check" />
-                                                        </span>
-                                                        Embedded Financial Products & Ecosystem Integration
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            <p>The release includes new features and improvements for Lightning Experience, Salesforce Flow,
+                                                Lightning Web Component, Apex, Experience Cloud, Einstein Automate, Customer Data Platform,
+                                                Field Service, Marketing Cloud Account Engagement, Quip, and CRM Analytics.</p>
                                         </div>
                                     </div>
                                 </article>
@@ -274,56 +234,18 @@ export default function Section1() {
                                         </div>
                                         <div className="space30" />
                                         <div className="heading1">
-                                            <h3>Introduction</h3>
-                                            <div className="space16" />
-                                            <p>Salesforce Financial Services Cloud (FSC) is a specialized CRM platform designed to meet the unique needs
-                                                of financial institutions such as banks, wealth management firms, insurance companies, and lenders.
-                                                It continues to be a game-changer for financial institutions, offering innovative tools to enhance
-                                                customer engagement, streamline operations, and ensure compliance. In 2025, FSC introduces new AI-driven
-                                                capabilities, automation enhancements, and compliance tools that revolutionize the financial industry.</p>
+                                            <h3>1. Create Overlays with the New Modal Component</h3>
+                                            <div className="space10" />
+                                            <p>Use modals to interrupt a user’s workflow and draw attention to an important message.
+                                                A modal, which displays the message on top of the current app window, requires a
+                                                user to interact with it to regain control over the app.</p>
+                                            <div className="space10" />
+                                            <p> To create a modal component, import LightningModal from lightning/modal in your JavaScript file. Then, create a component class that extends LightningModal.</p>
+                                            <div className="space10" />
+                                            <p>This component doesn’t use a lightning-modal tag. Instead, the modal’s HTML template uses helper lightning-modal-* components to make the modal’s header, footer, and body. The lightning-modal-body component is required, and the others are optional.</p>
                                         </div>
                                         <div className="space20" />
-                                        <h3>Key Features :–</h3>
-                                        <div className="project-details-list">
-                                            <ul>
-                                                <li>
-                                                    <span>
-                                                        <i className="fa-solid fa-check" />
-                                                    </span>
-                                                    Einstein for Banking and Wealth
-                                                </li>
-                                                <li>
-                                                    <span>
-                                                        <i className="fa-solid fa-check" />
-                                                    </span>
-                                                    Einstein for Insurance
-                                                </li>
-                                                <li>
-                                                    <span>
-                                                        <i className="fa-solid fa-check" />
-                                                    </span>
-                                                    Data Cloud for Insurance
-                                                </li>
-                                                <li>
-                                                    <span>
-                                                        <i className="fa-solid fa-check" />
-                                                    </span>
-                                                    Business Relationship Planning
-                                                </li>
-                                                <li>
-                                                    <span>
-                                                        <i className="fa-solid fa-check" />
-                                                    </span>
-                                                    Contextual Alerts
-                                                </li>
-                                                <li>
-                                                    <span>
-                                                        <i className="fa-solid fa-check" />
-                                                    </span>
-                                                    Fact Finding for Wealth Managers
-                                                </li>
-                                            </ul>
-                                        </div>
+
                                     </div>
                                 </article>
                                 <div className="after-box-details">
@@ -384,6 +306,38 @@ export default function Section1() {
                                         </div>
                                     </div>
                                 </div>
+                                <article>
+                                    <div className="heading1">
+                                        <div className="space30" />
+                                        <h3>FAQ</h3>
+                                        <div className="space16" />
+                                        <p>Our temp-to-hire programs offer the flexibility to assess candidates on the job before making a permanent hiring decision, minimizing risk &amp; ensuring a cultural fit.</p>
+                                        <div className="space16" />
+                                        <p>Our executive search services specialize in identifying and attracting top-level executives and leadership talent to drive your organization's success and growth.</p>
+                                        <div className="row">
+                                            <div className="col-lg-6">
+                                                <div className="space30" />
+                                                <div className="image">
+                                                    <img src="assets/img/service/service-details-img2.png" alt="" />
+                                                </div>
+                                                <div className="space16" />
+                                                <div className="heading1">
+                                                    <p>Our direct hire solutions streamline the recruitment process, delivering qualified candidates directly to your organization</p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="space30" />
+                                                <div className="image">
+                                                    <img src="assets/img/service/service-details-img3.png" alt="" />
+                                                </div>
+                                                <div className="space16" />
+                                                <div className="heading1">
+                                                    <p>Our temporary staffing services provide flexible workforce solutions to meet short-term staffing needs, whether for seasonal</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
                                 <div className="tags-icons">
                                     <div className="row align-items-center">
                                         <div className="col-lg-6">
@@ -402,14 +356,16 @@ export default function Section1() {
                                         <div className="col-lg-6">
                                             <div className="details-icons">
                                                 <ul>
-                                                    <li className="text">Follow Us</li>
+                                                    <li className="text">Post Tags:</li>
                                                     <li>
-                                                        <Link href="https://x.com/CodMSoftware" target="_blank" rel="noopener noreferrer">
+                                                        <Link href="https://x.com/CodMSoftware"
+                                                            target="_blank" rel="noopener noreferrer">
                                                             <i className="fa-brands fa-x-twitter" />
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link href="https://www.linkedin.com/company/codmsoftware/" target="_blank" rel="noopener noreferrer">
+                                                        <Link href="https://www.linkedin.com/company/codmsoftware/"
+                                                            target="_blank" rel="noopener noreferrer">
                                                             <i className="fa-brands fa-linkedin-in" />
                                                         </Link>
                                                     </li>
@@ -419,6 +375,12 @@ export default function Section1() {
                                                             <i className="fa-brands fa-youtube" />
                                                         </Link>
                                                     </li>
+                                                    <li>
+                                                        <Link href="https://in.pinterest.com/codmsoftware"
+                                                            target="_blank" rel="noopener noreferrer">
+                                                            <i className="fa-brands fa-pinterest" />
+                                                        </Link>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -426,13 +388,9 @@ export default function Section1() {
                                 </div>
                                 <div className="blog-details-border" />
                                 <div className="heading1">
-                                    <h3>Security and Compliance of Salesforce Financial Cloud Services</h3>
+                                    <h3 />
+                                    <h3>OmniScripts</h3>
                                 </div>
-                                <div className="space16" />
-                                <div className="heading1">
-                                    <p>Salesforce Financial Services Cloud (FSC) is designed to meet the stringent security and compliance requirements of the financial industry. Key aspects include:</p>
-                                </div>
-
                                 <div className="blog-details-commnet-boxs">
                                     <div className="commnet-box">
                                         <div className="top-area">
@@ -442,7 +400,7 @@ export default function Section1() {
                                                 </div>
                                                 <div className="heading">
                                                     <h5>
-                                                        <Link href="#">1. Compliance Certifications and Attestations</Link>
+                                                        <Link href="#">1. Design for Modularity and Reusability</Link>
                                                     </h5>
                                                     {/* <p>8/01/2023</p> */}
                                                 </div>
@@ -456,9 +414,9 @@ export default function Section1() {
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p>Salesforce Financial Services Cloud (FSC) addresses the aspect of trust by providing a list of compliance certifications and attestations. It complies with internationally accepted best practices like ISO 27001, ISO 27017, and ISO 27018.</p>
+                                            <p>Break down OmniScripts into reusable components (e.g., use child OmniScripts and reusable FlexCards).</p>
                                             <div className="space10" />
-                                            <p>Moreover, being SOC 1, SOC 2, and PCI DSS compliant assures that the FSC has taken necessary measures to protect financial data. These certifications provide the necessary assurance to financial institutions that FSC can depend on compliance and data protection.</p>
+                                            <p>Leverage reusable actions and templates to minimize redundant configurations.</p>
 
                                         </div>
                                     </div>
@@ -471,7 +429,7 @@ export default function Section1() {
                                                 </div>
                                                 <div className="heading">
                                                     <h5>
-                                                        <Link href="#">2. Data Security Measures</Link>
+                                                        <Link href="#">2. Optimize Performance</Link>
                                                     </h5>
                                                     {/* <p>8/01/2023</p> */}
                                                 </div>
@@ -485,9 +443,11 @@ export default function Section1() {
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p>Data security measures have been adopted widely in FSC to ensure that important information is well protected. Platform Encryption guarantees information's safety if stored, and this incorporates specific information such as PII and financial details.</p>
+                                            <p>Reduce the number of steps and elements to enhance user experience.</p>
                                             <div className="space10" />
-                                            <p>The Field Audit Trail feature provides data history for 10 years, allowing the company to meet retention frameworks where data history is mandatory.</p>
+                                            <p>Use conditional rendering and pre-fill data to minimize unnecessary API calls.</p>
+                                            <div className="space10" />
+                                            <p>Avoid unnecessary data retrieval by using Integration Procedures for backend processing.</p>
                                         </div>
                                     </div>
                                     <div className="commnet-box">
@@ -498,7 +458,7 @@ export default function Section1() {
                                                 </div>
                                                 <div className="heading">
                                                     <h5>
-                                                        <Link href="#">3. Support for Regulatory Compliance</Link>
+                                                        <Link href="#">3. Enable Error Handling and Logging</Link>
                                                     </h5>
                                                     {/* <p>8/01/2023</p> */}
                                                 </div>
@@ -512,9 +472,9 @@ export default function Section1() {
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p>FSC is designed primarily to assist financial institutions in maximal compliance with industry regulations. Most of them provide compliance features that help to simplify adherence to complex financial services compliance standards.</p>
+                                            <p>Implement clear error messages to guide users.</p>
                                             <div className="space10" />
-                                            <p>Such support empowers organizations to be assured of compliance with their regulatory requirements while attending to their primary business.</p>
+                                            <p>Use the OmniScript Debugger to troubleshoot issues effectively.</p>
 
                                         </div>
                                     </div>
@@ -527,7 +487,7 @@ export default function Section1() {
                                                 </div>
                                                 <div className="heading">
                                                     <h5>
-                                                        <Link href="#">4. Security Best Practices</Link>
+                                                        <Link href="#">4. Utilize DataRaptor and Integration Procedures Efficiently</Link>
                                                     </h5>
                                                     {/* <p>8/01/2023</p> */}
                                                 </div>
@@ -541,9 +501,40 @@ export default function Section1() {
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p>Salesforce also offers guidelines on how to enhance data ownership & protection within FSC. They include advice on how to handle user privileges and the guidelines that should be followed when setting and enforcing password requirements.</p>
+                                            <p>Use DataRaptor Extract to retrieve data instead of making API calls directly.</p>
                                             <div className="space10" />
-                                            <p>Through these practices, financial institutions can improve their overall security profile and eliminate possible weaknesses.</p>
+                                            <p>Use Integration Procedures to process and transform data before displaying it in OmniScript.</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="commnet-box">
+                                        <div className="top-area">
+                                            <div className="author-area">
+                                                <div className="image">
+                                                    {/* <img src="assets/img/blog/comment-img1.png" alt="" /> */}
+                                                </div>
+                                                <div className="heading">
+                                                    <h5>
+                                                        <Link href="#">5. Follow UI/UX Best Practices</Link>
+                                                    </h5>
+                                                    {/* <p>8/01/2023</p> */}
+                                                </div>
+                                            </div>
+                                            {/* <Link href="#" className="reply-btn">
+                                                <span>
+                                                    <i className="fa-solid fa-reply" />
+                                                </span>
+                                                Reply
+                                            </Link> */}
+                                        </div>
+                                        <div className="space16" />
+                                        <div className="heading1">
+                                            <p>Keep OmniScripts intuitive with clear labels and guided steps.</p>
+                                            <div className="space10" />
+                                            <p>Use Progress Bars and Conditional Views to enhance user experience.</p>
+                                            <div className="space10" />
+                                            <p>Minimize the number of clicks required for users to complete tasks.</p>
+
                                         </div>
                                     </div>
                                 </div>

@@ -59,7 +59,7 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/error">Education Cloud</Link>
+                                            <Link href="/education-cloud">Education Cloud</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Whether you're looking for temporary staffing, direct hire placements, </p>

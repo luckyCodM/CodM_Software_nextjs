@@ -30,12 +30,12 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/error">Price Rule</Link>
+                                        <Link href="/blog-details">Financial Services Cloud: Key Features for 2025</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>A systematic approach guiding businesses in setting prices for products or services, balancing factors like demand, costs </p>
+                                    <p>Salesforce Financial Services Cloud (FSC) is a specialized CRM platform designed to meet the unique needs </p>
                                     <div className="space16" />
-                                    <Link href="/error" className="learn">
+                                    <Link href="/blog-details" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -59,12 +59,12 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/error">Salesforce winter 23 release</Link>
+                                        <Link href="/blog-details">Configuring Custom Domains in Salesforce</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>New data table component and enhanced lookup and filtering options, and enhancements to Dynamic Forms.</p>
+                                    <p>Setting up a custom domain in Salesforce allows companies to personalize their Salesforce URLs,</p>
                                     <div className="space16" />
-                                    <Link href="/error" className="learn">
+                                    <Link href="/blog-details" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -88,12 +88,12 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/error">Salesforce winter 24 release</Link>
+                                        <Link href="/blog-details">Named Credentials</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Winter ’24 Release brings powerful new features, enhancements, and innovations to elevate productivity and customer experiences.</p>
+                                    <p>A named credential specifies the URL of a callout endpoint and its required authentication parameters in one definition.</p>
                                     <div className="space16" />
-                                    <Link href="/error" className="learn">
+                                    <Link href="/blog-details" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />

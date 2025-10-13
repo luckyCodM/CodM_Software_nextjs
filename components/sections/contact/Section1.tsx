@@ -112,7 +112,7 @@ export default function Section1() {
                                 onSubmit={handleSubmit}
                             >
                                 <input type="hidden" name="oid" value="00D5i000008yVNX" />
-                                <input type="hidden" name="retURL" value="https://www.codmsoftware.com" />
+                                <input type="hidden" name="retURL" value="codmsoftware.com" />
                                 <input type="hidden" name="lead_source" value="Web" />
 
                                 <div className="row">
