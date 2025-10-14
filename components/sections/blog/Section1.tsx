@@ -51,7 +51,7 @@ export default function Section1() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/financial-service-2025">Financial Services Cloud: Key Features for 2025</Link>
+                                        <Link href="/financial-service-2025"> Financial Services Cloud: Key Features for 2025 </Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>Financial Services Cloud (FSC) is a specialized CRM platform designed to meet the unique needs </p>
@@ -94,7 +94,7 @@ export default function Section1() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        {/* <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
                                     <img src="assets/img/blog/blog2-img4.png" alt="" />
@@ -122,8 +122,8 @@ export default function Section1() {
                                     </Link>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
+                        </div> */}
+                        {/* <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
                                     <img src="assets/img/blog/blog2-img5.png" alt="" />
@@ -151,7 +151,7 @@ export default function Section1() {
                                     </Link>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
@@ -181,7 +181,7 @@ export default function Section1() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        {/* <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
                                     <img src="assets/img/blog/blog2-img7.png" alt="" />
@@ -209,7 +209,7 @@ export default function Section1() {
                                     </Link>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">

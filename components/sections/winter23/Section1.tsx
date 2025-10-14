@@ -30,7 +30,7 @@ export default function Section1() {
                                     </div>
                                 </div>
                                 <div className="details-box2">
-                                    <h3>Categories</h3>
+                                    <h3>Our Services</h3>
                                     <div className="space10" />
                                     <ul className="service-list">
                                         <li>
@@ -50,7 +50,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/error">
+                                            <Link href="/education-cloud">
                                                 Education Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
@@ -60,7 +60,6 @@ export default function Section1() {
                                         <li>
                                             <Link href="/error">
                                                 Salesforce Customer 360
-
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -230,7 +229,7 @@ export default function Section1() {
                                 <article>
                                     <div className="blog-details-box">
                                         <div className="image">
-                                            <img src="assets/img/blog/blog-details-img2.png" alt="" />
+                                            <img src="assets/img/blog/blog-details-img3.png" alt="" />
                                         </div>
                                         <div className="space30" />
                                         <div className="heading1">
@@ -309,11 +308,11 @@ export default function Section1() {
                                 <article>
                                     <div className="heading1">
                                         <div className="space30" />
-                                        <h3>FAQ</h3>
+                                        <h3>2. Fix Invalid Template Usage to Avoid Warning When Component Loading</h3>
                                         <div className="space16" />
-                                        <p>Our temp-to-hire programs offer the flexibility to assess candidates on the job before making a permanent hiring decision, minimizing risk &amp; ensuring a cultural fit.</p>
+                                        <p>Loading an LWC component results in a warning if your component includes a  <code>&lt;template&gt;</code> element includes an invalid attribute. For non-root <code>&lt;template&gt;</code> elements, only the following directives are supported: <code>for:each</code>, <code>iterator:iteratorName</code>, and <code>if:true|false</code>. We strongly recommend resolving any issues by removing any invalid attributes from your component's <code>&lt;template&gt;</code> element.</p>
                                         <div className="space16" />
-                                        <p>Our executive search services specialize in identifying and attracting top-level executives and leadership talent to drive your organization's success and growth.</p>
+                                        {/* <p>In Spring’23, this invalid usage of the <code>&lt;template&gt;</code> element doesn’t render correctly, and loading a component that contains this invalid usage will result in an error. For example, the non-root <code>&lt;template&gt;</code> element in this example contains an invalid attribute.</p> */}
                                         <div className="row">
                                             <div className="col-lg-6">
                                                 <div className="space30" />
@@ -322,7 +321,7 @@ export default function Section1() {
                                                 </div>
                                                 <div className="space16" />
                                                 <div className="heading1">
-                                                    <p>Our direct hire solutions streamline the recruitment process, delivering qualified candidates directly to your organization</p>
+                                                    <p>In Spring’23, this invalid usage of the <code>&lt;template&gt;</code> element doesn’t render correctly, and loading a component that contains this invalid usage will result in an error. For example, the non-root <code>&lt;template&gt;</code> element in this example contains an invalid attribute.</p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6">
@@ -332,7 +331,39 @@ export default function Section1() {
                                                 </div>
                                                 <div className="space16" />
                                                 <div className="heading1">
-                                                    <p>Our temporary staffing services provide flexible workforce solutions to meet short-term staffing needs, whether for seasonal</p>
+                                                    <p>To fix the warning and ensure that your component continues to load correctly in future releases, remove the invalid attribute or use another element like <code>&lt;div&gt;</code> or <code>&lt;span&gt;</code>, depending on your use case.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div className="heading1">
+                                        <div className="space30" />
+                                        <h3>3.Be Ready for Multi-Factor Authentication Auto-Enablement</h3>
+                                        <div className="space16" />
+                                        <p>The requirement to use multi-factor authentication (MFA) when accessing Salesforce products went into effect on February 1, 2022. All users must now use MFA when they login to Salesforce, whether they’re logging in directly or using single sign-on (SSO). To help customers satisfy this requirement, in the first half of 2023, Salesforce is automatically enabling MFA for direct logins. In the September 2023 timeframe, we’re enforcing MFA by making it a permanent part of the Salesforce login process. To avoid disruptions to your users when these milestones occur, enable MFA as soon as possible.</p>
+                                        <div className="space16" />
+                                        <p>There are several enhancements in Salesforce Flow  as follows:</p>
+                                        <div className="row">
+                                            <div className="col-lg-6">
+                                                <div className="space30" />
+                                                <div className="image">
+                                                    <img src="assets/img/service/service-details-img2.png" alt="" />
+                                                </div>
+                                                <div className="space16" />
+                                                <div className="heading1">
+                                                    <p><b>Cut and Paste Flow Elements:</b> Change the order of flow elements auto-layout faster by using cut and paste.Change the order of flow elements auto-layout faster by using cut and paste. Previously, to move an element on the canvas, you copied and pasted the element then deleted the original element, and then you updated the API name of the pasted element. </p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="space30" />
+                                                <div className="image">
+                                                    <img src="assets/img/service/service-details-img3.png" alt="" />
+                                                </div>
+                                                <div className="space16" />
+                                                <div className="heading1">
+                                                    <p><b>Use Formula Builder in Flow Resources and Collection Filter Elements:</b> You can now use an enhanced formula builder in Flow Formula-type resources and the Collection Filter element. The builder guides you through the syntax so that you can create an expression more easily. Instead of waiting until you save a flow, you can check the formula syntax and catch errors as you work.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -389,7 +420,7 @@ export default function Section1() {
                                 <div className="blog-details-border" />
                                 <div className="heading1">
                                     <h3 />
-                                    <h3>OmniScripts</h3>
+                                    <h3>Salesforce Flow Enhancements</h3>
                                 </div>
                                 <div className="blog-details-commnet-boxs">
                                     <div className="commnet-box">
@@ -400,7 +431,7 @@ export default function Section1() {
                                                 </div>
                                                 <div className="heading">
                                                     <h5>
-                                                        <Link href="#">1. Design for Modularity and Reusability</Link>
+                                                        <Link href="#"> Select Multiple Records in the Lookup Flow Screen Component :</Link>
                                                     </h5>
                                                     {/* <p>8/01/2023</p> */}
                                                 </div>
@@ -414,9 +445,9 @@ export default function Section1() {
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p>Break down OmniScripts into reusable components (e.g., use child OmniScripts and reusable FlexCards).</p>
+                                            <p>Now you can search and then select more than one record with the Lookup flow screen component. You can specify a selection maximum and one or more default records.</p>
                                             <div className="space10" />
-                                            <p>Leverage reusable actions and templates to minimize redundant configurations.</p>
+                                            <p>Add the Lookup component to your screen flow and set the Maximum Selections field to a value greater than 1.</p>
 
                                         </div>
                                     </div>
@@ -429,7 +460,7 @@ export default function Section1() {
                                                 </div>
                                                 <div className="heading">
                                                     <h5>
-                                                        <Link href="#">2. Optimize Performance</Link>
+                                                        <Link href="#">Use Record-Triggered Flows to Update Related Records:</Link>
                                                     </h5>
                                                     {/* <p>8/01/2023</p> */}
                                                 </div>
@@ -443,11 +474,11 @@ export default function Section1() {
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p>Reduce the number of steps and elements to enhance user experience.</p>
+                                            <p>Now you can use record-triggered flows to update any records related to the triggering record.</p>
                                             <div className="space10" />
-                                            <p>Use conditional rendering and pre-fill data to minimize unnecessary API calls.</p>
+                                            <p><b>Launch Screen Flows With Lightning Web Components : </b> Embed a screen flow from any Lightning Web Component with the new lightning-flow component. Developers can supercharge their flows by customizing finish behavior, setting custom styling, or launching flows from their Lightning Web Components. And they can offload complex input collection and branching logic to Flow, saving time and money.</p>
                                             <div className="space10" />
-                                            <p>Avoid unnecessary data retrieval by using Integration Procedures for backend processing.</p>
+                                            <p><b>Example shows an LWC component with the Survey_customers flow API name.</b></p>
                                         </div>
                                     </div>
                                     <div className="commnet-box">
@@ -458,7 +489,7 @@ export default function Section1() {
                                                 </div>
                                                 <div className="heading">
                                                     <h5>
-                                                        <Link href="#">3. Enable Error Handling and Logging</Link>
+                                                        <Link href="#">Use In and Not In Operators in Flows to Find Related Records :</Link>
                                                     </h5>
                                                     {/* <p>8/01/2023</p> */}
                                                 </div>
@@ -472,9 +503,9 @@ export default function Section1() {
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p>Implement clear error messages to guide users.</p>
+                                            <p> With the new In and Not In operators, a flow accesses a collection of primitive values to get related records without using the Loop element. The flow uses fewer SOQL queries and DML statements and performs faster. The new operators support accessing collections of type Text, Number, Date, Date/Time, Currency, and Boolean. The operators are available in the Get Records, Update Records, and Delete Records elements.</p>
                                             <div className="space10" />
-                                            <p>Use the OmniScript Debugger to troubleshoot issues effectively.</p>
+                                            <p><b>Test One, Two, Three, Flow (Generally Available): </b>Before you activate a record-triggered flow, you can now test it to quickly verify its expected results and identify flow run-time failures. In Flow Builder, you create, save, and run flow tests. Previously, you debugged a flow manually to troubleshoot failures each time they occurred. Now, you create and save a flow test from a debug run. Then each time you modify the flow, you can run the test. Flow tests don’t support flows that run when a record is deleted. This feature, now generally available, includes some changes since the last release. Flow tests now support scheduled paths. Previously, flow tests</p>
 
                                         </div>
                                     </div>
@@ -487,7 +518,7 @@ export default function Section1() {
                                                 </div>
                                                 <div className="heading">
                                                     <h5>
-                                                        <Link href="#">4. Utilize DataRaptor and Integration Procedures Efficiently</Link>
+                                                        <Link href="#">Filter Your Picklists By Record Type in Flow Screens: </Link>
                                                     </h5>
                                                     {/* <p>8/01/2023</p> */}
                                                 </div>
@@ -501,7 +532,7 @@ export default function Section1() {
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p>Use DataRaptor Extract to retrieve data instead of making API calls directly.</p>
+                                            <p>Now you only see relevant picklist values when using Dynamic Forms for Flow. Previously, all the picklist values for a field appeared, regardless of whether a record type was provided, and could show irrelevant values. </p>
                                             <div className="space10" />
                                             <p>Use Integration Procedures to process and transform data before displaying it in OmniScript.</p>
                                         </div>
@@ -515,7 +546,7 @@ export default function Section1() {
                                                 </div>
                                                 <div className="heading">
                                                     <h5>
-                                                        <Link href="#">5. Follow UI/UX Best Practices</Link>
+                                                        <Link href="#">Select Multiple Records from a Table in a Flow Screen :</Link>
                                                     </h5>
                                                     {/* <p>8/01/2023</p> */}
                                                 </div>
@@ -529,12 +560,9 @@ export default function Section1() {
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p>Keep OmniScripts intuitive with clear labels and guided steps.</p>
+                                            <p>Leverage the new Data Table (beta) flow screen component to display a list of records on a flow screen. You can set the table to read-only, or enable your users to select one or more records and use their selections later in the flow. And users can change the width of table columns and wrap or truncate overflowing text.</p>
                                             <div className="space10" />
-                                            <p>Use Progress Bars and Conditional Views to enhance user experience.</p>
-                                            <div className="space10" />
-                                            <p>Minimize the number of clicks required for users to complete tasks.</p>
-
+                                            <p>Add the Data Table (beta) component to your screen flow and configure the fields.</p>
                                         </div>
                                     </div>
                                 </div>

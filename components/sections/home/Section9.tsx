@@ -23,7 +23,7 @@ export default function Section9() {
                                             <img src="assets/img/icons/contact3-icon1.png" alt="" />
                                         </div>
                                         <div className="heading3">
-                                            <h6>Gives us Call</h6>
+                                            <h6>Call Us</h6>
                                             <h5>
                                                 <Link href="tel:+91 9871717425<">+91 9871717425</Link>
                                             </h5>
@@ -36,7 +36,7 @@ export default function Section9() {
                                             <img src="assets/img/icons/contact3-icon2.png" alt="" />
                                         </div>
                                         <div className="heading3">
-                                            <h6>Send me Mail</h6>
+                                            <h6>Mail Us</h6>
                                             <h5>
                                                 <Link href="mailto:sales@codmsoftware.com">sales@codmsoftware.com</Link>
                                             </h5>

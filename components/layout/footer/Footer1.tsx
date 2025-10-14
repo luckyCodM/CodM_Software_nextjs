@@ -55,7 +55,7 @@ export default function Footer() {
                                         <Link href="/agentforce-&-ai">Agentforce & Al</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Education Cloud&nbsp;</Link>
+                                        <Link href="/education-cloud">Education Cloud&nbsp;</Link>
                                     </li>
                                     <li>
                                         <Link href="#">Salesforce Customer 360</Link>
