@@ -37,7 +37,7 @@ import "wowjs/css/libs/animate.css";
 import { useRevealAnimation } from "@/util/useRevealAnimation";
 
 // Define the props interface (same as above)
-interface BootstrapComponentsProps {}
+interface BootstrapComponentsProps { }
 
 // Type the dynamic import
 const BootstrapComponents = dynamic<BootstrapComponentsProps>(
@@ -123,6 +123,12 @@ export default function Layout({ headerStyle, mainMenuStyle, footerStyle, childr
             {footerStyle == 8 ? <Footer8 /> : null}
             {footerStyle == 9 ? <Footer9 /> : null}
             {footerStyle == 10 ? <Footer10 /> : null}
+
+            <img
+                src="/assets/img/logo/srplogo.png" 
+                alt="Salesforce Ridge Partner"
+                className="floating-partner-badge"
+            />
 
             <ScrollToTop />
         </div>

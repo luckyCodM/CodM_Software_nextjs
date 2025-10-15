@@ -20570,7 +20570,14 @@ li.has-dropdown1 span {
     font-weight: var(--f-fw-blod);
     line-height: var(--f-fs-font-fs16);
 }
-
+.floating-partner-badge {
+    position: fixed; 
+    bottom: 90px;    
+    right: 25px;     
+    width: 70px;     
+    height: auto;   
+    z-index: 999;
+  }
 /*
 ::::::::::::::::::::::::::
  NAV MENU AREA CSS

@@ -90,7 +90,7 @@ export default function Section1() {
                                                     <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
                                                 </Link>
                                                 <h5>
-                                                    <Link href="/blog-details">Financial Services Cloud: Key Features for 2025</Link>
+                                                    <Link href="/blog">Financial Services Cloud: Key Features for 2025</Link>
                                                 </h5>
                                             </div>
                                         </div>
@@ -105,7 +105,7 @@ export default function Section1() {
                                                     <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
                                                 </Link>
                                                 <h5>
-                                                    <Link href="/blog-details">Configuring Custom Domains in Salesforce</Link>
+                                                    <Link href="/blog">Configuring Custom Domains in Salesforce</Link>
                                                 </h5>
                                             </div>
                                         </div>
@@ -117,10 +117,10 @@ export default function Section1() {
                                             </div>
                                             <div className="heading">
                                                 <Link href="#" className="date">
-                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
+                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 28 Aug, 2025
                                                 </Link>
                                                 <h5>
-                                                    <Link href="/blog-details">Salesforce CPQ Product Validation Rule</Link>
+                                                    <Link href="/blog">Best Practices Omniscript & Data Mapper and IP</Link>
                                                 </h5>
                                             </div>
                                         </div>
@@ -132,10 +132,10 @@ export default function Section1() {
                                             </div>
                                             <div className="heading">
                                                 <Link href="#" className="date">
-                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
+                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 2 Oct, 2024
                                                 </Link>
                                                 <h5>
-                                                    <Link href="/blog-details">Salesforce winter 23 release</Link>
+                                                    <Link href="/blog">Salesforce winter 24 release</Link>
                                                 </h5>
                                             </div>
                                         </div>
@@ -317,7 +317,7 @@ export default function Section1() {
                                             <div className="col-lg-6">
                                                 <div className="space30" />
                                                 <div className="image">
-                                                    <img src="assets/img/service/service-details-img2.png" alt="" />
+                                                    <img src="assets/img/blog/SF_23Picture3.png" alt="" />
                                                 </div>
                                                 <div className="space16" />
                                                 <div className="heading1">
@@ -327,7 +327,7 @@ export default function Section1() {
                                             <div className="col-lg-6">
                                                 <div className="space30" />
                                                 <div className="image">
-                                                    <img src="assets/img/service/service-details-img3.png" alt="" />
+                                                    <img src="assets/img/blog/SF_23Picture4.png" alt="" />
                                                 </div>
                                                 <div className="space16" />
                                                 <div className="heading1">
@@ -569,9 +569,9 @@ export default function Section1() {
                                 <div className="space30" />
                                 <div className="details-contact-form">
                                     <div className="heading1">
-                                        <h3>Leave a Reply</h3>
+                                        <h3>Get In Touch</h3>
                                         <div className="space16" />
-                                        <p>Real difference in navigating the complexities of hiring and career development. Keep up the fantastic work</p>
+                                        <p>We are just a message away—let’s understand how we can help your business.</p>
                                     </div>
                                     <form
                                         action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"

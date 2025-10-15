@@ -533,9 +533,9 @@ export default function Section1() {
                                 <div className="space30" />
                                 <div className="details-contact-form">
                                     <div className="heading1">
-                                        <h3>Leave a Reply</h3>
+                                        <h3>Let’s Start the Conversation</h3>
                                         <div className="space16" />
-                                        <p>Real difference in navigating the complexities of hiring and career development. Keep up the fantastic work</p>
+                                        <p>Share your ideas and challenges; we will help you find the right solution.</p>
                                     </div>
                                     <form
                                         action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"

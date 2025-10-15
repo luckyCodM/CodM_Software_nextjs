@@ -80,12 +80,12 @@ export default function Section1() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/">Configuring Custom Domains in Salesforce</Link>
+                                        <Link href="/error">Configuring Custom Domains in Salesforce</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>Setting up a custom domain in Salesforce allows companies to personalize their Salesforce URLs </p>
                                     <div className="space16" />
-                                    <Link href="/" className="learn">
+                                    <Link href="/error" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -218,10 +218,10 @@ export default function Section1() {
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 2 October 2022
+                                            <img src="assets/img/icons/date2.png" alt="" /> 2 October 2024
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ben Stokes
+                                            <img src="assets/img/icons/user2.png" alt="" /> Ankit Rawat
                                         </Link>
                                     </div>
                                     <h4>

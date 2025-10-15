@@ -30,10 +30,10 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/error">Price Rule</Link>
+                                        <Link href="/error">Best Practices Omniscript & Data Mapper and IP</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>A systematic approach guiding businesses in setting prices for products or services, balancing factors like demand, costs </p>
+                                    <p>Our blog shares IT insights, industry trends, and expert tips to help businesses and professionals grow. </p>
                                     <div className="space16" />
                                     <Link href="/error" className="learn">
                                         Read More

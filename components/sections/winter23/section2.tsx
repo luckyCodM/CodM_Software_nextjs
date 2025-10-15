@@ -30,12 +30,12 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Financial Services Cloud: Key Features for 2025</Link>
+                                        <Link href="/blog">Financial Services Cloud: Key Features for 2025</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>Salesforce Financial Services Cloud (FSC) is a specialized CRM platform designed to meet the unique needs </p>
                                     <div className="space16" />
-                                    <Link href="/blog-details" className="learn">
+                                    <Link href="/blog" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -59,12 +59,12 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Configuring Custom Domains in Salesforce</Link>
+                                        <Link href="/blog">Configuring Custom Domains in Salesforce</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>Setting up a custom domain in Salesforce allows companies to personalize their Salesforce URLs,</p>
                                     <div className="space16" />
-                                    <Link href="/blog-details" className="learn">
+                                    <Link href="/blog" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -88,12 +88,12 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Named Credentials</Link>
+                                        <Link href="/blog">Named Credentials</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>A named credential specifies the URL of a callout endpoint and its required authentication parameters in one definition.</p>
                                     <div className="space16" />
-                                    <Link href="/blog-details" className="learn">
+                                    <Link href="/blog" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />

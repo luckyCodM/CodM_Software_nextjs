@@ -30,7 +30,7 @@ export default function Section2() {
                                             <Link href="/agentforce-&-ai">Agentforce & AI</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Enhancing customer support using Agentforce & AI. real-time data, faster automation and smarter service.</p>
                                     </div>
                                 </div>
                             </div>
@@ -47,10 +47,10 @@ export default function Section2() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/error"> Education Cloud </Link>
+                                            <Link href="/error"> Financial Services Cloud </Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Leveraging FSC to provide a 360 degree view of clients by integrating data and automating processes to deliver smarter services. </p>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@ export default function Section2() {
                                             <Link href="/error">Salesforce Customer 360</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Helping businesses deliver the seamless, personalized solutions with Salesforce Customer 360 degree. </p>
                                     </div>
                                 </div>
                             </div>

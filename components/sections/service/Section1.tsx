@@ -14,7 +14,7 @@ export default function Section1() {
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon1.png" alt="" />
+                                        <img src="assets/img/icons/service1-icon6.png" alt="" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
@@ -22,7 +22,7 @@ export default function Section1() {
                                             <Link href="/financial-services-cloud">Financial Services Cloud</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Leveraging FSC to provide a 360 degree view of clients by integrating data and automating processes to deliver smarter services. </p>
                                     </div>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ export default function Section1() {
                                             <Link href="/agentforce-&-ai">Agentforce &amp; AI</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Enhancing customer support using Agentforce & AI. real-time data, faster automation and smarter service.</p>
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ export default function Section1() {
                                             <Link href="/education-cloud">Education Cloud</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>A platform for everything you need from streamlined operations to enhanced student engagement with the education cloud. </p>
                                     </div>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@ export default function Section1() {
                                             <Link href="/error">Salesforce Customer 360</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Helping businesses deliver the seamless, personalized solutions with Salesforce Customer 360 degree. </p>
                                     </div>
                                 </div>
                             </div>

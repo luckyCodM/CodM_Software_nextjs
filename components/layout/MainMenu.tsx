@@ -233,7 +233,7 @@ export default function MainMenu() {
                                         <Link href="/agentforce-&-ai">Agentforce</Link>
                                     </li>
                                     <li>
-                                        <Link href="/error">Education</Link>
+                                        <Link href="/education-cloud">Education</Link>
                                     </li>
                                     <li>
                                         <Link href="/error">Customer 360</Link>
@@ -394,13 +394,19 @@ export default function MainMenu() {
                 
                 <ul>
                     <li>
-                        <Link href="/blog">Financial Services Cloud</Link>
+                        <Link href="/financial-service-2025">Financial Services Cloud</Link>
                     </li>
                     <li>
-                        <Link href="/blog">Configuring Custom Domains in Salesforce</Link>
+                        <Link href="/blog">Configuring Custom Domains</Link>
                     </li>
                     <li>
-                        <Link href="/blog">Omniscript & Data Mapper and IP</Link>
+                        <Link href="/omnistudio-vlocity">Omniscript & Data Mapper and IP</Link>
+                    </li>
+                    <li>
+                        <Link href="/blog">Winter 24 release</Link>
+                    </li>
+                    <li>
+                        <Link href="/winter23">Winter 23 release</Link>
                     </li>
                 </ul>
 
