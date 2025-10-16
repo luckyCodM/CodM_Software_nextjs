@@ -15,183 +15,7 @@ export default function Section1() {
             <div className="service-details-all sp">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4">
-                            <div className="details-sidebar">
-                                <div className="details-box2 search">
-                                    <h3>Search</h3>
-                                    <div className="space10" />
-                                    <div className="search-area">
-                                        <form action="#">
-                                            <input type="search" placeholder="Search..." />
-                                            <button>
-                                                <i className="fa-solid fa-magnifying-glass" />
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div className="details-box2">
-                                    <h3>Our Services</h3>
-                                    <div className="space10" />
-                                    <ul className="service-list">
-                                        <li>
-                                            <Link href="/financial-services-cloud">
-                                                Financial Services Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/agentforce-&-ai">
-                                                Agentforce & AI
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/education-cloud">
-                                                Education Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/error">
-                                                Salesforce Customer 360
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/error">
-                                                OmniStudio Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="details-box2">
-                                    <h3>Recent Posts</h3>
-                                    <div className="space10" />
-                                    <ul className="recent-posts">
-                                        <div className="single-recent-post">
-                                            <div className="">
-                                                <div className="image">
-                                                    <img src="assets/img/blog/recent-post1.png" alt="" />
-                                                </div>
-                                            </div>
-                                            <div className="heading">
-                                                <Link href="#" className="date">
-                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
-                                                </Link>
-                                                <h5>
-                                                    <Link href="/blog">Financial Services Cloud: Key Features for 2025</Link>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div className="single-recent-post">
-                                            <div className="">
-                                                <div className="image">
-                                                    <img src="assets/img/blog/recent-post2.png" alt="" />
-                                                </div>
-                                            </div>
-                                            <div className="heading">
-                                                <Link href="#" className="date">
-                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
-                                                </Link>
-                                                <h5>
-                                                    <Link href="/blog">Configuring Custom Domains in Salesforce</Link>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div className="single-recent-post">
-                                            <div className="">
-                                                <div className="image">
-                                                    <img src="assets/img/blog/recent-post3.png" alt="" />
-                                                </div>
-                                            </div>
-                                            <div className="heading">
-                                                <Link href="#" className="date">
-                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 28 Aug, 2025
-                                                </Link>
-                                                <h5>
-                                                    <Link href="/blog">Best Practices Omniscript & Data Mapper and IP</Link>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div className="single-recent-post">
-                                            <div className="">
-                                                <div className="image">
-                                                    <img src="assets/img/blog/recent-post4.png" alt="" />
-                                                </div>
-                                            </div>
-                                            <div className="heading">
-                                                <Link href="#" className="date">
-                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 2 Oct, 2024
-                                                </Link>
-                                                <h5>
-                                                    <Link href="/blog">Salesforce winter 24 release</Link>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </ul>
-                                </div>
-                                <div className="details-box-call">
-                                    <h3>If You Need Any Help Contact With Us</h3>
-                                    <div className="space10" />
-                                    <Link href="tel:+91 9871717425" className="call-btn">
-                                        <img src="assets/img/icons/details-call.png" alt="" /> +91 9871717425
-                                    </Link>
-                                </div>
-                                {/* <div className="details-box2">
-                                    <h3>Our Tags</h3>
-                                    <div className="space10" />
-                                    <ul className="tags">
-                                        <li>
-                                            <Link href="#">Staffing</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">Creative</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">Design</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">Art</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">Development</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">Image</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">People</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">Tech</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">3D Images</Link>
-                                        </li>
-                                    </ul>
-                                </div> */}
-                                <div className="details-box2">
-                                    <h3> About Us </h3>
-                                    <p>Boost your business with our customised CRM solutions. Optimised processes, improved customer relationships and
-                                        scalable growth we deliver innovations for your success.</p>
-                                    <div className="space10" />
-                                    <Link href="/assets/img/codmsoftware_pdf/CodM_Software_Portfolio_Profile.pdf" className="download-btn1">
-                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div className="col-lg-8">
                             <div className="blog-details-all left-padding">
                                 <article>
@@ -632,6 +456,183 @@ export default function Section1() {
                                             </div>
                                         </div>
                                     </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4">
+                            <div className="details-sidebar">
+                                <div className="details-box2 search">
+                                    <h3>Search</h3>
+                                    <div className="space10" />
+                                    <div className="search-area">
+                                        <form action="#">
+                                            <input type="search" placeholder="Search..." />
+                                            <button>
+                                                <i className="fa-solid fa-magnifying-glass" />
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div className="details-box2">
+                                    <h3>Our Services</h3>
+                                    <div className="space10" />
+                                    <ul className="service-list">
+                                        <li>
+                                            <Link href="/financial-services-cloud">
+                                                Financial Services Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/agentforce-&-ai">
+                                                Agentforce & AI
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/education-cloud">
+                                                Education Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/error">
+                                                Salesforce Customer 360
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/error">
+                                                OmniStudio Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="details-box2">
+                                    <h3>Recent Posts</h3>
+                                    <div className="space10" />
+                                    <ul className="recent-posts">
+                                        <div className="single-recent-post">
+                                            <div className="">
+                                                <div className="image">
+                                                    <img src="assets/img/blog/recent-post1.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="heading">
+                                                <Link href="#" className="date">
+                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
+                                                </Link>
+                                                <h5>
+                                                    <Link href="/blog">Financial Services Cloud: Key Features for 2025</Link>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div className="single-recent-post">
+                                            <div className="">
+                                                <div className="image">
+                                                    <img src="assets/img/blog/recent-post2.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="heading">
+                                                <Link href="#" className="date">
+                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
+                                                </Link>
+                                                <h5>
+                                                    <Link href="/blog">Configuring Custom Domains in Salesforce</Link>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div className="single-recent-post">
+                                            <div className="">
+                                                <div className="image">
+                                                    <img src="assets/img/blog/recent-post3.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="heading">
+                                                <Link href="#" className="date">
+                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 28 Aug, 2025
+                                                </Link>
+                                                <h5>
+                                                    <Link href="/blog">Best Practices Omniscript & Data Mapper and IP</Link>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div className="single-recent-post">
+                                            <div className="">
+                                                <div className="image">
+                                                    <img src="assets/img/blog/recent-post4.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="heading">
+                                                <Link href="#" className="date">
+                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 2 Oct, 2024
+                                                </Link>
+                                                <h5>
+                                                    <Link href="/blog">Salesforce winter 24 release</Link>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <div className="details-box-call">
+                                    <h3>If You Need Any Help Contact With Us</h3>
+                                    <div className="space10" />
+                                    <Link href="tel:+91 9871717425" className="call-btn">
+                                        <img src="assets/img/icons/details-call.png" alt="" /> +91 9871717425
+                                    </Link>
+                                </div>
+                                {/* <div className="details-box2">
+                                    <h3>Our Tags</h3>
+                                    <div className="space10" />
+                                    <ul className="tags">
+                                        <li>
+                                            <Link href="#">Staffing</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Creative</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Design</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Art</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Development</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Image</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">People</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Tech</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">3D Images</Link>
+                                        </li>
+                                    </ul>
+                                </div> */}
+                                <div className="details-box2">
+                                    <h3> About Us </h3>
+                                    <p>Boost your business with our customised CRM solutions. Optimised processes, improved customer relationships and
+                                        scalable growth we deliver innovations for your success.</p>
+                                    <div className="space10" />
+                                    <Link href="/assets/img/codmsoftware_pdf/CodM_Software_Portfolio_Profile.pdf" className="download-btn1">
+                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
+                                    </Link>
                                 </div>
                             </div>
                         </div>

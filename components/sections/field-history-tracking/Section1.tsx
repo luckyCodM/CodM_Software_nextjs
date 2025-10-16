@@ -7,59 +7,7 @@ export default function Section1() {
             <div className="service-details-all sp">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4">
-                            <div className="details-sidebar">
-                                <div className="details-box2">
-                                    <h3>Search</h3>
-                                    <div className="space10" />
-                                    <div className="search-area">
-                                        <form action="#">
-                                            <input type="search" placeholder="Search..." />
-                                            <button>
-                                                <i className="fa-solid fa-magnifying-glass" />
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div className="details-box-call">
-                                    <h3>If You Need Any Help Contact With Us</h3>
-                                    <div className="space10" />
-                                    <Link href="tel:+919871717425" className="call-btn">
-                                        <img src="assets/img/icons/details-call.png" alt="" /> +91 9871717425
-                                    </Link>
-                                </div>
-                                <div className="details-box2">
-                                    <h3>Download Brochure</h3>
-                                    <p>Boost your business with our customised CRM solutions. Optimised processes, improved customer relationships and scalable growth we deliver innovations for your success.</p>
-                                    <div className="space10" />
-                                    <Link href="/assets/img/codmsoftware_pdf/CodM_Software_Portfolio_Profile.pdf" className="download-btn1">
-                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
-                                    </Link>
-                                    {/* <Link href="#" className="download-btn2">
-                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
-                                    </Link> */}
-                                </div>
-                                <div className="details-box2">
-                                    <h3>Get A Free Quote</h3>
-                                    <div className="space10" />
-                                    <div className="form">
-                                        <form action="#">
-                                            <input type="text" placeholder="Your Name" />
-                                            <input type="email" placeholder="Email Address" />
-                                            <input type="number" placeholder="Phone Number" />
-                                            <textarea placeholder="Your Message" rows={3} defaultValue={""} />
-                                            <div className="space10" />
-                                            <button className="theme-btn1">
-                                                Submit Now
-                                                <span>
-                                                    <i className="fa-solid fa-arrow-right" />
-                                                </span>
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       
                         <div className="col-lg-8">
                             <div className="service-details-area left-padding">
                                 <article>
@@ -241,6 +189,59 @@ export default function Section1() {
                                         </div>
                                     </div>
                                 </article>
+                            </div>
+                        </div>
+                        <div className="col-lg-4">
+                            <div className="details-sidebar">
+                                <div className="details-box2">
+                                    <h3>Search</h3>
+                                    <div className="space10" />
+                                    <div className="search-area">
+                                        <form action="#">
+                                            <input type="search" placeholder="Search..." />
+                                            <button>
+                                                <i className="fa-solid fa-magnifying-glass" />
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div className="details-box-call">
+                                    <h3>If You Need Any Help Contact With Us</h3>
+                                    <div className="space10" />
+                                    <Link href="tel:+919871717425" className="call-btn">
+                                        <img src="assets/img/icons/details-call.png" alt="" /> +91 9871717425
+                                    </Link>
+                                </div>
+                                <div className="details-box2">
+                                    <h3>Download Brochure</h3>
+                                    <p>Boost your business with our customised CRM solutions. Optimised processes, improved customer relationships and scalable growth we deliver innovations for your success.</p>
+                                    <div className="space10" />
+                                    <Link href="/assets/img/codmsoftware_pdf/CodM_Software_Portfolio_Profile.pdf" className="download-btn1">
+                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
+                                    </Link>
+                                    {/* <Link href="#" className="download-btn2">
+                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
+                                    </Link> */}
+                                </div>
+                                <div className="details-box2">
+                                    <h3>Get A Free Quote</h3>
+                                    <div className="space10" />
+                                    <div className="form">
+                                        <form action="#">
+                                            <input type="text" placeholder="Your Name" />
+                                            <input type="email" placeholder="Email Address" />
+                                            <input type="number" placeholder="Phone Number" />
+                                            <textarea placeholder="Your Message" rows={3} defaultValue={""} />
+                                            <div className="space10" />
+                                            <button className="theme-btn1">
+                                                Submit Now
+                                                <span>
+                                                    <i className="fa-solid fa-arrow-right" />
+                                                </span>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

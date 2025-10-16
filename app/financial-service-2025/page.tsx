@@ -9,6 +9,7 @@ export default function Home() {
             <Layout>
                 <SectionHeader title="Financial Services Cloud 2025" group_page="Blog" current_page="Financial Services Cloud 2025" display="d-block" />
                 <Section1 />
+                
                 <Section2 />
                 <Section3 />
             </Layout>
