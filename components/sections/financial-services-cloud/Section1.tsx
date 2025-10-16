@@ -13,7 +13,7 @@ export default function Section1() {
                                 <article>
                                     <div className="heading1">
                                         <div className="image">
-                                            <img src="assets/img/service/service-details-img1.png" alt="" />
+                                            <img src="assets/img/service/financial-services.png" alt="" />
                                         </div>
                                         <div className="space30" />
                                         <h2>Financial Services Cloud </h2>

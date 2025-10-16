@@ -213,7 +213,7 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/blog2-img8.png" alt="" />
+                                    <img src="assets/img/blog/winter24-blog.png" alt="" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">

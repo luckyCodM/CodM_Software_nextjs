@@ -13,7 +13,7 @@ export default function Section1() {
                                 <article>
                                     <div className="heading1">
                                         <div className="image">
-                                            <img src="assets/img/service/service-details-img1.png" alt="" />
+                                            <img src="assets/img/service/Agentforce.png" alt="" />
                                         </div>
                                         <div className="space30" />
                                         <h2>Agentforce & AI </h2>
@@ -133,7 +133,7 @@ export default function Section1() {
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseFive" className="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Yes, Salesforce’s Einstein AI follows strict data privacy protocols and encryption standards. CodM Software ensures that your deployment complies with industry regulations and security best practices. </div>
+                                                <div className="accordion-body">Yes Salesforce’s Einstein AI follows strict data privacy protocols and encryption standards. CodM Software ensures that your deployment complies with industry regulations and security best practices. </div>
                                             </div>
                                         </div>
                                     </div>
