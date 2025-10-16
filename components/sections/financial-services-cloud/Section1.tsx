@@ -27,12 +27,12 @@ export default function Section1() {
                                         <div className="space30" />
                                         <h3>Benefits of Financial Service Cloud</h3>
                                         <div className="space16" />
-                                        <p>1. 360 degree client view- An all in one place to access complete client profiles, financial accounts, interaction, and goals.</p>
-                                        <p>2. Personalized Client experience- Helps in delivering tailored solution, recommendations and financial advice with real time insights.</p>
-                                        <p>3. Improved Productivity- Automate tasks, manage workflow efficiently, and let the team foucus on building client relationships</p>
-                                        <p>4. Built-in Compliance and Security- While protecting client data also stay compliant with industry regulations.</p>
-                                        <p>5. Streamlined Collaboration- Teams across various department can work together with shared data and simplified process.</p>
-                                        <p>6. Scalable for Growth- FSC evolves with your business, supporting everything from startups to large enterprises.</p>
+                                        <p><b>1. 360 degree client view:-</b> An all in one place to access complete client profiles, financial accounts, interaction, and goals.</p>
+                                        <p><b>2. Personalized Client experience:-</b> Helps in delivering tailored solution, recommendations and financial advice with real time insights.</p>
+                                        <p><b>3. Improved Productivity:-</b> Automate tasks, manage workflow efficiently, and let the team foucus on building client relationships</p>
+                                        <p><b>4. Built-in Compliance and Security:-</b> While protecting client data also stay compliant with industry regulations.</p>
+                                        <p><b>5. Streamlined Collaboration:-</b> Teams across various department can work together with shared data and simplified process.</p>
+                                        <p><b>6. Scalable for Growth:-</b> FSC evolves with your business, supporting everything from startups to large enterprises.</p>
                                         <div className="space30" />
                                         <h3>Why Choose CodM Software for Financial Service Cloud?</h3>
                                         <div className="space16" />
@@ -107,7 +107,7 @@ export default function Section1() {
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Absolutely. We tailor FSC to your company's specific requirements, whether they are workflows, client engagement strategies, or compliance requirements. </div>
+                                                <div className="accordion-body">Absolutely, We tailor FSC to your company's specific requirements, whether they are workflows, client engagement strategies or compliance requirements. </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -117,7 +117,7 @@ export default function Section1() {
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">To manage the compliance FSC has built-in tools that can track all the client interactions, and it can securely store sensitive financial data, which results in reducing risk for your organization. </div>
+                                                <div className="accordion-body">To manage the compliance FSC has built-in tools that can track all the client interactions and it can securely store sensitive financial data, which results in reducing risk for your organization. </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -127,7 +127,7 @@ export default function Section1() {
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Yes, FSC can be integrated with your core systems, any third-party apps, and financial platforms for a seamless experience. </div>
+                                                <div className="accordion-body">Yes, FSC can be integrated with your core systems, any third-party apps and financial platforms for a seamless experience. </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">

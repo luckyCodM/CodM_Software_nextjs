@@ -12,7 +12,7 @@ export default function Section3() {
                                 <h2>Stay Connected </h2>
                                 <div className="space16" />
                                 <p>
-                                    Subscribe to get fresh blogs, product updates, and expert tips. <br /> Your next idea could start here.
+                                    Subscribe to get lates blogs, product updates, and expert tips. <br /> Your next idea could start here.
                                 </p>
                             </div>
                         </div>

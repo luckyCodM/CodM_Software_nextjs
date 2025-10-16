@@ -18,15 +18,15 @@ export default function Section1() {
                                         <div className="space30" />
                                         <h2>Agentforce & AI </h2>
                                         <div className="space16" />
-                                        <p>Agentforce provides customer service agents with tools and real-time data to boost productivity, resolve issues, and offer personalized solutions.</p>
+                                        <p>Agentforce provides customer service agents with tools and real-time data to boost productivity, resolve issues and offer personalized solutions.</p>
                                         <div className="space10" />
-                                        <p>AI in Salesforce uses Einstein to automate manual tasks, provide better insights, forecast trends, and guide agents with smart suggestions to improve efficiency and customer satisfaction.</p>
+                                        <p>AI in Salesforce uses Einstein to automate manual tasks, provide better insights, forecast trends and guide agents with smart suggestions to improve efficiency and customer satisfaction.</p>
                                         <div className="space30" />
                                         <h3>Benefits of Agentforce and AI in Salesforce</h3>
                                         <div className="space16" />
-                                        <p>1. Improved Agent Productivity- Agents can access everything in one place to reduce the overall data handling time whether it is customer data, knowledge bases, or workflow.</p>
+                                        <p>1. Improved Agent Productivity- Agents can access everything in one place to reduce the overall data handling time whether it is customer data, knowledge bases or workflow.</p>
                                         <div className="space10" />
-                                        <p>2. Enhanced Customer Experience- We provide personalized interaction that are powered by AI suggestions, and advanced analytics to create more meaning ful interactions.</p>
+                                        <p>2. Enhanced Customer Experience- We provide personalized interaction that are powered by AI suggestions and advanced analytics to create more meaning ful interactions.</p>
                                         <div className="space10" />
                                         <p>3. Faster Case Resolution- Automation tools are used to ensure all the cases are addressed on priority by the agents.</p>
                                         <div className="space10" />
@@ -38,7 +38,7 @@ export default function Section1() {
                                         <div className="space30" />
                                         <h3>Why Choose CodM Software for Agentforce & AI Services?</h3>
                                         <div className="space16" />
-                                        <p>1. Salesforce Expertise- We are a trusted Salesforce partner with certified experts who bring deep domain knowledge and technical expertise in implementing Service Cloud & Einstein AI.</p>
+                                        <p>1. Salesforce Expertise- We are a trusted Salesforce partner with certified experts who bring deep domain knowledge and technical expertise in implementing Service Cloud and Einstein AI.</p>
                                         <div className="space16" />
                                         <p>2. Customized Solutions- As per the unique industry-specific requirements, we provide customized Agentforce & AI tools, which ensure maximum impact & ROI.</p>
                                         <div className="space16" />
@@ -93,7 +93,7 @@ export default function Section1() {
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Agentsforce aims on providing agents with tools, workflow, and data access to enhance productivity, while AI focuses on advanced algorithms to provide insights, forecasts, and automation to guide agents and enhance decision-making.</div>   
+                                                <div className="accordion-body">Agentsforce aims on providing agents with tools, workflow and data access to enhance productivity, while AI focuses on advanced algorithms to provide insights, forecasts and automation to guide agents and enhance decision-making.</div>   
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -103,7 +103,7 @@ export default function Section1() {
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">No. The Salesforce interface is user-friendly, and it requires minimal technical knowledge to guide agents using AI suggestions. We also provide training and overall support to ensure smooth adoption. </div>
+                                                <div className="accordion-body">No, The Salesforce interface is user-friendly and it requires minimal technical knowledge to guide agents using AI suggestions. We also provide training and overall support to ensure smooth adoption. </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -133,7 +133,7 @@ export default function Section1() {
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseFive" className="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Yes. Salesforce’s Einstein AI follows strict data privacy protocols and encryption standards. CodM Software ensures that your deployment complies with industry regulations and security best practices. </div>
+                                                <div className="accordion-body">Yes, Salesforce’s Einstein AI follows strict data privacy protocols and encryption standards. CodM Software ensures that your deployment complies with industry regulations and security best practices. </div>
                                             </div>
                                         </div>
                                     </div>

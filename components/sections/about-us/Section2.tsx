@@ -28,7 +28,7 @@ export default function Section2() {
                                         <Link href="#">Our Mission</Link>
                                     </h5>
                                     <div className="space16" />
-                                    <p>To overcome key business challenges by providing innovative business solutions that increase efficiency with our products, and execution excellence promoting Equality, Sustainability and Quality.</p>
+                                    <p>To overcome key business challenges by providing innovative business solutions that increase efficiency with our products and execution excellence promoting Equality, Sustainability and Quality.</p>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ export default function Section2() {
                                         <Link href="#">Our Vision</Link>
                                     </h5>
                                     <div className="space16" />
-                                    <p>We strive to continuously work hard to make our customers satisfied with our innovative products and talented staff. With a dedicated team in our workforce, we are able to develop long-term and mutually beneficial relationships with our partners </p>
+                                    <p>We strive to continuously work hard to make our customers satisfied with our innovative products and talented staff. With a dedicated team in our workforce, we are able to develop long-term and mutually beneficial relationships with our partners. </p>
                                 </div>
                             </div>
                         </div>

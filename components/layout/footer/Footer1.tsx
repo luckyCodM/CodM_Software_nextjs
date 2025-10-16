@@ -16,7 +16,7 @@ export default function Footer() {
                                 </div>
                                 <div className="space20" />
                                 <div className="heading1-w">
-                                    <p>Boost your business with our customised CRM solutions. Optimised processes, improved customer relationships and scalable growth – we deliver innovations for your success.</p>
+                                    <p>Boost your business with our customised CRM solutions. With optimised processes, improved customer relationships and scalable growth – we deliver innovations for your success.</p>
                                 </div>
                                 <ul className="social-icon">
                                     <li>
@@ -113,7 +113,7 @@ export default function Footer() {
                                     </div>
                                     <div className="pera">
                                         <Link href="https://maps.app.goo.gl/jgc5Jq8gupKgrDhb9" target="_blank" rel="noopener noreferrer">
-                                            Supertech Astralis Plot No.1, Sector 94 <br/> Noida, Uttar Pradesh 201301
+                                            Supertech Astralis, Plot No.1, Sector 94 <br/> Noida, Uttar Pradesh 201301
                                         </Link>
                                     </div>
                                 </div>

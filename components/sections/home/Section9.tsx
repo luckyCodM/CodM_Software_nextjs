@@ -13,7 +13,7 @@ export default function Section9() {
                                 <span className="span" data-aos-duration={800} data-aos="zoom-in-left">
                                     Contact Us
                                 </span>
-                                <h2 className="text-anime-style-3">Get in Touch- Let’s start the Conversation</h2>
+                                <h2 className="text-anime-style-3">Let’s Start the conversation</h2>
                                 <div className="space16" />
                                 <p>Have a project in mind? Let’s connect and discover how CodM Software can help you achieve your goals.</p>
                                 <div className="space10" />

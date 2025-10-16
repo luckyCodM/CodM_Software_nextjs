@@ -400,7 +400,7 @@ export default function MainMenu() {
                         <Link href="/blog">Configuring Custom Domains</Link>
                     </li>
                     <li>
-                        <Link href="/omnistudio-vlocity">Omniscript & Data Mapper and IP</Link>
+                        <Link href="/omnistudio-vlocity">Omnistudio, Data Mapper and IP</Link>
                     </li>
                     <li>
                         <Link href="/blog">Winter 24 release</Link>

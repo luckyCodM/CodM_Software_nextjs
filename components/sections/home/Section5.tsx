@@ -82,7 +82,7 @@ export default function Section5() {
                                     <h4>
                                         <Link href="/">Design</Link>
                                     </h4>
-                                    <p>To guide development by creating system architecture, UI/UX, and database design.</p>
+                                    <p>To guide development by creating system architecture, UI/UX and database design.</p>
                                 </div>
                                 
                             </div>

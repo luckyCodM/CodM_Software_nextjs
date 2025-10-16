@@ -38,9 +38,9 @@ export default function Section1() {
                         <div className="col-lg-6">
                             <div className="heading1 about3-heading">
                                 <span className="span">About Us</span>
-                                <h2>Reliable Salesforce CRM partner since 2021</h2>
+                                <h2>Your Trusted Salesforce Consulting Partner Since 2021</h2>
                                 <div className="space16" />
-                                <p>Founded in 2021, CodM specializes in world-class Salesforce CRM implementation and consulting services, with a presence key locations in India. Our expert team of certified architects, consultants, and developers has successfully delivered numerous Salesforce projects across various industries in both regions. With a focus on security reviews and best practices, we have earned the distinction of being an official Salesforce Consulting Partner since 2021</p>
+                                <p>Founded in 2021, CodM Software was established with the vision that technology should make business easier and smarter. We began as a small team of passionate Salesforce developers and professionals who have since become an integral part of the organization and evolved into trusted partners for our clients across industries and geographies. We specialize in Salesforce CRM consulting, integration, customization, and implementation, helping businesses streamline their operations, strengthen customer relationships, and drive growth with adaptable and scalable solutions.</p>
                                 <div className="about3-icon-box">
                                     <div className="">
                                         <div className="icon">
@@ -49,9 +49,9 @@ export default function Section1() {
                                     </div>
                                     <div className="heading1">
                                         <h5>
-                                            <Link href="#">Empowering Careers, Driving Growth</Link>
+                                            <Link href="#">Empowering People, Building Salesforce Excellence</Link>
                                         </h5>
-                                        <p>we are your strategic partner in talent acquisition. With a steadfast commitment to excellence</p>
+                                        <p>We encourage innovation and growth, empowering our Salesforce experts to deliver impactful solutions.</p>
                                     </div>
                                 </div>
                                 <div className="about3-icon-box">
@@ -62,9 +62,9 @@ export default function Section1() {
                                     </div>
                                     <div className="heading1">
                                         <h5>
-                                            <Link href="#">Leaders in Staffing Excellence</Link>
+                                            <Link href="#">Driven by Innovation, Committed to Growth</Link>
                                         </h5>
-                                        <p>Discover the difference with Your Agency Name and unlock new possibilities for growth </p>
+                                        <p>Our team brings proactive ideas to build scalable, result-oriented solutions that boost business growth.</p>
                                     </div>
                                 </div>
                                 <div className="space30" />

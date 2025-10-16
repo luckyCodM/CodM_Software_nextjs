@@ -12,11 +12,11 @@ export default function Section10({ classList }: any) {
                                 <span className="span" data-aos="zoom-in-left" data-aos-duration={800}>
                                     Our Team
                                 </span>
-                                <h2 className="text-anime-style-3">Driven by People, Powered by Expertise</h2>
+                                <h2 className="text-anime-style-3">Our People Our Strength</h2>
                                 <div className="space16" />
                                 <p data-aos="fade-up" data-aos-duration={700}>
                                     Our team is the foundation of everything we do. With passion, <br /> 
-                                    skills, and expertise, we drive innovation and deliver excellence to our clients
+                                    skills and expertise, we drive innovation and deliver excellence to our clients
                                     
                                 </p>
                             </div>

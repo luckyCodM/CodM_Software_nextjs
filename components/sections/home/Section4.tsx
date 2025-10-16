@@ -12,7 +12,7 @@ export default function Section4() {
                                 <span className="span" data-aos="zoom-in-left" data-aos-duration={700}>
                                     Our Service
                                 </span>
-                                <h2 className="text-anime-style-3">We offer customized solutions for various industries</h2>
+                                <h2 className="text-anime-style-3">Customized solutions crafted to meet industry-specific needs</h2>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ export default function Section4() {
                                     <h4>
                                         <Link href="/agentforce-&-ai">Agentforce & AI</Link>
                                     </h4>
-                                    <p>Enhancing customer support using Agentforce & AI. real-time data, faster automation and smarter service.</p>
+                                    <p>Enhancing customer support using Agentforce & AI, real-time data, faster automation, and smarter service.</p>
                                     <Link href="/agentforce-&-ai" className="learn">
                                         learn more
                                         <span>
@@ -103,7 +103,7 @@ export default function Section4() {
                                     <h4>
                                         <Link href="/">Industries Services</Link>
                                     </h4>
-                                    <p>Accelerate growth using the industry cloud - tailored solutions and integration build for your unique requirements.</p>
+                                    <p>Accelerate growth using the industry cloud tailored solutions and integration build for your unique requirements.</p>
                                     <Link href="/" className="learn">
                                         learn more
                                         <span>
@@ -120,7 +120,7 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/">Banking</Link>
+                                        <Link href="/">Banking Services</Link>
                                     </h4>
                                     <p>Helping banks to enhance their customer relationship and streamline processes using Salesforce Banking Service.</p>
                                     <Link href="/" className="learn">

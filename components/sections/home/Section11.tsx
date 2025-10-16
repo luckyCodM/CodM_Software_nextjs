@@ -42,7 +42,7 @@ export default function Section11() {
                                         <Link href="/blog">Best Practices Omniscript &amp;  Data Mapper and IP </Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Our blog shares IT insights, industry trends, and expert tips to help businesses and professionals grow. </p>
+                                    <p>Our blog shares IT insights, industry trends and expert tips to help businesses and professionals grow. </p>
                                     <div className="space16" />
                                     <Link href="/blog" className="learn">
                                          Explore Now
@@ -100,7 +100,7 @@ export default function Section11() {
                                         <Link href="/blog">Configuring Custom Domains in Salesforce</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Setting up a custom domain in Salesforce allows companies to personalize their Salesforce URLs, </p>
+                                    <p>Setting up a custom domain in Salesforce allows companies to personalize their Salesforce URLs. </p>
                                     <div className="space16" />
                                     <Link href="/blog" className="learn">
                                         Explore Now

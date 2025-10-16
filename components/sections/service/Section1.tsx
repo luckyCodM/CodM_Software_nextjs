@@ -42,7 +42,7 @@ export default function Section1() {
                                             <Link href="/agentforce-&-ai">Agentforce &amp; AI</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Enhancing customer support using Agentforce & AI. real-time data, faster automation and smarter service.</p>
+                                        <p>Enhancing customer support using Agentforce & AI, real-time data, faster automation and smarter service.</p>
                                     </div>
                                 </div>
                             </div>
