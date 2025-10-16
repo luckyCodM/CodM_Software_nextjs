@@ -7,101 +7,7 @@ export default function Section1() {
             <div className="service-details-all sp">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4">
-                            <div className="details-sidebar">
-                                <div className="details-box3">
-                                    <h3>Our Services</h3>
-                                    <div className="space10" />
-                                    <ul className="service-list">
-                                        <li>
-                                            <Link href="#">
-                                                Financial Services Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/agentforce-&-ai">
-                                                Agentforce & AI
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/">
-                                                Education Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/">
-                                                Salesforce Customer 360
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/">
-                                                OmniStudio Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="details-box-call">
-                                    <h3>If You Need Any Help Contact With Us</h3>
-                                    <div className="space10" />
-                                    <Link href="tel:+919871717425" className="call-btn">
-                                        <img src="assets/img/icons/details-call.png" alt="" /> +91 9871717425
-                                    </Link>
-                                </div>
-                                <div className="details-box2">
-                                    <h3>Download Brochure</h3>
-                                    <p>Boost your business with our customised CRM solutions. Optimised processes, improved customer relationships and scalable growth we deliver innovations for your success.</p>
-                                    <div className="space10" />
-                                    <Link href="/assets/img/codmsoftware_pdf/CodM_Software_Portfolio_Profile.pdf" className="download-btn1">
-                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
-                                    </Link>
-                                </div>
-                                <div className="details-box2">
-                                    <h3>Follow Us</h3>
-                                    <div className="space10" />
-                                    <ul className="icons">
-                                        <li>
-                                            <Link href="https://x.com/CodMSoftware"
-                                                target="_blank" rel="noopener noreferrer">
-                                                <i className="fa-brands fa-x-twitter" />
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="https://www.linkedin.com/company/codmsoftware/"
-                                                target="_blank" rel="noopener noreferrer">
-                                                <i className="fa-brands fa-linkedin-in" />
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="https://www.youtube.com/@CodMSoftware"
-                                                target="_blank" rel="noopener noreferrer">
-                                                <i className="fa-brands fa-youtube" />
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="https://in.pinterest.com/codmsoftware"
-                                                target="_blank" rel="noopener noreferrer">
-                                                <i className="fa-brands fa-pinterest" />
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div className="col-lg-8">
                             <div className="service-details-area left-padding">
                                 <article>
@@ -235,6 +141,101 @@ export default function Section1() {
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4">
+                            <div className="details-sidebar">
+                                <div className="details-box3">
+                                    <h3>Our Services</h3>
+                                    <div className="space10" />
+                                    <ul className="service-list">
+                                        <li>
+                                            <Link href="#">
+                                                Financial Services Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/agentforce-&-ai">
+                                                Agentforce & AI
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/">
+                                                Education Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/">
+                                                Salesforce Customer 360
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/">
+                                                OmniStudio Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="details-box-call">
+                                    <h3>If You Need Any Help Contact With Us</h3>
+                                    <div className="space10" />
+                                    <Link href="tel:+919871717425" className="call-btn">
+                                        <img src="assets/img/icons/details-call.png" alt="" /> +91 9871717425
+                                    </Link>
+                                </div>
+                                <div className="details-box2">
+                                    <h3>Download Brochure</h3>
+                                    <p>Boost your business with our customised CRM solutions. Optimised processes, improved customer relationships and scalable growth we deliver innovations for your success.</p>
+                                    <div className="space10" />
+                                    <Link href="/assets/img/codmsoftware_pdf/CodM_Software_Portfolio_Profile.pdf" className="download-btn1">
+                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
+                                    </Link>
+                                </div>
+                                <div className="details-box2">
+                                    <h3>Follow Us</h3>
+                                    <div className="space10" />
+                                    <ul className="icons">
+                                        <li>
+                                            <Link href="https://x.com/CodMSoftware"
+                                                target="_blank" rel="noopener noreferrer">
+                                                <i className="fa-brands fa-x-twitter" />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="https://www.linkedin.com/company/codmsoftware/"
+                                                target="_blank" rel="noopener noreferrer">
+                                                <i className="fa-brands fa-linkedin-in" />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="https://www.youtube.com/@CodMSoftware"
+                                                target="_blank" rel="noopener noreferrer">
+                                                <i className="fa-brands fa-youtube" />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="https://in.pinterest.com/codmsoftware"
+                                                target="_blank" rel="noopener noreferrer">
+                                                <i className="fa-brands fa-pinterest" />
+                                            </Link>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
