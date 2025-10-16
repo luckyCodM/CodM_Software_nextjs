@@ -42,11 +42,11 @@ export default function Section1() {
                                             <h2>What is Salesforce Financial Services Cloud?</h2>
                                             <div className="space16" />
                                             <p>Salesforce Financial Services Cloud (FSC) is a specialized CRM platform built on Salesforce's core infrastructure, designed to help financial institutions
-                                                deliver personalized advice, manage customer interactions, and streamline operations across banking, wealth management, and insurance. Financial Services Cloud
+                                                deliver personalized advice, manage customer interactions and streamline operations across banking, wealth management and insurance. Financial Services Cloud
                                                 provides your users with the tools that let them focus on high-value customer activities instead of routine, administrative tasks. As an admin, you get the
-                                                trusted power, security, and scalability of the Salesforce platform—tailored to streamline implementation for financial institutions. Start with a Financial
+                                                trusted power, security and scalability of the Salesforce platform-tailored to streamline implementation for financial institutions. Start with a Financial
                                                 Services Cloud trial org. Or install the Financial Services Cloud managed package and the unmanaged extension package. Connect data from your banking, portfolio
-                                                management, financial planning, and other systems. And then configure the app to suit how your users like to work.</p>
+                                                management, financial planning and other systems. And then configure the app to suit how your users like to work.</p>
                                             <div className="space16" />
                                             <p>Key Components of Financial Services Cloud:</p>
                                             <div className="space16" />

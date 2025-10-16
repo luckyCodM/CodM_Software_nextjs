@@ -18,9 +18,9 @@ export default function Section1() {
                                         <div className="space30" />
                                         <h2>What is Salesforce Education Cloud?</h2>
                                         <div className="space16" />
-                                        <p>Salesforce Education Cloud is a platform designed for educational institutions to streamline their end-to-end processes from staff recruitment, admissions, student success, alumni engagement, and other operations in a single platform. It gives a complete view of every student and stakeholder.</p>
+                                        <p>Salesforce Education Cloud is a platform designed for educational institutions to streamline their end-to-end processes from staff recruitment, admissions, student success, alumni engagement and other operations in a single platform. It gives a complete view of every student and stakeholder.</p>
                                         <div className="space10" />
-                                        <p>Whether you’re a school, college, university, or training institute, Education Cloud helps you:</p>
+                                        <p>Whether you’re a school, college, university or training institute, Education Cloud helps you:</p>
                                         <div className="space10" />
                                         <p>✔ Personalize student experiences</p>
                                         <p>✔ Improve communication and engagement</p>
@@ -31,13 +31,13 @@ export default function Section1() {
                                         <div className="space16" />
                                         <p>1. 360-degree Student View: It helps you to track every interaction with students from enrollment to graduation in one platform.</p>
                                         <div className="space10" />
-                                        <p>2. Improved Student Engagement: It helps you to use personalized communication and automation to boost student involvement, engagement, and satisfaction.</p>
+                                        <p>2. Improved Student Engagement: It helps you to use personalized communication and automation to boost student involvement, engagement and satisfaction.</p>
                                         <div className="space10" />
-                                        <p>3. Streamlined admission and recruitment process: Education Cloud helps institutions to simplify their admission and recruitment processes by managing applications, compiling leads, and converting them into enrolled students and staff.</p>
+                                        <p>3. Streamlined admission and recruitment process: Education Cloud helps institutions to simplify their admission and recruitment processes by managing applications, compiling leads and converting them into enrolled students and staff.</p>
                                         <div className="space10" />
-                                        <p>4. Enhanced Efficiency: It helps you to automate your daily manual tasks, manage all the data, and free the staff from manual data management tasks to focus on student success.</p>
+                                        <p>4. Enhanced Efficiency: It helps you to automate your daily manual tasks, manage all the data and free the staff from manual data management tasks to focus on student success.</p>
                                         <div className="space10" />
-                                        <p>5. Stronger Alumni and Donor Relationships: Education Cloud can effectively manage the institute's alumni database, fundraising and other campaigns, and donor engagements from a single platform.</p>
+                                        <p>5. Stronger Alumni and Donor Relationships: Education Cloud can effectively manage the institute's alumni database, fundraising and other campaigns and donor engagements from a single platform.</p>
                                         <div className="space10" />
                                         <p>6. Scalable and Customizable: You can tailor the system according to your institution's unique needs and processes, ensuring the system evolves as the organization grows.</p>
                                         <div className="space30" />
@@ -47,7 +47,7 @@ export default function Section1() {
                                         <div className="space16" />
                                         <p>2. Certified Salesforce Professional: We bring technical expertise, Salesforce certifications, and industry knowledge to deliver reliable, scalable Education Cloud solutions.</p>
                                         <div className="space16" />
-                                        <p>3. End-to-End Support: From strategy, system design, implementation, training, and support, we provide support and guide you in every step of the journey.</p>
+                                        <p>3. End-to-End Support: From strategy, system design, implementation, training and support, we provide support and guide you in every step of the journey.</p>
                                         <div className="space16" />
                                         <p>4. Custom solutions for every institution: We understand that no two institutions are the same; that’s why we built the Education Cloud solutions that align with your institute’s processes, students’ needs, and organizational goals.</p>
                                         <div className="space16" />
@@ -98,7 +98,7 @@ export default function Section1() {
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Education Cloud is ideal for schools, colleges, universities, training institutes, online education institutions, etc. It can be used by all educational institutions that are looking to streamline their processes and improve engagement, operations, and student success.</div>
+                                                <div className="accordion-body">Education Cloud is ideal for schools, colleges, universities, training institutes, online education institutions etc. It can be used by all educational institutions that are looking to streamline their processes and improve engagement, operations and student success.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -128,7 +128,7 @@ export default function Section1() {
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Salesforce provides enterprise-grade security, and CodM Software follows best practices to ensure your data is protected, compliant, and accessible only to authorized users. </div>
+                                                <div className="accordion-body">Salesforce provides enterprise-grade security and CodM Software follows best practices to ensure your data is protected, compliant and accessible only to authorized users. </div>
                                             </div>
                                         </div>
                                     </div>

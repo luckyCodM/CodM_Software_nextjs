@@ -9,7 +9,7 @@ export default function Section2() {
                     <div className="row">
                         <div className="col-lg-6 m-auto text-center">
                             <div className="heading1">
-                                <h2>View More Servicve</h2>
+                                <h2>View More Services</h2>
                             </div>
                         </div>
                     </div>

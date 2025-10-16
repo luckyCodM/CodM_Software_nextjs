@@ -21,19 +21,19 @@ export default function Section1() {
                                         <p>Updating fields for Objects in Salesforce is routine as customer
                                             information changes. Being able to remember what certain values were a week or month ago would
                                             be quite handy. But remembering this data becomes impossible with hundreds of customers and many
-                                            teammates using Salesforce. What’s the solution? That’s where Field History Tracking comes in.</p>
+                                            teammates using Salesforce. <b>What’s the solution? That’s where Field History Tracking comes in.</b></p>
                                         <div className="space30" />
                                         <h3>How our Field History Tracking be useful for your business?</h3>
                                         <div className="space16" />
                                         <p>Our Field History Tracking Application enables users to track field history of as many
-                                            fields for an object they want</p>
+                                            fields for an object they want.</p>
                                         <div className="space5" />
                                         <p>The object can be standard or custom as per user's choice.</p>
                                         <div className="space5" />
                                         <p>As per the Salesforce Standard Functionality, a user is able to track field
                                             history of only 20 fields at a time. This limitation enables
                                             our FHT to stand out as it allows every existing field in a salesforce org to be
-                                            available for Field History Tracking</p>
+                                            available for Field History Tracking.</p>
                                         <div className="space5" />
                                         <p>It is a user friendly application which enables tracking for both standard
                                             and custom objects.</p>
@@ -44,8 +44,8 @@ export default function Section1() {
                                             troubleshooting past changes. Changes to tracked fields are displayed in the Objects History
                                             Related list, and the data is retained for 18 months.</p>
                                         <div className="space16" />
-                                        <p>Salesforce Field History Tracking can also help you understand when a non-human “user” is making
-                                            updates to fields, such as when a process builder makes a change to a field value, or an
+                                        <p>Salesforce Field History Tracking can also help you understand when a non-human 'user' is making
+                                            updates to fields, such as when a process builder makes a change to a field value or an
                                             integration user updates a record from an external web site form.</p>
                                         <div className="space30" />
                                         <h3>Let’s Get Tracking</h3>

@@ -42,12 +42,12 @@ export default function Section1() {
                                             <h2>Omnistudio (Vlocity)</h2>
                                             <div className="space16" />
                                             <p>Salesforce OmniStudio is a comprehensive suite of low-code tools designed to help businesses quickly build and deploy digital-first,
-                                                industry-specific experiences across multiple channels. It empowers users to create guided interactions, automate business processes,
-                                                and seamlessly integrate with both Salesforce and external systems—all without requiring extensive coding expertise.</p>
+                                                industry-specific experiences across multiple channels. It empowers users to create guided interactions, automate business processes
+                                                and seamlessly integrate with both Salesforce and external systems-all without requiring extensive coding expertise.</p>
                                             <div className="space16" />
                                             <p> OmniStudio bridges the gap between low-code and pro-code development, making it accessible for non-developers to create effective solutions while giving developers the flexibility to extend functionality when needed.
-                                                Its powerful toolkit—comprising OmniScript, FlexCards, Data Mapper, and Integration Procedures (IP)—enables businesses to design scalable,
-                                                high-performing, and maintainable digital workflows. Adhering to best practices for each component ensures optimal efficiency, performance,
+                                                Its powerful toolkit-comprising OmniScript, FlexCards, Data Mapper and Integration Procedures (IP)—enables businesses to design scalable,
+                                                high-performing and maintainable digital workflows. Adhering to best practices for each component ensures optimal efficiency, performance
                                                 and long-term sustainability. </p>
                                         </div>
                                     </div>
@@ -103,7 +103,7 @@ export default function Section1() {
                                 </article>
                                 <div className="after-box-details">
                                     <div className="heading1">
-                                        <p>Our blog is your go-to resource for the latest trends, best practices, and expert advice in the staffing industry. From articles on optimizing your hiring process and navigating employment law changes to career development</p>
+                                        <p>Our blog is your go-to resource for the latest trends, best practices and expert advice in the staffing industry. From articles on optimizing your hiring process and navigating employment law changes to career development</p>
                                     </div>
                                 </div>
                                 <div className="row align-items-center">
