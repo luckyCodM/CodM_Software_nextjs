@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <>
             <Layout>
-                <SectionHeader title="Salesforce Customer 360 degree" group_page="" current_page="Salesforce Customer 360 degree" display="d-none" />
+                <SectionHeader title="Customer 360 degree" group_page="" current_page="Customer 360 degree" display="d-none" />
                 <Section1 />
                 <Section2 />
                 <Section3 />

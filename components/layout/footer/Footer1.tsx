@@ -58,11 +58,14 @@ export default function Footer() {
                                         <Link href="/education-cloud">Education Cloud&nbsp;</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Salesforce Customer 360</Link>
+                                        <Link href="/customer_360_degree">Salesforce Customer 360</Link>
                                     </li>
-                                    {/* <li>
-                                        <Link href="#">Blog Standard</Link>
-                                    </li> */}
+                                    <li>
+                                        <Link href="/Industry-cloud">Industries Services</Link>
+                                    </li>
+                                     <li>
+                                        <Link href="/banking_service">Banking Services</Link>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
