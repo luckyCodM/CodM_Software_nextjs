@@ -9,10 +9,10 @@ export default function Section2() {
                     <div className="row">
                         <div className="col-lg-7 m-auto text-center">
                             <div className="heading1">
-                                <span className="span"> Our Vision & Values</span>
-                                <h2>In What We Believe</h2>
+                                <span className="span"> Beyond Vision</span>
+                                <h2>The Foundation of CodM</h2>
                                 <div className="space16" />
-                                <p> CodM Software is a Sliver Salesforce Consulting Partner committed to delivering quality services and achieving 100% customer satisfaction.</p>
+                                <p> We are dedicated to delivering high-quality services and ensuring client satisfaction. We believe in innovation, integrity and collaboration that drives everything we do as we help businesses to unlock the full potential of Salesforce. </p>
                             </div>
                         </div>
                     </div>
@@ -25,10 +25,10 @@ export default function Section2() {
                                 </div>
                                 <div className="heading1">
                                     <h5>
-                                        <Link href="#">Our Mission</Link>
+                                        <Link href="#">Our Vision</Link>
                                     </h5>
                                     <div className="space16" />
-                                    <p>To overcome key business challenges by providing innovative business solutions that increase efficiency with our products and execution excellence promoting Equality, Sustainability and Quality.</p>
+                                    <p>At CodM, we believe in building lasting relationships and partnerships with our clients, where collaboration and trust drive innovation and deliver exceptional results.</p>
                                 </div>
                             </div>
                         </div>
@@ -39,10 +39,10 @@ export default function Section2() {
                                 </div>
                                 <div className="heading1">
                                     <h5>
-                                        <Link href="#">Our Vision</Link>
+                                        <Link href="#">Our Mission</Link>
                                     </h5>
                                     <div className="space16" />
-                                    <p>We strive to continuously work hard to make our customers satisfied with our innovative products and talented staff. With a dedicated team in our workforce, we are able to develop long-term and mutually beneficial relationships with our partners. </p>
+                                    <p>Our mission is to deliver innovative Salesforce solutions that enhance efficiency, strengthen customer relationships and accelerate our clients’ business growth. </p>
                                 </div>
                             </div>
                         </div>
@@ -53,15 +53,10 @@ export default function Section2() {
                                 </div>
                                 <div className="heading1">
                                     <h5>
-                                        <Link href="#">Core Values</Link>
+                                        <Link href="#">Our Goal</Link>
                                     </h5>
                                     <div className="space16" />
-                                    <p>E- Employee Centric </p>
-                                    <p>N- Nurture</p>
-                                    <p>E- Empathy</p>
-                                    <p>R- Resourceful</p>
-                                    <p>G- Goal Oriented</p>
-                                    <p>Y- Yearn</p> 
+                                    <p>Our goal is to make CodM a leading global name in Salesforce consulting and implementation through innovation, excellence and client-focused solutions. </p>
                                 </div>
                             </div>
                         </div>

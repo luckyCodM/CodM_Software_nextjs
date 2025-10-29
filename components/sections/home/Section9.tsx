@@ -25,7 +25,7 @@ export default function Section9() {
                                         <div className="heading3">
                                             <h6>Call Us</h6>
                                             <h5>
-                                                <Link href="tel:+91 9871717425<">+91 9871717425</Link>
+                                                <Link href="tel:+91 9871717425">+91 9871717425</Link>
                                             </h5>
                                         </div>
                                     </div>
