@@ -45,15 +45,15 @@ export default function Section1() {
                                         <div className="space16" />
                                         <p>1. <b>Education-Focused Expertise:-</b> Our expert team at CodM understands the unique challenges and needs of educational institutions and customizes Salesforce solutions to meet those needs.</p>
                                         <div className="space16" />
-                                        <p>2. <b>Certified Salesforce Professional:-</b> We bring technical expertise, Salesforce certifications, and industry knowledge to deliver reliable, scalable Education Cloud solutions.</p>
+                                        <p>2. <b>Certified Salesforce Professional:-</b> We bring technical expertise, Salesforce certifications and industry knowledge to deliver reliable, scalable Education Cloud solutions.</p>
                                         <div className="space16" />
                                         <p>3. <b>End-to-End Support:-</b> From strategy, system design, implementation, training and support, we provide support and guide you in every step of the journey.</p>
                                         <div className="space16" />
-                                        <p>4. <b>Custom solutions for every institution:-</b> We understand that no two institutions are the same; that’s why we built the Education Cloud solutions that align with your institute’s processes, students’ needs, and organizational goals.</p>
+                                        <p>4. <b>Custom solutions for every institution:-</b> We understand that no two institutions are the same; that’s why we built the Education Cloud solutions that align with your institute’s processes, students’ needs and organizational goals.</p>
                                         <div className="space16" />
                                         <p>5. <b>Security & Compliance:-</b> To ensure that the data and information of your customers is safe and secure, we follow best industry practices for data protection and regulatory compliance.</p>
                                         <div className="space16" />
-                                        <p>6. <b>Proven Track Record:-</b> We have helped multiple institutions implement Education Cloud and helped them improve their operations, student engagement, and outcomes.</p>
+                                        <p>6. <b>Proven Track Record:-</b> We have helped multiple institutions implement Education Cloud and helped them improve their operations, student engagement and outcomes.</p>
                                     </div>
                                 </article>
                                 <div className="space30" />

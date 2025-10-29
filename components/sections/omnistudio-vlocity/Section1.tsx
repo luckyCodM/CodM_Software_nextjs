@@ -65,9 +65,9 @@ export default function Section1() {
                                             <h3>What is omnistudio?</h3>
                                             <div className="space16" />
                                             <p>Salesforce OmniStudio provides a powerful suite of tools for building guided
-                                                interactions, integrating data, and streamlining digital workflows. When working with
+                                                interactions, integrating data and streamlining digital workflows. When working with
                                                 OmniScript, FlexCards, Data Mapper and Integration Procedures (IP), following
-                                                best practices ensures scalability, performance, and maintainability. Here are the top
+                                                best practices ensures scalability, performance and maintainability. Here are the top
                                                 best practices for each component. </p>
                                         </div>
                                         <div className="space20" />
@@ -83,7 +83,7 @@ export default function Section1() {
                                                     <span>
                                                         <i className="fa-solid fa-check" />
                                                     </span>
-                                                    Multi-Channel Deployment – Works across web, mobile, and other digital channels.
+                                                    Multi-Channel Deployment – Works across web, mobile and other digital channels.
                                                 </li>
                                                 <li>
                                                     <span>

@@ -26,9 +26,9 @@ export default function Section1() {
                                         <div className="space16" />
                                         <p>1. <b>Personalized Customer Experience:-</b> At CodM, we offer customized solutions based on the customer's needs and financial goals.</p>
                                         <div className="space10" />
-                                        <p>2. <b>Improved Operational Efficiency:-</b> With the help of Salesforce Banking Service, you can automate everyday processes like workflow, cases, and approval to reduce the manual work and keep things running smoothly.</p>
+                                        <p>2. <b>Improved Operational Efficiency:-</b> With the help of Salesforce Banking Service, you can automate everyday processes like workflow, cases and approval to reduce the manual work and keep things running smoothly.</p>
                                         <div className="space10" />
-                                        <p>3. <b>Holistic Customer View:-</b>Easy access to customer profiles, transactions, and every interaction in a single platform to provide the customers with a better service experience.</p>
+                                        <p>3. <b>Holistic Customer View:-</b>Easy access to customer profiles, transactions and every interaction in a single platform to provide the customers with a better service experience.</p>
                                         <div className="space10" />
                                         <p>4. <b>Enhanced Risk Management:-</b> You can gain clarity with AI-driven insights that will help you stay ahead of trends and make the right decisions at the right time.</p>
                                         <div className="space10" />
@@ -44,7 +44,7 @@ export default function Section1() {
                                         <div className="space16" />
                                         <p>4. <b>End-to-End Support:-</b>We don’t just help you get started with Salesforce; we stay with you from planning and implementation to long-term support and growth.</p>
                                         <div className="space16" />
-                                        <p>5. <b>Data Security and Compliance:—</b>Keeping your data safe and secure is our first priority, and we take it seriously. Hence, we at CodM follow best practices to protect sensitive data and information and meet global compliance standards.</p>
+                                        <p>5. <b>Data Security and Compliance:—</b>Keeping your data safe and secure is our first priority and we take it seriously. Hence, we at CodM follow best practices to protect sensitive data and information and meet global compliance standards.</p>
                                         <div className="space16" />
                                         <p>6. <b>Proven Results:—</b>Over the years of our operations, we have helped banks build stronger and effective customer relationships, simplify complex operations and manage risks smartly.</p>
                                     </div>
@@ -75,7 +75,7 @@ export default function Section1() {
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Salesforce Banking Service can enhance customer experience and relationships by giving a unified view of customer data, information, personalized interactions, and proactive service recommendations. It also helps build trust and loyalty of customers.</div>
+                                                <div className="accordion-body">Salesforce Banking Service can enhance customer experience and relationships by giving a unified view of customer data, information, personalized interactions and proactive service recommendations. It also helps build trust and loyalty of customers.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">

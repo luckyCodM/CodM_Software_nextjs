@@ -42,7 +42,7 @@ export default function Section1() {
                                         <div className="space16" />
                                         <p>This feature helps you with a useful audit trail for reviewing or
                                             troubleshooting past changes. Changes to tracked fields are displayed in the Objects History
-                                            Related list, and the data is retained for 18 months.</p>
+                                            Related list and the data is retained for 18 months.</p>
                                         <div className="space16" />
                                         <p>Salesforce Field History Tracking can also help you understand when a non-human 'user' is making
                                             updates to fields, such as when a process builder makes a change to a field value or an

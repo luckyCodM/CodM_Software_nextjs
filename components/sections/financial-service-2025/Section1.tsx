@@ -102,8 +102,8 @@ export default function Section1() {
                                             <p>Salesforce Financial Services Cloud (FSC) is a specialized CRM platform designed to meet the unique needs
                                                 of financial institutions such as banks, wealth management firms, insurance companies and lenders.
                                                 It continues to be a game-changer for financial institutions, offering innovative tools to enhance
-                                                customer engagement, streamline operations, and ensure compliance. In 2025, FSC introduces new AI-driven
-                                                capabilities, automation enhancements, and compliance tools that revolutionize the financial industry.</p>
+                                                customer engagement, streamline operations and ensure compliance. In 2025, FSC introduces new AI-driven
+                                                capabilities, automation enhancements and compliance tools that revolutionize the financial industry.</p>
                                         </div>
                                         <div className="space20" />
                                         <h3>Key Features:–</h3>
@@ -151,7 +151,7 @@ export default function Section1() {
                                 </article>
                                 <div className="after-box-details">
                                     <div className="heading1">
-                                        <p>Our blog is your go-to resource for the latest trends, best practices, and expert advice in the staffing industry. From articles on optimizing your hiring process and navigating employment law changes to career development</p>
+                                        <p>Our blog is your go-to resource for the latest trends, best practices and expert advice in the staffing industry. From articles on optimizing your hiring process and navigating employment law changes to career development</p>
                                     </div>
                                 </div>
                                 <div className="row align-items-center">
@@ -279,9 +279,9 @@ export default function Section1() {
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p>Salesforce Financial Services Cloud (FSC) addresses the aspect of trust by providing a list of compliance certifications and attestations. It complies with internationally accepted best practices like ISO 27001, ISO 27017, and ISO 27018.</p>
+                                            <p>Salesforce Financial Services Cloud (FSC) addresses the aspect of trust by providing a list of compliance certifications and attestations. It complies with internationally accepted best practices like ISO 27001, ISO 27017 and ISO 27018.</p>
                                             <div className="space10" />
-                                            <p>Moreover, being SOC 1, SOC 2, and PCI DSS compliant assures that the FSC has taken necessary measures to protect financial data. These certifications provide the necessary assurance to financial institutions that FSC can depend on compliance and data protection.</p>
+                                            <p>Moreover, being SOC 1, SOC 2 and PCI DSS compliant assures that the FSC has taken necessary measures to protect financial data. These certifications provide the necessary assurance to financial institutions that FSC can depend on compliance and data protection.</p>
 
                                         </div>
                                     </div>
@@ -308,7 +308,7 @@ export default function Section1() {
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p>Data security measures have been adopted widely in FSC to ensure that important information is well protected. Platform Encryption guarantees information's safety if stored, and this incorporates specific information such as PII and financial details.</p>
+                                            <p>Data security measures have been adopted widely in FSC to ensure that important information is well protected. Platform Encryption guarantees information's safety if stored and this incorporates specific information such as PII and financial details.</p>
                                             <div className="space10" />
                                             <p>The Field Audit Trail feature provides data history for 10 years, allowing the company to meet retention frameworks where data history is mandatory.</p>
                                         </div>

@@ -25,7 +25,7 @@ export default function Section1() {
                                         <Link href="/omnistudio-vlocity">Best Practices Omniscript & Data Mapper and IP</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Our blog shares IT insights, industry trends, and expert tips to help businesses and professionals grow.</p>
+                                    <p>Our blog shares IT insights, industry trends and expert tips to help businesses and professionals grow.</p>
                                     <div className="space16" />
                                     <Link href="/omnistudio-vlocity" className="learn">
                                         Read More
@@ -170,7 +170,7 @@ export default function Section1() {
                                         <Link href="/winter23">Salesforce winter 23 release</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Winter ’23 Release brings powerful new features, enhancements, and innovations to elevate productivity and customer experiences.</p>
+                                    <p>Winter ’23 Release brings powerful new features, enhancements and innovations to elevate productivity and customer experiences.</p>
                                     <div className="space16" />
                                     <Link href="/winter23" className="learn">
                                         Read More
@@ -228,7 +228,7 @@ export default function Section1() {
                                         <Link href="/">Salesforce winter 24 release</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p> Winter ’24 Release brings powerful new features, enhancements, and innovations to elevate productivity and customer experiences.</p>
+                                    <p> Winter ’24 Release brings powerful new features, enhancements and innovations to elevate productivity and customer experiences.</p>
                                     <div className="space16" />
                                     <Link href="/" className="learn">
                                         Read More

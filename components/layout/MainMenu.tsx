@@ -215,6 +215,9 @@ export default function MainMenu() {
                     <li>
                         <Link href="/banking_service">Banking Services</Link>
                     </li>
+                    <li>
+                        <Link href="/banking_service">Banking Services</Link>
+                    </li>
                 </ul>
 
                 {/* <ul>

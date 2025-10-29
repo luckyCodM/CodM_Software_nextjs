@@ -33,7 +33,7 @@ export default function Section1() {
                                         <div className="space16" />
                                         <p> From executive-level placements shaping the direction of companies to specialized skill sets driving innovation in diverse industries, our projects span a spectrum </p>
                                         <div className="space16" />
-                                        <p>Through meticulous candidate selection, tailored recruitment strategies, and a deep understanding of our clients' needs, we've consistently delivered exceptional results.</p>
+                                        <p>Through meticulous candidate selection, tailored recruitment strategies and a deep understanding of our clients' needs, we've consistently delivered exceptional results.</p>
                                     </div>
                                 </article>
                                 <article>
@@ -103,7 +103,7 @@ export default function Section1() {
                                     <div className="heading1">
                                         <h3>Driving Business Growth</h3>
                                         <div className="space16" />
-                                        <p>These case studies serve as testament to our expertise, dedication, and unwavering commitment to excellence. Dive into our Projects section to discover </p>
+                                        <p>These case studies serve as testament to our expertise, dedication and unwavering commitment to excellence. Dive into our Projects section to discover </p>
                                     </div>
                                 </article>
                             </div>

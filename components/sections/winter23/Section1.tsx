@@ -43,7 +43,7 @@ export default function Section1() {
                                             <div className="space16" />
                                             <p>The release includes new features and improvements for Lightning Experience, Salesforce Flow,
                                                 Lightning Web Component, Apex, Experience Cloud, Einstein Automate, Customer Data Platform,
-                                                Field Service, Marketing Cloud Account Engagement, Quip, and CRM Analytics.</p>
+                                                Field Service, Marketing Cloud Account Engagement, Quip and CRM Analytics.</p>
                                         </div>
                                     </div>
                                 </article>
@@ -65,7 +65,7 @@ export default function Section1() {
                                             <div className="space10" />
                                             <p> To create a modal component, import LightningModal from lightning/modal in your JavaScript file. Then, create a component class that extends LightningModal.</p>
                                             <div className="space10" />
-                                            <p>This component doesn’t use a lightning-modal tag. Instead, the modal’s HTML template uses helper lightning-modal-* components to make the modal’s header, footer, and body. The lightning-modal-body component is required, and the others are optional.</p>
+                                            <p>This component doesn’t use a lightning-modal tag. Instead, the modal’s HTML template uses helper lightning-modal components to make the modal’s header, footer and body. The lightning-modal-body component is required and the others are optional.</p>
                                         </div>
                                         <div className="space20" />
 
@@ -73,7 +73,7 @@ export default function Section1() {
                                 </article>
                                 <div className="after-box-details">
                                     <div className="heading1">
-                                        <p>Our blog is your go-to resource for the latest trends, best practices, and expert advice in the staffing industry. From articles on optimizing your hiring process and navigating employment law changes to career development</p>
+                                        <p>Our blog is your go-to resource for the latest trends, best practices and expert advice in the staffing industry. From articles on optimizing your hiring process and navigating employment law changes to career development</p>
                                     </div>
                                 </div>
                                 <div className="row align-items-center">
@@ -134,9 +134,9 @@ export default function Section1() {
                                         <div className="space30" />
                                         <h3>2. Fix Invalid Template Usage to Avoid Warning When Component Loading</h3>
                                         <div className="space16" />
-                                        <p>Loading an LWC component results in a warning if your component includes a  <code>&lt;template&gt;</code> element includes an invalid attribute. For non-root <code>&lt;template&gt;</code> elements, only the following directives are supported: <code>for:each</code>, <code>iterator:iteratorName</code>, and <code>if:true|false</code>. We strongly recommend resolving any issues by removing any invalid attributes from your component's <code>&lt;template&gt;</code> element.</p>
+                                        <p>Loading an LWC component results in a warning if your component includes a  <code>&lt;template&gt;</code> element includes an invalid attribute. For non-root <code>&lt;template&gt;</code> elements, only the following directives are supported: <code>for:each</code>, <code>iterator:iteratorName</code> and <code>if:true|false</code>. We strongly recommend resolving any issues by removing any invalid attributes from your component's <code>&lt;template&gt;</code> element.</p>
                                         <div className="space16" />
-                                        {/* <p>In Spring’23, this invalid usage of the <code>&lt;template&gt;</code> element doesn’t render correctly, and loading a component that contains this invalid usage will result in an error. For example, the non-root <code>&lt;template&gt;</code> element in this example contains an invalid attribute.</p> */}
+                                        <p>In Spring’23, this invalid usage of the <code>&lt;template&gt;</code> element doesn’t render correctly and loading a component that contains this invalid usage will result in an error. For example, the non-root <code>&lt;template&gt;</code> element in this example contains an invalid attribute.</p>
                                         <div className="row">
                                             <div className="col-lg-6">
                                                 <div className="space30" />
@@ -145,7 +145,7 @@ export default function Section1() {
                                                 </div>
                                                 <div className="space16" />
                                                 <div className="heading1">
-                                                    <p>In Spring’23, this invalid usage of the <code>&lt;template&gt;</code> element doesn’t render correctly, and loading a component that contains this invalid usage will result in an error. For example, the non-root <code>&lt;template&gt;</code> element in this example contains an invalid attribute.</p>
+                                                    <p>In Spring’23, this invalid usage of the <code>&lt;template&gt;</code> element doesn’t render correctly and loading a component that contains this invalid usage will result in an error. For example, the non-root <code>&lt;template&gt;</code> element in this example contains an invalid attribute.</p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6">
@@ -177,7 +177,7 @@ export default function Section1() {
                                                 </div>
                                                 <div className="space16" />
                                                 <div className="heading1">
-                                                    <p><b>Cut and Paste Flow Elements:</b> Change the order of flow elements auto-layout faster by using cut and paste.Change the order of flow elements auto-layout faster by using cut and paste. Previously, to move an element on the canvas, you copied and pasted the element then deleted the original element, and then you updated the API name of the pasted element. </p>
+                                                    <p><b>Cut and Paste Flow Elements:</b> Change the order of flow elements auto-layout faster by using cut and paste.Change the order of flow elements auto-layout faster by using cut and paste. Previously, to move an element on the canvas, you copied and pasted the element then deleted the original element and then you updated the API name of the pasted element. </p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6">
@@ -327,9 +327,9 @@ export default function Section1() {
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p> With the new In and Not In operators, a flow accesses a collection of primitive values to get related records without using the Loop element. The flow uses fewer SOQL queries and DML statements and performs faster. The new operators support accessing collections of type Text, Number, Date, Date/Time, Currency, and Boolean. The operators are available in the Get Records, Update Records, and Delete Records elements.</p>
+                                            <p> With the new In and Not In operators, a flow accesses a collection of primitive values to get related records without using the Loop element. The flow uses fewer SOQL queries and DML statements and performs faster. The new operators support accessing collections of type Text, Number, Date, Date/Time, Currency and Boolean. The operators are available in the Get Records, Update Records and Delete Records elements.</p>
                                             <div className="space10" />
-                                            <p><b>Test One, Two, Three, Flow (Generally Available): </b>Before you activate a record-triggered flow, you can now test it to quickly verify its expected results and identify flow run-time failures. In Flow Builder, you create, save, and run flow tests. Previously, you debugged a flow manually to troubleshoot failures each time they occurred. Now, you create and save a flow test from a debug run. Then each time you modify the flow, you can run the test. Flow tests don’t support flows that run when a record is deleted. This feature, now generally available, includes some changes since the last release. Flow tests now support scheduled paths. Previously, flow tests</p>
+                                            <p><b>Test One, Two, Three, Flow (Generally Available): </b>Before you activate a record-triggered flow, you can now test it to quickly verify its expected results and identify flow run-time failures. In Flow Builder, you create, save and run flow tests. Previously, you debugged a flow manually to troubleshoot failures each time they occurred. Now, you create and save a flow test from a debug run. Then each time you modify the flow, you can run the test. Flow tests don’t support flows that run when a record is deleted. This feature, now generally available, includes some changes since the last release. Flow tests now support scheduled paths. Previously, flow tests</p>
 
                                         </div>
                                     </div>
@@ -356,7 +356,7 @@ export default function Section1() {
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p>Now you only see relevant picklist values when using Dynamic Forms for Flow. Previously, all the picklist values for a field appeared, regardless of whether a record type was provided, and could show irrelevant values. </p>
+                                            <p>Now you only see relevant picklist values when using Dynamic Forms for Flow. Previously, all the picklist values for a field appeared, regardless of whether a record type was provided and could show irrelevant values. </p>
                                             <div className="space10" />
                                             <p>Use Integration Procedures to process and transform data before displaying it in OmniScript.</p>
                                         </div>

@@ -32,7 +32,7 @@ export default function Section1() {
                                         <div className="space10" />
                                         <p>4. <b>Better Collaboration:-</b> Different teams across various departments can work together using shared customer details & information.</p>
                                         <div className="space10" />
-                                        <p>5. <b>Predictive Decision Making:—</b>Through dashboards, analytics, and reporting, you can improve strategies and gain actionable insights on the data to make decisions.</p>
+                                        <p>5. <b>Predictive Decision Making:—</b>Through dashboards, analytics and reporting, you can improve strategies and gain actionable insights on the data to make decisions.</p>
                                         <div className="space10" />
                                         <p>6. <b>Scalable & Flexible:—</b>With the help of Salesforce Customer 360-degree, you can easily adapt to growing customer needs and enhance business processes.</p>
                                         <div className="space30" />
@@ -44,7 +44,7 @@ export default function Section1() {
                                         <div className="space16" />
                                         <p>3. <b>Effortless integration:—</b>For a smooth and seamless data flow and integration, we help integrate Salesforce with your existing system.</p>
                                         <div className="space16" />
-                                        <p>4. <b>Complete Support Solution:-</b>From planning to implementation, deployment, and maintenance, we provide end-to-end support and comprehensive assistance at every step.</p>
+                                        <p>4. <b>Complete Support Solution:-</b>From planning to implementation, deployment and maintenance, we provide end-to-end support and comprehensive assistance at every step.</p>
                                         <div className="space16" />
                                         <p>5. <b>Security & Compliance:—</b>Your data’s safety is our top priority—we handle it with care and follow the highest security standards.</p>
                                         <div className="space16" />
@@ -67,7 +67,7 @@ export default function Section1() {
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Salesforce Customer 360 can improve customer service by providing a single point of contact for all customer interactions and history, enabling faster, more personalized, and more effective support.</div>
+                                                <div className="accordion-body">Salesforce Customer 360 can improve customer service by providing a single point of contact for all customer interactions and history, enabling faster, more personalized and more effective support.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -87,7 +87,7 @@ export default function Section1() {
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Yes. By offering insights into customer behavior and preferences, it helps identify opportunities, improve engagement, and boost revenue. </div>
+                                                <div className="accordion-body">Yes. By offering insights into customer behavior and preferences, it helps identify opportunities, improve engagement and boost revenue. </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
