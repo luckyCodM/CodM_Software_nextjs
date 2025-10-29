@@ -7,7 +7,7 @@ export default function Section1() {
             <div className="service-details-all sp">
                 <div className="container">
                     <div className="row">
-                       
+
                         <div className="col-lg-8">
                             <div className="service-details-area left-padding">
                                 <article>
@@ -16,44 +16,40 @@ export default function Section1() {
                                             <img src="assets/img/service/service-details-img1Edu.png" alt="" />
                                         </div>
                                         <div className="space30" />
-                                        <h2>What is Salesforce Education Cloud?</h2>
+                                        <h2>Salesforce Industry Cloud Services</h2>
                                         <div className="space16" />
-                                        <p>Salesforce Education Cloud is a platform designed for educational institutions to streamline their end-to-end processes from staff recruitment, admissions, student success, alumni engagement and other operations in a single platform. It gives a complete view of every student and stakeholder.</p>
+                                        <p>Salesforce Industry Cloud Service is a collection of specialized solutions built on the Salesforce platform. It is designed to meet the unique needs of different industries. It unites the power of Salesforce CRM with the pre-designed industry workflows, data models, and integration.</p>
                                         <div className="space10" />
-                                        <p>Whether you’re a school, college, university or training institute, Education Cloud helps you:</p>
+                                        <p>Whether you’re in manufacturing, healthcare, financial services, education, or real estate, Industry Cloud provides the tools to help you:</p>
                                         <div className="space10" />
-                                        <p>✔ Personalize student experiences</p>
-                                        <p>✔ Improve communication and engagement</p>
-                                        <p>✔ Streamline administrative tasks</p>
-                                        <p>✔ Make data-driven decisions for better outcomes</p>
+                                        <p>✔ Improve efficiency</p>
+                                        <p>✔ Personalize customer experiences</p>
+                                        <p>✔ Automate industry-specific processes</p>
+                                        <p>✔ Stay compliant with regulations</p>
                                         <div className="space30" />
-                                        <h3>Benefits of Education Cloud</h3>
+                                        <h3>Benefits of Salesforce Industry Cloud Service</h3>
                                         <div className="space16" />
-                                        <p>1. <b>360-degree Student View:-</b> It helps you to track every interaction with students from enrollment to graduation in one platform.</p>
+                                        <p>1. <b>Industry-specific functionality:-</b> Leverage ready-to-go solutions that are designed specifically for your industry needs. It will help you save time, reduce efforts, and focus on what really matters instead of making everything from scratch.</p>
                                         <div className="space10" />
-                                        <p>2. <b>Improved Student Engagement:-</b> It helps you to use personalized communication and automation to boost student involvement, engagement and satisfaction.</p>
+                                        <p>2. <b>Achieve more in less time:-</b> With ready-to-use workflows, templates, and data models, you can get started in no time—no complicated setup is required.</p>
                                         <div className="space10" />
-                                        <p>3. <b>Streamlined admission and recruitment process:-</b> Education Cloud helps institutions to simplify their admission and recruitment processes by managing applications, compiling leads and converting them into enrolled students and staff.</p>
+                                        <p>3. <b>Enhanced Customer Experience:-</b>With Salesforce Industry Cloud service, you can deliver personalized service and offer seamless interaction at every point with industry-aligned processes.</p>
                                         <div className="space10" />
-                                        <p>4. <b>Enhanced Efficiency:-</b> It helps you to automate your daily manual tasks, manage all the data and free the staff from manual data management tasks to focus on student success.</p>
+                                        <p>4. <b>Operational Efficiency:-</b> You can automate repetitive tasks and streamline workflows, helping your team work smarter and more efficiently.</p>
                                         <div className="space10" />
-                                        <p>5. <b>Stronger Alumni and Donor Relationships:-</b> Education Cloud can effectively manage the institute's alumni database, fundraising and other campaigns and donor engagements from a single platform.</p>
-                                        <div className="space10" />
-                                        <p>6. <b>Scalable and Customizable:-</b> You can tailor the system according to your institution's unique needs and processes, ensuring the system evolves as the organization grows.</p>
+                                        <p>5. <b>Scalable & Future-ready:—</b>Industry cloud service evolves with your business requirements to ensure you and your business are always ready for what's next.</p>
                                         <div className="space30" />
-                                        <h3>Why choose CodM Software for Salesforce Education Cloud implementation?</h3>
+                                        <h3>Why choose CodM Software for Industry Cloud Service?</h3>
                                         <div className="space16" />
-                                        <p>1. <b>Education-Focused Expertise:-</b> Our expert team at CodM understands the unique challenges and needs of educational institutions and customizes Salesforce solutions to meet those needs.</p>
+                                        <p>1. <b>Industry-Focused Expertise:—</b> We understand that every industry has distinctive needs, so we cater to the unique needs of your business by providing customized Salesforce industry-specific solutions that solve real-world challenges. </p>
                                         <div className="space16" />
-                                        <p>2. <b>Certified Salesforce Professional:-</b> We bring technical expertise, Salesforce certifications, and industry knowledge to deliver reliable, scalable Education Cloud solutions.</p>
+                                        <p>2. <b>Certified Salesforce Consultant:— </b>At CodM Software, we have a team that brings deep expertise, knowledge, and hands-on experience for the training, support, and implementation of Salesforce Industry Cloud.</p>
                                         <div className="space16" />
-                                        <p>3. <b>End-to-End Support:-</b> From strategy, system design, implementation, training and support, we provide support and guide you in every step of the journey.</p>
+                                        <p>3. <b>End-to-End Services:—</b>From system design and customization to integration, training, and ongoing support, we cover every aspect of your industry cloud journey.</p>
                                         <div className="space16" />
-                                        <p>4. <b>Custom solutions for every institution:-</b> We understand that no two institutions are the same; that’s why we built the Education Cloud solutions that align with your institute’s processes, students’ needs, and organizational goals.</p>
+                                        <p>4. <b>Proven Track Record Across Industries:-</b>Over the years, we've successfully delivered solutions for businesses in manufacturing, real estate, financial services, education, and beyond, as per the unique needs of the businesses.</p>
                                         <div className="space16" />
-                                        <p>5. <b>Security & Compliance:-</b> To ensure that the data and information of your customers is safe and secure, we follow best industry practices for data protection and regulatory compliance.</p>
-                                        <div className="space16" />
-                                        <p>6. <b>Proven Track Record:-</b> We have helped multiple institutions implement Education Cloud and helped them improve their operations, student engagement, and outcomes.</p>
+                                        <p>5. <b>Continuous Partnership:—</b>Your success is our top priority. We provide long-term support and system optimization to ensure your CRM evolves with your business.</p>
                                     </div>
                                 </article>
                                 <div className="space30" />
@@ -68,41 +64,53 @@ export default function Section1() {
                                         <div className="accordion-item active">
                                             <h2 className="accordion-header" id="flush-headingOne">
                                                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                    Who can use Salesforce Education Cloud?
+                                                    What industries does Salesforce Industry Cloud support?
                                                 </button>
                                             </h2>
-                                            <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Education Cloud is ideal for schools, colleges, universities, training institutes, online education institutions etc. It can be used by all educational institutions that are looking to streamline their processes and improve engagement, operations and student success.</div>
+                                            {/* <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                                <div className="accordion-body">Salesforce Customer 360 can improve customer service by providing a single point of contact for all customer interactions and history, enabling faster, more personalized, and more effective support.</div>
+                                            </div> */}
+                                                <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                                <div className="accordion-body">Industry Cloud offers solutions for sectors like: </div>
+                                                <div className="accordion-body">✔ Manufacturing </div>
+                                                <div className="accordion-body">✔ Financial Services & Banking </div>
+                                                <div className="accordion-body">✔ Healthcare & Life Sciences </div>
+                                                <div className="accordion-body">✔ Real Estate </div>
+                                                <div className="accordion-body">✔ Education </div>
+                                                <div className="accordion-body">✔ Retail </div>
+                                                <div className="accordion-body">✔ Communications </div>
+                                                <div className="accordion-body">✔ Consumer goods </div>
+
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingTwo">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                    Can CodM Software customize Education Cloud to our requirements?
+                                                    Can CodM Software customize Industry Cloud to fit my unique processes?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Yes, we can tailor Salesforce Education Cloud to align with your unique needs and requirements, whether it is the admission process, communication workflow, support service for students and administrative staff, etc. </div>
+                                                <div className="accordion-body">Yes. At CodM, we specialize in aligning Salesforce Industry Cloud with your business requirements so that it is coordinated with your workflows, compliance needs, and goals to build a solution that truly fits your business needs.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingThree">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                                    Can Education Cloud help with student retention?
+                                                    How secure is my data with Industry Cloud?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Definitely, with real-time data and personalized engagement tools, institutions can proactively support at-risk students, improving retention and graduation rates. </div>
+                                                <div className="accordion-body">Salesforce provides enterprise-grade security, and CodM Software follows best practices to protect your data and ensure compliance with industry regulations.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingFour">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                                    How secure is the data on Education Cloud?
+                                                    How long does it take to implement Customer 360?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Salesforce provides enterprise-grade security and CodM Software follows best practices to ensure your data is protected, compliant and accessible only to authorized users. </div>
+                                                <div className="accordion-body">The implementation timeline may vary depending on the complexity and unique needs of each business. However, our team of experts works closely with you at every stage to ensure a smooth, step-by-step rollout. We focus on minimizing any disruption to your daily operations while making the transition as seamless and efficient as possible, so your team can quickly start experiencing the benefits of the new system. </div>
                                             </div>
                                         </div>
                                     </div>
@@ -117,7 +125,7 @@ export default function Section1() {
                                     <ul className="service-list">
                                         <li>
                                             <Link href="#">
-                                                Education Cloud
+                                                Salesforce Customer 360
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -141,7 +149,7 @@ export default function Section1() {
                                         </li>
                                         <li>
                                             <Link href="/error">
-                                                Salesforce Customer 360
+                                                Education Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>

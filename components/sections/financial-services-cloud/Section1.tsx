@@ -27,58 +27,32 @@ export default function Section1() {
                                         <div className="space30" />
                                         <h3>Benefits of Financial Service Cloud</h3>
                                         <div className="space16" />
-                                        <p><b>1. 360 degree client view:-</b> An all in one place to access complete client profiles, financial accounts, interaction, and goals.</p>
+                                        <p><b>1. 360 degree client view:-</b> An all in one place to access complete client profiles, financial accounts, interaction and goals.</p>
                                         <p><b>2. Personalized Client experience:-</b> Helps in delivering tailored solution, recommendations and financial advice with real time insights.</p>
-                                        <p><b>3. Improved Productivity:-</b> Automate tasks, manage workflow efficiently, and let the team foucus on building client relationships</p>
+                                        <p><b>3. Improved Productivity:-</b> Automate tasks, manage workflow efficiently and let the team foucus on building client relationships</p>
                                         <p><b>4. Built-in Compliance and Security:-</b> While protecting client data also stay compliant with industry regulations.</p>
                                         <p><b>5. Streamlined Collaboration:-</b> Teams across various department can work together with shared data and simplified process.</p>
                                         <p><b>6. Scalable for Growth:-</b> FSC evolves with your business, supporting everything from startups to large enterprises.</p>
                                         <div className="space30" />
                                         <h3>Why Choose CodM Software for Financial Service Cloud?</h3>
                                         <div className="space16" />
-                                        <p>1. Certified Salesforce Experts- We have Salesforce-certified consultants and developers who specializes in FSC implementation.</p>
+                                        <p>1. <b>Certified Salesforce Experts:-</b> We have Salesforce-certified consultants and developers who specializes in FSC implementation.</p>
                                         <div className="space16" />
-                                        <p>2. Industry-Specific Knowledge- We provide FSC support & solutions to meet the unique needs of every industry, whether it's banking, insurance, manufacturing, or education.</p>
+                                        <p>2. <b>Industry-Specific Knowledge:-</b> We provide FSC support & solutions to meet the unique needs of every industry, whether it's banking, insurance, manufacturing, or education.</p>
                                         <div className="space16" />
-                                        <p>3. End-to-End Implementation- We provide end-to-end support for FSC implementation from setup to integration, customization, and training.</p>
+                                        <p>3. <b>End-to-End Implementation:-</b> We provide end-to-end support for FSC implementation from setup to integration, customization and training.</p>
                                         <div className="space16" />
-                                        <p>4. Security & Compliance First- We follow industry best practices to ensure your data stays secure and your system remains compliant.</p>
+                                        <p>4. <b>Security & Compliance First:-</b> We follow industry best practices to ensure your data stays secure and your system remains compliant.</p>
                                         <div className="space16" />
-                                        <p>5. Proven Track Record- We’ve successfully delivered Salesforce support & solutions for various financial institutions that were looking to improve their efficiency and client satisfaction rate.</p>
+                                        <p>5. <b>Proven Track Record:-</b> We’ve successfully delivered Salesforce support & solutions for various financial institutions that were looking to improve their efficiency and client satisfaction rate.</p>
                                         <div className="space16" />
-                                        <p>6. Ongoing Support & Optimization- We provide continuous maintenance and proactive guidance to ensure your FSC evolves with your business needs.</p>
+                                        <p>6. <b>Ongoing Support & Optimization:-</b> We provide continuous maintenance and proactive guidance to ensure your FSC evolves with your business needs.</p>
                                     </div>
                                 </article>
                                 <div className="space30" />
                                 <article>
                                     <div className="heading1">
                                         <h3>FAQ</h3>
-                                        {/* <div className="space16" />
-                                        <p>Our temp-to-hire programs offer the flexibility to assess candidates on the job before making a permanent hiring decision, minimizing risk &amp; ensuring a cultural fit.</p>
-                                        <div className="space16" />
-                                        <p>Our executive search services specialize in identifying and attracting top-level executives and leadership talent to drive your organization's success and growth.</p>
-                                        <div className="row">
-                                            <div className="col-lg-6">
-                                                <div className="space30" />
-                                                <div className="image">
-                                                    <img src="assets/img/service/service-details-img2.png" alt="" />
-                                                </div>
-                                                <div className="space16" />
-                                                <div className="heading1">
-                                                    <p>Our direct hire solutions streamline the recruitment process, delivering qualified candidates directly to your organization</p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6">
-                                                <div className="space30" />
-                                                <div className="image">
-                                                    <img src="assets/img/service/service-details-img3.png" alt="" />
-                                                </div>
-                                                <div className="space16" />
-                                                <div className="heading1">
-                                                    <p>Our temporary staffing services provide flexible workforce solutions to meet short-term staffing needs, whether for seasonal</p>
-                                                </div>
-                                            </div>
-                                        </div> */}
                                     </div>
                                 </article>
                                 <div className="space20" />

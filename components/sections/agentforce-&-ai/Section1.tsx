@@ -24,17 +24,17 @@ export default function Section1() {
                                         <div className="space30" />
                                         <h3>Benefits of Agentforce and AI in Salesforce</h3>
                                         <div className="space16" />
-                                        <p>1. Improved Agent Productivity- Agents can access everything in one place to reduce the overall data handling time whether it is customer data, knowledge bases or workflow.</p>
+                                        <p>1. <b>Improved Agent Productivity:-</b> Agents can access everything in one place to reduce the overall data handling time whether it is customer data, knowledge bases or workflow.</p>
                                         <div className="space10" />
-                                        <p>2. Enhanced Customer Experience- We provide personalized interaction that are powered by AI suggestions and advanced analytics to create more meaning ful interactions.</p>
+                                        <p>2. <b>Enhanced Customer Experience:-</b> We provide personalized interaction that are powered by AI suggestions and advanced analytics to create more meaning ful interactions.</p>
                                         <div className="space10" />
-                                        <p>3. Faster Case Resolution- Automation tools are used to ensure all the cases are addressed on priority by the agents.</p>
+                                        <p>3. <b>Faster Case Resolution:-</b> Automation tools are used to ensure all the cases are addressed on priority by the agents.</p>
                                         <div className="space10" />
-                                        <p>4. Data-Driven Decisions- To help the managers observe performance and forecast customer needs accurately AI-driven tools are used.</p>
+                                        <p>4. <b>Data-Driven Decisions:-</b> To help the managers observe performance and forecast customer needs accurately AI-driven tools are used.</p>
                                         <div className="space10" />
-                                        <p>5. Seamless Collaboration- To help agents to share the best practices and work together in real-time integrated communication tools are used.</p>
+                                        <p>5. <b>Seamless Collaboration:-</b> To help agents to share the best practices and work together in real-time integrated communication tools are used.</p>
                                         <div className="space10" />
-                                        <p>6. Scalability- AI-powered solutions can help transform workload without any compromise in the service quality irrespective of the team size.</p>
+                                        <p>6. <b>Scalability:-</b> AI-powered solutions can help transform workload without any compromise in the service quality irrespective of the team size.</p>
                                         <div className="space30" />
                                         <h3>Why Choose CodM Software for Agentforce & AI Services?</h3>
                                         <div className="space16" />

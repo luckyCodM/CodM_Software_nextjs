@@ -196,6 +196,27 @@ export default function MainMenu() {
                 <Link href="#" className="main1">
                     Service <i className="fa-solid fa-angle-down" />
                 </Link>
+                <ul>
+                    <li>
+                        <Link href="/financial-services-cloud">Financial Services Cloud</Link>
+                    </li>
+                    <li>
+                        <Link href="/agentforce-&-ai">Agentforce & AI</Link>
+                    </li>
+                    <li>
+                        <Link href="/education-cloud">Education Cloud</Link>
+                    </li>
+                    <li>
+                       <Link href="/customer_360_degree">Salesforce Customer 360</Link>
+                    </li>
+                    <li>
+                        <Link href="/Industry-cloud">Industries Services</Link>
+                    </li>
+                    <li>
+                        <Link href="/banking_service">Banking Services</Link>
+                    </li>
+                </ul>
+
                 {/* <ul>
                     <li>
                         <Link href="/service">Service</Link>
@@ -220,9 +241,9 @@ export default function MainMenu() {
                         </ul>
                     </li>
                 </ul> */}
-                 <div className="mega-menu-all">
-                    <div className="row">
-                        <div className="col-md-3">
+                 {/* <div className="mega-menu-all"> */}
+                    {/* <div className="row"> */}
+                        {/* <div className="col-md-3">
                             <div className="mega-menu-single dis1">
                                 <h3>Our Services</h3>
                                 <ul>
@@ -240,7 +261,7 @@ export default function MainMenu() {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                         {/* <div className="col-md-3">
                             <div className="mega-menu-single">
                                 <h3>News / Blog</h3>
@@ -298,8 +319,8 @@ export default function MainMenu() {
                                 </ul>
                             </div>
                         </div> */}
-                    </div>
-                </div>
+                    {/* </div> */}
+                {/* </div> */}
             </li>
             <li className="dropdown-menu-parrent">
                 <Link href="/field-history-tracking" className="main1">

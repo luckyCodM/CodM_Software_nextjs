@@ -7,7 +7,7 @@ export default function Section1() {
             <div className="service-details-all sp">
                 <div className="container">
                     <div className="row">
-                       
+
                         <div className="col-lg-8">
                             <div className="service-details-area left-padding">
                                 <article>
@@ -16,44 +16,39 @@ export default function Section1() {
                                             <img src="assets/img/service/service-details-img1Edu.png" alt="" />
                                         </div>
                                         <div className="space30" />
-                                        <h2>What is Salesforce Education Cloud?</h2>
+                                        <h2>Salesforce Customer 360 degree</h2>
                                         <div className="space16" />
-                                        <p>Salesforce Education Cloud is a platform designed for educational institutions to streamline their end-to-end processes from staff recruitment, admissions, student success, alumni engagement and other operations in a single platform. It gives a complete view of every student and stakeholder.</p>
+                                        <p>Salesforce Customer 360-Degree Service is a platform that connects customer data across all domains, whether it is sales, service, marketing, or commerce.</p>
                                         <div className="space10" />
-                                        <p>Whether you’re a school, college, university or training institute, Education Cloud helps you:</p>
-                                        <div className="space10" />
-                                        <p>✔ Personalize student experiences</p>
-                                        <p>✔ Improve communication and engagement</p>
-                                        <p>✔ Streamline administrative tasks</p>
-                                        <p>✔ Make data-driven decisions for better outcomes</p>
+                                        <p>It provides you with a complete view of each customer interaction, their preferences and history, helping your business to deliver seamless, customized, personalized and consistent customer experiences at every point.</p>
                                         <div className="space30" />
-                                        <h3>Benefits of Education Cloud</h3>
+                                        <h3>Benefits of Salesforce Customer 360-degree Service</h3>
                                         <div className="space16" />
-                                        <p>1. <b>360-degree Student View:-</b> It helps you to track every interaction with students from enrollment to graduation in one platform.</p>
+                                        <p>1. <b>Overall Customer View:-</b> You can access the entire customer data in a single platform for better understanding and interactions.</p>
                                         <div className="space10" />
-                                        <p>2. <b>Improved Student Engagement:-</b> It helps you to use personalized communication and automation to boost student involvement, engagement and satisfaction.</p>
+                                        <p>2. <b>Personalized Experiences:-</b> Customize communications and solutions based on your customers' history and preferences.</p>
                                         <div className="space10" />
-                                        <p>3. <b>Streamlined admission and recruitment process:-</b> Education Cloud helps institutions to simplify their admission and recruitment processes by managing applications, compiling leads and converting them into enrolled students and staff.</p>
+                                        <p>3. <b>Improved Customer Contentment:-</b>You can resolve issues at a faster rate and can offer dynamic solutions & support as per customers' unique needs.</p>
                                         <div className="space10" />
-                                        <p>4. <b>Enhanced Efficiency:-</b> It helps you to automate your daily manual tasks, manage all the data and free the staff from manual data management tasks to focus on student success.</p>
+                                        <p>4. <b>Better Collaboration:-</b> Different teams across various departments can work together using shared customer details & information.</p>
                                         <div className="space10" />
-                                        <p>5. <b>Stronger Alumni and Donor Relationships:-</b> Education Cloud can effectively manage the institute's alumni database, fundraising and other campaigns and donor engagements from a single platform.</p>
+                                        <p>5. <b>Predictive Decision Making:—</b>Through dashboards, analytics, and reporting, you can improve strategies and gain actionable insights on the data to make decisions.</p>
                                         <div className="space10" />
-                                        <p>6. <b>Scalable and Customizable:-</b> You can tailor the system according to your institution's unique needs and processes, ensuring the system evolves as the organization grows.</p>
+                                        <p>6. <b>Scalable & Flexible:—</b>With the help of Salesforce Customer 360-degree, you can easily adapt to growing customer needs and enhance business processes.</p>
                                         <div className="space30" />
-                                        <h3>Why choose CodM Software for Salesforce Education Cloud implementation?</h3>
+                                        <h3>Why Choose CodM Software for Salesforce Customer 360-Degree Service?</h3>
                                         <div className="space16" />
-                                        <p>1. <b>Education-Focused Expertise:-</b> Our expert team at CodM understands the unique challenges and needs of educational institutions and customizes Salesforce solutions to meet those needs.</p>
+                                        <p>1. <b>Certified Professionals:—</b> We have a team of Salesforce-certified experts who ensure efficient implementation and optimization.</p>
                                         <div className="space16" />
-                                        <p>2. <b>Certified Salesforce Professional:-</b> We bring technical expertise, Salesforce certifications, and industry knowledge to deliver reliable, scalable Education Cloud solutions.</p>
+                                        <p>2. <b>Personalized Solutions:— </b>We customize the customer 360 framework to meet your unique business needs.</p>
                                         <div className="space16" />
-                                        <p>3. <b>End-to-End Support:-</b> From strategy, system design, implementation, training and support, we provide support and guide you in every step of the journey.</p>
+                                        <p>3. <b>Effortless integration:—</b>For a smooth and seamless data flow and integration, we help integrate Salesforce with your existing system.</p>
                                         <div className="space16" />
-                                        <p>4. <b>Custom solutions for every institution:-</b> We understand that no two institutions are the same; that’s why we built the Education Cloud solutions that align with your institute’s processes, students’ needs, and organizational goals.</p>
+                                        <p>4. <b>Complete Support Solution:-</b>From planning to implementation, deployment, and maintenance, we provide end-to-end support and comprehensive assistance at every step.</p>
                                         <div className="space16" />
-                                        <p>5. <b>Security & Compliance:-</b> To ensure that the data and information of your customers is safe and secure, we follow best industry practices for data protection and regulatory compliance.</p>
+                                        <p>5. <b>Security & Compliance:—</b>Your data’s safety is our top priority—we handle it with care and follow the highest security standards.</p>
                                         <div className="space16" />
-                                        <p>6. <b>Proven Track Record:-</b> We have helped multiple institutions implement Education Cloud and helped them improve their operations, student engagement, and outcomes.</p>
+                                        <p>6. <b>Proven Track Record:—</b>We have provided solutions to businesses to help enhance their customer relationships and experience and improve operational efficiency.</p>
                                     </div>
                                 </article>
                                 <div className="space30" />
@@ -68,41 +63,41 @@ export default function Section1() {
                                         <div className="accordion-item active">
                                             <h2 className="accordion-header" id="flush-headingOne">
                                                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                    Who can use Salesforce Education Cloud?
+                                                    How can Salesforce Customer 360 improve customer service?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Education Cloud is ideal for schools, colleges, universities, training institutes, online education institutions etc. It can be used by all educational institutions that are looking to streamline their processes and improve engagement, operations and student success.</div>
+                                                <div className="accordion-body">Salesforce Customer 360 can improve customer service by providing a single point of contact for all customer interactions and history, enabling faster, more personalized, and more effective support.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingTwo">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                    Can CodM Software customize Education Cloud to our requirements?
+                                                    Is Salesforce Customer 360 suitable for businesses of all sizes?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Yes, we can tailor Salesforce Education Cloud to align with your unique needs and requirements, whether it is the admission process, communication workflow, support service for students and administrative staff, etc. </div>
+                                                <div className="accordion-body">Yes, it is scalable and customizable to meet the needs of businesses of all types, whether they are small startups or large enterprises.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingThree">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                                    Can Education Cloud help with student retention?
+                                                    Will Customer 360 also help increase sales?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Definitely, with real-time data and personalized engagement tools, institutions can proactively support at-risk students, improving retention and graduation rates. </div>
+                                                <div className="accordion-body">Yes. By offering insights into customer behavior and preferences, it helps identify opportunities, improve engagement, and boost revenue. </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingFour">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                                    How secure is the data on Education Cloud?
+                                                    How long does it take to implement Customer 360?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Salesforce provides enterprise-grade security and CodM Software follows best practices to ensure your data is protected, compliant and accessible only to authorized users. </div>
+                                                <div className="accordion-body">The implementation timeline may vary depending on the complexity and unique needs of each business. However, our team of experts works closely with you at every stage to ensure a smooth, step-by-step rollout. We focus on minimizing any disruption to your daily operations while making the transition as seamless and efficient as possible, so your team can quickly start experiencing the benefits of the new system. </div>
                                             </div>
                                         </div>
                                     </div>
@@ -117,7 +112,7 @@ export default function Section1() {
                                     <ul className="service-list">
                                         <li>
                                             <Link href="#">
-                                                Education Cloud
+                                                Salesforce Customer 360
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -141,7 +136,7 @@ export default function Section1() {
                                         </li>
                                         <li>
                                             <Link href="/error">
-                                                Salesforce Customer 360
+                                                Education Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>

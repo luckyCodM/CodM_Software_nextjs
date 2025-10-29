@@ -97,16 +97,16 @@ export default function Section1() {
                                         </div>
                                         <div className="space30" />
                                         <div className="heading1">
-                                            <h3>Introduction</h3>
-                                            <div className="space16" />
+                                            {/* <h3>Introduction</h3>
+                                            <div className="space16" /> */}
                                             <p>Salesforce Financial Services Cloud (FSC) is a specialized CRM platform designed to meet the unique needs
-                                                of financial institutions such as banks, wealth management firms, insurance companies, and lenders.
+                                                of financial institutions such as banks, wealth management firms, insurance companies and lenders.
                                                 It continues to be a game-changer for financial institutions, offering innovative tools to enhance
                                                 customer engagement, streamline operations, and ensure compliance. In 2025, FSC introduces new AI-driven
                                                 capabilities, automation enhancements, and compliance tools that revolutionize the financial industry.</p>
                                         </div>
                                         <div className="space20" />
-                                        <h3>Key Features :–</h3>
+                                        <h3>Key Features:–</h3>
                                         <div className="project-details-list">
                                             <ul>
                                                 <li>
@@ -573,39 +573,6 @@ export default function Section1() {
                                         <img src="assets/img/icons/details-call.png" alt="" /> +91 9871717425
                                     </Link>
                                 </div>
-                                {/* <div className="details-box2">
-                                    <h3>Our Tags</h3>
-                                    <div className="space10" />
-                                    <ul className="tags">
-                                        <li>
-                                            <Link href="#">Staffing</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">Creative</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">Design</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">Art</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">Development</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">Image</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">People</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">Tech</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">3D Images</Link>
-                                        </li>
-                                    </ul>
-                                </div> */}
                                 <div className="details-box2">
                                     <h3> About Us </h3>
                                     <p>Boost your business with our customised CRM solutions. Optimised processes, improved customer relationships and
