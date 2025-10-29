@@ -38,7 +38,7 @@ export default function Section1() {
                                         <div className="space16" />
                                         <p>1. <b>Certified Salesforce Experts:-</b> We have Salesforce-certified consultants and developers who specializes in FSC implementation.</p>
                                         <div className="space16" />
-                                        <p>2. <b>Industry-Specific Knowledge:-</b> We provide FSC support & solutions to meet the unique needs of every industry, whether it's banking, insurance, manufacturing, or education.</p>
+                                        <p>2. <b>Industry-Specific Knowledge:-</b> We provide FSC support & solutions to meet the unique needs of every industry, whether it's banking, insurance, manufacturing or education.</p>
                                         <div className="space16" />
                                         <p>3. <b>End-to-End Implementation:-</b> We provide end-to-end support for FSC implementation from setup to integration, customization and training.</p>
                                         <div className="space16" />

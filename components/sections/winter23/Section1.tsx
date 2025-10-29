@@ -300,7 +300,7 @@ export default function Section1() {
                                         <div className="heading1">
                                             <p>Now you can use record-triggered flows to update any records related to the triggering record.</p>
                                             <div className="space10" />
-                                            <p><b>Launch Screen Flows With Lightning Web Components : </b> Embed a screen flow from any Lightning Web Component with the new lightning-flow component. Developers can supercharge their flows by customizing finish behavior, setting custom styling, or launching flows from their Lightning Web Components. And they can offload complex input collection and branching logic to Flow, saving time and money.</p>
+                                            <p><b>Launch Screen Flows With Lightning Web Components : </b> Embed a screen flow from any Lightning Web Component with the new lightning-flow component. Developers can supercharge their flows by customizing finish behavior, setting custom styling or launching flows from their Lightning Web Components. And they can offload complex input collection and branching logic to Flow, saving time and money.</p>
                                             <div className="space10" />
                                             <p><b>Example shows an LWC component with the Survey_customers flow API name.</b></p>
                                         </div>
@@ -384,7 +384,7 @@ export default function Section1() {
                                         </div>
                                         <div className="space16" />
                                         <div className="heading1">
-                                            <p>Leverage the new Data Table (beta) flow screen component to display a list of records on a flow screen. You can set the table to read-only, or enable your users to select one or more records and use their selections later in the flow. And users can change the width of table columns and wrap or truncate overflowing text.</p>
+                                            <p>Leverage the new Data Table (beta) flow screen component to display a list of records on a flow screen. You can set the table to read-only or enable your users to select one or more records and use their selections later in the flow. And users can change the width of table columns and wrap or truncate overflowing text.</p>
                                             <div className="space10" />
                                             <p>Add the Data Table (beta) component to your screen flow and configure the fields.</p>
                                         </div>
