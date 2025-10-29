@@ -16,9 +16,9 @@ export default function Section1() {
                                             <img src="assets/img/service/service-details-img1Edu.png" alt="" />
                                         </div>
                                         <div className="space30" />
-                                        <h2>What is Salesforce Education Cloud?</h2>
+                                        <h2>OmniStudio Cloud Service</h2>
                                         <div className="space16" />
-                                        <p>Salesforce Education Cloud is a platform designed for educational institutions to streamline their end-to-end processes from staff recruitment, admissions, student success, alumni engagement and other operations in a single platform. It gives a complete view of every student and stakeholder.</p>
+                                        <p>Salesforce OmniStudio, previously known as Vlocity, is a powerful suite of no-code and low-code tools that are designed to boost digital transformation within the Salesforce ecosystem. It helps businesses to build a dynamic, guided user experience, automate processes, and integrate data seamlessly with multiple systems without any heavy coding. OmniStudio helps organizations to build customized, industry-specific solutions with the help of the following components:</p>
                                         <div className="space10" />
                                         <p>Whether you’re a school, college, university or training institute, Education Cloud helps you:</p>
                                         <div className="space10" />
@@ -117,7 +117,7 @@ export default function Section1() {
                                     <ul className="service-list">
                                         <li>
                                             <Link href="#">
-                                                Education Cloud
+                                                OmniStudio Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -148,24 +148,8 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/omnistudio-cloud-service">
-                                                OmniStudio Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/Industry-cloud">
-                                                Industries Services
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                         <li>
-                                            <Link href="/banking_service">
-                                                Banking Services
+                                            <Link href="/education-cloud">
+                                                Education Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>

@@ -123,10 +123,18 @@ export default function Section1() {
                                 <div className="details-box3">
                                     <h3>Our Services</h3>
                                     <div className="space10" />
-                                    <ul className="service-list">
+                                          <ul className="service-list">
                                         <li>
                                             <Link href="#">
-                                                Financial Services Cloud
+                                                 Financial Services Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/education-cloud">
+                                                Education Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -141,15 +149,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/">
-                                                Education Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/">
+                                            <Link href="/customer_360_degree">
                                                 Salesforce Customer 360
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
@@ -157,8 +157,24 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/">
+                                            <Link href="/omnistudio-cloud-service">
                                                 OmniStudio Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/Industry-cloud">
+                                                Industries Services
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                         <li>
+                                            <Link href="/banking_service">
+                                                Banking Services
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>

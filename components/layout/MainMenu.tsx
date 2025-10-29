@@ -35,7 +35,7 @@ export default function MainMenu() {
                         <Link href="/banking_service">Banking Services</Link>
                     </li>
                     <li>
-                        <Link href="/banking_service">Banking Services</Link>
+                        <Link href="/omnistudio-cloud-service">OmniStudio Cloud Service</Link>
                     </li>
                 </ul>
             </li>
@@ -45,27 +45,9 @@ export default function MainMenu() {
                 </Link>
             </li>
             <li className="dropdown-menu-parrent">
-                <Link href="#" className="main1">
-                    Blog <i className="fa-solid fa-angle-down" />
+                <Link href="/blog" className="main1">
+                    Blog 
                 </Link>
-                
-                <ul>
-                    <li>
-                        <Link href="/financial-service-2025">Financial Services Cloud</Link>
-                    </li>
-                    <li>
-                        <Link href="/blog">Configuring Custom Domains</Link>
-                    </li>
-                    <li>
-                        <Link href="/omnistudio-vlocity">Omnistudio, Data Mapper and IP</Link>
-                    </li>
-                    <li>
-                        <Link href="/blog">Winter 24 release</Link>
-                    </li>
-                    <li>
-                        <Link href="/winter23">Winter 23 release</Link>
-                    </li>
-                </ul>
             </li>
             <li className="dropdown-menu-parrent">
                 <Link className="main1" href="/contact">

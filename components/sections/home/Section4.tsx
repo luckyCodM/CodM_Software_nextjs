@@ -63,10 +63,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/">Education Cloud</Link>
+                                        <Link href="/education-cloud">Education Cloud</Link>
                                     </h4>
                                     <p>A platform for everything you need from streamlined operations to enhanced student engagement with the education cloud.</p>
-                                    <Link href="/" className="learn">
+                                    <Link href="/education-cloud" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -82,10 +82,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/">Salesforce Customer 360</Link>
+                                        <Link href="/customer_360_degree">Salesforce Customer 360</Link>
                                     </h4>
                                     <p> Helping businesses deliver the seamless, personalized solutions with Salesforce Customer 360 degree. </p>
-                                    <Link href="/" className="learn">
+                                    <Link href="/customer_360_degree" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -101,10 +101,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/">Industries Services</Link>
+                                        <Link href="/Industry-cloud">Industries Services</Link>
                                     </h4>
                                     <p>Accelerate growth using the industry cloud tailored solutions and integration build for your unique requirements.</p>
-                                    <Link href="/" className="learn">
+                                    <Link href="/Industry-cloud" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -120,10 +120,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/">Banking Services</Link>
+                                        <Link href="/banking_service">Banking Services</Link>
                                     </h4>
                                     <p>Helping banks to enhance their customer relationship and streamline processes using Salesforce Banking Service.</p>
-                                    <Link href="/" className="learn">
+                                    <Link href="/banking_service" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
