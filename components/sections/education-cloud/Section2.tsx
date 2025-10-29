@@ -9,7 +9,7 @@ export default function Section2() {
                     <div className="row">
                         <div className="col-lg-6 m-auto text-center">
                             <div className="heading1">
-                                <h2>View More Servicve</h2>
+                                <h2>View More Services</h2>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ export default function Section2() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/error"> Financial Services Cloud </Link>
+                                            <Link href="/financial-services-cloud"> Financial Services Cloud </Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Leveraging FSC to provide a 360 degree view of clients by integrating data and automating processes to deliver smarter services. </p>

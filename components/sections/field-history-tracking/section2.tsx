@@ -47,7 +47,7 @@ export default function Section2() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/error"> Education Cloud </Link>
+                                            <Link href="/education-cloud"> Education Cloud </Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Whether you're looking for temporary staffing, direct hire placements, </p>
@@ -67,7 +67,7 @@ export default function Section2() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/error">Salesforce Customer 360</Link>
+                                            <Link href="/customer_360_degree">Salesforce Customer 360</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Whether you're looking for temporary staffing, direct hire placements, </p>
