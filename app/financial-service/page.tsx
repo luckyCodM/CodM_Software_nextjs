@@ -1,13 +1,13 @@
 import Layout from "@/components/layout/Layout";
 import SectionHeader from "@/components/layout/SectionHeader";
-import Section1 from "@/components/sections/customer_360_degree/Section1";
-import Section2 from "@/components/sections/service-details/Section2";
+import Section1 from "@/components/sections/financial-service/Section1";
+import Section2 from "@/components/sections/financial-service/section2";
 import Section3 from "@/components/sections/about-us/Section3";
 export default function Home() {
     return (
         <>
             <Layout>
-                <SectionHeader title="Salesforce Customer 360 Degree" group_page="" current_page="Salesforce Customer 360 Degree" display="d-none" />
+                <SectionHeader title="Financial Services Cloud" group_page="Blog" current_page="Financial Services Cloud" display="d-block" />
                 <Section1 />
                 <Section2 />
                 <Section3 />

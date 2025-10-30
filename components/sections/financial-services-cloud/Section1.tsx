@@ -19,11 +19,11 @@ export default function Section1() {
                                         <h2>Financial Services Cloud </h2>
                                         <div className="space16" />
                                         <p>FSC is a platform that brings together the client information, sales data, service etc for the financial sector. FSC provides a 360 degree view of clients and helps in automating everyday process to help deliver the exceptional service.</p>
-                                        <p>FSC helps you in:</p>
-                                        <p>-Strengthen client relationships</p>
-                                        <p>-Streamline workflow</p>
-                                        <p>-Maintain Regulatory compliance</p>
-                                        <p>-Financial advice as per requirements</p>
+                                        <p>FSC helps you in:-</p>
+                                        <p>✔Strengthen client relationships</p>
+                                        <p>✔Streamline workflow</p>
+                                        <p>✔Maintain Regulatory compliance</p>
+                                        <p>✔Financial advice as per requirements</p>
                                         <div className="space30" />
                                         <h3>Benefits of Financial Service Cloud</h3>
                                         <div className="space16" />

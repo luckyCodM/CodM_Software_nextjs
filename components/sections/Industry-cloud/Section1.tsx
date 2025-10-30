@@ -13,7 +13,7 @@ export default function Section1() {
                                 <article>
                                     <div className="heading1">
                                         <div className="image">
-                                            <img src="assets/img/service/service-details-img1Edu.png" alt="" />
+                                            {/* <img src="assets/img/service/service-details-img1Edu.png" alt="" /> */}
                                         </div>
                                         <div className="space30" />
                                         <h2>Salesforce Industry Cloud Services</h2>
@@ -70,7 +70,7 @@ export default function Section1() {
                                             {/* <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                                 <div className="accordion-body">Salesforce Customer 360 can improve customer service by providing a single point of contact for all customer interactions and history, enabling faster, more personalized, and more effective support.</div>
                                             </div> */}
-                                                <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                                 <div className="accordion-body">Industry Cloud offers solutions for sectors like: </div>
                                                 <div className="accordion-body">✔ Manufacturing </div>
                                                 <div className="accordion-body">✔ Financial Services & Banking </div>
@@ -125,7 +125,7 @@ export default function Section1() {
                                     <ul className="service-list">
                                         <li>
                                             <Link href="#">
-                                                Salesforce Customer 360
+                                                Industry Cloud Services
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -140,7 +140,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/agentforce-ai">
+                                            <Link href="/agentforce-&-ai">
                                                 Agentforce & AI
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
@@ -148,16 +148,32 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/error">
-                                                Education Cloud
+                                            <Link href="/customer_360_degree">
+                                                Salesforce Customer 360
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/error">
+                                            <Link href="/omnistudio-cloud-service">
                                                 OmniStudio Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/Industry-cloud">
+                                                Industries Services
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/banking_service">
+                                                Banking Services
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>

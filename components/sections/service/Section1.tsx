@@ -79,7 +79,7 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/error">Salesforce Customer 360</Link>
+                                            <Link href="/customer_360_degree">Salesforce Customer 360 Degree</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Helping businesses deliver the seamless, personalized solutions with Salesforce Customer 360 degree. </p>
@@ -87,7 +87,7 @@ export default function Section1() {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
                                     <img src="assets/img/service/service1-img5.png" alt="" />
@@ -106,8 +106,8 @@ export default function Section1() {
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
-                        {/* <div className="col-lg-4 col-md-6">
+                        </div>
+                        <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
                                     <img src="assets/img/service/service1-img6.png" alt="" />
@@ -147,7 +147,7 @@ export default function Section1() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        {/* <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
                                     <img src="assets/img/service/service1-img8.png" alt="" />
@@ -166,8 +166,8 @@ export default function Section1() {
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
-                        {/* <div className="col-lg-4 col-md-6">
+                        </div>
+                        <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
                                     <img src="assets/img/service/service1-img9.png" alt="" />
@@ -188,7 +188,7 @@ export default function Section1() {
                             </div>
                         </div> */}
                     </div>
-                    <div className="space60" />
+                    {/* <div className="space60" /> */}
                     {/* <div className="row">
                         <div className="col-12 m-auto">
                             <div className="theme-pagination text-center">

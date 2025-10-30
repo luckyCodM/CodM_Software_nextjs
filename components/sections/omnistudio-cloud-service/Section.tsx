@@ -13,47 +13,48 @@ export default function Section1() {
                                 <article>
                                     <div className="heading1">
                                         <div className="image">
-                                            <img src="assets/img/service/service-details-img1Edu.png" alt="" />
+                                            {/* <img src="assets/img/service/service-details-img1Edu.png" alt="" /> */}
                                         </div>
                                         <div className="space30" />
                                         <h2>OmniStudio Cloud Service</h2>
                                         <div className="space16" />
-                                        <p>Salesforce OmniStudio, previously known as Vlocity, is a powerful suite of no-code and low-code tools that are designed to boost digital transformation within the Salesforce ecosystem. It helps businesses to build a dynamic, guided user experience, automate processes, and integrate data seamlessly with multiple systems without any heavy coding. OmniStudio helps organizations to build customized, industry-specific solutions with the help of the following components:</p>
+                                        <p>Salesforce OmniStudio, previously known as Vlocity, is a powerful suite of no-code and low-code tools that are designed to boost digital 
+                                            transformation within the Salesforce ecosystem. It helps businesses to build a dynamic, guided user experience, automate processes and 
+                                            integrate data seamlessly with multiple systems without any heavy coding. OmniStudio helps organizations to build customized, industry-specific 
+                                            solutions with the help of the following components:</p>
                                         <div className="space10" />
-                                        <p>Whether you’re a school, college, university or training institute, Education Cloud helps you:</p>
+                                        <p>✔ <b>OmniScript:-</b> Guided, step-by-step processes for users.</p>
+                                        <p>✔ <b>FlexCards:-</b> Dynamic UI components displaying key data.</p>
+                                        <p>✔ <b>DataRaptors:-</b> No-code data retrieval and transformation tools.</p>
+                                        <p>✔ <b>Integration Procedures:-</b> Fast, declarative system integration.</p>
                                         <div className="space10" />
-                                        <p>✔ Personalize student experiences</p>
-                                        <p>✔ Improve communication and engagement</p>
-                                        <p>✔ Streamline administrative tasks</p>
-                                        <p>✔ Make data-driven decisions for better outcomes</p>
+                                        <p>With the use of OmniStudio, businesses can deliver powerful digital experiences faster, without relying entirely on traditional development.</p>
                                         <div className="space30" />
-                                        <h3>Benefits of Education Cloud</h3>
+                                        <h3>Benefits of Salesforce OmniStudio Service</h3>
                                         <div className="space16" />
-                                        <p>1. <b>360-degree Student View:-</b> It helps you to track every interaction with students from enrollment to graduation in one platform.</p>
+                                        <p>1. <b>Faster Time-To-Market:-</b> By using OmniStudio, we can build and deploy complex processes and interfaces in days rather than months. It helps to manage time efficiently and effectively.</p>
                                         <div className="space10" />
-                                        <p>2. <b>Improved Student Engagement:-</b> It helps you to use personalized communication and automation to boost student involvement, engagement and satisfaction.</p>
+                                        <p>2. <b>No-Code/Low-Code Flexibility:-</b> It empowers business users and admins to create and update experiences without developer constraints.</p>
                                         <div className="space10" />
-                                        <p>3. <b>Streamlined admission and recruitment process:-</b> Education Cloud helps institutions to simplify their admission and recruitment processes by managing applications, compiling leads and converting them into enrolled students and staff.</p>
+                                        <p>3. <b>Enhanced Customer Experience:-</b> With OmniStudio, you can deliver seamless, personalized and guided user journeys across web, mobile and apps, creating a consistent and engaging digital experience.</p>
                                         <div className="space10" />
-                                        <p>4. <b>Enhanced Efficiency:-</b> It helps you to automate your daily manual tasks, manage all the data and free the staff from manual data management tasks to focus on student success.</p>
+                                        <p>4. <b>Consistent Process Across Channels:-</b> We ensure standardized processes and interfaces across various departments and we deliver a seamless and consistent experience throughout the organization.</p>
                                         <div className="space10" />
-                                        <p>5. <b>Stronger Alumni and Donor Relationships:-</b> Education Cloud can effectively manage the institute's alumni database, fundraising and other campaigns and donor engagements from a single platform.</p>
+                                        <p>5. <b>Simplified System Integration:-</b> We can easily connect Salesforce with any external systems, APIs and databases using OmniStudio’s powerful declarative tools. Also, the integration workflow can be sped up without any complex coding, ensuring seamless and smooth data exchange.</p>
                                         <div className="space10" />
-                                        <p>6. <b>Scalable and Customizable:-</b> You can tailor the system according to your institution's unique needs and processes, ensuring the system evolves as the organization grows.</p>
+                                        <p>6. <b>Cost-Effective and Operational Efficiency:-</b> By using Omnistudio’s components and automation capabilities, we can lower the cost of development and efficiency can be increased. We can also streamline operations by creating workflows that can save time and reduce manual efforts.</p>
                                         <div className="space30" />
-                                        <h3>Why choose CodM Software for Salesforce Education Cloud implementation?</h3>
+                                        <h3>Why Choose CodM Software for OmniStudio (Vlocity) Implementation?</h3>
                                         <div className="space16" />
-                                        <p>1. <b>Education-Focused Expertise:-</b> Our expert team at CodM understands the unique challenges and needs of educational institutions and customizes Salesforce solutions to meet those needs.</p>
+                                        <p>1. <b>Certified Experts:-</b> Our team at CodM holds Omnistudio and Salesforce certifications, ensuring the solutions are based on industry best practices. We ensure every implementation is optimized for performance, scalability and long-term success.</p>
                                         <div className="space16" />
-                                        <p>2. <b>Certified Salesforce Professional:-</b> We bring technical expertise, Salesforce certifications and industry knowledge to deliver reliable, scalable Education Cloud solutions.</p>
+                                        <p>2. <b>End-to-End OmniStudio Service:-</b> From strategy and design to development, integration, implementation and post-deployment support, we handle the complete lifecycle. Our end-to-end approach ensures seamless delivery and value for the investment.</p>
                                         <div className="space16" />
-                                        <p>3. <b>End-to-End Support:-</b> From strategy, system design, implementation, training and support, we provide support and guide you in every step of the journey.</p>
+                                        <p>3. <b>Industry-Specific Solutions:-</b> We specialize in Omnistudio implementations across various industries, including healthcare, education, finance, insurance, banking, etc. Our solutions are customized to cater to the unique needs of various industries to accelerate growth and drive success.</p>
                                         <div className="space16" />
-                                        <p>4. <b>Custom solutions for every institution:-</b> We understand that no two institutions are the same; that’s why we built the Education Cloud solutions that align with your institute’s processes, students’ needs and organizational goals.</p>
+                                        <p>4. <b>Rapid and Scalable Development:-</b> We help you deploy processes and dynamic UI components with OmniStudio, ensuring your system adapts and grows with your evolving business needs.</p>
                                         <div className="space16" />
-                                        <p>5. <b>Security & Compliance:-</b> To ensure that the data and information of your customers is safe and secure, we follow best industry practices for data protection and regulatory compliance.</p>
-                                        <div className="space16" />
-                                        <p>6. <b>Proven Track Record:-</b> We have helped multiple institutions implement Education Cloud and helped them improve their operations, student engagement and outcomes.</p>
+                                        <p>5. <b>Support and Optimization:-</b> From planning and implementation to deployment and maintenance, we provide complete support to ensure a smooth journey and long-term success.</p>
                                     </div>
                                 </article>
                                 <div className="space30" />
@@ -68,41 +69,41 @@ export default function Section1() {
                                         <div className="accordion-item active">
                                             <h2 className="accordion-header" id="flush-headingOne">
                                                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                    Who can use Salesforce Education Cloud?
+                                                    What services does CodM Software provide for OmniStudio?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Education Cloud is ideal for schools, colleges, universities, training institutes, online education institutions etc. It can be used by all educational institutions that are looking to streamline their processes and improve engagement, operations and student success.</div>
+                                                <div className="accordion-body">CodM Software provides end-to-end OmniStudio services, including consulting, implementation, customization, integration, post-deployment support and maintenance to help the clients get a successful Salesforce investment.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingTwo">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                    Can CodM Software customize Education Cloud to our requirements?
+                                                    How can OmniStudio benefit my business?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Yes, we can tailor Salesforce Education Cloud to align with your unique needs and requirements, whether it is the admission process, communication workflow, support service for students and administrative staff, etc. </div>
+                                                <div className="accordion-body">OmniStudio helps simplify complex business processes, enhance customer experience and engagement and reduce development time by enabling faster creation of customized applications, all within the Salesforce ecosystem.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingThree">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                                    Can Education Cloud help with student retention?
+                                                    How is OmniStudio different from standard Salesforce development?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Definitely, with real-time data and personalized engagement tools, institutions can proactively support at-risk students, improving retention and graduation rates. </div>
+                                                <div className="accordion-body">Unlike traditional coding, OmniStudio authorizes faster, low-code development with tools like FlexCards, OmniScript and Data Raptors. It also helps simplify complex processes through simple configuration and automation, allowing the team to build a powerful solution without extensive coding. </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="flush-headingFour">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                                    How secure is the data on Education Cloud?
+                                                    Can OmniStudio be integrated with existing Salesforce solutions?
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Salesforce provides enterprise-grade security and CodM Software follows best practices to ensure your data is protected, compliant and accessible only to authorized users. </div>
+                                                <div className="accordion-body">Yes. OmniStudio integrates seamlessly with Salesforce Clouds like Sales Cloud, Service Cloud and Industry Cloud to create a connected ecosystem. It enables data and processes to flow effortlessly across departments and channels. By unifying systems and experiences, businesses can deliver consistent, personalized and efficient digital interactions to their customers. </div>
                                             </div>
                                         </div>
                                     </div>
@@ -117,7 +118,7 @@ export default function Section1() {
                                     <ul className="service-list">
                                         <li>
                                             <Link href="#">
-                                                OmniStudio Cloud
+                                                OmniStudio Cloud Service
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -132,7 +133,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/agentforce-ai">
+                                            <Link href="/agentforce-&-ai">
                                                 Agentforce & AI
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
@@ -150,6 +151,22 @@ export default function Section1() {
                                         <li>
                                             <Link href="/education-cloud">
                                                 Education Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/Industry-cloud">
+                                                Industries Services
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                         <li>
+                                            <Link href="/banking_service">
+                                                Banking Services
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
