@@ -99,7 +99,7 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Contract Staffing Solutions</Link>
+                                            <Link href="/service-details">Industries Services</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Whether you're looking for temporary staffing, direct hire placements, </p>
@@ -119,7 +119,7 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Executive Search Services</Link>
+                                            <Link href="/service-details">Banking Services</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Whether you're looking for temporary staffing, direct hire placements, </p>
@@ -139,7 +139,7 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Recruitment Expertise</Link>
+                                            <Link href="/service-details">OmniStudio Cloud Service</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Whether you're looking for temporary staffing, direct hire placements, </p>
