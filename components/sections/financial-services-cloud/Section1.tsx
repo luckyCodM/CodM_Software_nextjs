@@ -7,7 +7,7 @@ export default function Section1() {
             <div className="service-details-all sp">
                 <div className="container">
                     <div className="row">
-                        
+
                         <div className="col-lg-8">
                             <div className="service-details-area left-padding">
                                 <article>
@@ -123,10 +123,10 @@ export default function Section1() {
                                 <div className="details-box3">
                                     <h3>Our Services</h3>
                                     <div className="space10" />
-                                          <ul className="service-list">
+                                    <ul className="service-list">
                                         <li>
                                             <Link href="#">
-                                                 Financial Services Cloud
+                                                Financial Services Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -172,7 +172,7 @@ export default function Section1() {
                                                 </span>
                                             </Link>
                                         </li>
-                                         <li>
+                                        <li>
                                             <Link href="/banking_service">
                                                 Banking Services
                                                 <span>

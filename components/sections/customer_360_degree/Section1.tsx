@@ -136,7 +136,7 @@ export default function Section1() {
                                         </li>
                                         <li>
                                             <Link href="/education-cloud">
-                                                Education Cloud
+                                                Education Cloud 
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -145,6 +145,22 @@ export default function Section1() {
                                         <li>
                                             <Link href="/omnistudio-cloud-service">
                                                 OmniStudio Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/Industry-cloud">
+                                                Industries Services
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                         <li>
+                                            <Link href="/banking_service">
+                                                Banking Services
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>

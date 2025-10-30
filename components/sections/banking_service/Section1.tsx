@@ -120,7 +120,7 @@ export default function Section1() {
                                     <ul className="service-list">
                                         <li>
                                             <Link href="#">
-                                                Salesforce Customer 360
+                                                Banking Services
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -135,7 +135,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/agentforce-ai">
+                                            <Link href="/agentforce-&-ai">
                                                 Agentforce & AI
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
@@ -143,16 +143,32 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/error">
-                                                Education Cloud
+                                            <Link href="/customer_360_degree">
+                                                Salesforce Customer 360
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/error">
+                                            <Link href="/omnistudio-cloud-service">
                                                 OmniStudio Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/Industry-cloud">
+                                                Industries Services
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/education-cloud">
+                                                Education Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>

@@ -7,7 +7,7 @@ export default function Section1() {
             <div className="service-details-all sp">
                 <div className="container">
                     <div className="row">
-                       
+
                         <div className="col-lg-8">
                             <div className="service-details-area left-padding">
                                 <article>
@@ -93,7 +93,7 @@ export default function Section1() {
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Agentsforce aims on providing agents with tools, workflow and data access to enhance productivity, while AI focuses on advanced algorithms to provide insights, forecasts and automation to guide agents and enhance decision-making.</div>   
+                                                <div className="accordion-body">Agentsforce aims on providing agents with tools, workflow and data access to enhance productivity, while AI focuses on advanced algorithms to provide insights, forecasts and automation to guide agents and enhance decision-making.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -148,15 +148,7 @@ export default function Section1() {
                                     <ul className="service-list">
                                         <li>
                                             <Link href="#">
-                                                Agentforce & AI
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/financial-services-cloud">
-                                                Financial Services Cloud
+                                                Agentforce & AI 
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -171,7 +163,15 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/error">
+                                            <Link href="/financial-services-cloud">
+                                                Financial Services Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/customer_360_degree">
                                                 Salesforce Customer 360
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
@@ -179,8 +179,24 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/error">
+                                            <Link href="/omnistudio-cloud-service">
                                                 OmniStudio Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/Industry-cloud">
+                                                Industries Services
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/banking_service">
+                                                Banking Services
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -208,7 +224,7 @@ export default function Section1() {
                                     <div className="space10" />
                                     <ul className="icons">
                                         <li>
-                                             <Link href="https://x.com/CodMSoftware"
+                                            <Link href="https://x.com/CodMSoftware"
                                                 target="_blank" rel="noopener noreferrer">
                                                 <i className="fa-brands fa-x-twitter" />
                                             </Link>
@@ -220,7 +236,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                           <Link href="https://www.youtube.com/@CodMSoftware"
+                                            <Link href="https://www.youtube.com/@CodMSoftware"
                                                 target="_blank" rel="noopener noreferrer">
                                                 <i className="fa-brands fa-youtube" />
                                             </Link>
