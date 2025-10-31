@@ -11,7 +11,7 @@ export default function Section12() {
                             <div className="heading6-w">
                                 <h2>Stay Connected</h2>
                                 <div className="space16" />
-                                    <p>Subscribe to get fresh blogs, product updates and expert tips. Your next idea could start here. </p>
+                                <p>Subscribe to get fresh blogs, product updates and expert tips. Your next idea could start here.</p>
                                 <div className="form-area">
                                     <form action="#">
                                         <input type="email" placeholder="Your Email Address" />

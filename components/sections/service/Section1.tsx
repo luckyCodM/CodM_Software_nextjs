@@ -79,7 +79,7 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/customer_360_degree">Salesforce Customer 360 Degree</Link>
+                                            <Link href="/customer_360_degree">Salesforce Customer 360</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Helping businesses deliver the seamless, personalized solutions with Salesforce Customer 360 degree. </p>
@@ -102,7 +102,7 @@ export default function Section1() {
                                             <Link href="/service-details">Industries Services</Link>
                                         </h4>
                                         <div className="space16" />
-                                        {/* <p>Whether you're looking for temporary staffing, direct hire placements, </p> */}
+                                        <p>Accelerate growth using the industry cloud tailored solutions and integration build for your unique requirements. </p>
                                     </div>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@ export default function Section1() {
                                             <Link href="/service-details">Banking Services</Link>
                                         </h4>
                                         <div className="space16" />
-                                        {/* <p>Whether you're looking for temporary staffing, direct hire placements, </p> */}
+                                        <p>Helping banks to enhance their customer relationship and streamline processes using Salesforce Banking Service. </p>
                                     </div>
                                 </div>
                             </div>
@@ -142,7 +142,7 @@ export default function Section1() {
                                             <Link href="/service-details">OmniStudio Cloud Service</Link>
                                         </h4>
                                         <div className="space16" />
-                                        {/* <p>Whether you're looking for temporary staffing, direct hire placements, </p> */}
+                                        <p>Helping Businesses to build a seamless digital experience and simplify complex processes with Salesforce's Low-code tools. </p>
                                     </div>
                                 </div>
                             </div>
@@ -188,37 +188,7 @@ export default function Section1() {
                             </div>
                         </div> */}
                     </div>
-                    {/* <div className="space60" /> */}
-                    {/* <div className="row">
-                        <div className="col-12 m-auto">
-                            <div className="theme-pagination text-center">
-                                <ul>
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa-solid fa-angle-left" />
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link className="active" href="#">
-                                            01
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">02</Link>
-                                    </li>
-                                    <li>...</li>
-                                    <li>
-                                        <Link href="#">12</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa-solid fa-angle-right" />
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> */}
+                    <div className="space60" />
                 </div>
             </div>
             {/*=====SERVICE AREA END=======*/}

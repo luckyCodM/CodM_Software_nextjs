@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <>
             <Layout>
-                <SectionHeader title="Our Service" group_page="" current_page="Our Service" display="d-none" />
+                <SectionHeader title="Our Services" group_page="" current_page="Our Services" display="d-none" />
                 <Section1 />
                 <Section3 />
             </Layout>

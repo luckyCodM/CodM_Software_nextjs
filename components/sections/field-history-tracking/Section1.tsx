@@ -219,9 +219,6 @@ export default function Section1() {
                                     <Link href="/assets/img/codmsoftware_pdf/CodM_Software_Portfolio_Profile.pdf" className="download-btn1">
                                         <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
                                     </Link>
-                                    {/* <Link href="#" className="download-btn2">
-                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
-                                    </Link> */}
                                 </div>
                                 <div className="details-box2">
                                     <h3>Get A Free Quote</h3>

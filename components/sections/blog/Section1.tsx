@@ -269,37 +269,7 @@ export default function Section1() {
                             </div>
                         </div> */}
                     </div>
-                    {/* <div className="space30" />
-                    <div className="row">
-                        <div className="col-12 m-auto">
-                            <div className="theme-pagination text-center">
-                                <ul>
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa-solid fa-angle-left" />
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link className="active" href="#">
-                                            01
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">02</Link>
-                                    </li>
-                                    <li>...</li>
-                                    <li>
-                                        <Link href="#">12</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa-solid fa-angle-right" />
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> */}
+                    <div className="space30" />
                 </div>
             </div>
             {/*===== BLOG AREA END =======*/}

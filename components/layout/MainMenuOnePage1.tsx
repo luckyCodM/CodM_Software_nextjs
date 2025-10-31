@@ -11,7 +11,7 @@ export default function MainMenu() {
                 </li>
                 <li>
                     <Link className="list-group-item list-group-item-action" href="#service">
-                        Service
+                        Services
                     </Link>
                 </li>
                 <li>

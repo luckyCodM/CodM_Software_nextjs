@@ -13,7 +13,7 @@ export default function MainMenu() {
             </li>
             <li className="dropdown-menu-parrent">
                 <Link href="#" className="main1">
-                    Service <i className="fa-solid fa-angle-down" />
+                    Services <i className="fa-solid fa-angle-down" />
                 </Link>
                 <ul>
                     <li>
