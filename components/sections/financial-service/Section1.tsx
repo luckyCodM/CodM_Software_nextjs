@@ -151,7 +151,7 @@ export default function Section1() {
                                 </article>
                                 <div className="after-box-details">
                                     <div className="heading1">
-                                        <p>Our blog is your go-to resource for the latest trends, best practices and expert advice in the staffing industry. From articles on optimizing your hiring process and navigating employment law changes to career development</p>
+                                        <p>Our blogs are your go-to resources for the latest trends, industry best practices and expert insights in the Salesforce ecosystem. From implementation tips to services deep dives to technology updates and project success stories and explore how we can help your businesses to lead the digital world</p>
                                     </div>
                                 </div>
                                 <div className="row align-items-center">
@@ -453,53 +453,7 @@ export default function Section1() {
                                         </form>
                                     </div>
                                 </div>
-                                <div className="details-box2">
-                                    <h3>Categories</h3>
-                                    <div className="space10" />
-                                    <ul className="service-list">
-                                        <li>
-                                            <Link href="/financial-services-cloud">
-                                                Financial Services Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/agentforce-&-ai">
-                                                Agentforce & AI
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/error">
-                                                Education Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/error">
-                                                Salesforce Customer 360
-
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/error">
-                                                OmniStudio Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>
+                                
                                 <div className="details-box2">
                                     <h3>Recent Posts</h3>
                                     <div className="space10" />
@@ -564,6 +518,53 @@ export default function Section1() {
                                                 </h5>
                                             </div>
                                         </div>
+                                    </ul>
+                                </div>
+                                <div className="details-box2">
+                                    <h3>Categories</h3>
+                                    <div className="space10" />
+                                    <ul className="service-list">
+                                        <li>
+                                            <Link href="/financial-services-cloud">
+                                                Financial Services Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/agentforce-&-ai">
+                                                Agentforce & AI
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/error">
+                                                Education Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/error">
+                                                Salesforce Customer 360
+
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/error">
+                                                OmniStudio Cloud
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="details-box-call">

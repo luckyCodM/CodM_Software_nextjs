@@ -433,53 +433,7 @@ export default function Section1() {
                                         </form>
                                     </div>
                                 </div>
-                                <div className="details-box2">
-                                    <h3>Categories</h3>
-                                    <div className="space10" />
-                                    <ul className="service-list">
-                                        <li>
-                                            <Link href="/financial-services-cloud">
-                                                Financial Services Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/agentforce-&-ai">
-                                                Agentforce & AI
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/error">
-                                                Education Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/error">
-                                                Salesforce Customer 360
 
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/error">
-                                                OmniStudio Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>
                                 <div className="details-box2">
                                     <h3>Recent Posts</h3>
                                     <div className="space10" />
@@ -544,6 +498,53 @@ export default function Section1() {
                                                 </h5>
                                             </div>
                                         </div>
+                                    </ul>
+                                </div>
+                                                                <div className="details-box2">
+                                    <h3>Categories</h3>
+                                    <div className="space10" />
+                                    <ul className="service-list">
+                                        <li>
+                                            <Link href="/financial-services-cloud">
+                                                Best Practices Omniscript & Data Mapper and IP
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/agentforce-&-ai">
+                                                Financial Services Cloud: Key Features for 2025
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/error">
+                                                Configuring Custom Domains in Salesforce
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/error">
+                                                Salesforce winter 23 release
+
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/error">
+                                                Salesforce winter 24 release
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="details-box-call">

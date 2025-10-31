@@ -1,19 +1,24 @@
+"use client";
 import Link from "next/link";
+import { useState } from "react";
+import ModalVideo from "react-modal-video";
+import "react-modal-video/css/modal-video.css";
 
 export default function Section1() {
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <>
             {/*=====SERVICE DETAILS START=======*/}
             <div className="service-details-all sp">
                 <div className="container">
                     <div className="row">
-                       
+
                         <div className="col-lg-8">
                             <div className="service-details-area left-padding">
                                 <article>
                                     <div className="heading1">
                                         <div className="image">
-                                            <img src="assets/img/service/service-details-img1.png" alt="" />
+                                            {/* <img src="assets/img/service/service-details-img1.png" alt="" /> */}
                                         </div>
                                         <div className="space30" />
                                         <h2>How to use Field History Tracking in Salesforce</h2>
@@ -37,6 +42,70 @@ export default function Section1() {
                                         <div className="space5" />
                                         <p>It is a user friendly application which enables tracking for both standard
                                             and custom objects.</p>
+                                            <div className="row align-items-center">
+                                    <div className="col-lg-6">
+                                        <div className="space30" />
+                                        <div className="video-details-area">
+                                            <div className="image">
+                                                <img src="assets/img/blog/blog-details-video-img.png" alt="" />
+                                            </div>
+                                            <div className="video-buttton play-btn">
+                                                <Link href="https://youtu.be/sSYxWnBm6Vk?si=QY3wC15k110tXzxf" onClick={() => setIsOpen(true)} id="play-video play-btn" className="video-play-button">
+                                                    <span />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="space30" />
+                                        <div className="heading1">
+                                            <h3>FHT Features</h3>
+                                            <div className="space16" />
+                                            <p>Refine Operational Insights with Advanced Field History Tracking Capabilities.</p>
+                                            <div className="space20" />
+                                            <div className="project-details-list">
+                                                <ul>
+                                                    <li>
+                                                        <span>
+                                                            <i className="fa-solid fa-check" />
+                                                        </span>
+                                                        Enhanced Visibility
+                                                    </li>
+                                                    <li>
+                                                        <span>
+                                                            <i className="fa-solid fa-check" />
+                                                        </span>
+                                                        Improved Audit Trail
+                                                    </li>
+                                                    <li>
+                                                        <span>
+                                                            <i className="fa-solid fa-check" />
+                                                        </span>
+                                                        Data Analysis and Insights
+                                                    </li>
+                                                    <li>
+                                                        <span>
+                                                            <i className="fa-solid fa-check" />
+                                                        </span>
+                                                        Efficient Troubleshooting
+                                                    </li>
+                                                    <li>
+                                                        <span>
+                                                            <i className="fa-solid fa-check" />
+                                                        </span>
+                                                        Performance Monitoring
+                                                    </li><li>
+                                                        <span>
+                                                            <i className="fa-solid fa-check" />
+                                                        </span>
+                                                        Comprehensive Reporting
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                         <div className="space30" />
                                         <h3>Audit Trails</h3>
                                         <div className="space16" />
@@ -48,9 +117,15 @@ export default function Section1() {
                                             updates to fields, such as when a process builder makes a change to a field value or an
                                             integration user updates a record from an external web site form.</p>
                                         <div className="space30" />
+                                        <div className="after-box-details">
+                                            <div className="heading1">
+                                                <p>Our blogs are your go-to resources for the latest trends, industry best practices and expert insights in the Salesforce ecosystem. From implementation tips to services deep dives to technology updates and project success stories and explore how we can help your businesses to lead the digital world.</p>
+                                            </div>
+                                        </div>
                                         <h3>Let’s Get Tracking</h3>
                                     </div>
                                 </article>
+
                                 <article>
                                     <div className="row align-items-center">
                                         <div className="col-lg-6">
@@ -121,74 +196,8 @@ export default function Section1() {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* <div className="space10" />
-                                    <div className="porgress-line-all">
-                                        <div className="progress-line">
-                                            <h6>Consulting</h6>
-                                            <div id="progress1" data-init="true" />
-                                        </div>
-                                        <div className="progress-line">
-                                            <h6>Marketing</h6>
-                                            <div id="progress2" data-init="true" />
-                                        </div>
-                                    </div> */}
-                                    <div className="space30" />
-                                    <div className="heading1">
-                                        <h3>FHT Features</h3>
-                                    </div>
-                                    <div className="row align-items-center">
-                                        {/* <div className="space16" /> */}
-                                        <div className="col-lg-6">
-                                            <div className="project-details-list">
-                                                <ul>
-                                                    <li>
-                                                        <span>
-                                                            <i className="fa-solid fa-check" />
-                                                        </span>
-                                                        Enhanced Visibility
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <i className="fa-solid fa-check" />
-                                                        </span>
-                                                        Improved Audit Trail
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <i className="fa-solid fa-check" />
-                                                        </span>
-                                                        Data Analysis and Insights
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <i className="fa-solid fa-check" />
-                                                        </span>
-                                                        Efficient Troubleshooting
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <i className="fa-solid fa-check" />
-                                                        </span>
-                                                        Performance Monitoring
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <i className="fa-solid fa-check" />
-                                                        </span>
-                                                        Comprehensive Reporting
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6">
-                                            <div className="space30" />
-                                            <div className="image">
-                                                <img src="assets/img/service/service-details-img2.png" alt="" />
-                                            </div>
-                                            <div className="space30" />
-                                        </div>
-                                    </div>
                                 </article>
+                                
                             </div>
                         </div>
                         <div className="col-lg-4">

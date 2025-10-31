@@ -99,7 +99,7 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Industries Services</Link>
+                                            <Link href="/Industry-cloud">Industries Services</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Accelerate growth using the industry cloud tailored solutions and integration build for your unique requirements. </p>
@@ -119,7 +119,7 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">Banking Services</Link>
+                                            <Link href="/banking_service">Banking Services</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Helping banks to enhance their customer relationship and streamline processes using Salesforce Banking Service. </p>
@@ -139,7 +139,7 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/service-details">OmniStudio Cloud Service</Link>
+                                            <Link href="/omnistudio-cloud-service">OmniStudio Cloud Service</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Helping Businesses to build a seamless digital experience and simplify complex processes with Salesforce's Low-code tools. </p>

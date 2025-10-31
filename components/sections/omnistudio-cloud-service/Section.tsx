@@ -7,7 +7,7 @@ export default function Section1() {
             <div className="service-details-all sp">
                 <div className="container">
                     <div className="row">
-                       
+
                         <div className="col-lg-8">
                             <div className="service-details-area left-padding">
                                 <article>
@@ -18,15 +18,19 @@ export default function Section1() {
                                         <div className="space30" />
                                         <h2>OmniStudio Cloud Service</h2>
                                         <div className="space16" />
-                                        <p>Salesforce OmniStudio, previously known as Vlocity, is a powerful suite of no-code and low-code tools that are designed to boost digital 
-                                            transformation within the Salesforce ecosystem. It helps businesses to build a dynamic, guided user experience, automate processes and 
-                                            integrate data seamlessly with multiple systems without any heavy coding. OmniStudio helps organizations to build customized, industry-specific 
+                                        <p>Salesforce OmniStudio, previously known as Vlocity, is a powerful suite of no-code and low-code tools that are designed to boost digital
+                                            transformation within the Salesforce ecosystem. It helps businesses to build a dynamic, guided user experience, automate processes and
+                                            integrate data seamlessly with multiple systems without any heavy coding. OmniStudio helps organizations to build customized, industry-specific
                                             solutions with the help of the following components:</p>
                                         <div className="space10" />
-                                        <p>✔ <b>OmniScript:-</b> Guided, step-by-step processes for users.</p>
-                                        <p>✔ <b>FlexCards:-</b> Dynamic UI components displaying key data.</p>
-                                        <p>✔ <b>DataRaptors:-</b> No-code data retrieval and transformation tools.</p>
-                                        <p>✔ <b>Integration Procedures:-</b> Fast, declarative system integration.</p>
+                                        <p><span><i className="fa-solid fa-check" /></span>
+                                        <b>OmniScript:-</b> Guided, step-by-step processes for users.</p>
+                                        <p><span><i className="fa-solid fa-check" /></span>
+                                        <b>FlexCards:-</b> Dynamic UI components displaying key data.</p>
+                                        <p><span><i className="fa-solid fa-check" /></span>
+                                        <b>DataRaptors:-</b> No-code data retrieval and transformation tools.</p>
+                                        <p><span><i className="fa-solid fa-check" /></span>
+                                        <b>Integration Procedures:-</b> Fast, declarative system integration.</p>
                                         <div className="space10" />
                                         <p>With the use of OmniStudio, businesses can deliver powerful digital experiences faster, without relying entirely on traditional development.</p>
                                         <div className="space30" />
@@ -164,7 +168,7 @@ export default function Section1() {
                                                 </span>
                                             </Link>
                                         </li>
-                                         <li>
+                                        <li>
                                             <Link href="/banking_service">
                                                 Banking Services
                                                 <span>
