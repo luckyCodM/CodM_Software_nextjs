@@ -1,11 +1,5 @@
 import Link from "next/link";
 
-export const metadata = {
-  title: "Salesforce financial services cloud consultant| Codm Software",
-  description:"Codm Software helps financial firms streamline operations with expert Salesforce Financial Services Cloud consultant for measurable success.",
-  keywords: "Salesforce financial services cloud consultant",
-};
-
 export default function Section1() {
     return (
         <>

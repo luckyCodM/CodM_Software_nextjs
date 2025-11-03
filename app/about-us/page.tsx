@@ -7,6 +7,14 @@ import Section3 from "@/components/sections/about-us/Section2";
 // import Section5 from "@/components/sections/home/Section8";
 import Section6 from "@/components/sections/about-us/Section3"
 import Section7 from "@/components/sections/home/Section3";
+
+export const metadata = {
+  title: "About us CodM Software",
+  description:
+    "Codm Software is your trusted Salesforce consulting partner empowering global businesses with innovation and seamless CRM solutions.",
+  keywords: "About us CodM Software",
+};
+
 export default function Home() {
     return (
         <>

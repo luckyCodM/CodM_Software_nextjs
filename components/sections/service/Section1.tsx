@@ -39,7 +39,7 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/agentforce-&-ai">Agentforce &amp; AI</Link>
+                                            <Link href="/salesforce-agentforce-ai-company-India">Agentforce &amp; AI</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Enhancing customer support using Agentforce & AI, real-time data, faster automation and smarter service.</p>

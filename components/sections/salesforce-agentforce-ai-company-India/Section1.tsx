@@ -1,11 +1,5 @@
 import Link from "next/link";
 
-export const metadata = {
-  title: "Salesforce Agentforce Ai| Salesforce Agentforce Ai Company India",
-  description:"Leverage AI-powered Salesforce Agentforce AI with Codm Software to boost productivity, automate workflows, and enhance customer experiences.",
-  keywords: "Salesforce Agentforce ai",
-};
-
 export default function Section1() {
     return (
         <>

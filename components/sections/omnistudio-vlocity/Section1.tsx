@@ -4,13 +4,6 @@ import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
 
-export const metadata = {
-  title: "OmniStudio (Vlocity) | CODM Software",
-  description:
-    "Learn about Salesforce OmniStudio (Vlocity) — a low-code suite to build and deploy digital-first industry-specific experiences.",
-  keywords: "Salesforce, OmniStudio, Vlocity, Data Mapper, Integration Procedures",
-};
-
 export default function Section1() {
     const [isOpen, setIsOpen] = useState(false);
 

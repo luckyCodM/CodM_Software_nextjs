@@ -2,6 +2,12 @@ import Layout from "@/components/layout/Layout";
 import SectionHeader from "@/components/layout/SectionHeader";
 import Section1 from "@/components/sections/contact/Section1";
 import Section2 from "@/components/sections/contact/Section2";
+
+export const metadata = {
+  title: "Contact Us Salesforce Implementation, Consulting Solutions",
+  keywords: "Contact us Salesforce Implementation, Consulting Solutions",
+};
+
 export default function Home() {
     return (
         <>

@@ -1,12 +1,5 @@
 import Link from "next/link";
 
-export const metadata = {
-  title: "About us CodM Software",
-  description:
-    "Codm Software is your trusted Salesforce consulting partner empowering global businesses with innovation and seamless CRM solutions.",
-  keywords: "About us CodM Software",
-};
-
 export default function Section1() {
     return (
         <>
