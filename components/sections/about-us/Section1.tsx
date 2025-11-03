@@ -1,5 +1,12 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "About us CodM Software",
+  description:
+    "Codm Software is your trusted Salesforce consulting partner empowering global businesses with innovation and seamless CRM solutions.",
+  keywords: "About us CodM Software",
+};
+
 export default function Section1() {
     return (
         <>
@@ -37,7 +44,7 @@ export default function Section1() {
                         </div>
                         <div className="col-lg-6">
                             <div className="heading1 about3-heading">
-                                <span className="span">About Us</span>
+                                <span className="span">About Us CodM Software</span>
                                 <h2>Your Trusted Salesforce Consulting Partner Since 2021</h2>
                                 <div className="space16" />
                                 <p>Founded in 2021, CodM Software was established with the vision that technology should make business easier and smarter. We began as a small team of passionate Salesforce developers and professionals who have since become an integral part of the organization and evolved into trusted partners for our clients across industries and geographies. We specialize in Salesforce CRM consulting, integration, customization and implementation, helping businesses streamline their operations, strengthen customer relationships and drive growth with adaptable and scalable solutions.</p>

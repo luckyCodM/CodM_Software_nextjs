@@ -13,7 +13,7 @@ export default function Section1() {
                                 <article>
                                     <div className="heading1">
                                         <div className="image">
-                                            {/* <img src="assets/img/service/service-details-img1Edu.png" alt="" /> */}
+                                            <img src="assets/img/service/OmniStudio_Cloud_Service.png" alt="OmniStudio Cloud Service" />
                                         </div>
                                         <div className="space30" />
                                         <h2>OmniStudio Cloud Service</h2>
@@ -129,7 +129,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/financial-services-cloud">
+                                            <Link href="/salesforce-financial-services-cloud-consultant">
                                                 Financial Services Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
@@ -137,7 +137,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/agentforce-&-ai">
+                                            <Link href="/salesforce-agentforce-ai-company-India">
                                                 Agentforce & AI
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />

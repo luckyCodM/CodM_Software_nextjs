@@ -1,5 +1,11 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Salesforce Agentforce Ai| Salesforce Agentforce Ai Company India",
+  description:"Leverage AI-powered Salesforce Agentforce AI with Codm Software to boost productivity, automate workflows, and enhance customer experiences.",
+  keywords: "Salesforce Agentforce ai",
+};
+
 export default function Section1() {
     return (
         <>
@@ -13,10 +19,10 @@ export default function Section1() {
                                 <article>
                                     <div className="heading1">
                                         <div className="image">
-                                            <img src="assets/img/service/Agentforce.png" alt="" />
+                                            <img src="assets/img/service/agentforce_ai.png" alt="Salesfroce Agentforce Ai" />
                                         </div>
                                         <div className="space30" />
-                                        <h2>Agentforce & AI </h2>
+                                        <h2>Salesforce Agentforce AI </h2>
                                         <div className="space16" />
                                         <p>Agentforce provides customer service agents with tools and real-time data to boost productivity, resolve issues and offer personalized solutions.</p>
                                         <div className="space10" />
@@ -163,7 +169,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/financial-services-cloud">
+                                            <Link href="/salesforce-financial-services-cloud-consultant">
                                                 Financial Services Cloud
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />

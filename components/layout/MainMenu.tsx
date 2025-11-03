@@ -17,7 +17,7 @@ export default function MainMenu() {
                 </Link>
                 <ul>
                     <li>
-                        <Link href="/financial-services-cloud">Financial Services Cloud</Link>
+                        <Link href="/salesforce-financial-services-cloud-consultant">Financial Services Cloud</Link>
                     </li>
                     <li>
                         <Link href="/agentforce-&-ai">Agentforce & AI</Link>

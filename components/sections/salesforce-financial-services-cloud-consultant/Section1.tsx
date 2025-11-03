@@ -1,5 +1,11 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Salesforce financial services cloud consultant| Codm Software",
+  description:"Codm Software helps financial firms streamline operations with expert Salesforce Financial Services Cloud consultant for measurable success.",
+  keywords: "Salesforce financial services cloud consultant",
+};
+
 export default function Section1() {
     return (
         <>
@@ -13,10 +19,10 @@ export default function Section1() {
                                 <article>
                                     <div className="heading1">
                                         <div className="image">
-                                            <img src="assets/img/service/financial-services.png" alt="" />
+                                            <img src="assets/img/service/financial-services.png" alt="Financial Services" />
                                         </div>
                                         <div className="space30" />
-                                        <h2>Financial Services Cloud </h2>
+                                        <h2>Salesforce Financial Services Cloud Consultant</h2>
                                         <div className="space16" />
                                         <p>FSC is a platform that brings together the client information, sales data, service etc for the financial sector. FSC provides a 360 degree view of clients and helps in automating everyday process to help deliver the exceptional service.</p>
                                         <p>FSC helps you in:-</p>
@@ -141,7 +147,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/agentforce-&-ai">
+                                            <Link href="/salesforce-agentforce-ai-company-India">
                                                 Agentforce & AI
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />

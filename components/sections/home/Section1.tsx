@@ -12,7 +12,7 @@ export default function Section1() {
                                 <span className="span" data-aos="fade-right" data-aos-duration={800}>
                                     No Code Low Code
                                 </span>
-                                <h1 className="text-anime-style-3">Expert Salesforce Consulting </h1>
+                                <h1 className="text-anime-style-3">Salesforce Consulting Company</h1>
                                 <div className="space16" />
                                 <p data-aos="fade-right" data-aos-duration={1000}>
                                     Transforming businesses through excellent salesforce solutions, <br />

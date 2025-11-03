@@ -4,6 +4,38 @@ import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
 
+export const metadata = {
+  title: "Salesforce Field History Tracking| CodM Software India",
+  description:
+    "Track every data change with Salesforce Field History Tracking. Codm Software helps ensure compliance, transparency, and smarter decisions.",
+  keywords:
+    "Salesforce, Field History Tracking, FHT, Salesforce CRM, Audit Trail, Salesforce App",
+  openGraph: {
+    title: "How to Use Field History Tracking in Salesforce | CODM Software",
+    description:
+      "Track every data change with Salesforce Field History Tracking. Codm Software helps ensure compliance, transparency, and smarter decisions.",
+    url: "https://codmsoftware.com/blog/field-history-tracking",
+    siteName: "CodM Software",
+    images: [
+      {
+        url: "/assets/img/blog/blog-details-video-img.png",
+        width: 1200,
+        height: 630,
+        alt: "Field History Tracking in Salesforce",
+      },
+    ],
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How to Use Field History Tracking in Salesforce",
+    description:
+      "Track every data change with Salesforce Field History Tracking. Codm Software helps ensure compliance, transparency, and smarter decisions.",
+    images: ["/assets/img/blog/blog-details-video-img.png"],
+  },
+};
+
+
 export default function Section1() {
     const [isOpen, setIsOpen] = useState(false);
     return (

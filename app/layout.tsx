@@ -10,8 +10,9 @@ import "/public/assets/css/main.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "CodM Software | Salesforce Consulting Ridge Partner",
-    description: "CodM Software Top Salesforce CRM consultants in India. Expert API integration, cloud solutions & data automation to boost efficiency.",
+    title: "Salesforce Consulting Company| Salesforce Consulting Company India",
+    description: "Codm Software is a one of the leading Salesforce consulting Company India delivering custom CRM solutions to drive growth and digital transformation.",
+    keywords:"salesforce consulting company",
 };
 
 export default function RootLayout({

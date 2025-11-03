@@ -19,7 +19,7 @@ export default function Section1() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/financial-services-cloud">Financial Services Cloud</Link>
+                                            <Link href="/salesforce-financial-services-cloud-consultant">Financial Services Cloud</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Leveraging FSC to provide a 360 degree view of clients by integrating data and automating processes to deliver smarter services. </p>

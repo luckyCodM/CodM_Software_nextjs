@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <>
             <Layout>
-                <SectionHeader title="Our Blogs" group_page="" current_page="Our Blogs" display="d-none" />
+                <SectionHeader title="Blogs - Salesforce Implementation, Consulting Solutions Update" group_page="" current_page="Our Blogs" display="d-none" />
                 <Section1 />
                 <Section2 />
             </Layout>

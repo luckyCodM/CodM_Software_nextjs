@@ -4,6 +4,11 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { FormEvent, useState } from 'react';
 
+export const metadata = {
+  title: "Contact Us Salesforce Implementation, Consulting Solutions",
+  keywords: "Contact us Salesforce Implementation, Consulting Solutions",
+};
+
 export default function Section1() {
     const [formData, setFormData] = useState({
         first_name: '',

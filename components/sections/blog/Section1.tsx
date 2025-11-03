@@ -1,5 +1,12 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Salesforce Implementation & Consulting Blogs",
+  description:
+    "Explore Codm Software blogs for Salesforce implementation tips, consulting insights, and updates to grow your business in the coming years.",
+  keywords: "Blog",
+};
+
 export default function Section1() {
     return (
         <>

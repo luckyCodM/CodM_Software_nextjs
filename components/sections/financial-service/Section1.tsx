@@ -93,7 +93,7 @@ export default function Section1() {
                                 <article>
                                     <div className="blog-details-box">
                                         <div className="image">
-                                            <img src="assets/img/blog/Financial_Services_Cloud.png" alt="" />
+                                            <img src="assets/img/blog/Financial_Services_Cloud.png" alt="Financial Services Cloud" />
                                         </div>
                                         <div className="space30" />
                                         <div className="heading1">

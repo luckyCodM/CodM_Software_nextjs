@@ -4,6 +4,13 @@ import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
 
+export const metadata = {
+  title: "OmniStudio (Vlocity) | CODM Software",
+  description:
+    "Learn about Salesforce OmniStudio (Vlocity) — a low-code suite to build and deploy digital-first industry-specific experiences.",
+  keywords: "Salesforce, OmniStudio, Vlocity, Data Mapper, Integration Procedures",
+};
+
 export default function Section1() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -28,13 +35,13 @@ export default function Section1() {
                                                 <img className="author" src="assets/img/blog/blog-details-othor.png" alt="" /> <Link href="#">Bhav Malhotra </Link>
                                             </li>
                                             <li>
-                                                <img src="assets/img/icons/blog-details-icon1.png" alt="" /> <Link href="#"> March 11, 2025</Link>
+                                                <img src="assets/img/icons/blog-details-icon1.png" alt="blog icon1" /> <Link href="#"> March 11, 2025</Link>
                                             </li>
                                             <li>
-                                                <img src="assets/img/icons/blog-details-icon2.png" alt="" /> <Link href="#"> Omnistudio (Vlocity)</Link>
+                                                <img src="assets/img/icons/blog-details-icon2.png" alt="blog icon2" /> <Link href="#"> Omnistudio (Vlocity)</Link>
                                             </li>
                                             <li>
-                                                <img src="assets/img/icons/blog-details-icon3.png" alt="" /> <Link href="#"> 2 Comments</Link>
+                                                <img src="assets/img/icons/blog-details-icon3.png" alt="blog icon3" /> <Link href="#"> 2 Comments</Link>
                                             </li>
                                         </ul>
                                         <div className="space10" />
