@@ -49,10 +49,10 @@ export default function Footer() {
                                 <h3>Services</h3>
                                 <ul className="menu-list">
                                     <li>
-                                        <Link href="/financial-services-cloud">Financial Services Cloud</Link>
+                                        <Link href="/salesforce-financial-services-cloud-consultant">Financial Services Cloud</Link>
                                     </li>
                                     <li>
-                                        <Link href="/agentforce-&-ai">Agentforce & Al</Link>
+                                        <Link href="/salesforce-agentforce-ai-company-India">Agentforce & Al</Link>
                                     </li>
                                     <li>
                                         <Link href="/education-cloud">Education Cloud&nbsp;</Link>

@@ -20,7 +20,7 @@ export default function MainMenu() {
                         <Link href="/salesforce-financial-services-cloud-consultant">Financial Services Cloud</Link>
                     </li>
                     <li>
-                        <Link href="/agentforce-&-ai">Agentforce & AI</Link>
+                        <Link href="/salesforce-agentforce-ai-company-India">Agentforce & AI</Link>
                     </li>
                     <li>
                         <Link href="/education-cloud">Education Cloud</Link>
