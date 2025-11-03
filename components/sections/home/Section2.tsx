@@ -74,64 +74,64 @@ export default function Section2({ backgroundColor }: { backgroundColor: string 
                         <div className="col-lg-12">
                             <Swiper {...swiperOptions}>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo1.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo1.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo2.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo2.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo3.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo3.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo4.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo4.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo5.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo5.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo6.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo6.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo7.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo7.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo8.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo8.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo9.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo9.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo10.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo10.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo1.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo1.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo2.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo2.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo3.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo3.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo4.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo4.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo5.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo5.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo6.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo6.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo7.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo7.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo8.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo8.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo9.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo9.png" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo10.png" alt="recrute" />
+                                    <img src="assets/img/logo/slider-logo10.png" alt="" />
                                 </SwiperSlide>
 
                             </Swiper>
