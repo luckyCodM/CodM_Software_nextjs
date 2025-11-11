@@ -664,11 +664,11 @@ export default function Section1() {
                                                     <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
                                                 </Link>
                                                 <h5>
-                                                    <Link href="#">Financial Services Cloud: Key Features for 2025</Link>
+                                                    <Link href="/error">Configuring Custom Domains in Salesforce</Link>
                                                 </h5>
                                             </div>
                                         </div>
-                                        <div className="single-recent-post">
+                                        {/* <div className="single-recent-post">
                                             <div className="">
                                                 <div className="image">
                                                     <img src="assets/img/blog/recent-post2.png" alt="" />
@@ -712,7 +712,7 @@ export default function Section1() {
                                                     <Link href="#">Salesforce winter 24 release</Link>
                                                 </h5>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </ul>
                                 </div>
                                 <div className="details-box2">
