@@ -26,7 +26,7 @@ export default function Section1() {
                                             <h3>
                                                 <span className="counter">10</span>+
                                             </h3>
-                                            <p>Years of Experienced</p>
+                                            <p>Years of Experience</p>
                                         </div>
                                         <div className="image overlay-anim">
                                             <img src="assets/img/about/about3-img2.png" alt="" />
@@ -37,10 +37,10 @@ export default function Section1() {
                         </div>
                         <div className="col-lg-6">
                             <div className="heading1 about3-heading">
-                                <span className="span">About Us CodM Software</span>
+                                <span className="span">About Us</span>
                                 <h2>Your Trusted Salesforce Consulting Partner Since 2021</h2>
                                 <div className="space16" />
-                                <p>Founded in 2021, CodM Software was established with the vision that technology should make business easier and smarter. We began as a small team of passionate Salesforce developers and professionals who have since become an integral part of the organization and evolved into trusted partners for our clients across industries and geographies. We specialize in Salesforce CRM consulting, integration, customization and implementation, helping businesses streamline their operations, strengthen customer relationships and drive growth with adaptable and scalable solutions.</p>
+                                <p>Founded in 2021, CodM Software was built on the vision that technology should make business simpler and smarter. We started with a team of passionate Salesforce professionals who have since become an integral part of the organization and evolved into trusted partners for our clients across industries and geographies. We specialize in Salesforce CRM consulting, integration, customization and implementation, helping businesses streamline operations, strengthen customer relationships and drive growth with adaptable and scalable solutions.</p>
                                 <div className="about3-icon-box">
                                     <div className="">
                                         <div className="icon">

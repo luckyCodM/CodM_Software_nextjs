@@ -1,20 +1,20 @@
 import Layout from "@/components/layout/Layout";
 import SectionHeader from "@/components/layout/SectionHeader";
-import Section1 from "@/components/sections/field-history-tracking/Section1";
-import Section2 from "@/components/sections/field-history-tracking/section2";
+import Section1 from "@/components/sections/salesforce-field-history-tracking/Section1";
+import Section2 from "@/components/sections/salesforce-field-history-tracking/section2";
 import Section3 from "@/components/sections/about-us/Section3";
 
 // app/field-history-tracking/page.tsx
 export const metadata = {
   title: "Salesforce Field History Tracking | CodM Software India",
   description:
-    "Track every data change with Salesforce Field History Tracking. Codm Software helps ensure compliance, transparency, and smarter decisions.",
+    "CodM Software’s Field History Tracking for Salesforce helps businesses monitor data changes, improve accountability and maintain compliance effortlessly.",
   keywords:
     "Salesforce, Field History Tracking, FHT, Salesforce CRM, Audit Trail, Salesforce App",
   openGraph: {
     title: "Salesforce Field History Tracking | CodM Software India",
     description:
-      "Track every data change with Salesforce Field History Tracking. Codm Software helps ensure compliance, transparency, and smarter decisions.",
+      "CodM Software’s Field History Tracking for Salesforce helps businesses monitor data changes, improve accountability and maintain compliance effortlessly.",
     url: "https://codmsoftware.com/field-history-tracking",
     siteName: "CodM Software",
     images: [
@@ -31,7 +31,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Salesforce Field History Tracking | CodM Software India",
     description:
-      "Track every data change with Salesforce Field History Tracking. Codm Software helps ensure compliance, transparency, and smarter decisions.",
+      "CodM Software’s Field History Tracking for Salesforce helps businesses monitor data changes, improve accountability and maintain compliance effortlessly.",
     images: ["/assets/img/blog/blog-details-video-img.png"],
   },
 };

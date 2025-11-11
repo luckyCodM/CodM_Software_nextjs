@@ -25,10 +25,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/financial-services-cloud">Financial Services Cloud</Link>
+                                        <Link href="/salesforce-financial-services-cloud-consultant">Financial Services Cloud</Link>
                                     </h4>
                                     <p>Leveraging FSC to provide a 360 degree view of clients by integrating data and automating processes to deliver smarter services.</p>
-                                    <Link href="/financial-services-cloud" className="learn">
+                                    <Link href="/salesforce-financial-services-cloud-consultant" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -44,10 +44,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/agentforce-&-ai">Agentforce & AI</Link>
+                                        <Link href="/salesforce-agentforce-ai-company-India">Agentforce & AI</Link>
                                     </h4>
                                     <p>Enhancing customer support using Agentforce & AI, real-time data, faster automation, and smarter service.</p>
-                                    <Link href="/agentforce-&-ai" className="learn">
+                                    <Link href="/salesforce-agentforce-ai-company-India" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />

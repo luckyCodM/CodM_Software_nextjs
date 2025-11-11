@@ -15,7 +15,7 @@ export default function Section1() {
             <div className="service-details-all sp">
                 <div className="container">
                     <div className="row">
-                        
+
                         <div className="col-lg-8">
                             <div className="blog-details-all left-padding">
                                 <article>
@@ -81,7 +81,7 @@ export default function Section1() {
                                         <div className="space30" />
                                         <div className="video-details-area">
                                             <div className="image">
-                                                <img src="assets/img/blog/blog-details-video-img.png" alt="" />
+                                                <img src="assets/img/blog/field_history_tracking.png" alt="" />
                                             </div>
                                             <div className="video-buttton play-btn">
                                                 <Link href="https://youtu.be/sSYxWnBm6Vk?si=QY3wC15k110tXzxf" onClick={() => setIsOpen(true)} id="play-video play-btn" className="video-play-button">
@@ -173,7 +173,7 @@ export default function Section1() {
                                             <div className="col-lg-6">
                                                 <div className="space30" />
                                                 <div className="image">
-                                                    <img src="assets/img/service/service-details-img2.png" alt="" />
+                                                    {/* <img src="assets/img/service/service-details-img2.png" alt="" /> */}
                                                 </div>
                                                 <div className="space16" />
                                                 <div className="heading1">
@@ -183,7 +183,7 @@ export default function Section1() {
                                             <div className="col-lg-6">
                                                 <div className="space30" />
                                                 <div className="image">
-                                                    <img src="assets/img/service/service-details-img3.png" alt="" />
+                                                    {/* <img src="assets/img/service/service-details-img3.png" alt="" /> */}
                                                 </div>
                                                 <div className="space16" />
                                                 <div className="heading1">
@@ -474,52 +474,6 @@ export default function Section1() {
                                     </div>
                                 </div>
                                 <div className="details-box2">
-                                    <h3>Our Services</h3>
-                                    <div className="space10" />
-                                    <ul className="service-list">
-                                        <li>
-                                            <Link href="/financial-services-cloud">
-                                                Financial Services Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/agentforce-&-ai">
-                                                Agentforce & AI
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/education-cloud">
-                                                Education Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/error">
-                                                Salesforce Customer 360
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/error">
-                                                OmniStudio Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="details-box2">
                                     <h3>Recent Posts</h3>
                                     <div className="space10" />
                                     <ul className="recent-posts">
@@ -534,11 +488,11 @@ export default function Section1() {
                                                     <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
                                                 </Link>
                                                 <h5>
-                                                    <Link href="/blog">Financial Services Cloud: Key Features for 2025</Link>
+                                                    <Link href="/financial-service">Financial Services Cloud: Key Features for 2025</Link>
                                                 </h5>
                                             </div>
                                         </div>
-                                        <div className="single-recent-post">
+                                        {/* <div className="single-recent-post">
                                             <div className="">
                                                 <div className="image">
                                                     <img src="assets/img/blog/recent-post2.png" alt="" />
@@ -582,7 +536,53 @@ export default function Section1() {
                                                     <Link href="/blog">Salesforce winter 24 release</Link>
                                                 </h5>
                                             </div>
-                                        </div>
+                                        </div> */}
+                                    </ul>
+                                </div>
+                                <div className="details-box2">
+                                    <h3>Blog Categories</h3>
+                                    <div className="space10" />
+                                    <ul className="service-list">
+                                        <li>
+                                            <Link href="#">
+                                                Salesforce winter 23 release
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/winter24">
+                                                Salesforce winter 24 release
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/financial-service">
+                                                Financial Services Cloud: Key Features for 2025
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/omnistudio-vlocity">
+                                                Best Practices Omniscript & Data Mapper and IP
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/error">
+                                                Configuring Custom Domains in Salesforce
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="details-box-call">

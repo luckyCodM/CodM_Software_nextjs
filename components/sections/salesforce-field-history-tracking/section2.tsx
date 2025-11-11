@@ -30,7 +30,7 @@ export default function Section2() {
                                             <Link href="/salesforce-agentforce-ai-company-India">Agentforce & AI</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Enhancing customer support using Agentforce & AI. real-time data, faster automation and smarter service.</p>
+                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
                                     </div>
                                 </div>
                             </div>
@@ -47,10 +47,10 @@ export default function Section2() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/financial-services-cloud"> Financial Services Cloud </Link>
+                                            <Link href="/education-cloud"> Education Cloud </Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Leveraging FSC to provide a 360 degree view of clients by integrating data and automating processes to deliver smarter services. </p>
+                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
                                     </div>
                                 </div>
                             </div>
@@ -67,10 +67,10 @@ export default function Section2() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/customer_360_degree">Salesforce Customer 360 </Link>
+                                            <Link href="/customer_360_degree">Salesforce Customer 360</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Helping businesses deliver the seamless, personalized solutions with Salesforce Customer 360 degree. </p>
+                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
                                     </div>
                                 </div>
                             </div>

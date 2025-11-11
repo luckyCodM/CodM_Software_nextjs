@@ -5,6 +5,7 @@ import Section2 from "@/components/sections/contact/Section2";
 
 export const metadata = {
   title: "Contact Us Salesforce Implementation, Consulting Solutions",
+  description: "Get in touch with CodM Software for Salesforce consulting services, custom CRM solutions, and expert support to drive your business growth.",
   keywords: "Contact us Salesforce Implementation, Consulting Solutions",
 };
 

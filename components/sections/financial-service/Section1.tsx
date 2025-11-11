@@ -99,11 +99,11 @@ export default function Section1() {
                                         <div className="heading1">
                                             {/* <h3>Introduction</h3>
                                             <div className="space16" /> */}
-                                            <p>Salesforce Financial Services Cloud (FSC) is a specialized CRM platform designed to meet the unique needs
+                                            {/* <p>Salesforce Financial Services Cloud (FSC) is a specialized CRM platform designed to meet the unique needs
                                                 of financial institutions such as banks, wealth management firms, insurance companies and lenders.
                                                 It continues to be a game-changer for financial institutions, offering innovative tools to enhance
                                                 customer engagement, streamline operations and ensure compliance. In 2025, FSC introduces new AI-driven
-                                                capabilities, automation enhancements and compliance tools that revolutionize the financial industry.</p>
+                                                capabilities, automation enhancements and compliance tools that revolutionize the financial industry.</p> */}
                                         </div>
                                         <div className="space20" />
                                         <h3>Key Features:–</h3>
@@ -473,7 +473,7 @@ export default function Section1() {
                                                 </h5>
                                             </div>
                                         </div>
-                                        <div className="single-recent-post">
+                                        {/* <div className="single-recent-post">
                                             <div className="">
                                                 <div className="image">
                                                     <img src="assets/img/blog/recent-post2.png" alt="" />
@@ -517,24 +517,40 @@ export default function Section1() {
                                                     <Link href="/winter23">Salesforce winter 24 release</Link>
                                                 </h5>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </ul>
                                 </div>
                                 <div className="details-box2">
-                                    <h3>Categories</h3>
+                                    <h3>Blog Categories</h3>
                                     <div className="space10" />
                                     <ul className="service-list">
                                         <li>
-                                            <Link href="/financial-services-cloud">
-                                                Financial Services Cloud
+                                            <Link href="#">
+                                                Salesforce winter 24 release
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/agentforce-&-ai">
-                                                Agentforce & AI
+                                            <Link href="/omnistudio-vlocity">
+                                                Best Practices Omniscript & Data Mapper and IP
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/financial-service">
+                                                Financial Services Cloud: Key Features for 2025
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/winter23">
+                                                Salesforce winter 23 release
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -542,24 +558,7 @@ export default function Section1() {
                                         </li>
                                         <li>
                                             <Link href="/error">
-                                                Education Cloud
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/error">
-                                                Salesforce Customer 360
-
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/error">
-                                                OmniStudio Cloud
+                                                Configuring Custom Domains in Salesforce
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>

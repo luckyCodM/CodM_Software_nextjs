@@ -40,13 +40,13 @@ export default function MainMenu() {
                 </ul>
             </li>
             <li className="dropdown-menu-parrent">
-                <Link href="/field-history-tracking" className="main1">
-                    Product 
+                <Link href="/salesforce-field-history-tracking" className="main1">
+                    Products 
                 </Link>
             </li>
             <li className="dropdown-menu-parrent">
                 <Link href="/blog" className="main1">
-                    Blog 
+                    Blogs 
                 </Link>
             </li>
             <li className="dropdown-menu-parrent">

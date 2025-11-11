@@ -232,12 +232,12 @@ export default function Section1() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/">Salesforce winter 24 release</Link>
+                                        <Link href="/winter24">Salesforce winter 24 release</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p> Winter ’24 Release brings powerful new features, enhancements and innovations to elevate productivity and customer experiences.</p>
                                     <div className="space16" />
-                                    <Link href="/" className="learn">
+                                    <Link href="/winter24" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />

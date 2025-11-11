@@ -16,7 +16,7 @@ export default function Section1() {
                                             <img src="assets/img/service/salesforce_customer_360.png" alt="Salesforce Customer 360 Degree" />
                                         </div>
                                         <div className="space30" />
-                                        <h2>Salesforce Customer 360 degree</h2>
+                                        <h2>Salesforce Customer 360 Solution</h2>
                                         <div className="space16" />
                                         <p>Salesforce Customer 360-Degree Service is a platform that connects customer data across all domains, whether it is sales, service, marketing, or commerce.</p>
                                         <div className="space10" />

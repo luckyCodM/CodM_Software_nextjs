@@ -3,10 +3,12 @@ import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
+
 export default function Section1() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <>
+         <ModalVideo channel="youtube" isOpen={isOpen} videoId="Y8XpQpW5OVY" onClose={() => setIsOpen(false)} />
             {/*=====SERVICE DETAILS START=======*/}
             <div className="service-details-all sp">
                 <div className="container">
@@ -17,7 +19,7 @@ export default function Section1() {
                                 <article>
                                     <div className="heading1">
                                         <div className="image">
-                                            {/* <img src="assets/img/service/service-details-img1.png" alt="" /> */}
+                                            <img src="assets/img/service/Field History Tracking.png" alt="" />
                                         </div>
                                         <div className="space30" />
                                         <h2>How to use Field History Tracking in Salesforce</h2>
@@ -46,7 +48,7 @@ export default function Section1() {
                                         <div className="space30" />
                                         <div className="video-details-area">
                                             <div className="image">
-                                                <img src="assets/img/blog/blog-details-video-img.png" alt="" />
+                                                <img src="assets/img/blog/field_history_tracking.png" alt="" />
                                             </div>
                                             <div className="video-buttton play-btn">
                                                 <Link href="https://youtu.be/sSYxWnBm6Vk?si=QY3wC15k110tXzxf" onClick={() => setIsOpen(true)} id="play-video play-btn" className="video-play-button">
@@ -130,7 +132,7 @@ export default function Section1() {
                                         <div className="col-lg-6">
                                             <div className="space30" />
                                             <div className="image">
-                                                <img src="assets/img/service/service-details-img2.png" alt="" />
+                                                <img src="assets/img/project/FHT.png" alt="" />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">

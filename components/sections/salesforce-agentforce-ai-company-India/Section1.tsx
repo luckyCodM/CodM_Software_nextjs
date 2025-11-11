@@ -16,7 +16,7 @@ export default function Section1() {
                                             <img src="assets/img/service/agentforce_ai.png" alt="Salesfroce Agentforce Ai" />
                                         </div>
                                         <div className="space30" />
-                                        <h2>Salesforce Agentforce AI </h2>
+                                        <h2>Salesforce Agentforce and AI </h2>
                                         <div className="space16" />
                                         <p>Agentforce provides customer service agents with tools and real-time data to boost productivity, resolve issues and offer personalized solutions.</p>
                                         <div className="space10" />
@@ -38,17 +38,17 @@ export default function Section1() {
                                         <div className="space30" />
                                         <h3>Why Choose CodM Software for Agentforce & AI Services?</h3>
                                         <div className="space16" />
-                                        <p>1. Salesforce Expertise- We are a trusted Salesforce partner with certified experts who bring deep domain knowledge and technical expertise in implementing Service Cloud and Einstein AI.</p>
+                                        <p>1. <b>Salesforce Expertise:-</b> We are a trusted Salesforce partner with certified experts who bring deep domain knowledge and technical expertise in implementing Service Cloud and Einstein AI.</p>
                                         <div className="space16" />
-                                        <p>2. Customized Solutions- As per the unique industry-specific requirements, we provide customized Agentforce & AI tools, which ensure maximum impact & ROI.</p>
+                                        <p>2. <b>Customized Solutions:-</b> As per the unique industry-specific requirements, we provide customized Agentforce & AI tools, which ensure maximum impact & ROI.</p>
                                         <div className="space16" />
-                                        <p>3. End-to-End Support- From strategy, implementation, training & support we provide support and guide you in every step of the journey.</p>
+                                        <p>3. <b>End-to-End Support:-</b> From strategy, implementation, training & support we provide support and guide you in every step of the journey.</p>
                                         <div className="space16" />
-                                        <p>4. Proven Track Record- We have successfully delivered customer service solutions to our clients globally and helped them in improving efficiency and customer satisfaction.</p>
+                                        <p>4. <b>Proven Track Record:-</b> We have successfully delivered customer service solutions to our clients globally and helped them in improving efficiency and customer satisfaction.</p>
                                         <div className="space16" />
-                                        <p>5. Security & Compliance- To ensure that the data and information of your customers is safe and secure, we follow best industry practices for data protection and regulatory compliance.</p>
+                                        <p>5. <b>Security & Compliance:-</b> To ensure that the data and information of your customers is safe and secure, we follow best industry practices for data protection and regulatory compliance.</p>
                                         <div className="space16" />
-                                        <p>6. Continuous Innovation- To ensure you stay ahead of the competition, we stay updated on the latest AI advancements and Salesforce features.</p>
+                                        <p>6. <b>Continuous Innovation:-</b> To ensure you stay ahead of the competition, we stay updated on the latest AI advancements and Salesforce features.</p>
                                     </div>
                                 </article>
                                 <div className="space30" />

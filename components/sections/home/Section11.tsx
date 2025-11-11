@@ -39,12 +39,12 @@ export default function Section11() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog">Best Practices Omniscript &amp;  Data Mapper and IP </Link>
+                                        <Link href="/omnistudio-vlocity">Best Practices Omniscript &amp;  Data Mapper and IP </Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>Our blog shares IT insights, industry trends and expert tips to help businesses and professionals grow. </p>
                                     <div className="space16" />
-                                    <Link href="/blog" className="learn">
+                                    <Link href="/omnistudio-vlocity" className="learn">
                                          Explore Now
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -68,12 +68,12 @@ export default function Section11() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog">Financial Services Cloud: Key Features for 2025</Link>
+                                        <Link href="/financial-service">Financial Services Cloud: Key Features for 2025</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>Salesforce Financial Services Cloud (FSC) is a specialized CRM platform designed to meet the unique needs </p>
                                     <div className="space16" />
-                                    <Link href="/blog" className="learn">
+                                    <Link href="/financial-service" className="learn">
                                         Explore Now
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -97,12 +97,12 @@ export default function Section11() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog">Configuring Custom Domains in Salesforce</Link>
+                                        <Link href="/winter23">Salesforce winter 23 release</Link>
                                     </h4>
                                     <div className="space16" />
-                                    <p>Setting up a custom domain in Salesforce allows companies to personalize their Salesforce URLs. </p>
+                                    <p>Winter ’23 Release brings powerful new features, enhancements and innovations to elevate productivity and customer experiences. </p>
                                     <div className="space16" />
-                                    <Link href="/blog" className="learn">
+                                    <Link href="/winter23" className="learn">
                                         Explore Now
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />

@@ -9,9 +9,8 @@ import Section6 from "@/components/sections/about-us/Section3"
 import Section7 from "@/components/sections/home/Section3";
 
 export const metadata = {
-  title: "About us CodM Software",
-  description:
-    "Codm Software is your trusted Salesforce consulting partner empowering global businesses with innovation and seamless CRM solutions.",
+  title: "About Us CodM Software",
+  description: "CodM Software is your trusted Salesforce Consulting Company helping businesses innovate, streamline operations and achieve growth with smart CRM solutions.",
   keywords: "About us CodM Software",
 };
 
@@ -19,7 +18,7 @@ export default function Home() {
     return (
         <>
             <Layout>
-                <SectionHeader title="About Us" group_page="" current_page="About Us" display="d-none" />
+                <SectionHeader title="About CodM Software" group_page="" current_page="About Us" display="d-none" />
                 <Section1 />
                 {/* <Section2 /> */}
                 <Section3 />

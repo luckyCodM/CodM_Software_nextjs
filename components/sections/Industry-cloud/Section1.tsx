@@ -16,7 +16,7 @@ export default function Section1() {
                                             <img src="assets/img/service/Industry_Cloud.png" alt="Industry Cloud" />
                                         </div>
                                         <div className="space30" />
-                                        <h2>Salesforce Industry Cloud Services</h2>
+                                        <h2>Salesforce Industry Cloud Service</h2>
                                         <div className="space16" />
                                         <p>Salesforce Industry Cloud Service is a collection of specialized solutions built on the Salesforce platform. It is designed to meet the unique needs of different industries. It unites the power of Salesforce CRM with the pre-designed industry workflows, data models, and integration.</p>
                                         <div className="space10" />

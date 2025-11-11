@@ -22,15 +22,15 @@ export default function Section2() {
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon1.png" alt="" />
+                                        <img src="assets/img/icons/service1-icon6.png" alt="" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/agentforce-&-ai">Agentforce & AI</Link>
+                                            <Link href="/salesforce-agentforce-ai-company-India">Agentforce & AI</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Enhancing customer support using Agentforce & AI. real-time data, faster automation and smarter service.</p>
                                     </div>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@ export default function Section2() {
                                             <Link href="/education-cloud"> Education Cloud </Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>A platform for everything you need from streamlined operations to enhanced student engagement with the education cloud. </p>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@ export default function Section2() {
                                             <Link href="/customer_360_degree">Salesforce Customer 360</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Whether you're looking for temporary staffing, direct hire placements, </p>
+                                        <p>Helping businesses deliver the seamless, personalized solutions with Salesforce Customer 360 degree. </p>
                                     </div>
                                 </div>
                             </div>

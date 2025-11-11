@@ -15,13 +15,13 @@ export default function Section1() {
             <div className="service-details-all sp">
                 <div className="container">
                     <div className="row">
-                        
+
                         <div className="col-lg-8">
                             <div className="blog-details-all left-padding">
                                 <article>
                                     <div className="blog-details-box">
                                         <div className="image">
-                                            <img src="assets/img/blog/blog-details-img1.png" alt="" />
+                                            {/* <img src="assets/img/blog/blog-details-img1.png" alt="" /> */}
                                         </div>
                                         <ul className="users">
                                             <li>
@@ -111,7 +111,7 @@ export default function Section1() {
                                         <div className="space30" />
                                         <div className="video-details-area">
                                             <div className="image">
-                                                <img src="assets/img/blog/blog-details-video-img.png" alt="" />
+                                                <img src="assets/img/blog/field_history_tracking.png" alt="" />
                                             </div>
                                             <div className="video-buttton play-btn">
                                                 <Link href="https://youtu.be/sSYxWnBm6Vk?si=QY3wC15k110tXzxf" onClick={() => setIsOpen(true)} id="play-video play-btn" className="video-play-button">
@@ -438,7 +438,7 @@ export default function Section1() {
                                     <h3>Recent Posts</h3>
                                     <div className="space10" />
                                     <ul className="recent-posts">
-                                        <div className="single-recent-post">
+                                        {/* <div className="single-recent-post">
                                             <div className="">
                                                 <div className="image">
                                                     <img src="assets/img/blog/recent-post1.png" alt="" />
@@ -452,7 +452,7 @@ export default function Section1() {
                                                     <Link href="/blog-details">Financial Services Cloud: Key Features for 2025</Link>
                                                 </h5>
                                             </div>
-                                        </div>
+                                        </div> */}
                                         <div className="single-recent-post">
                                             <div className="">
                                                 <div className="image">
@@ -464,11 +464,11 @@ export default function Section1() {
                                                     <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
                                                 </Link>
                                                 <h5>
-                                                    <Link href="/blog-details">Configuring Custom Domains in Salesforce</Link>
+                                                    <Link href="/error">Configuring Custom Domains in Salesforce</Link>
                                                 </h5>
                                             </div>
                                         </div>
-                                        <div className="single-recent-post">
+                                        {/* <div className="single-recent-post">
                                             <div className="">
                                                 <div className="image">
                                                     <img src="assets/img/blog/recent-post3.png" alt="" />
@@ -497,15 +497,15 @@ export default function Section1() {
                                                     <Link href="/blog-details">Salesforce winter 23 release</Link>
                                                 </h5>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </ul>
                                 </div>
-                                                                <div className="details-box2">
-                                    <h3>Categories</h3>
+                                <div className="details-box2">
+                                    <h3>Blog Categories</h3>
                                     <div className="space10" />
                                     <ul className="service-list">
                                         <li>
-                                            <Link href="/financial-services-cloud">
+                                            <Link href="#">
                                                 Best Practices Omniscript & Data Mapper and IP
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
@@ -513,8 +513,24 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/agentforce-&-ai">
+                                            <Link href="/winter24">
+                                                Salesforce winter 24 release 
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/financial-service">
                                                 Financial Services Cloud: Key Features for 2025
+                                                <span>
+                                                    <i className="fa-regular fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/winter23">
+                                                Salesforce winter 23 release
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>
@@ -523,23 +539,6 @@ export default function Section1() {
                                         <li>
                                             <Link href="/error">
                                                 Configuring Custom Domains in Salesforce
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/error">
-                                                Salesforce winter 23 release
-
-                                                <span>
-                                                    <i className="fa-regular fa-arrow-right" />
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/error">
-                                                Salesforce winter 24 release
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
                                                 </span>

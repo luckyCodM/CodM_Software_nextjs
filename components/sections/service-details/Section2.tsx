@@ -27,7 +27,7 @@ export default function Section2() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/financial-services-cloud">Financial Services Cloud</Link>
+                                            <Link href="/salesforce-financial-services-cloud-consultant">Financial Services Cloud</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Leveraging FSC to integrate data and automate processes for a 360-degree client view and smarter services. </p>
@@ -67,7 +67,7 @@ export default function Section2() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/customer_360_degree">Salesforce Customer 360 Degree</Link>
+                                            <Link href="/customer_360_degree">Salesforce Customer 360 </Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Helping businesses deliver the seamless, personalized solutions with Salesforce Customer 360 degree. </p>

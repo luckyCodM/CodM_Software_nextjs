@@ -5,8 +5,8 @@ import Section2 from "@/components/sections/service-details/Section2";
 import Section3 from "@/components/sections/about-us/Section3";
 
 export const metadata = {
-  title: "Salesforce Agentforce Ai| Salesforce Agentforce Ai Company India",
-  description:"Leverage AI-powered Salesforce Agentforce AI with Codm Software to boost productivity, automate workflows, and enhance customer experiences.",
+  title: "Salesforce Agentforce AI| Salesforce Agentforce AI Company India",
+  description:"Boost productivity and customer engagement with CodM Software’s Salesforce Agentforce AI solutions that automate workflows and accelerate business growth.",
   keywords: "Salesforce Agentforce ai",
 };
 

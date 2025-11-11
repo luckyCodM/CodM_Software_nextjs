@@ -60,13 +60,13 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                             <Link href="/about-us">About Us</Link>
                         </li>
                         <li>
-                            <Link href="/service">Service</Link>
+                            <Link href="/service">Services</Link>
                         </li>
                         <li>
-                            <Link href="/field-history-tracking">Product</Link>
+                            <Link href="/salesforce-field-history-tracking">Products</Link>
                         </li>
                         <li>
-                           <Link href="/blog">Blog</Link>
+                           <Link href="/blog">Blogs</Link>
                         </li>
                         <li>
                            <Link href="/contact">Contact Us</Link>
@@ -100,7 +100,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                         </div>
                         <div className="contact-box">
                             <div className="icon">
-                                <img src="assets/img/icons/footer-icon3.png" alt="" />
+                                <img src="assets/img/icons/footer-icon3.png" alt="footer-icon" />
                             </div>
                             <div className="pera">
                                 <Link href="https://maps.app.goo.gl/raw5PFBoNkRiFTtQA" target="_blank_Page_Map" rel="noopener noreferrer"> 

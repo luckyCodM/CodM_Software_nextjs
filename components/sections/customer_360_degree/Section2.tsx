@@ -22,15 +22,15 @@ export default function Section2() {
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon4.png" alt="" />
+                                        <img src="assets/img/icons/service1-icon6.png" alt="" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/salesforce-agentforce-ai-company-India">Agentforce & AI</Link>
+                                            <Link href="/salesforce-financial-services-cloud-consultant">Financial Services Cloud</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Enhancing customer support using Agentforce & AI. real-time data, faster automation and smarter service.</p>
+                                        <p>Leveraging FSC to integrate data and automate processes for a 360-degree client view and smarter services. </p>
                                     </div>
                                 </div>
                             </div>
@@ -47,10 +47,10 @@ export default function Section2() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/financial-services-cloud"> Financial Services Cloud </Link>
+                                            <Link href="/education-cloud"> Education Cloud </Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Leveraging FSC to provide a 360 degree view of clients by integrating data and automating processes to deliver smarter services. </p>
+                                        <p>A platform for everything you need from streamlined operations to enhanced student engagement with the education cloud. </p>
                                     </div>
                                 </div>
                             </div>
@@ -67,10 +67,10 @@ export default function Section2() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/customer_360_degree">Salesforce Customer 360 </Link>
+                                            <Link href="/omnistudio-cloud-service">OmniStudio Cloud Service</Link>
                                         </h4>
                                         <div className="space16" />
-                                        <p>Helping businesses deliver the seamless, personalized solutions with Salesforce Customer 360 degree. </p>
+                                        <p>Salesforce OmniStudio (formerly Vlocity) is a no-code/low-code toolset that accelerates digital transformation on Salesforce.</p>
                                     </div>
                                 </div>
                             </div>

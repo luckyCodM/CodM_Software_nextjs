@@ -16,11 +16,11 @@ export default function Section1() {
                                             <img src="assets/img/service/Banking_Service.png" alt="Banking Service" />
                                         </div>
                                         <div className="space30" />
-                                        <h2>Banking Service</h2>
+                                        <h2>Salesforce Banking Solution</h2>
                                         <div className="space16" />
                                         <p>Salesforce Banking Service is a customer-centric platform that is designed to cater to the banking industry and financial institutions. 
-                                            It helps the banks and other lending institutions to deliver personalized services, streamline operations and build long-term customer 
-                                            relationships by consolidating data, automating processes and providing real-time insights, with a complete focus on security and regulatory alignment.</p>
+                                           It helps the banks and other lending institutions to deliver personalized services, streamline operations and build long-term customer 
+                                           relationships by consolidating data, automating processes and providing real-time insights, with a complete focus on security and regulatory alignment.</p>
                                         <div className="space30" />
                                         <h3>Benefits of Salesforce Banking Service</h3>
                                         <div className="space16" />
