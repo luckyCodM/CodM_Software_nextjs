@@ -1,0 +1,300 @@
+root@srv1006615:~# sudo nano /etc/nginx/sites-available/philippines.codmsoftware.com
+root@srv1006615:~# sudo nano /etc/nginx/sites-available/philippines.codmsoftware.com
+root@srv1006615:~# ^[[200~sudo ln -s /etc/nginx/sites-available/philippine.codmsoftware.com /etc/nginx/sites-enabled/
+^[[201~sudo: command not found
+root@srv1006615:~# ~sudo ln -s /etc/nginx/sites-available/philippine.codmsoftware.com /etc/nginx/sites-enabled/
+Command '~sudo' not found, did you mean:
+  command 'sudo' from deb sudo (1.9.15p5-3ubuntu5.24.04.1)
+  command 'sudo' from deb sudo-ldap (1.9.15p5-3ubuntu5.24.04.1)
+Try: apt install <deb name>
+root@srv1006615:~# sudo nginx -t
+sudo systemctl reload nginx
+2025/12/02 11:00:43 [warn] 548478#548478: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+2025/12/02 11:00:43 [warn] 548478#548478: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+2025/12/02 11:00:43 [warn] 548478#548478: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+2025/12/02 11:00:43 [warn] 548478#548478: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+2025/12/02 11:00:43 [emerg] 548478#548478: "ssl_prefer_server_ciphers" directive is duplicate in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:3
+nginx: configuration file /etc/nginx/nginx.conf test failed
+nginx.service is not active, cannot reload.
+root@srv1006615:~# systemctl status nginx
+× nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: failed (Result: exit-code) since Tue 2025-12-02 10:33:36 UTC; 27min ago
+   Duration: 2w 3d 23h 16min 1.971s
+       Docs: man:nginx(8)
+    Process: 548344 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=1/FAILURE)
+        CPU: 8ms
+
+Dec 02 10:33:36 srv1006615 nginx[548344]: 2025/12/02 10:33:36 [warn] 548344#548344: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+Dec 02 10:33:36 srv1006615 nginx[548344]: 2025/12/02 10:33:36 [warn] 548344#548344: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+Dec 02 10:33:36 srv1006615 nginx[548344]: 2025/12/02 10:33:36 [warn] 548344#548344: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+Dec 02 10:33:36 srv1006615 nginx[548344]: 2025/12/02 10:33:36 [warn] 548344#548344: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+Dec 02 10:33:36 srv1006615 nginx[548344]: 2025/12/02 10:33:36 [emerg] 548344#548344: "ssl_prefer_server_ciphers" directive is duplicate in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:3
+Dec 02 10:33:36 srv1006615 nginx[548344]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Dec 02 10:33:36 srv1006615 systemd[1]: nginx.service: Control process exited, code=exited, status=1/FAILURE
+Dec 02 10:33:36 srv1006615 systemd[1]: nginx.service: Failed with result 'exit-code'.
+Dec 02 10:33:36 srv1006615 systemd[1]: Failed to start nginx.service - A high performance web server and a reverse proxy server.
+Dec 02 11:00:43 srv1006615 systemd[1]: nginx.service: Unit cannot be reloaded because it is inactive.
+root@srv1006615:~# sudo nginx -t
+2025/12/02 11:02:13 [warn] 548487#548487: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+2025/12/02 11:02:13 [warn] 548487#548487: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+2025/12/02 11:02:13 [warn] 548487#548487: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+2025/12/02 11:02:13 [warn] 548487#548487: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+2025/12/02 11:02:13 [emerg] 548487#548487: "ssl_prefer_server_ciphers" directive is duplicate in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:3
+nginx: configuration file /etc/nginx/nginx.conf test failed
+root@srv1006615:~# sudo systemctl start nginx
+Job for nginx.service failed because the control process exited with error code.
+See "systemctl status nginx.service" and "journalctl -xeu nginx.service" for details.
+root@srv1006615:~# systemctl status nginx.service
+× nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: failed (Result: exit-code) since Tue 2025-12-02 11:02:29 UTC; 49s ago
+   Duration: 2w 3d 23h 16min 1.971s
+       Docs: man:nginx(8)
+    Process: 548494 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=1/FAILURE)
+        CPU: 8ms
+
+Dec 02 11:02:29 srv1006615 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Dec 02 11:02:29 srv1006615 nginx[548494]: 2025/12/02 11:02:29 [warn] 548494#548494: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+Dec 02 11:02:29 srv1006615 nginx[548494]: 2025/12/02 11:02:29 [warn] 548494#548494: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+Dec 02 11:02:29 srv1006615 nginx[548494]: 2025/12/02 11:02:29 [warn] 548494#548494: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+Dec 02 11:02:29 srv1006615 nginx[548494]: 2025/12/02 11:02:29 [warn] 548494#548494: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+Dec 02 11:02:29 srv1006615 nginx[548494]: 2025/12/02 11:02:29 [emerg] 548494#548494: "ssl_prefer_server_ciphers" directive is duplicate in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:3
+Dec 02 11:02:29 srv1006615 nginx[548494]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Dec 02 11:02:29 srv1006615 systemd[1]: nginx.service: Control process exited, code=exited, status=1/FAILURE
+Dec 02 11:02:29 srv1006615 systemd[1]: nginx.service: Failed with result 'exit-code'.
+Dec 02 11:02:29 srv1006615 systemd[1]: Failed to start nginx.service - A high performance web server and a reverse proxy server.
+root@srv1006615:~# sudo nginx -t
+systemctl status nginx.service
+2025/12/02 11:04:01 [warn] 548501#548501: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+2025/12/02 11:04:01 [warn] 548501#548501: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+2025/12/02 11:04:01 [warn] 548501#548501: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+2025/12/02 11:04:01 [warn] 548501#548501: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+2025/12/02 11:04:01 [emerg] 548501#548501: "ssl_prefer_server_ciphers" directive is duplicate in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:3
+nginx: configuration file /etc/nginx/nginx.conf test failed
+× nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: failed (Result: exit-code) since Tue 2025-12-02 11:02:29 UTC; 1min 31s ago
+   Duration: 2w 3d 23h 16min 1.971s
+       Docs: man:nginx(8)
+    Process: 548494 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=1/FAILURE)
+        CPU: 8ms
+
+Dec 02 11:02:29 srv1006615 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Dec 02 11:02:29 srv1006615 nginx[548494]: 2025/12/02 11:02:29 [warn] 548494#548494: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+Dec 02 11:02:29 srv1006615 nginx[548494]: 2025/12/02 11:02:29 [warn] 548494#548494: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+Dec 02 11:02:29 srv1006615 nginx[548494]: 2025/12/02 11:02:29 [warn] 548494#548494: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+Dec 02 11:02:29 srv1006615 nginx[548494]: 2025/12/02 11:02:29 [warn] 548494#548494: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+Dec 02 11:02:29 srv1006615 nginx[548494]: 2025/12/02 11:02:29 [emerg] 548494#548494: "ssl_prefer_server_ciphers" directive is duplicate in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:3
+Dec 02 11:02:29 srv1006615 nginx[548494]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Dec 02 11:02:29 srv1006615 systemd[1]: nginx.service: Control process exited, code=exited, status=1/FAILURE
+Dec 02 11:02:29 srv1006615 systemd[1]: nginx.service: Failed with result 'exit-code'.
+Dec 02 11:02:29 srv1006615 systemd[1]: Failed to start nginx.service - A high performance web server and a reverse proxy server.
+root@srv1006615:~# sudo nano /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY
+root@srv1006615:~# sudo nano /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY
+root@srv1006615:~# 
+root@srv1006615:~# sudo nano /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY
+root@srv1006615:~# sudo nginx -t
+2025/12/02 11:13:21 [warn] 548531#548531: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+2025/12/02 11:13:21 [warn] 548531#548531: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+2025/12/02 11:13:21 [warn] 548531#548531: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+2025/12/02 11:13:21 [warn] 548531#548531: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+2025/12/02 11:13:21 [warn] 548531#548531: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYYYYY:1
+2025/12/02 11:13:21 [warn] 548531#548531: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYYYYY:1
+2025/12/02 11:13:21 [warn] 548531#548531: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYYYYY:2
+2025/12/02 11:13:21 [warn] 548531#548531: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYYYYY:2
+2025/12/02 11:13:21 [warn] 548531#548531: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYyyyy:1
+2025/12/02 11:13:21 [warn] 548531#548531: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYyyyy:1
+2025/12/02 11:13:21 [warn] 548531#548531: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYyyyy:2
+2025/12/02 11:13:21 [warn] 548531#548531: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYyyyy:2
+2025/12/02 11:13:21 [emerg] 548531#548531: open() "/etc/nginx/sites-enabled/subname.codmsoftware.com" failed (2: No such file or directory) in /etc/nginx/nginx.conf:60
+nginx: configuration file /etc/nginx/nginx.conf test failed
+root@srv1006615:~# /etc/nginx/sites-enabled/philippine.codmsoftware.com
+-bash: /etc/nginx/sites-enabled/philippine.codmsoftware.com: No such file or directory
+root@srv1006615:~# ls -l /etc/nginx/sites-enabled/
+total 32
+lrwxrwxrwx 1 root root  43 Sep 26 15:51 codmsoftware.com -> /etc/nginx/sites-available/codmsoftware.com
+lrwxrwxrwx 1 root root  34 Sep 18 14:34 default -> /etc/nginx/sites-available/default
+-rw-r--r-- 1 root root 242 Dec  2 11:13 philippine.codmsoftware.com.confY
+-rw-r--r-- 1 root root 244 Dec  2 11:11 philippine.codmsoftware.com.confYYYYY
+-rw-r--r-- 1 root root  64 Dec  2 11:07 philippine.codmsoftware.com.confYyyyy
+-rw-r--r-- 1 root root 384 Dec  2 10:21 philippine.codmsoftware.com.confy
+lrwxrwxrwx 1 root root  42 Nov 14 08:39 philippine.conf -> /etc/nginx/sites-available/philippine.conf
+lrwxrwxrwx 1 root root  55 Dec  2 08:56 philippines.codmsoftware.com -> /etc/nginx/sites-available/philippines.codmsoftware.com
+lrwxrwxrwx 1 root root  51 Dec  2 10:33 subname.codmsoftware.com -> /etc/nginx/sites-available/subname.codmsoftware.com
+-rw-r--r-- 1 root root 260 Dec  2 09:12 xyz.conf
+root@srv1006615:~# sudo find /etc/nginx/sites-enabled/ -xtype l
+/etc/nginx/sites-enabled/subname.codmsoftware.com
+root@srv1006615:~# sudo rm <filename>
+-bash: syntax error near unexpected token `newline'
+root@srv1006615:~# sudo nginx -t
+2025/12/02 11:16:20 [warn] 548544#548544: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+2025/12/02 11:16:20 [warn] 548544#548544: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:1
+2025/12/02 11:16:20 [warn] 548544#548544: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+2025/12/02 11:16:20 [warn] 548544#548544: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY:2
+2025/12/02 11:16:20 [warn] 548544#548544: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYYYYY:1
+2025/12/02 11:16:20 [warn] 548544#548544: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYYYYY:1
+2025/12/02 11:16:20 [warn] 548544#548544: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYYYYY:2
+2025/12/02 11:16:20 [warn] 548544#548544: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYYYYY:2
+2025/12/02 11:16:20 [warn] 548544#548544: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYyyyy:1
+2025/12/02 11:16:20 [warn] 548544#548544: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYyyyy:1
+2025/12/02 11:16:20 [warn] 548544#548544: duplicate value "TLSv1.2" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYyyyy:2
+2025/12/02 11:16:20 [warn] 548544#548544: duplicate value "TLSv1.3" in /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYyyyy:2
+2025/12/02 11:16:20 [emerg] 548544#548544: open() "/etc/nginx/sites-enabled/subname.codmsoftware.com" failed (2: No such file or directory) in /etc/nginx/nginx.conf:60
+nginx: configuration file /etc/nginx/nginx.conf test failed
+root@srv1006615:~# ls -l /etc/nginx/sites-enabled/
+total 32
+lrwxrwxrwx 1 root root  43 Sep 26 15:51 codmsoftware.com -> /etc/nginx/sites-available/codmsoftware.com
+lrwxrwxrwx 1 root root  34 Sep 18 14:34 default -> /etc/nginx/sites-available/default
+-rw-r--r-- 1 root root 242 Dec  2 11:13 philippine.codmsoftware.com.confY
+-rw-r--r-- 1 root root 244 Dec  2 11:11 philippine.codmsoftware.com.confYYYYY
+-rw-r--r-- 1 root root  64 Dec  2 11:07 philippine.codmsoftware.com.confYyyyy
+-rw-r--r-- 1 root root 384 Dec  2 10:21 philippine.codmsoftware.com.confy
+lrwxrwxrwx 1 root root  42 Nov 14 08:39 philippine.conf -> /etc/nginx/sites-available/philippine.conf
+lrwxrwxrwx 1 root root  55 Dec  2 08:56 philippines.codmsoftware.com -> /etc/nginx/sites-available/philippines.codmsoftware.com
+lrwxrwxrwx 1 root root  51 Dec  2 10:33 subname.codmsoftware.com -> /etc/nginx/sites-available/subname.codmsoftware.com
+-rw-r--r-- 1 root root 260 Dec  2 09:12 xyz.conf
+root@srv1006615:~# sudo rm /etc/nginx/sites-enabled/philippine.codmsoftware.com.confY
+sudo rm /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYYYYY
+sudo rm /etc/nginx/sites-enabled/philippine.codmsoftware.com.confYyyyy
+sudo rm /etc/nginx/sites-enabled/subname.codmsoftware.com
+root@srv1006615:~# sudo find /etc/nginx/sites-enabled/ -xtype l
+root@srv1006615:~# sudo rm <filename>
+-bash: syntax error near unexpected token `newline'
+root@srv1006615:~# sudo nginx -t
+2025/12/02 11:17:24 [warn] 548567#548567: duplicate value "TLSv1.2" in /etc/letsencrypt/options-ssl-nginx.conf:5
+2025/12/02 11:17:24 [warn] 548567#548567: duplicate value "TLSv1.3" in /etc/letsencrypt/options-ssl-nginx.conf:5
+2025/12/02 11:17:24 [emerg] 548567#548567: "ssl_prefer_server_ciphers" directive is duplicate in /etc/letsencrypt/options-ssl-nginx.conf:7
+nginx: configuration file /etc/nginx/nginx.conf test failed
+root@srv1006615:~# /etc/letsencrypt/options-ssl-nginx.conf
+-bash: /etc/letsencrypt/options-ssl-nginx.conf: Permission denied
+root@srv1006615:~# sudo nano /etc/letsencrypt/options-ssl-nginx.conf
+root@srv1006615:~# 
+root@srv1006615:~# sudo nginx -t
+2025/12/02 11:29:57 [warn] 548585#548585: duplicate value "TLSv1.2" in /etc/letsencrypt/options-ssl-nginx.conf:5
+2025/12/02 11:29:57 [warn] 548585#548585: duplicate value "TLSv1.3" in /etc/letsencrypt/options-ssl-nginx.conf:5
+2025/12/02 11:29:57 [emerg] 548585#548585: "ssl_prefer_server_ciphers" directive is duplicate in /etc/letsencrypt/options-ssl-nginx.conf:7
+nginx: configuration file /etc/nginx/nginx.conf test failed
+root@srv1006615:~# sudo rm /etc/letsencrypt/options-ssl-nginx.conf
+root@srv1006615:~# sudo nano /etc/letsencrypt/options-ssl-nginx.conf
+root@srv1006615:~# sudo nano /etc/letsencrypt/options-ssl-nginx.conf
+root@srv1006615:~# ls -l /etc/letsencrypt/
+total 44
+drwx------ 4 root root 4096 Sep 26 16:45 accounts
+drwx------ 3 root root 4096 Dec  2 08:11 archive
+-rw-r--r-- 1 root root  207 Nov 12  2021 cli.ini
+drwx------ 3 root root 4096 Dec  2 08:11 live
+-rw-r--r-- 1 root root  252 Dec  2 11:31 options-ssl-nginx.conf
+-rw-r--r-- 1 root root  253 Dec  2 11:29 options-ssl-nginx.confY
+drwxr-xr-x 2 root root 4096 Dec  2 08:11 renewal
+drwxr-xr-x 5 root root 4096 Sep 26 16:39 renewal-hooks
+-rw-r--r-- 1 root root  424 Sep 26 16:39 ssl-dhparams.pem
+root@srv1006615:~# sudo nginx -t
+2025/12/02 11:32:32 [warn] 548608#548608: duplicate value "TLSv1.2" in /etc/letsencrypt/options-ssl-nginx.conf:5
+2025/12/02 11:32:32 [warn] 548608#548608: duplicate value "TLSv1.3" in /etc/letsencrypt/options-ssl-nginx.conf:5
+2025/12/02 11:32:32 [emerg] 548608#548608: "ssl_prefer_server_ciphers" directive is duplicate in /etc/letsencrypt/options-ssl-nginx.conf:8
+nginx: configuration file /etc/nginx/nginx.conf test failed
+root@srv1006615:~# ls -l /etc/letsencrypt/
+total 44
+drwx------ 4 root root 4096 Sep 26 16:45 accounts
+drwx------ 3 root root 4096 Dec  2 08:11 archive
+-rw-r--r-- 1 root root  207 Nov 12  2021 cli.ini
+drwx------ 3 root root 4096 Dec  2 08:11 live
+-rw-r--r-- 1 root root  252 Dec  2 11:31 options-ssl-nginx.conf
+-rw-r--r-- 1 root root  253 Dec  2 11:29 options-ssl-nginx.confY
+drwxr-xr-x 2 root root 4096 Dec  2 08:11 renewal
+drwxr-xr-x 5 root root 4096 Sep 26 16:39 renewal-hooks
+-rw-r--r-- 1 root root  424 Sep 26 16:39 ssl-dhparams.pem
+root@srv1006615:~# nano ~/.ssh/authorized_keys
+root@srv1006615:~# ^C
+root@srv1006615:~# ^C
+root@srv1006615:~# sudo nginx -t
+2025/12/02 11:36:14 [warn] 548617#548617: duplicate value "TLSv1.2" in /etc/letsencrypt/options-ssl-nginx.conf:5
+2025/12/02 11:36:14 [warn] 548617#548617: duplicate value "TLSv1.3" in /etc/letsencrypt/options-ssl-nginx.conf:5
+2025/12/02 11:36:14 [emerg] 548617#548617: "ssl_prefer_server_ciphers" directive is duplicate in /etc/letsencrypt/options-ssl-nginx.conf:8
+nginx: configuration file /etc/nginx/nginx.conf test failed
+root@srv1006615:~# /etc/letsencrypt/options-ssl-nginx.conf
+-bash: /etc/letsencrypt/options-ssl-nginx.conf: Permission denied
+root@srv1006615:~# /etc/letsencrypt/options-ssl-nginx.conf
+-bash: /etc/letsencrypt/options-ssl-nginx.conf: Permission denied
+root@srv1006615:~# sudo cat /etc/letsencrypt/options-ssl-nginx.conf
+ssl_session_timeout 1d;
+ssl_session_cache shared:MozSSL:10m;
+ssl_session_tickets off;
+
+ssl_protocols TLSv1.2 TLSv1.3;
+
+ssl_ciphers HIGH:!aNULL:!MD5;
+ssl_prefer_server_ciphers off;
+
+ssl_ecdh_curve X25519:P-256;
+
+ssl_stapling on;
+ssl_stapling_verify on;
+root@srv1006615:~# sudo nano /etc/letsencrypt/options-ssl-nginx.conf
+root@srv1006615:~# sudo vim /etc/letsencrypt/options-ssl-nginx.conf
+
+ssl_session_timeout 1d;
+ssl_session_cache shared:MozSSL:10m;
+ssl_session_tickets off;
+
+ssl_protocols TLSv1.2 TLSv1.3;
+
+ssl_ciphers HIGH:!aNULL:!MD5;
+ssl_prefer_server_ciphers 
+        on;
+
+ssl_ecdh_curve X25519:P-256;
+
+ssl_stapling on;
+ssl_stapling_verify on;
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+~                                                                                                                                                                                                              
+                                                                                                                                                                                             14,23         All

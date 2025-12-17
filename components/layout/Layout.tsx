@@ -18,6 +18,7 @@ import Header1 from "./header/Header1";
 import "wowjs/css/libs/animate.css";
 import { useRevealAnimation } from "@/util/useRevealAnimation";
 
+
 // Define the props interface (same as above)
 interface BootstrapComponentsProps { }
 
@@ -82,6 +83,7 @@ export default function Layout({ headerStyle, mainMenuStyle, footerStyle, childr
             <BootstrapComponents />
             {!headerStyle && <Header1 mainMenuStyle={mainMenuStyle} scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} />}
             {headerStyle == 1 ? <Header1 mainMenuStyle={mainMenuStyle} scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
+
 
             <main>{children}</main>
 
