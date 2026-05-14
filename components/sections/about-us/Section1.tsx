@@ -12,7 +12,7 @@ export default function Section1() {
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <div className="image overlay-anim">
-                                            <img src="assets/img/about/about3-img1.png" alt="" />
+                                            <img src="assets/img/about/about3-img1.png" alt=" about image" />
                                         </div>
                                         <div className="conter-box conter-box1">
                                             <h3>
@@ -29,7 +29,7 @@ export default function Section1() {
                                             <p>Years of Experience</p>
                                         </div>
                                         <div className="image overlay-anim">
-                                            <img src="assets/img/about/about3-img2.png" alt="" />
+                                            <img src="assets/img/about/about3-img2.png" alt=" about  image source" />
                                         </div>
                                     </div>
                                 </div>
@@ -44,7 +44,7 @@ export default function Section1() {
                                 <div className="about3-icon-box">
                                     <div className="">
                                         <div className="icon">
-                                            <img src="assets/img/icons/about3-icon1.png" alt="" />
+                                            <img src="assets/img/icons/about3-icon1.png" alt=" about  icon1" />
                                         </div>
                                     </div>
                                     <div className="heading1">
@@ -57,7 +57,7 @@ export default function Section1() {
                                 <div className="about3-icon-box">
                                     <div className="">
                                         <div className="icon">
-                                            <img src="assets/img/icons/about3-icon2.png" alt="" />
+                                            <img src="assets/img/icons/about3-icon2.png" alt=" about  icon2" />
                                         </div>
                                     </div>
                                     <div className="heading1">

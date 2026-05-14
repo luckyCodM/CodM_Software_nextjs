@@ -17,15 +17,15 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/omniscript-data.png" alt="" />
+                                    <img src="assets/img/blog/omniscript-data.png" alt=" omniscript data" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 28 August 2025
+                                            <img src="assets/img/icons/date2.png" alt=" date icon" /> 28 August 2025
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Bhav Malhotra
+                                            <img src="assets/img/icons/user2.png" alt=" user icon" /> Bhav Malhotra
                                         </Link>
                                     </div>
                                     <h4>
@@ -46,15 +46,15 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/financial-services-cloud.png" alt="" />
+                                    <img src="assets/img/blog/financial-services-cloud.png" alt=" financial services cloud" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 26 August 2025
+                                            <img src="assets/img/icons/date2.png" alt=" date icon" /> 26 August 2025
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Tannu Singh
+                                            <img src="assets/img/icons/user2.png" alt=" user icon" /> Tannu Singh
                                         </Link>
                                     </div>
                                     <h4>
@@ -75,15 +75,15 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/custom-domains.png" alt="" />
+                                    <img src="assets/img/blog/custom-domains.png" alt=" custom domains" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 16 August 2025
+                                            <img src="assets/img/icons/date2.png" alt=" date icon" /> 16 August 2025
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ankit Rawat
+                                            <img src="assets/img/icons/user2.png" alt=" user icon" /> Ankit Rawat
                                         </Link>
                                     </div>
                                     <h4>
@@ -162,15 +162,15 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/blog2-img6.png" alt="" />
+                                    <img src="assets/img/blog/blog2-img6.png" alt=" blog2 img6" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 10 October 2023
+                                            <img src="assets/img/icons/date2.png" alt=" date icon" /> 10 October 2023
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Tannu Singh
+                                            <img src="assets/img/icons/user2.png" alt=" user icon" /> Tannu Singh
                                         </Link>
                                     </div>
                                     <h4>
@@ -220,15 +220,15 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/winter24-blog.png" alt="" />
+                                    <img src="assets/img/blog/winter24-blog.png" alt=" winter 24 blog" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 2 October 2024
+                                            <img src="assets/img/icons/date2.png" alt=" date icon" /> 2 October 2024
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ankit Rawat
+                                            <img src="assets/img/icons/user2.png" alt=" user icon" /> Ankit Rawat
                                         </Link>
                                     </div>
                                     <h4>

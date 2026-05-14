@@ -27,15 +27,15 @@ export default function Section11() {
                         <div className="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-duration={800}>
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/blog2-img1.png" alt="" />
+                                    <img src="assets/img/blog/blog2-img1.png" alt="blog image 1" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 26 August 2025
+                                            <img src="assets/img/icons/date2.png" alt="date icon" /> 26 August 2025
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Bhav Malhotra
+                                            <img src="assets/img/icons/user2.png" alt="user icon" /> Bhav Malhotra
                                         </Link>
                                     </div>
                                     <h4>
@@ -56,15 +56,15 @@ export default function Section11() {
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box" data-aos="zoom-in-up" data-aos-duration={700}>
                                 <div className="image">
-                                    <img src="assets/img/blog/blog2-img2.png" alt="" />
+                                    <img src="assets/img/blog/blog2-img2.png" alt="blog image 2" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 28 August 2025
+                                            <img src="assets/img/icons/date2.png" alt="date icon" /> 28 August 2025
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Tannu Singh
+                                            <img src="assets/img/icons/user2.png" alt="user icon" /> Tannu Singh
                                         </Link>
                                     </div>
                                     <h4>
@@ -85,15 +85,15 @@ export default function Section11() {
                         <div className="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-duration={1100}>
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/blog2-img3.png" alt="" />
+                                    <img src="assets/img/blog/blog2-img3.png" alt="blog image 3" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 16 August 2023
+                                            <img src="assets/img/icons/date2.png" alt="date icon" /> 16 August 2023
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ankit Rawat
+                                            <img src="assets/img/icons/user2.png" alt="user icon" /> Ankit Rawat
                                         </Link>
                                     </div>
                                     <h4>

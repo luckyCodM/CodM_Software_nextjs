@@ -38,16 +38,16 @@ export default function Section1() {
                         <div className="col-lg-6">
                             <div className="hero1-images">
                                 <div className="image1">
-                                    <img src="assets/img/bg/hero1-main-bg.png" alt="" />
+                                    <img src="assets/img/bg/hero1-main-bg.png" alt="hero1 main background" />
                                 </div>
                                 <div className="image2 overlay-anim" data-aos="zoom-in-up" data-aos-duration={700}>
-                                    <img src="assets/img/hero/hero1-main-img.png" alt="" />
+                                    <img src="assets/img/hero/hero1-main-img.png" alt="hero1 main image" />
                                 </div>
                                 <div className="image3 shape-animaiton2" data-aos="zoom-in-up" data-aos-duration={700}>
-                                    <img src="assets/img/shapes/review-img.png" alt="" />
+                                    <img src="assets/img/shapes/review-img.png" alt="review image" />
                                 </div>
                                 <div className="image4 shape-animaiton3">
-                                    <img src="assets/img/shapes/hero1-shape.png" alt="" />
+                                    <img src="assets/img/shapes/hero1-shape.png" alt="hero1 shape" />
                                 </div>
                             </div>
                         </div>

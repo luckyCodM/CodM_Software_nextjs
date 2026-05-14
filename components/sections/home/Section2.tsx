@@ -74,64 +74,64 @@ export default function Section2({ backgroundColor }: { backgroundColor: string 
                         <div className="col-lg-12">
                             <Swiper {...swiperOptions}>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo1.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo1.png" alt="slider logo 1" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo2.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo2.png" alt="slider logo 2" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo3.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo3.png" alt="slider logo 3" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo4.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo4.png" alt="slider logo 4" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo5.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo5.png" alt="slider logo 5" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo6.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo6.png" alt="slider logo 6" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo7.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo7.png" alt="slider logo 7" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo8.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo8.png" alt="slider logo 8" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo9.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo9.png" alt="slider logo 9" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo10.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo10.png" alt="slider logo 10" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo1.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo1.png" alt="slider logo 1" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo2.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo2.png" alt="slider logo 2" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo3.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo3.png" alt="slider logo 3" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo4.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo4.png" alt="slider logo 4" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo5.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo5.png" alt="slider logo 5" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo6.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo6.png" alt="slider logo 6" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo7.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo7.png" alt="slider logo 7" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo8.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo8.png" alt="slider logo 8" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo9.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo9.png" alt="slider logo 9" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo10.png" alt="" />
+                                    <img src="assets/img/logo/slider-logo10.png" alt="slider logo 10" />
                                 </SwiperSlide>
 
                             </Swiper>

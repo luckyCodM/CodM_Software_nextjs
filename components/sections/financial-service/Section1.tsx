@@ -21,20 +21,20 @@ export default function Section1() {
                                 <article>
                                     <div className="blog-details-box">
                                         <div className="image">
-                                            <img src="assets/img/blog/blog2-fin1.png" alt="" />
+                                            <img src="assets/img/blog/blog2-fin1.png" alt="blog2 fin1" />
                                         </div>
                                         <ul className="users">
                                             <li>
-                                                <img className="author" src="assets/img/blog/blogF-img1.png" alt="" /> <Link href="#"> Tannu Singh </Link>
+                                                <img className="author" src="assets/img/blog/blogF-img1.png" alt="author" /> <Link href="#"> Tannu Singh </Link>
                                             </li>
                                             <li>
-                                                <img src="assets/img/icons/blog-details-icon1.png" alt="" /> <Link href="#"> March 11, 2025</Link>
+                                                <img src="assets/img/icons/blog-details-icon1.png" alt="date icon" /> <Link href="#"> March 11, 2025</Link>
                                             </li>
                                             <li>
-                                                <img src="assets/img/icons/blog-details-icon2.png" alt="" /> <Link href="#">Financial Services Cloud 2025 </Link>
+                                                <img src="assets/img/icons/blog-details-icon2.png" alt="category icon" /> <Link href="#">Financial Services Cloud 2025 </Link>
                                             </li>
                                             <li>
-                                                <img src="assets/img/icons/blog-details-icon3.png" alt="" /> <Link href="#"> 2 Comments</Link>
+                                                <img src="assets/img/icons/blog-details-icon3.png" alt="comments icon" /> <Link href="#"> 2 Comments</Link>
                                             </li>
                                         </ul>
                                         <div className="space10" />
@@ -159,7 +159,7 @@ export default function Section1() {
                                         <div className="space30" />
                                         <div className="video-details-area">
                                             <div className="image">
-                                                <img src="assets/img/blog/blog-details-video-img.png" alt="" />
+                                                <img src="assets/img/blog/blog-details-video-img.png" alt="blog details video" />
                                             </div>
                                             <div className="video-buttton play-btn">
                                                 <Link href="https://youtu.be/sSYxWnBm6Vk?si=QY3wC15k110tXzxf" onClick={() => setIsOpen(true)} id="play-video play-btn" className="video-play-button">
@@ -461,12 +461,12 @@ export default function Section1() {
                                         <div className="single-recent-post">
                                             <div className="">
                                                 <div className="image">
-                                                    <img src="assets/img/blog/recent-post1.png" alt="" />
+                                                    <img src="assets/img/blog/recent-post1.png" alt="recent post 1" />
                                                 </div>
                                             </div>
                                             <div className="heading">
                                                 <Link href="#" className="date">
-                                                    <img src="assets/img/icons/recent-date.png" alt="" /> 20 Apr, 2025
+                                                    <img src="assets/img/icons/recent-date.png" alt="date icon" /> 20 Apr, 2025
                                                 </Link>
                                                 <h5>
                                                     <Link href="/omnistudio-vlocity">Best Practices Omniscript & Data Mapper and IP</Link>
@@ -570,7 +570,7 @@ export default function Section1() {
                                     <h3>If You Need Any Help Contact With Us</h3>
                                     <div className="space10" />
                                     <Link href="tel:+91 9871717425" className="call-btn">
-                                        <img src="assets/img/icons/details-call.png" alt="" /> +91 9871717425
+                                        <img src="assets/img/icons/details-call.png" alt="call icon" /> +91 9871717425
                                     </Link>
                                 </div>
                                 <div className="details-box2">
@@ -579,7 +579,7 @@ export default function Section1() {
                                         scalable growth we deliver innovations for your success.</p>
                                     <div className="space10" />
                                     <Link href="/assets/img/codmsoftware_pdf/CodM_Software_Portfolio_Profile.pdf" className="download-btn1">
-                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
+                                        <img src="assets/img/icons/download-icon.png" alt="download icon" /> Pdf Download
                                     </Link>
                                 </div>
                             </div>

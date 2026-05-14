@@ -10,11 +10,11 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img1.png" alt="" />
+                                    <img src="assets/img/service/service1-img1.png" alt="Financial Services Cloud" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon6.png" alt="" />
+                                        <img src="assets/img/icons/service1-icon6.png" alt="Financial Services Cloud icon" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
@@ -30,11 +30,11 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="service1-box active">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img2.png" alt="" />
+                                    <img src="assets/img/service/service1-img2.png" alt="Agentforce & AI" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon2.png" alt="" />
+                                        <img src="assets/img/icons/service1-icon2.png" alt="Agentforce & AI icon" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
@@ -50,11 +50,11 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img3.png" alt="" />
+                                    <img src="assets/img/service/service1-img3.png" alt="Education Cloud" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon3.png" alt="" />
+                                        <img src="assets/img/icons/service1-icon3.png" alt="Education Cloud icon" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
@@ -70,11 +70,11 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img4.png" alt="" />
+                                    <img src="assets/img/service/service1-img4.png" alt="Salesforce Customer 360" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon4.png" alt="" />
+                                        <img src="assets/img/icons/service1-icon4.png" alt="Salesforce Customer 360 icon" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
@@ -90,11 +90,11 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img5.png" alt="" />
+                                    <img src="assets/img/service/service1-img5.png" alt="Industries Services" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon5.png" alt="" />
+                                        <img src="assets/img/icons/service1-icon5.png" alt="Industries Services icon" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
@@ -110,11 +110,11 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img6.png" alt="" />
+                                    <img src="assets/img/service/service1-img6.png" alt="Banking Services" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon6.png" alt="" />
+                                        <img src="assets/img/icons/service1-icon6.png" alt="Banking Services icon" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
@@ -130,11 +130,11 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img7.png" alt="" />
+                                    <img src="assets/img/service/service1-img7.png" alt="OmniStudio Cloud Service" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon7.png" alt="" />
+                                        <img src="assets/img/icons/service1-icon7.png" alt="OmniStudio Cloud Service icon" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">

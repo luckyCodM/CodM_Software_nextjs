@@ -30,10 +30,10 @@ export default function Section12() {
                         <div className="col-md-7">
                             <div className="images">
                                 <div className="img1">
-                                    <img src="assets/img/others/cta6-bg.png" alt="" />
+                                    <img src="assets/img/others/cta6-bg.png" alt="background image" />
                                 </div>
                                 <div className="img2">
-                                    <img src="assets/img/others/cta6-image.png" alt="" />
+                                    <img src="assets/img/others/cta6-image.png" alt="foreground image" />
                                 </div>
                             </div>
                         </div>

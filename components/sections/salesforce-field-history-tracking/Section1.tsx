@@ -19,7 +19,7 @@ export default function Section1() {
                                 <article>
                                     <div className="heading1">
                                         <div className="image">
-                                            <img src="assets/img/service/Field History Tracking.png" alt="" />
+                                            <img src="assets/img/service/Field History Tracking.png" alt="Field History Tracking" />
                                         </div>
                                         <div className="space30" />
                                         <h2>How to use Field History Tracking in Salesforce</h2>
@@ -48,7 +48,7 @@ export default function Section1() {
                                         <div className="space30" />
                                         <div className="video-details-area">
                                             <div className="image">
-                                                <img src="assets/img/blog/field_history_tracking.png" alt="" />
+                                                <img src="assets/img/blog/field_history_tracking.png" alt="Field History Tracking" />
                                             </div>
                                             <div className="video-buttton play-btn">
                                                 <Link href="https://youtu.be/sSYxWnBm6Vk?si=QY3wC15k110tXzxf" onClick={() => setIsOpen(true)} id="play-video play-btn" className="video-play-button">
@@ -132,7 +132,7 @@ export default function Section1() {
                                         <div className="col-lg-6">
                                             <div className="space30" />
                                             <div className="image">
-                                                <img src="assets/img/project/FHT.png" alt="" />
+                                                <img src="assets/img/project/FHT.png" alt="Field History Tracking" />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
@@ -219,7 +219,7 @@ export default function Section1() {
                                     <h3>If You Need Any Help Contact With Us</h3>
                                     <div className="space10" />
                                     <Link href="tel:+919871717425" className="call-btn">
-                                        <img src="assets/img/icons/details-call.png" alt="" /> +91 9871717425
+                                        <img src="assets/img/icons/details-call.png" alt="phone icon" /> +91 9871717425
                                     </Link>
                                 </div>
                                 <div className="details-box2">
@@ -227,7 +227,7 @@ export default function Section1() {
                                     <p>Boost your business with our customised CRM solutions. Optimised processes, improved customer relationships and scalable growth we deliver innovations for your success.</p>
                                     <div className="space10" />
                                     <Link href="/assets/img/codmsoftware_pdf/CodM_Software_Portfolio_Profile.pdf" className="download-btn1">
-                                        <img src="assets/img/icons/download-icon.png" alt="" /> Pdf Download
+                                        <img src="assets/img/icons/download-icon.png" alt="download icon" /> Pdf Download
                                     </Link>
                                 </div>
                                 <div className="details-box2">

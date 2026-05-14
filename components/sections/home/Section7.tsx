@@ -9,7 +9,7 @@ export default function Section7() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="work-img reveal overlay-anim">
-                                <img src="assets/img/work/work1-image.png" alt="" />
+                                <img src="assets/img/work/work1-image.png" alt="work image 1" />
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -28,7 +28,7 @@ export default function Section7() {
                                     <div className="work1-box">
                                         <div className="">
                                             <div className="icon">
-                                                <img src="assets/img/icons/work1-icon1.png" alt="" />
+                                                <img src="assets/img/icons/work1-icon1.png" alt="sourcing the best icon" />
                                             </div>
                                         </div>
                                         <div className="heading1">
@@ -43,7 +43,7 @@ export default function Section7() {
                                     <div className="work1-box">
                                         <div className="">
                                             <div className="icon">
-                                                <img src="assets/img/icons/work1-icon2.png" alt="" />
+                                                <img src="assets/img/icons/work1-icon2.png" alt="volume hiring icon" />
                                             </div>
                                         </div>
                                         <div className="heading1">
@@ -58,7 +58,7 @@ export default function Section7() {
                                     <div className="work1-box">
                                         <div className="">
                                             <div className="icon">
-                                                <img src="assets/img/icons/work1-icon3.png" alt="" />
+                                                <img src="assets/img/icons/work1-icon3.png" alt="partners in team building icon" />
                                             </div>
                                         </div>
                                         <div className="heading1">

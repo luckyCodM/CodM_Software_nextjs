@@ -11,7 +11,7 @@ export default function Section3() {
                             <div className="" data-aos="zoom-in-up" data-aos-duration={700}>
                                 <div className="icon-box">
                                     <div className="icon">
-                                        <img src="assets/img/icons/choose1-icon1.png" alt="" />
+                                        <img src="assets/img/icons/choose1-icon1.png" alt="choose icon 1" />
                                     </div>
                                     <div className="heading1">
                                         <h3>
@@ -25,7 +25,7 @@ export default function Section3() {
                             <div className="" data-aos="zoom-in-up" data-aos-duration={900}>
                                 <div className="icon-box">
                                     <div className="icon">
-                                        <img src="assets/img/icons/choose1-icon2.png" alt="" />
+                                        <img src="assets/img/icons/choose1-icon2.png" alt="choose icon 2" />
                                     </div>
                                     <div className="heading1">
                                         <h3>
@@ -39,7 +39,7 @@ export default function Section3() {
                             <div className="" data-aos="zoom-in-up" data-aos-duration={1200}>
                                 <div className="icon-box icon-box2">
                                     <div className="icon">
-                                        <img src="assets/img/icons/choose1-icon3.png" alt="" />
+                                        <img src="assets/img/icons/choose1-icon3.png" alt="choose icon 3" />
                                     </div>
                                     <div className="heading1">
                                         <h3>
@@ -53,7 +53,7 @@ export default function Section3() {
                         </div>
                         <div className="col-lg-5">
                             <div className="image reveal overlay-anim">
-                                <img src="assets/img/others/choose1-img.png" alt="" />
+                                <img src="assets/img/others/choose1-img.png" alt="choose image 1" />
                             </div>
                         </div>
                         <div className="col-lg-5">
