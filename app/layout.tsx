@@ -1,12 +1,12 @@
-import "/public/assets/css/bootstrap.min.css";
-import "/public/assets/css/fontawesome.css";
-import "/public/assets/css/magnific-popup.css";
-import "/public/assets/css/nice-select.css";
-import "/public/assets/css/slick-slider.css";
-import "/public/assets/css/aos.css";
-import "/public/assets/css/mobile-menu.css";
-import "/public/assets/css/main.css";
-import "/public/assets/css/about-us-journey-section.css";
+import "../public/assets/css/bootstrap.min.css";
+import "../public/assets/css/fontawesome.css";
+import "../public/assets/css/magnific-popup.css";
+import "../public/assets/css/nice-select.css";
+import "../public/assets/css/slick-slider.css";
+import "../public/assets/css/aos.css";
+import "../public/assets/css/mobile-menu.css";
+import "../public/assets/css/main.css";
+import "../public/assets/css/about-us-journey-section.css";
 
 
 import type { Metadata } from "next";
