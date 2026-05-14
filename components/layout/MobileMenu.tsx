@@ -84,7 +84,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                         <h3>Contact Us</h3>
                         <div className="contact-box">
                             <div className="icon">
-                                <img src="assets/img/icons/footer-icon1.png" alt="" />
+                                <img src="assets/img/icons/footer-icon1.png" alt=" " />
                             </div>
                             <div className="pera">
                                 <Link href="tel:+91 9871717425">+91 9871717425</Link>
@@ -92,7 +92,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                         </div>
                         <div className="contact-box">
                             <div className="icon">
-                                <img src="assets/img/icons/footer-icon2.png" alt="" />
+                                <img src="assets/img/icons/footer-icon2.png" alt=" " />
                             </div>
                             <div className="pera">
                                 <Link href="mailto:sales@codmsoftware.com">sales@codmsoftware.com</Link>

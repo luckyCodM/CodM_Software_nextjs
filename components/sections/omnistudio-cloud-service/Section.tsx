@@ -137,7 +137,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/salesforce-agentforce-ai-company-India">
+                                            <Link href="/salesforce-agentforce-ai-company-india">
                                                 Agentforce & AI
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
@@ -161,7 +161,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/Industry-cloud">
+                                            <Link href="/industry-cloud">
                                                 Industries Services
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
