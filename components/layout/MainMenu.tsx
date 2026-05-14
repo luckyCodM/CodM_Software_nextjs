@@ -20,7 +20,7 @@ export default function MainMenu() {
                         <Link href="/salesforce-financial-services-cloud-consultant">Financial Services Cloud</Link>
                     </li>
                     <li>
-                        <Link href="/salesforce-agentforce-ai-company-India">Agentforce & AI</Link>
+                        <Link href="/salesforce-agentforce-ai-company-india">Agentforce & AI</Link>
                     </li>
                     <li>
                         <Link href="/education-cloud">Education Cloud</Link>
@@ -29,7 +29,7 @@ export default function MainMenu() {
                        <Link href="/customer_360_degree">Salesforce Customer 360</Link>
                     </li>
                     <li>
-                        <Link href="/Industry-cloud">Industries Services</Link>
+                        <Link href="/industry-cloud">Industries Services</Link>
                     </li>
                     <li>
                         <Link href="/banking_service">Banking Services</Link>
