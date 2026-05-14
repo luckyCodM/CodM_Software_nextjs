@@ -1,6 +1,6 @@
 import Layout from "@/components/layout/Layout";
 import SectionHeader from "@/components/layout/SectionHeader";
-import Section1 from "@/components/sections/Industry-cloud/Section1";
+import Section1 from "@/components/sections/industry-cloud/Section1";
 import Section2 from "@/components/sections/education-cloud/Section2";
 import Section3 from "@/components/sections/about-us/Section3";
 

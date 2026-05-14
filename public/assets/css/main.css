@@ -20576,6 +20576,91 @@ li.has-dropdown1 span {
     height: auto;   
     z-index: 999;
   }
+
+  .codm-journey-section {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #ffffff 0%, #f3f8fc 100%);
+}
+
+.codm-journey-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.codm-journey-card {
+  position: relative;
+  min-height: 280px;
+  padding: 34px 26px;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #e6eef6;
+  border-radius: 8px;
+  box-shadow: 0 18px 45px rgba(26, 54, 93, 0.08);
+  transition: all 0.3s ease;
+}
+
+.codm-journey-card:hover {
+  transform: translateY(-8px);
+  border-color: #4ba3df;
+  box-shadow: 0 24px 60px rgba(75, 163, 223, 0.18);
+}
+
+.codm-journey-number {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  color: rgba(75, 163, 223, 0.12);
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.codm-journey-year {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 86px;
+  height: 42px;
+  margin-bottom: 26px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  background: #4ba3df;
+  border-radius: 6px;
+}
+
+.codm-journey-card h4 {
+  margin: 0 0 14px;
+  color: #111827;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.codm-journey-card p {
+  margin: 0;
+  color: #5f6b7a;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+@media (max-width: 991px) {
+  .codm-journey-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .codm-journey-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .codm-journey-card {
+    min-height: auto;
+  }
+}
 /*
 ::::::::::::::::::::::::::
  NAV MENU AREA CSS

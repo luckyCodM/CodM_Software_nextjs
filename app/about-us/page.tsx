@@ -3,7 +3,7 @@ import SectionHeader from "@/components/layout/SectionHeader";
 import Section1 from "@/components/sections/about-us/Section1";
 // import Section2 from "@/components/sections/home/Section4";
 import Section3 from "@/components/sections/about-us/Section2";
-// import Section4 from "@/components/sections/home/Section3";
+import AboutUsJourneySection from "@/components/sections/about-us/AboutUsJourneySection";
 // import Section5 from "@/components/sections/home/Section8";
 import Section6 from "@/components/sections/about-us/Section3"
 import Section7 from "@/components/sections/home/Section3";
@@ -22,7 +22,7 @@ export default function Home() {
                 <Section1 />
                 {/* <Section2 /> */}
                 <Section3 />
-                {/* <Section4 /> */}
+                <AboutUsJourneySection/>
                 {/* <Section5 classList="about-page-testimonial" /> */}
                 <Section6 />
                 <Section7 />
