@@ -13,7 +13,7 @@ export default function Section1() {
                                 <article>
                                     <div className="heading1">
                                         <div className="image">
-                                            <img src="assets/img/service/agentforce_ai.png" alt="Salesfroce Agentforce Ai" />
+                                        <img src="assets/img/service/agentforce_ai.png" alt="Salesfroce Agentforce Ai" />
                                         </div>
                                         <div className="space30" />
                                         <h2>Salesforce Agentforce and AI </h2>
