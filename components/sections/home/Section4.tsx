@@ -44,10 +44,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/salesforce-agentforce-ai-company-India">Agentforce & AI</Link>
+                                        <Link href="/salesforce-agentforce-ai-company-india">Agentforce & AI</Link>
                                     </h4>
                                     <p>Enhancing customer support using Agentforce & AI, real-time data, faster automation, and smarter service.</p>
-                                    <Link href="/salesforce-agentforce-ai-company-India" className="learn">
+                                    <Link href="/salesforce-agentforce-ai-company-india" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -101,10 +101,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/Industry-cloud">Industries Services</Link>
+                                        <Link href="/industry-cloud">Industries Services</Link>
                                     </h4>
                                     <p>Accelerate growth using the industry cloud tailored solutions and integration build for your unique requirements.</p>
-                                    <Link href="/Industry-cloud" className="learn">
+                                    <Link href="/industry-cloud" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
