@@ -1,12 +1,11 @@
 import Layout from "@/components/layout/Layout";
 import SectionHeader from "@/components/layout/SectionHeader";
 import Section1 from "@/components/sections/about-us/Section1";
-// import Section2 from "@/components/sections/home/Section4";
 import Section3 from "@/components/sections/about-us/Section2";
-import AboutUsJourneySection from "@/components/sections/about-us/AboutUsJourneySection";
-// import Section5 from "@/components/sections/home/Section8";
 import Section6 from "@/components/sections/about-us/Section3"
-import Section7 from "@/components/sections/home/Section3";
+import Section4 from "@/components/sections/about-us/Section4";
+import Section5 from "@/components/sections/about-us/Section5";
+
 
 export const metadata = {
   title: "About Us CodM Software",
@@ -20,12 +19,10 @@ export default function Home() {
             <Layout>
                 <SectionHeader title="About CodM Software" group_page="" current_page="About Us" display="d-none" />
                 <Section1 />
-                {/* <Section2 /> */}
                 <Section3 />
-                <AboutUsJourneySection/>
-                {/* <Section5 classList="about-page-testimonial" /> */}
+                <Section4/>
+                <Section5 />
                 <Section6 />
-                <Section7 />
             </Layout>
         </>
     );

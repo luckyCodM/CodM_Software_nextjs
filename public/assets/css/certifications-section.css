@@ -1,0 +1,299 @@
+.codm-certifications-section {
+  width: 100%;
+  padding: 54px 0 94px;
+  background: #f7f8fa;
+}
+
+.codm-certifications-container {
+  width: min(100% - 48px, 1806px);
+  margin: 0 auto;
+}
+
+.codm-certifications-heading {
+  margin-bottom: 94px;
+}
+
+.codm-certifications-heading span {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  margin: 0 0 12px;
+  color: #8b8c90;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+}
+
+.codm-certifications-heading span::after {
+  display: block;
+  width: 70px;
+  height: 2px;
+  content: "";
+  background: #b85d43;
+}
+
+.codm-certifications-heading h2 {
+  margin: 0;
+  color: #2d3b4a;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.codm-certifications-content {
+  display: flex;
+  align-items: stretch;
+  gap: 16px;
+}
+
+.codm-certifications-sidebar {
+  width: 428px;
+  flex: 0 0 428px;
+}
+
+.codm-certifications-sidebar h3 {
+  margin: 0 0 34px;
+  color: #2d3b4a;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 1.16;
+  letter-spacing: 0;
+}
+
+.codm-certifications-menu {
+  display: flex;
+  overflow: hidden;
+  background: #ffffff;
+  flex-direction: column;
+}
+
+.codm-certifications-menu-item {
+  display: flex;
+  width: 100%;
+  min-height: 64px;
+  padding: 12px 12px;
+  color: #4e4f52;
+  font: inherit;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: left;
+  cursor: pointer;
+  background: #ffffff;
+  border: 0;
+  align-items: center;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.codm-certifications-menu-item:hover {
+  color: #2d3b4a;
+  background: #f0f3f6;
+}
+
+.codm-certifications-menu-item.active,
+.codm-certifications-menu-item.active:hover {  color: #ffffff;
+  font-weight: 800;
+  background: #b65d43;
+}
+
+.codm-certifications-line {
+  width: 1px;
+  min-height: 462px;
+  background: #dfe3e8;
+  flex: 0 0 1px;
+}
+
+.codm-certifications-cards {
+  display: flex;
+  width: 100%;
+  gap: 32px;
+  align-items: stretch;
+}
+
+.codm-certifications-card {
+  display: flex;
+  min-width: 0;
+  min-height: 388px;
+  padding: 24px 34px 44px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #eceff2;
+  border-radius: 18px;
+  box-shadow: 0 8px 17px rgba(27, 41, 58, 0.08);
+  flex: 1 1 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.codm-certifications-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(70, 156, 213, 0.35);
+  box-shadow: 0 20px 38px rgba(27, 41, 58, 0.13);
+}
+
+.codm-certifications-image {
+  display: flex;
+  width: 190px;
+  height: 190px;
+  margin: 0 auto 22px;
+  align-items: center;
+  justify-content: center;
+}
+
+.codm-certifications-image img {
+  display: block;
+  width: 100%;
+  max-width: 190px;
+  height: 100%;
+  object-fit: contain;
+}
+
+.codm-certifications-card h3 {
+  margin: 0 0 14px;
+  color: #2d3b4a;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1.16;
+  letter-spacing: 0;
+}
+
+.codm-certifications-card p {
+  max-width: 335px;
+  margin: 0 auto;
+  color: #66686c;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: 0;
+}
+
+@media (max-width: 1399px) {
+  .codm-certifications-container {
+    width: min(100% - 40px, 1180px);
+  }
+
+  .codm-certifications-sidebar {
+    width: 330px;
+    flex-basis: 330px;
+  }
+
+  .codm-certifications-sidebar h3 {
+    font-size: 30px;
+  }
+
+  .codm-certifications-menu-item {
+    font-size: 18px;
+  }
+
+  .codm-certifications-cards {
+    gap: 22px;
+  }
+ .codm-certifications-card {
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .codm-certifications-heading {
+    margin-bottom: 54px;
+  }
+
+  .codm-certifications-content {
+    display: block;
+  }
+
+  .codm-certifications-sidebar {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .codm-certifications-menu {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border: 1px solid #e5e9ee;
+  }
+
+  .codm-certifications-line {
+    display: none;
+  }
+
+  .codm-certifications-cards {
+    gap: 22px;
+  }
+}
+
+@media (max-width: 991px) {
+  .codm-certifications-section {
+    padding: 64px 0 76px;
+  }
+
+  .codm-certifications-heading h2 {
+    font-size: 34px;
+  }
+
+  .codm-certifications-cards {
+    flex-direction: column;
+  }
+
+  .codm-certifications-card {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .codm-certifications-container {
+    width: min(100% - 32px, 1806px);
+  }
+
+  .codm-certifications-heading span {
+    gap: 12px;
+    font-size: 14px;
+    letter-spacing: 3px;
+  }
+
+  .codm-certifications-heading span::after {
+    width: 46px;
+  }
+
+  .codm-certifications-heading h2 {
+    font-size: 29px;
+  }
+
+  .codm-certifications-sidebar h3 {
+    font-size: 26px;
+  }
+
+  .codm-certifications-menu {
+    grid-template-columns: 1fr;
+  }
+
+  .codm-certifications-menu-item {
+    min-height: 56px;
+    font-size: 17px;
+  }
+
+  .codm-certifications-image {
+    width: 156px;
+    height: 156px;
+  }
+
+  .codm-certifications-card h3 {
+    font-size: 24px;
+  }
+
+  .codm-certifications-card p {
+    font-size: 17px;
+  }
+}

@@ -7,6 +7,10 @@ import "/public/assets/css/aos.css";
 import "/public/assets/css/mobile-menu.css";
 import "/public/assets/css/main.css";
 import "/public/assets/css/about-us-journey-section.css";
+import "/public/assets/css/certifications-section.css";
+
+
+
 
 
 import type { Metadata } from "next";
