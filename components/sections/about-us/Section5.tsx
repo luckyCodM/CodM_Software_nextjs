@@ -27,13 +27,13 @@ const certificationCategories: CertificationCategory[] = [
       {
         title: "B2C Solution Architect",
         description: "Specialist in end-to-end B2C Salesforce solutions.",
-        image: "/assets/img/about/certifications/b2c-solution-architect.avif",
+        image: "/assets/img/about/Certifications/B2C-Solution-Architect.avif",
         imageAlt: "Salesforce Certified B2C Solution Architect",
       },
       {
         title: "Data Architect",
         description: "Skilled in designing secure, enterprise-grade data models.",
-        image: "/assets/img/about/certifications/data-architect.avif",
+        image: "/assets/img/about/Certifications/Data-Architect.avif",
         imageAlt: "Salesforce Certified Data Architect",
       },
     ],
@@ -44,13 +44,13 @@ const certificationCategories: CertificationCategory[] = [
       {
         title: "OmniStudio Consultant",
         description: "Expert in guided digital journeys and OmniStudio delivery.",
-        image: "/assets/img/about/certifications/omnistudio-consultant.avif",
+        image: "/assets/img/about/Certifications/OmniStudio-Consultant.avif",
         imageAlt: "Salesforce Certified OmniStudio Consultant",
       },
       {
         title: "OmniStudio Developer",
         description: "Builds OmniScripts, DataRaptors, and integration procedures.",
-        image: "/assets/img/about/certifications/omnistudio-developer.avif",
+        image: "/assets/img/about/Certifications/OmniStudio-Developer.avif",
         imageAlt: "Salesforce Certified OmniStudio Developer",
       },
     ],
@@ -61,7 +61,7 @@ const certificationCategories: CertificationCategory[] = [
       {
         title: "Platform App Builder",
         description: "Creates CRM apps using automation, security, and data design.",
-        image: "/assets/img/about/certifications/platform-app-builder.avif",
+        image: "/assets/img/about/certifications/Platform-App-Builder.avif",
         imageAlt: "Salesforce Certified Platform App Builder",
       },
       {
@@ -117,7 +117,7 @@ const certificationCategories: CertificationCategory[] = [
       {
         title: "Agentforce Specialist",
         description: "Creates AI-powered CRM experiences for modern teams.",
-        image: "/assets/img/about/certifications/Agentforce-Specialist.avif",
+        image: "/assets/img/about/Certifications/Agentforce-Specialist.avif",
         imageAlt: "Salesforce Agentforce Specialist",
       },
     ],

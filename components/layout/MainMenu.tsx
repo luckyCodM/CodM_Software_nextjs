@@ -12,8 +12,8 @@ export default function MainMenu() {
                 <Link href="/about-us">Company</Link>
             </li>
             <li className="dropdown-menu-parrent">
-                <Link href="#" className="main1">
-                    Services <i className="fa-solid fa-angle-down" />
+                <Link href="#" className="main1 d-flex align-items-center">
+                    Services <i className="fa-solid fa-angle-down " />
                 </Link>
                 <ul>
                     <li>
