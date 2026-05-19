@@ -61,7 +61,7 @@ const certificationCategories: CertificationCategory[] = [
       {
         title: "Platform App Builder",
         description: "Creates CRM apps using automation, security, and data design.",
-        image: "/assets/img/about/certifications/Platform-App-Builder.avif",
+        image: "/assets/img/about/Certifications/Platform-App-Builder.avif",
         imageAlt: "Salesforce Certified Platform App Builder",
       },
       {
@@ -84,18 +84,18 @@ const certificationCategories: CertificationCategory[] = [
       {
         title: "Business Analyst",
         description: "Turns business goals into clear Salesforce solutions.",
-        image: "/assets/img/about/certifications/Business-Analyst.avif",
+        image: "/assets/img/about/Certifications/Business-Analyst.avif",
         imageAlt: "Salesforce Certified Business Analyst",
       },
       {
         title: "Administrator",
         description: "Manages users, data, security, reports, and automation.",
-        image: "/assets/img/about/certifications/Administrator.avif",
+        image: "/assets/img/about/Certifications/Administrator.avif",
         imageAlt: "Salesforce Certified Administrator",
       },      {
         title: "Advanced Administrator",
         description: "Handles complex configuration and CRM optimization.",
-        image: "/assets/img/about/certifications/Advanced-Administrator.avif",
+        image: "/assets/img/about/Certifications/Advanced-Administrator.avif",
         imageAlt: "Salesforce Certified Advanced Administrator",
       },
     ],
