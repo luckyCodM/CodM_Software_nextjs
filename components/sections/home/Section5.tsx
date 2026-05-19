@@ -111,7 +111,7 @@ export default function Section5() {
                                     <h4>
                                         <Link href="/">Testing</Link>
                                     </h4>
-                                    <p>Ensuring quality through religious testing to identify and fix bugs.</p>
+                                    <p>Ensuring quality through rigorous testing to identify and fix bugs.</p>
                                 </div>
                                 <img src="assets/img/shapes/work7-arrow2.png" alt="arrow" className="shape2" />
                             </div>

@@ -52,7 +52,7 @@ export default function Footer() {
                                         <Link href="/salesforce-financial-services-cloud-consultant">Financial Services Cloud</Link>
                                     </li>
                                     <li>
-                                        <Link href="/salesforce-agentforce-ai-company-india">Agentforce & Al</Link>
+                                        <Link href="/salesforce-agentforce-ai-company-india">Agentforce & AI</Link>
                                     </li>
                                     <li>
                                         <Link href="/education-cloud">Education Cloud&nbsp;</Link>

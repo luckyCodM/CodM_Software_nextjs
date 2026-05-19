@@ -18,7 +18,7 @@ export default function Section3() {
                                             <span className="counter">20</span>+
                                         </h3>
                                         <div className="space10" />
-                                        <p>Project Completed</p>
+                                        <p>Projects Completed</p>
                                     </div>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@ export default function Section3() {
                                                 <span>
                                                     <i className="fa-solid fa-check" />
                                                 </span>
-                                                Co-operational in real time
+                                                Real-time collaboration
                                             </li>
                                         </ul>
                                     </div>

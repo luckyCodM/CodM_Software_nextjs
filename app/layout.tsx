@@ -16,9 +16,9 @@ import "/public/assets/css/certifications-section.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Salesforce Consulting Company| Salesforce Consulting Company India",
-    description: "CodM Software is an expert Salesforce Consulting Company in India providing tailored solutions that help businesses grow and achieve digital transformation.",
-    keywords:"salesforce consulting company",
+    title: "Salesforce Consulting Company in India | CodM Software",
+    description: "CodM Software is a Salesforce consulting company helping businesses with CRM implementation, Financial Services Cloud, Agentforce AI, Education Cloud, Customer 360, integrations, and staff augmentation.",
+    keywords:"salesforce consulting company in india, salesforce consulting services, salesforce implementation, salesforce financial services cloud, salesforce agentforce ai, salesforce education cloud, salesforce customer 360, salesforce integrations, salesforce staff augmentation",
 };
 
 

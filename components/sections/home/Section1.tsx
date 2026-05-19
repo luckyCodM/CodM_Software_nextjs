@@ -15,19 +15,19 @@ export default function Section1() {
                                 <h1 className="text-anime-style-3">Expert Salesforce Consulting Company</h1>
                                 <div className="space16" />
                                 <p data-aos="fade-right" data-aos-duration={1000}>
-                                    Transforming businesses through excellent salesforce solutions, <br />
-                                    unlock new ideas, enhance operations, innovate continuously.
+                                    Salesforce Consulting Partner for CRM, Automation, and AI
+                                    We help businesses implement, customize, and scale Salesforce across Financial Services, Education, Banking, and Customer 360.
                                 </p>
                                 <div className="space30" />
                                 <div className="hero1-buttons" data-aos="fade-right" data-aos-duration={1200}>
                                     <Link className="theme-btn1" href="/service">
-                                        See Our Expertise
+                                        Explore Salesforce Services
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
                                         </span>
                                     </Link>
                                     <Link className="theme-btn2" href="tel:+91 9871717425">
-                                        Talk to a Salesfroce Expert
+                                        Talk to a Salesforce Expert
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
                                         </span>
