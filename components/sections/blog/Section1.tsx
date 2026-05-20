@@ -87,12 +87,12 @@ export default function Section1() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/error">Configuring Custom Domains in Salesforce</Link>
+                                        <Link href="#">Configuring Custom Domains in Salesforce</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>Setting up a custom domain in Salesforce allows companies to personalize their Salesforce URLs </p>
                                     <div className="space16" />
-                                    <Link href="/error" className="learn">
+                                    <Link href="#" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />

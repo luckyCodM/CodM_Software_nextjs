@@ -1,7 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import SectionHeader from "@/components/layout/SectionHeader";
-import Section1 from "@/components/sections/customer_360_degree/Section1";
-import Section2 from "@/components/sections/customer_360_degree/Section2";
+import Section1 from "@/components/sections/customer-360-degree/Section1";
+import Section2 from "@/components/sections/customer-360-degree/Section2";
 import Section3 from "@/components/sections/about-us/Section3";
 
 export const metadata = {
