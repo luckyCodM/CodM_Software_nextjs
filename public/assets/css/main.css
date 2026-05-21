@@ -2836,6 +2836,16 @@ body.body {
     transition: all 0.4s;
     margin-left: 20px;
 }
+.hero1-buttons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+.hero1-buttons .theme-btn2 {
+    margin-left: 0;
+}
+
 @media (max-width: 767px) {
     .theme-btn2 {
         margin-left: 0;
@@ -8408,6 +8418,60 @@ body.body {
     position: absolute;
     top: 70px;
     right: 100px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .hero-area1 {
+        min-height: 640px;
+    }
+
+    .hero-area1 .main-heading {
+        padding-top: 36px;
+    }
+
+    .hero-area1 .main-heading h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .hero-area1 .main-heading p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .hero-area1 .hero1-images {
+        height: 460px;
+        margin-right: -24px;
+        margin-top: 44px;
+    }
+
+    .hero-area1 .hero1-images .image2 {
+        right: 36px;
+        max-width: 360px;
+    }
+
+    .hero-area1 .hero1-images .image3 {
+        left: 8px;
+        max-width: 250px;
+    }
+
+    .hero-area1 .hero1-images .image4 {
+        right: 60px;
+        max-width: 350px;
+    }
+
+    .hero1-buttons {
+        gap: 8px;
+    }
+
+    .hero1-buttons .theme-btn1,
+    .hero1-buttons .theme-btn2 {
+        padding-left: 13px;
+        padding-right: 13px;
+        font-size: 13px;
+        line-height: 16px;
+        white-space: nowrap;
+    }
 }
 
 .hero-area2 {
