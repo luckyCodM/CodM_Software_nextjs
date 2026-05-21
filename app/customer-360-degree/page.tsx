@@ -5,9 +5,12 @@ import Section2 from "@/components/sections/customer-360-degree/Section2";
 import Section3 from "@/components/sections/about-us/Section3";
 
 export const metadata = {
-  title: "Salesforce Customer 360 Solution |Salesforce sales cloud 360",
-  description: "Unite sales, service, marketing and data with CodM Software’s Salesforce Customer 360 solutions to deliver personalized and connected customer experiences.",
-  keywords: "Salesforce Customer 360 Solution |Salesforce sales cloud 360",
+    title: "Salesforce Customer 360 Solution | CodM Software",
+    description: "Unite sales, service, marketing and data with CodM Software’s Salesforce Customer 360 solutions to deliver personalized and connected customer experiences.",
+    keywords: "Salesforce Customer 360 solution, Salesforce Sales Cloud 360, customer 360 CRM, Salesforce customer data platform",
+    alternates: {
+        canonical: "/customer-360-degree",
+    },
 };
 
 export default function Home() {

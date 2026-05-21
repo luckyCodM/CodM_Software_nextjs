@@ -8,6 +8,9 @@ export const metadata = {
   title: "Salesforce Agentforce AI Company India | Salesforce Agentforce AI",
   description:"Boost productivity and customer engagement with CodM Software’s Salesforce Agentforce AI solutions that automate workflows and accelerate business growth.",
   keywords: "Salesforce Agentforce ai, Salesforce Agentforce AI Company India , Salesforce Agentforce AI Solutions, Salesforce Agentforce AI Services, Salesforce Agentforce AI Development, Salesforce Agentforce AI Integration, Salesforce Agentforce AI Consulting, Salesforce Agentforce AI Implementation, Salesforce Agentforce AI Support, Salesforce Agentforce AI Customization, Salesforce Agentforce AI Automation, Salesforce Agentforce AI Analytics, Salesforce Agentforce AI Chatbots, Salesforce Agentforce AI Machine Learning, Salesforce Agentforce AI Natural Language Processing",
+   alternates: {
+    canonical: "/salesforce-agentforce-ai-company-india",
+  },
 };
 
 export default function Home() {

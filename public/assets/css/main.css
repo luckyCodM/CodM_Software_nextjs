@@ -20576,6 +20576,39 @@ li.has-dropdown1 span {
     height: auto;   
     z-index: 999;
   }
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img,
+video,
+canvas,
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+a,
+button {
+    touch-action: manipulation;
+}
+
+@media (max-width: 575px) {
+    .theme-btn1,
+    .theme-btn2,
+    .mobile-sidebar .mobile-button a.menu-btn2 {
+        min-height: 44px;
+    }
+
+    .floating-partner-badge {
+        bottom: 72px;
+        right: 16px;
+        width: 56px;
+    }
+}
 /*
 ::::::::::::::::::::::::::
  NAV MENU AREA CSS
