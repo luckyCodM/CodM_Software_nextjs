@@ -140,7 +140,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/customer_360_degree">
+                                            <Link href="/customer-360-degree">
                                                 Salesforce Customer 360
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />
@@ -164,7 +164,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                          <li>
-                                            <Link href="/banking_service">
+                                            <Link href="/banking-service">
                                                 Banking Services
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />

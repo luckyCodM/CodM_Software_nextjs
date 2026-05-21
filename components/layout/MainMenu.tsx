@@ -26,13 +26,13 @@ export default function MainMenu() {
                         <Link href="/education-cloud">Education Cloud</Link>
                     </li>
                     <li>
-                       <Link href="/customer_360_degree">Salesforce Customer 360</Link>
+                       <Link href="/customer-360-degree">Salesforce Customer 360</Link>
                     </li>
                     <li>
                         <Link href="/industry-cloud">Industries Services</Link>
                     </li>
                     <li>
-                        <Link href="/banking_service">Banking Services</Link>
+                        <Link href="/banking-service">Banking Services</Link>
                     </li>
                     <li>
                         <Link href="/omnistudio-cloud-service">OmniStudio Cloud Service</Link>

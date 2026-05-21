@@ -159,7 +159,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                          <li>
-                                            <Link href="/banking_service">
+                                            <Link href="/banking-service">
                                                 Banking Services
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />

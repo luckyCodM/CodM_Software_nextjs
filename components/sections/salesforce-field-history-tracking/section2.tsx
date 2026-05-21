@@ -67,7 +67,7 @@ export default function Section2() {
                                     <div className="space16" />
                                     <div className="heading1-w">
                                         <h4>
-                                            <Link href="/customer_360_degree">Salesforce Customer 360</Link>
+                                            <Link href="/salesforce-customer-360">Salesforce Customer 360</Link>
                                         </h4>
                                         <div className="space16" />
                                         <p>Whether you're looking for temporary staffing, direct hire placements, </p>
