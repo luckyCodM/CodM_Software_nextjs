@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /comingsoon/page.tsx
+Disallow: /not-found.tsx
 
 Sitemap: https://codmsoftware.com/sitemap.xml
