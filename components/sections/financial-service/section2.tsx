@@ -18,15 +18,15 @@ export default function Section2() {
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/blog2-img1.png" alt="blog2 img1" />
+                                    <img src="/assets/img/blog/blog2-img1.png" alt="Salesforce CRM blog article card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="date icon" /> 16 August 2023
+                                            <img src="/assets/img/icons/date2.png" alt="Published date icon" decoding="async" loading="lazy" /> 16 August 2023
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="user icon" /> Ben Stokes
+                                            <img src="/assets/img/icons/user2.png" alt="Article author icon" decoding="async" loading="lazy" /> Ben Stokes
                                         </Link>
                                     </div>
                                     <h4>
@@ -47,15 +47,15 @@ export default function Section2() {
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/blog2-img2.png" alt="blog2 img2" />
+                                    <img src="/assets/img/blog/blog2-img2.png" alt="Salesforce implementation blog article card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="date icon" /> 16 August 2023
+                                            <img src="/assets/img/icons/date2.png" alt="Published date icon" decoding="async" loading="lazy" /> 16 August 2023
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="user icon" /> Ben Stokes
+                                            <img src="/assets/img/icons/user2.png" alt="Article author icon" decoding="async" loading="lazy" /> Ben Stokes
                                         </Link>
                                     </div>
                                     <h4>
@@ -76,15 +76,15 @@ export default function Section2() {
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/blog2-img3.png" alt="blog2 img3" />
+                                    <img src="/assets/img/blog/blog2-img3.png" alt="Salesforce consulting blog article card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="date icon" /> 16 August 2023
+                                            <img src="/assets/img/icons/date2.png" alt="Published date icon" decoding="async" loading="lazy" /> 16 August 2023
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="user icon" /> Ben Stokes
+                                            <img src="/assets/img/icons/user2.png" alt="Article author icon" decoding="async" loading="lazy" /> Ben Stokes
                                         </Link>
                                     </div>
                                     <h4>

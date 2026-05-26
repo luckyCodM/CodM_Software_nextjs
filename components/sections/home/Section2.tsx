@@ -74,64 +74,64 @@ export default function Section2({ backgroundColor }: { backgroundColor: string 
                         <div className="col-lg-12">
                             <Swiper {...swiperOptions}>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo1.png" alt="slider logo 1" />
+                                    <img src="/assets/img/logo/slider-logo1.png" alt="slider logo 1" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo2.png" alt="slider logo 2" />
+                                    <img src="/assets/img/logo/slider-logo2.png" alt="slider logo 2" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo3.png" alt="slider logo 3" />
+                                    <img src="/assets/img/logo/slider-logo3.png" alt="slider logo 3" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo4.png" alt="slider logo 4" />
+                                    <img src="/assets/img/logo/slider-logo4.png" alt="slider logo 4" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo5.png" alt="slider logo 5" />
+                                    <img src="/assets/img/logo/slider-logo5.png" alt="slider logo 5" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo6.png" alt="slider logo 6" />
+                                    <img src="/assets/img/logo/slider-logo6.png" alt="slider logo 6" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo7.png" alt="slider logo 7" />
+                                    <img src="/assets/img/logo/slider-logo7.png" alt="slider logo 7" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo8.png" alt="slider logo 8" />
+                                    <img src="/assets/img/logo/slider-logo8.png" alt="slider logo 8" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo9.png" alt="slider logo 9" />
+                                    <img src="/assets/img/logo/slider-logo9.png" alt="slider logo 9" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo10.png" alt="slider logo 10" />
+                                    <img src="/assets/img/logo/slider-logo10.png" alt="slider logo 10" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo1.png" alt="slider logo 1" />
+                                    <img src="/assets/img/logo/slider-logo1.png" alt="slider logo 1" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo2.png" alt="slider logo 2" />
+                                    <img src="/assets/img/logo/slider-logo2.png" alt="slider logo 2" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo3.png" alt="slider logo 3" />
+                                    <img src="/assets/img/logo/slider-logo3.png" alt="slider logo 3" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo4.png" alt="slider logo 4" />
+                                    <img src="/assets/img/logo/slider-logo4.png" alt="slider logo 4" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo5.png" alt="slider logo 5" />
+                                    <img src="/assets/img/logo/slider-logo5.png" alt="slider logo 5" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo6.png" alt="slider logo 6" />
+                                    <img src="/assets/img/logo/slider-logo6.png" alt="slider logo 6" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo7.png" alt="slider logo 7" />
+                                    <img src="/assets/img/logo/slider-logo7.png" alt="slider logo 7" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo8.png" alt="slider logo 8" />
+                                    <img src="/assets/img/logo/slider-logo8.png" alt="slider logo 8" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo9.png" alt="slider logo 9" />
+                                    <img src="/assets/img/logo/slider-logo9.png" alt="slider logo 9" decoding="async" loading="lazy" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="assets/img/logo/slider-logo10.png" alt="slider logo 10" />
+                                    <img src="/assets/img/logo/slider-logo10.png" alt="slider logo 10" decoding="async" loading="lazy" />
                                 </SwiperSlide>
 
                             </Swiper>

@@ -6,7 +6,7 @@ export default function Loading() {
                 <div className="loading-container">
                     <div className="loading" />
                     <div id="loading-icon">
-                        <img src="assets/img/logo/titel1.png" alt="CodM Software" />
+                        <img src="/assets/img/logo/titel1.png" alt="CodM Software loading logo" decoding="async" />
                     </div>
                 </div>
             </div>

@@ -7,18 +7,32 @@ export default function ScrollToTop() {
     const [progress, setProgress] = useState(0);
 
     useEffect(() => {
+        let animationFrame: number | null = null;
+
         const handleScroll = () => {
-            const scrollTop = window.scrollY;
-            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            let percent = scrollTop / scrollHeight;
-            percent = Math.min(Math.max(percent, 0), 1);
-            const progressValue = percent * 307.919;
-            setProgress(progressValue);
-            setIsVisible(scrollTop > 100);
+            if (animationFrame !== null) return;
+
+            animationFrame = window.requestAnimationFrame(() => {
+                const scrollTop = window.scrollY;
+                const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                const percent = scrollHeight > 0 ? Math.min(Math.max(scrollTop / scrollHeight, 0), 1) : 0;
+                const progressValue = percent * 307.919;
+
+                setProgress(progressValue);
+                setIsVisible(scrollTop > 100);
+                animationFrame = null;
+            });
         };
 
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
+        window.addEventListener("scroll", handleScroll, { passive: true });
+        handleScroll();
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+            if (animationFrame !== null) {
+                window.cancelAnimationFrame(animationFrame);
+            }
+        };
     }, []);
 
     const scrollToTop = () => {

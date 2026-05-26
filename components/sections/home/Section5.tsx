@@ -48,7 +48,7 @@ export default function Section5() {
                         <div className="col-lg-4 col-md-6">
                             <div className="work87-box" data-aos="zoom-in-up" data-aos-duration={1200}>
                                 <div className="icon">
-                                    <img src="assets/img/icons/service8-icon3.svg" alt="education cloud icon" />
+                                    <img src="/assets/img/icons/service8-icon3.svg" alt="Education Cloud icon" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading">
                                     <h4>
@@ -56,13 +56,13 @@ export default function Section5() {
                                     </h4>
                                     <p>Understanding the need, analyzing and documenting all the requirements.</p>
                                 </div>
-                                <img src="assets/img/shapes/work7-arrow1.png" alt="arrow" className="shape1" />
+                                <img src="/assets/img/shapes/work7-arrow1.png" alt="Process flow arrow graphic" className="shape1" decoding="async" loading="lazy" />
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="work87-box" data-aos="zoom-in-up" data-aos-duration={1000}>
                                 <div className="icon">
-                                    <img src="assets/img/icons/service8-icon4.svg" alt="planning icon" />
+                                    <img src="/assets/img/icons/service8-icon4.svg" alt="Salesforce planning icon" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading">
                                     <h4>
@@ -70,13 +70,13 @@ export default function Section5() {
                                     </h4>
                                     <p>Defining scope, timelines, resources, and risk assessments for project execution.</p>
                                 </div>
-                                <img src="assets/img/shapes/work7-arrow2.png" alt="arrow" className="shape2" />
+                                <img src="/assets/img/shapes/work7-arrow2.png" alt="Process flow arrow graphic" className="shape2" decoding="async" loading="lazy" />
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="work87-box" data-aos="zoom-in-up" data-aos-duration={800}>
                                 <div className="icon">
-                                    <img src="assets/img/icons/service8-icon5.svg" alt="design icon" />
+                                    <img src="/assets/img/icons/service8-icon5.svg" alt="Salesforce implementation design icon" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading">
                                     <h4>
@@ -91,7 +91,7 @@ export default function Section5() {
                         <div className="col-lg-4 col-md-6">
                             <div className="work87-box" data-aos="zoom-in-up" data-aos-duration={1200}>
                                 <div className="icon">
-                                    <img src="assets/img/icons/service8-icon3.svg" alt="education cloud icon" />
+                                    <img src="/assets/img/icons/service8-icon3.svg" alt="Education Cloud icon" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading">
                                     <h4>
@@ -99,13 +99,13 @@ export default function Section5() {
                                     </h4>
                                     <p>Writing efficient, scalable and clean code to implement the solutions.</p>
                                 </div>
-                                <img src="assets/img/shapes/work7-arrow1.png" alt="arrow" className="shape1" />
+                                <img src="/assets/img/shapes/work7-arrow1.png" alt="Process flow arrow graphic" className="shape1" decoding="async" loading="lazy" />
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="work87-box" data-aos="zoom-in-up" data-aos-duration={1000}>
                                 <div className="icon">
-                                    <img src="assets/img/icons/service8-icon4.svg" alt="testing icon" />
+                                    <img src="/assets/img/icons/service8-icon4.svg" alt="Salesforce planning icon" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading">
                                     <h4>
@@ -113,13 +113,13 @@ export default function Section5() {
                                     </h4>
                                     <p>Ensuring quality through rigorous testing to identify and fix bugs.</p>
                                 </div>
-                                <img src="assets/img/shapes/work7-arrow2.png" alt="arrow" className="shape2" />
+                                <img src="/assets/img/shapes/work7-arrow2.png" alt="Process flow arrow graphic" className="shape2" decoding="async" loading="lazy" />
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="work87-box" data-aos="zoom-in-up" data-aos-duration={800}>
                                 <div className="icon">
-                                    <img src="assets/img/icons/service8-icon5.svg" alt="deployment icon" />
+                                    <img src="/assets/img/icons/service8-icon5.svg" alt="Salesforce implementation design icon" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading">
                                     <h4>

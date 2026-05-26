@@ -20,7 +20,7 @@ export default function Section9() {
                                 <div className="" data-aos="fade-right" data-aos-duration={900}>
                                     <div className="contact3-box">
                                         <div className="icon">
-                                            <img src="assets/img/icons/contact3-icon1.png" alt="phone icon" />
+                                            <img src="/assets/img/icons/contact3-icon1.png" alt="CodM Software phone support icon" decoding="async" loading="lazy" />
                                         </div>
                                         <div className="heading3">
                                             <h6>Call Us</h6>
@@ -33,7 +33,7 @@ export default function Section9() {
                                 <div className="" data-aos="fade-right" data-aos-duration={700}>
                                     <div className="contact3-box">
                                         <div className="icon">
-                                            <img src="assets/img/icons/contact3-icon2.png" alt="mail icon" />
+                                            <img src="/assets/img/icons/contact3-icon2.png" alt="CodM Software email support icon" decoding="async" loading="lazy" />
                                         </div>
                                         <div className="heading3">
                                             <h6>Mail Us</h6>
@@ -116,7 +116,7 @@ export default function Section9() {
                         </div>
                     </div>
                 </div>
-                <img className="shape" src="assets/img/shapes/sec3-shape.png" alt="shape" />
+                <img className="shape" src="/assets/img/shapes/sec3-shape.png" alt="shape" decoding="async" loading="lazy" />
             </div>
             {/*=====CONTACT AREA END=======*/}
         </>

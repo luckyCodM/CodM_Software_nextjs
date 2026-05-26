@@ -27,7 +27,7 @@
 //                         <div className="col-lg-4 col-md-6">
 //                             <div className="team1-box overlay-anim" data-aos="zoom-in-up" data-aos-duration={700}>
 //                                 <div className="image">
-//                                     <img src="assets/img/team/team1-img1.png" alt="" />
+//                                     <img src="/assets/img/team/team1-img1.png" alt="CodM Software Salesforce consultant team member" decoding="async" loading="lazy" />
 //                                 </div>
 //                                 <div className="heading-area">
 //                                     <div className="heading1">
@@ -56,7 +56,7 @@
 //                         <div className="col-lg-4 col-md-6">
 //                             <div className="team1-box overlay-anim" data-aos="zoom-in-up" data-aos-duration={900}>
 //                                 <div className="image">
-//                                     <img src="assets/img/team/team1-img2.png" alt="" />
+//                                     <img src="/assets/img/team/team1-img2.png" alt="CodM Software CRM specialist team member" decoding="async" loading="lazy" />
 //                                 </div>
 //                                 <div className="heading-area">
 //                                     <div className="heading1">
@@ -85,7 +85,7 @@
 //                         <div className="col-lg-4 col-md-6">
 //                             <div className="team1-box overlay-anim" data-aos="zoom-in-up" data-aos-duration={1100}>
 //                                 <div className="image">
-//                                     <img src="assets/img/team/team11-img3.png" alt="" />
+//                                     <img src="/assets/img/team/team11-img3.png" alt="CodM Software implementation expert team member" decoding="async" loading="lazy" />
 //                                 </div>
 //                                 <div className="heading-area">
 //                                     <div className="heading1">

@@ -23,7 +23,7 @@ export default function ComingSoon() {
                         <span className="codm-coming-soon-kicker">Coming Soon</span>
 
                         <div className="codm-coming-soon-image">
-                            <img src="/assets/img/others/error2.png" alt="Coming soon page under development" />
+                            <img src="/assets/img/others/error2.png" alt="Coming soon page illustration" decoding="async" loading="lazy" />
                         </div>
 
                         <h1>We are building something useful here</h1>

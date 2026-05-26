@@ -11,7 +11,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import dynamic from "next/dynamic";
 import type { FC } from "react";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import ScrollToTop from "../elements/BackToTop";
 import Footer1 from "./footer/Footer1";
 import Header1 from "./header/Header1";
@@ -20,7 +20,7 @@ import { useRevealAnimation } from "@/util/useRevealAnimation";
 
 
 // Define the props interface (same as above)
-interface BootstrapComponentsProps { }
+interface BootstrapComponentsProps {}
 
 // Type the dynamic import
 const BootstrapComponents = dynamic<BootstrapComponentsProps>(
@@ -29,9 +29,9 @@ const BootstrapComponents = dynamic<BootstrapComponentsProps>(
 ) as FC<BootstrapComponentsProps>;
 
 interface LayoutProps {
-    headerStyle?: Number;
+    headerStyle?: number;
     mainMenuStyle?: string;
-    footerStyle?: Number;
+    footerStyle?: number;
     children?: React.ReactNode;
     bodyName?: string;
 }
@@ -40,10 +40,17 @@ export default function Layout({ headerStyle, mainMenuStyle, footerStyle, childr
     const [scroll, setScroll] = useState<boolean>(false);
     // Mobile Menu
     const [isMobileMenu, setMobileMenu] = useState<boolean>(false);
-    const handleMobileMenu = (): void => {
-        setMobileMenu(!isMobileMenu);
-        !isMobileMenu ? document.body.classList.add("mobile-menu-active") : document.body.classList.remove("mobile-menu-active");
-    };
+    const handleMobileMenu = useCallback((): void => {
+        setMobileMenu((previousValue) => !previousValue);
+    }, []);
+
+    useEffect(() => {
+        document.body.classList.toggle("mobile-menu-active", isMobileMenu);
+
+        return () => {
+            document.body.classList.remove("mobile-menu-active");
+        };
+    }, [isMobileMenu]);
 
     useEffect(() => {
         if (typeof window !== "undefined") {
@@ -53,20 +60,28 @@ export default function Layout({ headerStyle, mainMenuStyle, footerStyle, childr
                 offset: 100,
             });
 
+            let ticking = false;
             const handleScroll = (): void => {
-                const scrollCheck: boolean = window.scrollY > 100;
-                if (scrollCheck !== scroll) {
-                    setScroll(scrollCheck);
+                if (!ticking) {
+                    window.requestAnimationFrame(() => {
+                        setScroll((previousValue) => {
+                            const scrollCheck = window.scrollY > 100;
+                            return scrollCheck === previousValue ? previousValue : scrollCheck;
+                        });
+                        ticking = false;
+                    });
+                    ticking = true;
                 }
             };
 
-            document.addEventListener("scroll", handleScroll);
+            document.addEventListener("scroll", handleScroll, { passive: true });
+            handleScroll();
 
             return () => {
                 document.removeEventListener("scroll", handleScroll);
             };
         }
-    }, [scroll]);
+    }, []);
 
     DataBg();
     useTextAnimation2();
@@ -92,8 +107,8 @@ export default function Layout({ headerStyle, mainMenuStyle, footerStyle, childr
 
             <img
                 src="/assets/img/logo/srplogo.png" 
-                alt="Salesforce Ridge Partner"
-                className="floating-partner-badge"
+                alt="Salesforce Ridge Partner logo"
+                className="floating-partner-badge" decoding="async" loading="lazy"
             />
 
             <ScrollToTop />

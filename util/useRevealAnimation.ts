@@ -12,6 +12,7 @@ export const useRevealAnimation = (): void => {
         gsap.registerPlugin(ScrollTrigger);
 
         const revealContainers = document.querySelectorAll(".reveal");
+        const timelines: gsap.core.Timeline[] = [];
 
         revealContainers.forEach((container) => {
             const image = container.querySelector("img");
@@ -41,11 +42,13 @@ export const useRevealAnimation = (): void => {
                     },
                     "<"
                 );
+
+            timelines.push(tl);
         });
 
         // Cleanup
         return () => {
-            ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+            timelines.forEach((timeline) => timeline.kill());
         };
     }, []);
 };

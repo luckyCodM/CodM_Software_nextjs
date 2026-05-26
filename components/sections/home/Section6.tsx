@@ -33,7 +33,7 @@
 //                                                 <div
 //                                                     className="single-project-two__bg"
 //                                                     style={{
-//                                                         backgroundImage: "url(assets/img/project/project1-img1.png)",
+//                                                         backgroundImage: "url(/assets/img/project/project1-img1.png)",
 //                                                     }}
 //                                                 />
 //                                                 <div className="img-holder-img-bg" />
@@ -68,12 +68,12 @@
 //                                                 <div
 //                                                     className="single-project-two__bg"
 //                                                     style={{
-//                                                         backgroundImage: "url(assets/img/project/project1-img2.png)",
+//                                                         backgroundImage: "url(/assets/img/project/project1-img2.png)",
 //                                                     }}
 //                                                 />
 //                                                 <div className="img-holder-img-bg" />
 //                                                 <div className="project-two__box-content-inner-icon">
-//                                                     <Link href="assets/img/service/service1-img1.png" className="img-popup">
+//                                                     <Link href="/assets/img/service/service1-img1.png" className="img-popup">
 //                                                         <i className="icon-next" />
 //                                                     </Link>
 //                                                 </div>
@@ -103,12 +103,12 @@
 //                                                 <div
 //                                                     className="single-project-two__bg"
 //                                                     style={{
-//                                                         backgroundImage: "url(assets/img/project/project1-img3.png)",
+//                                                         backgroundImage: "url(/assets/img/project/project1-img3.png)",
 //                                                     }}
 //                                                 />
 //                                                 <div className="img-holder-img-bg" />
 //                                                 <div className="project-two__box-content-inner-icon">
-//                                                     <Link href="assets/img/service/service1-img1.png" className="img-popup">
+//                                                     <Link href="/assets/img/service/service1-img1.png" className="img-popup">
 //                                                         <i className="icon-next" />
 //                                                     </Link>
 //                                                 </div>

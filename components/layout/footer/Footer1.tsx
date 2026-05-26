@@ -11,7 +11,7 @@ export default function Footer() {
                             <div className="single-footer-items footer-logo-area">
                                 <div className="footer-logo">
                                     <Link href="/">
-                                        <img src="assets/img/logo/codm-footer-logo.png" alt=" footer logo" />
+                                        <img src="/assets/img/logo/codm-footer-logo.png" alt="CodM Software footer logo" decoding="async" />
                                     </Link>
                                 </div>
                                 <div className="space20" />
@@ -88,6 +88,9 @@ export default function Footer() {
                                     <li>
                                         <Link href="/contact">Contact Us</Link>
                                     </li>
+                                    <li>
+                                        <Link href="/privacy-policy">Privacy Policy</Link>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -96,7 +99,7 @@ export default function Footer() {
                                 <h3>Contact Us</h3>
                                 <div className="contact-box">
                                     <div className="icon">
-                                        <img src="assets/img/icons/footer-icon1.png" alt="" />
+                                        <img src="/assets/img/icons/footer-icon1.png" alt="CodM Software phone contact icon" decoding="async" loading="lazy" />
                                     </div>
                                     <div className="pera">
                                         <Link href="tel:+91 9871717425">+91 9871717425</Link>
@@ -104,7 +107,7 @@ export default function Footer() {
                                 </div>
                                 <div className="contact-box">
                                     <div className="icon">
-                                        <img src="assets/img/icons/footer-icon2.png" alt="" />
+                                        <img src="/assets/img/icons/footer-icon2.png" alt="CodM Software email contact icon" decoding="async" loading="lazy" />
                                     </div>
                                     <div className="pera">
                                         <Link href="mailto:sales@codmsoftware.com">sales@codmsoftware.com</Link>
@@ -112,7 +115,7 @@ export default function Footer() {
                                 </div>
                                 <div className="contact-box">
                                     <div className="icon">
-                                        <img src="assets/img/icons/footer-icon3.png" alt="" />
+                                        <img src="/assets/img/icons/footer-icon3.png" alt="CodM Software office location icon" decoding="async" loading="lazy" />
                                     </div>
                                     <div className="pera">
                                         <Link href="https://maps.app.goo.gl/jgc5Jq8gupKgrDhb9" target="_blank" rel="noopener noreferrer">

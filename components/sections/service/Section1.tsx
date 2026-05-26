@@ -10,11 +10,11 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img1.png" alt="Financial Services Cloud" />
+                                    <img src="/assets/img/service/service1-img1.png" alt="Salesforce Financial Services Cloud service card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon6.png" alt="Financial Services Cloud icon" />
+                                        <img src="/assets/img/icons/service1-icon6.png" alt="Salesforce Financial Services Cloud icon" decoding="async" loading="lazy" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
@@ -30,11 +30,11 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="service1-box active">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img2.png" alt="Agentforce & AI" />
+                                    <img src="/assets/img/service/service1-img2.png" alt="Salesforce Agentforce and AI service card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon2.png" alt="Agentforce & AI icon" />
+                                        <img src="/assets/img/icons/service1-icon2.png" alt="Salesforce Agentforce and AI service icon" decoding="async" loading="lazy" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
@@ -50,11 +50,11 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img3.png" alt="Education Cloud" />
+                                    <img src="/assets/img/service/service1-img3.png" alt="Salesforce Education Cloud service card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon3.png" alt="Education Cloud icon" />
+                                        <img src="/assets/img/icons/service1-icon3.png" alt="Salesforce Education Cloud service icon" decoding="async" loading="lazy" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
@@ -70,11 +70,11 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img4.png" alt="Salesforce Customer 360" />
+                                    <img src="/assets/img/service/service1-img4.png" alt="Salesforce Customer 360 service card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon4.png" alt="Salesforce Customer 360 icon" />
+                                        <img src="/assets/img/icons/service1-icon4.png" alt="Salesforce Customer 360 service icon" decoding="async" loading="lazy" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
@@ -90,11 +90,11 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img5.png" alt="Industries Services" />
+                                    <img src="/assets/img/service/service1-img5.png" alt="Salesforce Industries services card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon5.png" alt="Industries Services icon" />
+                                        <img src="/assets/img/icons/service1-icon5.png" alt="Salesforce Industries services icon" decoding="async" loading="lazy" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
@@ -110,11 +110,11 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img6.png" alt="Banking Services" />
+                                    <img src="/assets/img/service/service1-img6.png" alt="Salesforce banking services card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon6.png" alt="Banking Services icon" />
+                                        <img src="/assets/img/icons/service1-icon6.png" alt="Salesforce Financial Services Cloud icon" decoding="async" loading="lazy" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
@@ -130,11 +130,11 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img7.png" alt="OmniStudio Cloud Service" />
+                                    <img src="/assets/img/service/service1-img7.png" alt="Salesforce OmniStudio Cloud service card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon7.png" alt="OmniStudio Cloud Service icon" />
+                                        <img src="/assets/img/icons/service1-icon7.png" alt="Salesforce OmniStudio Cloud service icon" decoding="async" loading="lazy" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
@@ -150,11 +150,11 @@ export default function Section1() {
                         {/* <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img8.png" alt="" />
+                                    <img src="/assets/img/service/service1-img8.png" alt="Salesforce CRM integration service card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon8.png" alt="" />
+                                        <img src="/assets/img/icons/service1-icon8.png" alt="Salesforce integration services icon" decoding="async" loading="lazy" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">
@@ -170,11 +170,11 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="service1-box">
                                 <div className="image overlay-anim">
-                                    <img src="assets/img/service/service1-img9.png" alt="" />
+                                    <img src="/assets/img/service/service1-img9.png" alt="Salesforce staff augmentation service card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="hover-area">
                                     <div className="icon">
-                                        <img src="assets/img/icons/service1-icon9.png" alt="" />
+                                        <img src="/assets/img/icons/service1-icon9.png" alt="Salesforce staff augmentation service icon" decoding="async" loading="lazy" />
                                     </div>
                                     <div className="space16" />
                                     <div className="heading1-w">

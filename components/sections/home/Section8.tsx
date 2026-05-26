@@ -80,7 +80,7 @@ export default function Section8({ classList }: any) {
                                 <div className="tes6-all-slider" data-aos="fade-up" data-aos-duration={800}>
                                     <Swiper {...swiperOptions} className="tes6-slider">
                                         <SwiperSlide className="single-slider">
-                                            <img src="assets/img/icons/qute9.png" alt="quote icon" className="qute" />
+                                            <img src="/assets/img/icons/qute9.png" alt="Client testimonial quote icon" className="qute" decoding="async" loading="lazy" />
 
                                             <p>“Working with CodM was a turning point for us. Their expertise in building customized CRM solutions has transformed
                                                 customer interactions. We now have a unified platform that has streamlined our processes, resulting in improved
@@ -107,7 +107,7 @@ export default function Section8({ classList }: any) {
                                             </div>
                                             <div className="bottom-area">
                                                 <div className="image">
-                                                    <img src="assets/img/testimonial/tes6-img1.png" alt="testimonial image 1" />
+                                                    <img src="/assets/img/testimonial/tes6-img1.png" alt="CodM Software client testimonial profile image" decoding="async" loading="lazy" />
                                                 </div>
                                                 <div className="heading">
                                                     <Link href="#">Banking</Link>
@@ -116,7 +116,7 @@ export default function Section8({ classList }: any) {
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide className="single-slider">
-                                            <img src="assets/img/icons/qute9.png" alt="quote icon" className="qute" />
+                                            <img src="/assets/img/icons/qute9.png" alt="Client testimonial quote icon" className="qute" decoding="async" loading="lazy" />
 
                                             <p>"CodM transformed our customer service. Their CRM solution centralized information, enabling prompt
                                                 personalized support. Increased customer satisfaction is now our norm. They've been a true partner in our
@@ -142,7 +142,7 @@ export default function Section8({ classList }: any) {
                                             </div>
                                             <div className="bottom-area">
                                                 <div className="image">
-                                                    <img src="assets/img/testimonial/tes6-img2.png" alt="testimonial image 2" />
+                                                    <img src="/assets/img/testimonial/tes6-img2.png" alt="CodM Software customer testimonial profile image" decoding="async" loading="lazy" />
                                                 </div>
                                                 <div className="heading">
                                                     <Link href="#">Finance</Link>
@@ -151,7 +151,7 @@ export default function Section8({ classList }: any) {
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide className="single-slider">
-                                            <img src="assets/img/icons/qute9.png" alt="quote icon" className="qute" />
+                                            <img src="/assets/img/icons/qute9.png" alt="Client testimonial quote icon" className="qute" decoding="async" loading="lazy" />
 
                                             <p>"CodM has given our company a strategic boost. Customized solutions improved our workflows and supply chain
                                                 management. Valuable insights for better decision making. Their understanding of our business needs sets them
@@ -177,7 +177,7 @@ export default function Section8({ classList }: any) {
                                             </div>
                                             <div className="bottom-area">
                                                 <div className="image">
-                                                    <img src="assets/img/testimonial/tes6-img3.png" alt="testimonial image 3" />
+                                                    <img src="/assets/img/testimonial/tes6-img3.png" alt="CodM Software Salesforce customer review profile image" decoding="async" loading="lazy" />
                                                 </div>
                                                 <div className="heading">
                                                     <Link href="#">Healthcare</Link>
@@ -186,7 +186,7 @@ export default function Section8({ classList }: any) {
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide className="single-slider">
-                                            <img src="assets/img/icons/qute9.png" alt="quote icon" className="qute" />
+                                            <img src="/assets/img/icons/qute9.png" alt="Client testimonial quote icon" className="qute" decoding="async" loading="lazy" />
 
                                             <p>“Thanks to CodM, our marketing efforts skyrocketed. The personalized CRM solution enhanced our targeting, resulting
                                                 in higher conversion rates. Smooth transition, user-friendly interface-our marketing team is now more agile than
@@ -212,7 +212,7 @@ export default function Section8({ classList }: any) {
                                             </div>
                                             <div className="bottom-area">
                                                 <div className="image">
-                                                    <img src="assets/img/testimonial/tes6-img1.png" alt="testimonial image 1" />
+                                                    <img src="/assets/img/testimonial/tes6-img1.png" alt="CodM Software client testimonial profile image" decoding="async" loading="lazy" />
                                                 </div>
                                                 <div className="heading">
                                                     <Link href="#">Manufacturing</Link>
@@ -221,7 +221,7 @@ export default function Section8({ classList }: any) {
                                             </div>
                                         </SwiperSlide>
                                         {/* <SwiperSlide className="single-slider">
-                                            <img src="assets/img/icons/qute9.png" alt="" className="qute" />
+                                            <img src="/assets/img/icons/qute9.png" alt="Client testimonial quote icon" className="qute" decoding="async" loading="lazy" />
 
                                             <p>"Success stories from our clients and candidates are at the heart of what we do. Our testimonials provide insight to into how Recrute has helped your own businesses find top talent individuals.”</p>
                                             <div className="stars">
@@ -245,7 +245,7 @@ export default function Section8({ classList }: any) {
                                             </div>
                                             <div className="bottom-area">
                                                 <div className="image">
-                                                    <img src="assets/img/testimonial/tes6-img2.png" alt="" />
+                                                    <img src="/assets/img/testimonial/tes6-img2.png" alt="CodM Software customer testimonial profile image" decoding="async" loading="lazy" />
                                                 </div>
                                                 <div className="heading">
                                                     <Link href="#">Alex Ferguson</Link>
@@ -254,7 +254,7 @@ export default function Section8({ classList }: any) {
                                             </div>
                                         </SwiperSlide> */}
                                         {/* <SwiperSlide className="single-slider">
-                                            <img src="assets/img/icons/qute9.png" alt="" className="qute" />
+                                            <img src="/assets/img/icons/qute9.png" alt="Client testimonial quote icon" className="qute" decoding="async" loading="lazy" />
 
                                             <p>"Our success is best told through the experiences of those we've had the on privilege to work with. At Recrute best Company Name], our testimonials are a collection of real-life success stories.”</p>
                                             <div className="stars">
@@ -278,7 +278,7 @@ export default function Section8({ classList }: any) {
                                             </div>
                                             <div className="bottom-area">
                                                 <div className="image">
-                                                    <img src="assets/img/testimonial/tes6-img3.png" alt="" />
+                                                    <img src="/assets/img/testimonial/tes6-img3.png" alt="CodM Software Salesforce customer review profile image" decoding="async" loading="lazy" />
                                                 </div>
                                                 <div className="heading">
                                                     <Link href="#">Alzari Joseph</Link>

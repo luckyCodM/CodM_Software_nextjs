@@ -10,7 +10,7 @@ export default function NotFound() {
                         <span className="codm-not-found-kicker">Page Not Found</span>
 
                         <div className="codm-not-found-image">
-                            <img src="/assets/img/others/error.png" alt="Page not found" />
+                            <img src="/assets/img/others/error.png" alt="Page not found illustration" decoding="async" loading="lazy" />
                         </div>
 
                         <h1>Looks like this page moved</h1>

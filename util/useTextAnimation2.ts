@@ -12,6 +12,9 @@ export default function useTextAnimation2() {
     // Make sure we're on the client
     if (typeof window === "undefined") return
 
+    const timelines: gsap.core.Timeline[] = []
+    let isMounted = true
+
     const setupAnimation = async () => {
       // Register ScrollTrigger
       gsap.registerPlugin(ScrollTrigger)
@@ -22,7 +25,7 @@ export default function useTextAnimation2() {
         SplitText = gsapAll.SplitText
         gsap.registerPlugin(SplitText)
       } catch (error) {
-        console.warn("SplitText plugin not available. Falling back to simpler animation.")
+        SplitText = null
       }
 
       // Select all elements with the class 'text-anime-style-3'
@@ -53,7 +56,7 @@ export default function useTextAnimation2() {
         })
 
         // Create animation timeline
-        gsap.timeline({
+        const timeline = gsap.timeline({
           scrollTrigger: {
             trigger: element,
             start: "top 90%",
@@ -67,14 +70,21 @@ export default function useTextAnimation2() {
           ease: "back.out",
           stagger: 0.02,
         })
+
+        timelines.push(timeline)
       })
     }
 
-    setupAnimation()
+    setupAnimation().then(() => {
+      if (!isMounted) {
+        timelines.forEach((timeline) => timeline.kill())
+      }
+    })
 
     // Cleanup function
     return () => {
-      ScrollTrigger.getAll().forEach(trigger => trigger.kill())
+      isMounted = false
+      timelines.forEach((timeline) => timeline.kill())
     }
   }, [])
 

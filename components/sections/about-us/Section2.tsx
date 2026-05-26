@@ -21,7 +21,7 @@ export default function Section2() {
                         <div className="col-lg-4 col-md-6">
                             <div className="mission-box">
                                 <div className="icon">
-                                    <img src="assets/img/icons/mission-icon1.png" alt=" mission icon1" />
+                                    <img src="/assets/img/icons/mission-icon1.png" alt="CodM Software mission icon" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading1">
                                     <h5>
@@ -35,7 +35,7 @@ export default function Section2() {
                         <div className="col-lg-4 col-md-6">
                             <div className="mission-box">
                                 <div className="icon">
-                                    <img src="assets/img/icons/mission-icon2.png" alt=" mission icon2" />
+                                    <img src="/assets/img/icons/mission-icon2.png" alt="CodM Software vision icon" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading1">
                                     <h5>
@@ -49,7 +49,7 @@ export default function Section2() {
                         <div className="col-lg-4 col-md-6">
                             <div className="mission-box">
                                 <div className="icon">
-                                    <img src="assets/img/icons/mission-icon1.png" alt=" mission icon1" />
+                                    <img src="/assets/img/icons/mission-icon1.png" alt="CodM Software mission icon" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading1">
                                     <h5>

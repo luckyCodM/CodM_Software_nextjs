@@ -13,7 +13,7 @@ export default function Section1() {
                                 <article>
                                     <div className="heading1">
                                         <div className="image">
-                                            <img src="assets/img/service/salesforce_customer_360.png" alt="Salesforce Customer 360 Degree" />
+                                            <img src="/assets/img/service/salesforce_customer_360.png" alt="Salesforce Customer 360 implementation service" decoding="async" loading="lazy" />
                                         </div>
                                         <div className="space30" />
                                         <h2>Salesforce Customer 360 Solution</h2>
@@ -172,7 +172,7 @@ export default function Section1() {
                                     <h3>If You Need Any Help Contact With Us</h3>
                                     <div className="space10" />
                                     <Link href="tel:+919871717425" className="call-btn">
-                                        <img src="assets/img/icons/details-call.png" alt=" call icon" /> +91 9871717425
+                                        <img src="/assets/img/icons/details-call.png" alt="Call CodM Software icon" decoding="async" loading="lazy" /> +91 9871717425
                                     </Link>
                                 </div>
                                 <div className="details-box2">
@@ -180,7 +180,7 @@ export default function Section1() {
                                     <p>Boost your business with our customised CRM solutions. Optimised processes, improved customer relationships and scalable growth we deliver innovations for your success.</p>
                                     <div className="space10" />
                                     <Link href="/assets/img/codmsoftware_pdf/CodM_Software_Portfolio_Profile.pdf" className="download-btn1">
-                                        <img src="assets/img/icons/download-icon.png" alt=" download icon" /> Pdf Download
+                                        <img src="/assets/img/icons/download-icon.png" alt="Download PDF icon" decoding="async" loading="lazy" /> Pdf Download
                                     </Link>
                                 </div>
                                 <div className="details-box2">

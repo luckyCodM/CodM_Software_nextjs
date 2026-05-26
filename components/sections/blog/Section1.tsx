@@ -17,15 +17,15 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/omniscript-data.png" alt=" omniscript data" />
+                                    <img src="/assets/img/blog/omniscript-data.png" alt="Salesforce OmniScript and DataRaptor blog article" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt=" date icon" /> 28 August 2025
+                                            <img src="/assets/img/icons/date2.png" alt="Published date icon" decoding="async" loading="lazy" /> 28 August 2025
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt=" user icon" /> Bhav Malhotra
+                                            <img src="/assets/img/icons/user2.png" alt="Article author icon" decoding="async" loading="lazy" /> Bhav Malhotra
                                         </Link>
                                     </div>
                                     <h4>
@@ -46,15 +46,15 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/financial-services-cloud.png" alt=" financial services cloud" />
+                                    <img src="/assets/img/blog/financial-services-cloud.png" alt="Salesforce Financial Services Cloud blog article" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt=" date icon" /> 26 August 2025
+                                            <img src="/assets/img/icons/date2.png" alt="Published date icon" decoding="async" loading="lazy" /> 26 August 2025
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt=" user icon" /> Tannu Singh
+                                            <img src="/assets/img/icons/user2.png" alt="Article author icon" decoding="async" loading="lazy" /> Tannu Singh
                                         </Link>
                                     </div>
                                     <h4>
@@ -75,15 +75,15 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/custom-domains.png" alt=" custom domains" />
+                                    <img src="/assets/img/blog/custom-domains.png" alt="Salesforce custom domains setup blog article" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt=" date icon" /> 16 August 2025
+                                            <img src="/assets/img/icons/date2.png" alt="Published date icon" decoding="async" loading="lazy" /> 16 August 2025
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt=" user icon" /> Ankit Rawat
+                                            <img src="/assets/img/icons/user2.png" alt="Article author icon" decoding="async" loading="lazy" /> Ankit Rawat
                                         </Link>
                                     </div>
                                     <h4>
@@ -104,15 +104,15 @@ export default function Section1() {
                         {/* <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/blog2-img4.png" alt="" />
+                                    <img src="/assets/img/blog/blog2-img4.png" alt="Salesforce platform update blog article card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 2 September  2024
+                                            <img src="/assets/img/icons/date2.png" alt="Published date icon" decoding="async" loading="lazy" /> 2 September  2024
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ankit Rawat
+                                            <img src="/assets/img/icons/user2.png" alt="Article author icon" decoding="async" loading="lazy" /> Ankit Rawat
                                         </Link>
                                     </div>
                                     <h4>
@@ -133,15 +133,15 @@ export default function Section1() {
                         {/* <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/blog2-img5.png" alt="" />
+                                    <img src="/assets/img/blog/blog2-img5.png" alt="Salesforce automation blog article card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 16 August 2023
+                                            <img src="/assets/img/icons/date2.png" alt="Published date icon" decoding="async" loading="lazy" /> 16 August 2023
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Bhav Malhotra
+                                            <img src="/assets/img/icons/user2.png" alt="Article author icon" decoding="async" loading="lazy" /> Bhav Malhotra
                                         </Link>
                                     </div>
                                     <h4>
@@ -162,15 +162,15 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/blog2-img6.png" alt=" blog2 img6" />
+                                    <img src="/assets/img/blog/blog2-img6.png" alt="Salesforce CRM best practices blog article card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt=" date icon" /> 10 October 2023
+                                            <img src="/assets/img/icons/date2.png" alt="Published date icon" decoding="async" loading="lazy" /> 10 October 2023
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt=" user icon" /> Tannu Singh
+                                            <img src="/assets/img/icons/user2.png" alt="Article author icon" decoding="async" loading="lazy" /> Tannu Singh
                                         </Link>
                                     </div>
                                     <h4>
@@ -191,15 +191,15 @@ export default function Section1() {
                         {/* <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/blog2-img7.png" alt="" />
+                                    <img src="/assets/img/blog/blog2-img7.png" alt="Salesforce service cloud blog article card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 16 July 2023
+                                            <img src="/assets/img/icons/date2.png" alt="Published date icon" decoding="async" loading="lazy" /> 16 July 2023
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ben Stokes
+                                            <img src="/assets/img/icons/user2.png" alt="Article author icon" decoding="async" loading="lazy" /> Ben Stokes
                                         </Link>
                                     </div>
                                     <h4>
@@ -220,15 +220,15 @@ export default function Section1() {
                         <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/winter24-blog.png" alt=" winter 24 blog" />
+                                    <img src="/assets/img/blog/winter24-blog.png" alt="Salesforce Winter 24 release blog article" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt=" date icon" /> 2 October 2024
+                                            <img src="/assets/img/icons/date2.png" alt="Published date icon" decoding="async" loading="lazy" /> 2 October 2024
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt=" user icon" /> Ankit Rawat
+                                            <img src="/assets/img/icons/user2.png" alt="Article author icon" decoding="async" loading="lazy" /> Ankit Rawat
                                         </Link>
                                     </div>
                                     <h4>
@@ -249,15 +249,15 @@ export default function Section1() {
                         {/* <div className="col-lg-4 col-md-6">
                             <div className="blog2-box">
                                 <div className="image">
-                                    <img src="assets/img/blog/blog2-img9.png" alt="" />
+                                    <img src="/assets/img/blog/blog2-img9.png" alt="Salesforce business growth blog article card" decoding="async" loading="lazy" />
                                 </div>
                                 <div className="heading5">
                                     <div className="tags">
                                         <Link href="#">
-                                            <img src="assets/img/icons/date2.png" alt="" /> 16 August 2023
+                                            <img src="/assets/img/icons/date2.png" alt="Published date icon" decoding="async" loading="lazy" /> 16 August 2023
                                         </Link>
                                         <Link href="#">
-                                            <img src="assets/img/icons/user2.png" alt="" /> Ben Stokes
+                                            <img src="/assets/img/icons/user2.png" alt="Article author icon" decoding="async" loading="lazy" /> Ben Stokes
                                         </Link>
                                     </div>
                                     <h4>
