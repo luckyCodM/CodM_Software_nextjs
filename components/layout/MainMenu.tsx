@@ -5,8 +5,8 @@ export default function MainMenu() {
         <ul>
             <li>
                 <Link href="/">
-                    Home 
-                </Link>         
+                    Home
+                </Link>
             </li>
             <li>
                 <Link href="/about-us">Company</Link>
@@ -41,17 +41,17 @@ export default function MainMenu() {
             </li>
             <li className="dropdown-menu-parrent">
                 <Link href="/salesforce-field-history-tracking" className="main1">
-                    Products 
+                    Products
                 </Link>
             </li>
             <li className="dropdown-menu-parrent">
                 <Link href="/blog" className="main1">
-                    Blogs 
+                    Blogs
                 </Link>
             </li>
             <li className="dropdown-menu-parrent">
                 <Link className="main1" href="/contact">
-                    Contact Us 
+                    Contact Us
                 </Link>
 
             </li>
