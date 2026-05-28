@@ -134,7 +134,7 @@ export default function Footer() {
                                     </div>
                                     <div className="pera">
                                         <Link href="https://maps.app.goo.gl/MAWX5CUWK2Dk3ATS7" target="_blank_Page_Map" rel="noopener noreferrer">
-                                            Supertech Astralis Plot No. 1,<br /> Sector 94, Noida, Uttar Pradesh 201301
+                                            Supertech Astralis Plot No.1,<br /> Sector 94, Noida, Uttar Pradesh 201301
                                         </Link>
                                     </div>
                                 </div>
