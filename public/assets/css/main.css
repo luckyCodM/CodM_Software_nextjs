@@ -21438,3 +21438,1257 @@ button {
         font-size: 21px;
     }
 }
+
+.salesforce-noida-page {
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.salesforce-noida-hero {
+    background: linear-gradient(180deg, rgba(82, 181, 233, 0.14) 0%, #ffffff 100%);
+    padding: 110px 0 90px;
+}
+
+.salesforce-noida-hero-grid {
+    align-items: center;
+    display: grid;
+    gap: 56px;
+    grid-template-columns: minmax(0, 1.04fr) minmax(360px, 0.96fr);
+}
+
+.salesforce-noida-eyebrow {
+    color: var(--vtc-bg-main-bg-3);
+    display: inline-block;
+    font-size: 13px;
+    font-weight: var(--f-fw-bold);
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.salesforce-noida-hero h2 {
+    color: var(--vtc-text-heading-text-3);
+    font-size: 60px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1.08;
+    margin: 0 0 22px;
+}
+
+.salesforce-noida-hero p,
+.salesforce-noida-section-heading p,
+.salesforce-noida-two-column p,
+.salesforce-noida-card p,
+.salesforce-noida-feature-list p,
+.salesforce-noida-use-grid p,
+.salesforce-noida-mini-grid p,
+.salesforce-noida-results-grid p,
+.salesforce-noida-process p,
+.salesforce-noida-faq-list p {
+    color: var(--vtc-text-pera-text-3);
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.salesforce-noida-hero p {
+    font-size: 18px;
+    max-width: 680px;
+}
+
+.salesforce-noida-actions {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 34px;
+}
+
+.salesforce-noida-actions .theme-btn1,
+.salesforce-noida-cta .theme-btn2 {
+    margin-left: 0;
+}
+
+.salesforce-noida-secondary-link {
+    color: var(--vtc-bg-main-bg-1);
+    font-size: 16px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1;
+}
+
+.salesforce-noida-secondary-link:hover {
+    color: var(--vtc-bg-main-bg-3);
+}
+
+.salesforce-noida-trust-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 28px;
+}
+
+.salesforce-noida-trust-points span {
+    background: #ffffff;
+    border: 1px solid rgba(0, 161, 225, 0.2);
+    border-radius: 4px;
+    color: var(--vtc-bg-main-bg-1);
+    font-size: 14px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1;
+    padding: 10px 12px;
+}
+
+.salesforce-noida-hero-media {
+    border-radius: 8px;
+    box-shadow: 0 28px 70px rgba(17, 24, 39, 0.12);
+    overflow: hidden;
+    position: relative;
+}
+
+.salesforce-noida-hero-media::before {
+    background: linear-gradient(180deg, rgba(0, 161, 225, 0) 42%, rgba(0, 161, 225, 0.2) 100%);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.salesforce-noida-hero-media img {
+    aspect-ratio: 4 / 3;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+.salesforce-noida-hero-guide {
+    height: auto;
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    width: min(46%, 230px);
+    z-index: 2;
+}
+
+.salesforce-noida-hero-guide path,
+.salesforce-noida-hero-guide circle {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.78);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 5;
+}
+
+.salesforce-noida-hero-guide circle {
+    fill: var(--vtc-bg-main-bg-1);
+    stroke: #ffffff;
+}
+
+.salesforce-noida-media-card {
+    background: var(--vtc-bg-main-bg-1);
+    bottom: 24px;
+    color: var(--vtc-text-text-white-text-1);
+    left: 24px;
+    max-width: 300px;
+    padding: 22px;
+    position: absolute;
+    z-index: 2;
+}
+
+.salesforce-noida-media-card strong,
+.salesforce-noida-media-card span {
+    color: var(--vtc-text-text-white-text-1);
+    display: block;
+}
+
+.salesforce-noida-media-card strong {
+    font-size: 20px;
+    line-height: 1.25;
+    margin-bottom: 8px;
+}
+
+.salesforce-noida-media-card span {
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+.salesforce-noida-metrics {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 34px;
+}
+
+.salesforce-noida-metrics article {
+    background: #ffffff;
+    border: 1px solid rgba(0, 161, 225, 0.16);
+    border-radius: 8px;
+    box-shadow: 0 16px 42px rgba(17, 24, 39, 0.06);
+    padding: 22px;
+}
+
+.salesforce-noida-metrics strong {
+    color: var(--vtc-bg-main-bg-1);
+    display: block;
+    font-size: 34px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.salesforce-noida-metrics span {
+    color: var(--vtc-text-pera-text-3);
+    display: block;
+    font-size: 15px;
+    line-height: 1.45;
+}
+
+.salesforce-noida-section {
+    padding: 92px 0;
+}
+
+.salesforce-noida-muted {
+    background: rgba(82, 181, 233, 0.08);
+}
+
+.salesforce-noida-section-heading {
+    margin: 0 auto 42px;
+    max-width: 840px;
+    text-align: center;
+}
+
+.salesforce-noida-section-heading h2,
+.salesforce-noida-two-column h2,
+.salesforce-noida-cta h2 {
+    color: var(--vtc-text-heading-text-3);
+    font-size: 42px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1.18;
+    margin: 0 0 16px;
+}
+
+.salesforce-noida-two-column {
+    align-items: flex-start;
+    display: grid;
+    gap: 44px;
+    grid-template-columns: minmax(0, 0.96fr) minmax(320px, 1.04fr);
+}
+
+.salesforce-noida-two-column h3 {
+    color: var(--vtc-bg-main-bg-1);
+    font-size: 22px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1.35;
+    margin-bottom: 14px;
+}
+
+.salesforce-noida-check-list {
+    background: #ffffff;
+    border: 1px solid rgba(82, 181, 233, 0.24);
+    border-radius: 8px;
+    box-shadow: 0 18px 50px rgba(17, 24, 39, 0.08);
+    display: grid;
+    gap: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+}
+
+.salesforce-noida-check-list li {
+    color: var(--vtc-text-heading-text-3);
+    font-size: 16px;
+    font-weight: var(--f-fw-medium);
+    line-height: 1.5;
+    padding-left: 28px;
+    position: relative;
+}
+
+.salesforce-noida-check-list li::before {
+    background: var(--vtc-bg-main-bg-6);
+    border-radius: 50%;
+    content: "";
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 10px;
+}
+
+.salesforce-noida-flow-guide {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-top: 34px;
+    position: relative;
+}
+
+.salesforce-noida-flow-guide::before {
+    background: linear-gradient(90deg, var(--vtc-bg-main-bg-1), var(--vtc-bg-main-bg-6), var(--vtc-bg-main-bg-3));
+    content: "";
+    height: 2px;
+    left: 9%;
+    position: absolute;
+    right: 9%;
+    top: 26px;
+}
+
+.salesforce-noida-flow-step {
+    align-items: center;
+    display: grid;
+    justify-items: center;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.salesforce-noida-flow-step span,
+.salesforce-noida-icon,
+.salesforce-noida-process-icon,
+.salesforce-noida-card-top i {
+    align-items: center;
+    background: var(--vtc-bg-main-bg-1);
+    border-radius: 8px;
+    color: var(--vtc-text-text-white-text-1);
+    display: inline-flex;
+    height: 52px;
+    justify-content: center;
+    width: 52px;
+}
+
+.salesforce-noida-flow-step span {
+    box-shadow: 0 10px 24px rgba(0, 161, 225, 0.22);
+}
+
+.salesforce-noida-flow-step strong {
+    color: var(--vtc-text-heading-text-3);
+    font-size: 15px;
+    line-height: 1.3;
+    margin-top: 12px;
+}
+
+.salesforce-noida-icon,
+.salesforce-noida-process-icon,
+.salesforce-noida-card-top i {
+    background: rgba(0, 161, 225, 0.1);
+    color: var(--vtc-bg-main-bg-1);
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.salesforce-noida-card-top {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.salesforce-noida-card-grid,
+.salesforce-noida-feature-list,
+.salesforce-noida-use-grid,
+.salesforce-noida-mini-grid,
+.salesforce-noida-results-grid,
+.salesforce-noida-process {
+    display: grid;
+    gap: 22px;
+}
+
+.salesforce-noida-card-grid,
+.salesforce-noida-results-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.salesforce-noida-feature-list,
+.salesforce-noida-use-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.salesforce-noida-process {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.salesforce-noida-mini-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 28px;
+}
+
+.salesforce-noida-card,
+.salesforce-noida-feature-list article,
+.salesforce-noida-use-grid article,
+.salesforce-noida-mini-grid article,
+.salesforce-noida-results-grid article,
+.salesforce-noida-process article,
+.salesforce-noida-faq-list article {
+    background: #ffffff;
+    border: 1px solid rgba(0, 161, 225, 0.16);
+    border-radius: 8px;
+    box-shadow: 0 12px 38px rgba(17, 24, 39, 0.06);
+    padding: 30px;
+}
+
+.salesforce-noida-card:hover,
+.salesforce-noida-feature-list article:hover,
+.salesforce-noida-use-grid article:hover,
+.salesforce-noida-mini-grid article:hover,
+.salesforce-noida-results-grid article:hover,
+.salesforce-noida-process article:hover,
+.salesforce-noida-faq-list article:hover {
+    border-color: rgba(0, 161, 225, 0.32);
+    transform: translateY(-4px);
+}
+
+.salesforce-noida-card,
+.salesforce-noida-feature-list article,
+.salesforce-noida-use-grid article,
+.salesforce-noida-mini-grid article,
+.salesforce-noida-results-grid article,
+.salesforce-noida-process article,
+.salesforce-noida-faq-list article {
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+.salesforce-noida-card-top span {
+    color: var(--vtc-bg-main-bg-6);
+    display: block;
+    font-size: 38px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.salesforce-noida-card h3,
+.salesforce-noida-feature-list h3,
+.salesforce-noida-use-grid h3,
+.salesforce-noida-mini-grid h3,
+.salesforce-noida-results-grid h3,
+.salesforce-noida-process h3,
+.salesforce-noida-faq-list h3 {
+    color: var(--vtc-text-heading-text-3);
+    font-size: 21px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1.32;
+    margin-bottom: 12px;
+}
+
+.salesforce-noida-process article {
+    position: relative;
+}
+
+.salesforce-noida-process article::after {
+    background: var(--vtc-bg-main-bg-6);
+    content: "";
+    height: 3px;
+    left: 30px;
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+
+.salesforce-noida-process span {
+    color: var(--vtc-bg-main-bg-3);
+    display: block;
+    font-size: 14px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1;
+    margin-bottom: 18px;
+}
+
+.salesforce-noida-process-icon {
+    background: var(--vtc-bg-main-bg-1);
+    color: var(--vtc-text-text-white-text-1);
+}
+
+.salesforce-noida-read-more {
+    background: rgba(82, 181, 233, 0.08);
+    border: 1px solid rgba(0, 161, 225, 0.16);
+    border-radius: 8px;
+    margin-top: 26px;
+    padding: 24px 28px;
+}
+
+.salesforce-noida-read-more summary {
+    color: var(--vtc-bg-main-bg-1);
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1.35;
+}
+
+.salesforce-noida-read-more p {
+    color: var(--vtc-text-pera-text-3);
+    font-size: 16px;
+    line-height: 1.75;
+    margin: 16px 0 0;
+}
+
+.salesforce-noida-cta {
+    background: var(--vtc-bg-main-bg-1);
+    padding: 74px 0;
+}
+
+.salesforce-noida-cta-inner {
+    align-items: center;
+    display: flex;
+    gap: 28px;
+    justify-content: space-between;
+}
+
+.salesforce-noida-cta .salesforce-noida-eyebrow,
+.salesforce-noida-cta h2 {
+    color: var(--vtc-text-text-white-text-1);
+}
+
+.salesforce-noida-cta h2 {
+    margin-bottom: 0;
+    max-width: 760px;
+}
+
+.salesforce-noida-two-column-reverse {
+    grid-template-columns: minmax(320px, 0.82fr) minmax(0, 1.18fr);
+}
+
+.salesforce-noida-highlight-panel {
+    background: linear-gradient(135deg, var(--vtc-bg-main-bg-1) 0%, var(--vtc-bg-main-bg-6) 100%);
+    border-radius: 8px;
+    color: var(--vtc-text-text-white-text-1);
+    padding: 42px;
+}
+
+.salesforce-noida-highlight-panel span,
+.salesforce-noida-highlight-panel strong,
+.salesforce-noida-highlight-panel a {
+    color: var(--vtc-text-text-white-text-1);
+    display: block;
+}
+
+.salesforce-noida-highlight-panel span {
+    font-size: 14px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.salesforce-noida-highlight-panel strong {
+    font-size: 28px;
+    line-height: 1.35;
+    margin-bottom: 24px;
+}
+
+.salesforce-noida-highlight-panel a {
+    font-size: 15px;
+    font-weight: var(--f-fw-bold);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.salesforce-noida-faq-list {
+    display: grid;
+    gap: 18px;
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .salesforce-noida-hero h2 {
+        font-size: 50px;
+    }
+
+    .salesforce-noida-section-heading h2,
+    .salesforce-noida-two-column h2,
+    .salesforce-noida-cta h2 {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .salesforce-noida-hero {
+        padding: 86px 0 72px;
+    }
+
+    .salesforce-noida-hero-grid,
+    .salesforce-noida-two-column,
+    .salesforce-noida-two-column-reverse {
+        grid-template-columns: 1fr;
+    }
+
+    .salesforce-noida-hero h2 {
+        font-size: 44px;
+    }
+
+    .salesforce-noida-section {
+        padding: 74px 0;
+    }
+
+    .salesforce-noida-section-heading h2,
+    .salesforce-noida-two-column h2,
+    .salesforce-noida-cta h2 {
+        font-size: 34px;
+    }
+
+    .salesforce-noida-card-grid,
+    .salesforce-noida-results-grid,
+    .salesforce-noida-process {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .salesforce-noida-flow-guide {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .salesforce-noida-flow-guide::before {
+        display: none;
+    }
+
+    .salesforce-noida-cta-inner {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    .salesforce-noida-hero {
+        padding: 62px 0 54px;
+    }
+
+    .salesforce-noida-hero-grid,
+    .salesforce-noida-two-column,
+    .salesforce-noida-two-column-reverse,
+    .salesforce-noida-card-grid,
+    .salesforce-noida-feature-list,
+    .salesforce-noida-use-grid,
+    .salesforce-noida-mini-grid,
+    .salesforce-noida-results-grid,
+    .salesforce-noida-process,
+    .salesforce-noida-metrics,
+    .salesforce-noida-flow-guide {
+        grid-template-columns: 1fr;
+    }
+
+    .salesforce-noida-flow-guide::before {
+        display: none;
+    }
+
+    .salesforce-noida-hero h2 {
+        font-size: 36px;
+        line-height: 1.16;
+    }
+
+    .salesforce-noida-hero p {
+        font-size: 16px;
+    }
+
+    .salesforce-noida-actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .salesforce-noida-actions .theme-btn1,
+    .salesforce-noida-cta .theme-btn2 {
+        width: 100%;
+    }
+
+    .salesforce-noida-secondary-link {
+        text-align: center;
+    }
+
+    .salesforce-noida-media-card {
+        bottom: 14px;
+        left: 14px;
+        max-width: calc(100% - 28px);
+        padding: 18px;
+    }
+
+    .salesforce-noida-hero-guide {
+        opacity: 0.72;
+        right: 10px;
+        top: 10px;
+        width: 42%;
+    }
+
+    .salesforce-noida-section {
+        padding: 58px 0;
+    }
+
+    .salesforce-noida-section-heading {
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .salesforce-noida-section-heading h2,
+    .salesforce-noida-two-column h2,
+    .salesforce-noida-cta h2 {
+        font-size: 30px;
+        line-height: 1.22;
+    }
+
+    .salesforce-noida-card,
+    .salesforce-noida-feature-list article,
+    .salesforce-noida-use-grid article,
+    .salesforce-noida-mini-grid article,
+    .salesforce-noida-results-grid article,
+    .salesforce-noida-process article,
+    .salesforce-noida-faq-list article,
+    .salesforce-noida-check-list {
+        padding: 24px;
+    }
+
+    .salesforce-noida-cta {
+        padding: 58px 0;
+    }
+
+    .salesforce-noida-cta-inner {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .salesforce-noida-highlight-panel {
+        padding: 30px 24px;
+    }
+
+    .salesforce-noida-highlight-panel strong {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .salesforce-noida-hero h2 {
+        font-size: 32px;
+    }
+
+    .salesforce-noida-section-heading h2,
+    .salesforce-noida-two-column h2,
+    .salesforce-noida-cta h2 {
+        font-size: 27px;
+    }
+}
+
+.salesforce-ridge-page {
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.salesforce-ridge-hero {
+    background: linear-gradient(180deg, rgba(82, 181, 233, 0.14) 0%, #ffffff 100%);
+    padding: 110px 0 86px;
+}
+
+.salesforce-ridge-hero-grid,
+.salesforce-ridge-story,
+.salesforce-ridge-expertise {
+    align-items: center;
+    display: grid;
+    gap: 54px;
+    grid-template-columns: minmax(0, 1.04fr) minmax(360px, 0.96fr);
+}
+
+.salesforce-ridge-eyebrow {
+    color: var(--vtc-bg-main-bg-3);
+    display: inline-block;
+    font-size: 13px;
+    font-weight: var(--f-fw-bold);
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.salesforce-ridge-hero h2,
+.salesforce-ridge-heading h2,
+.salesforce-ridge-story h2,
+.salesforce-ridge-expertise h2,
+.salesforce-ridge-cta h2,
+.salesforce-ridge-looking-ahead h2 {
+    color: var(--vtc-text-heading-text-3);
+    font-size: 44px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1.18;
+    margin: 0 0 18px;
+}
+
+.salesforce-ridge-hero h2 {
+    font-size: 56px;
+    line-height: 1.08;
+}
+
+.salesforce-ridge-page p,
+.salesforce-ridge-page li {
+    color: var(--vtc-text-pera-text-3);
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.salesforce-ridge-hero p {
+    font-size: 18px;
+    max-width: 720px;
+}
+
+.salesforce-ridge-actions,
+.salesforce-ridge-cta-inner {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 34px;
+}
+
+.salesforce-ridge-actions .theme-btn1,
+.salesforce-ridge-cta .theme-btn2 {
+    margin-left: 0;
+}
+
+.salesforce-ridge-link {
+    color: var(--vtc-bg-main-bg-1);
+    font-size: 16px;
+    font-weight: var(--f-fw-bold);
+}
+
+.salesforce-ridge-link:hover {
+    color: var(--vtc-bg-main-bg-3);
+}
+
+.salesforce-ridge-hero-card {
+    background: #ffffff;
+    border: 1px solid rgba(0, 161, 225, 0.16);
+    border-radius: 8px;
+    box-shadow: 0 28px 70px rgba(17, 24, 39, 0.12);
+    overflow: hidden;
+    padding: 42px;
+    position: relative;
+    text-align: center;
+}
+
+.salesforce-ridge-hero-card img {
+    display: block;
+    height: auto;
+    margin: 0 auto 26px;
+    max-width: 210px;
+    position: relative;
+    width: 48%;
+    z-index: 1;
+}
+
+.salesforce-ridge-orbit {
+    height: auto;
+    left: 50%;
+    opacity: 0.42;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 88%;
+}
+
+.salesforce-ridge-orbit path,
+.salesforce-ridge-orbit circle {
+    fill: none;
+    stroke: var(--vtc-bg-main-bg-1);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 5;
+}
+
+.salesforce-ridge-orbit circle {
+    fill: rgba(82, 181, 233, 0.12);
+}
+
+.salesforce-ridge-hero-card strong,
+.salesforce-ridge-hero-card span {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.salesforce-ridge-hero-card strong {
+    color: var(--vtc-text-heading-text-3);
+    font-size: 26px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.salesforce-ridge-hero-card span {
+    color: var(--vtc-text-pera-text-3);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.salesforce-ridge-proof {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 34px;
+}
+
+.salesforce-ridge-proof article,
+.salesforce-ridge-card-grid article,
+.salesforce-ridge-tier-guide article,
+.salesforce-ridge-success-grid article,
+.salesforce-ridge-faq article,
+.salesforce-ridge-timeline article {
+    background: #ffffff;
+    border: 1px solid rgba(0, 161, 225, 0.16);
+    border-radius: 8px;
+    box-shadow: 0 12px 38px rgba(17, 24, 39, 0.06);
+    padding: 28px;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+.salesforce-ridge-card-grid article:hover,
+.salesforce-ridge-tier-guide article:hover,
+.salesforce-ridge-success-grid article:hover,
+.salesforce-ridge-faq article:hover,
+.salesforce-ridge-timeline article:hover {
+    border-color: rgba(0, 161, 225, 0.32);
+    transform: translateY(-4px);
+}
+
+.salesforce-ridge-proof strong {
+    color: var(--vtc-bg-main-bg-1);
+    display: block;
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.salesforce-ridge-proof span {
+    color: var(--vtc-text-pera-text-3);
+    display: block;
+    font-size: 15px;
+    line-height: 1.45;
+}
+
+.salesforce-ridge-section {
+    padding: 92px 0;
+}
+
+.salesforce-ridge-muted {
+    background: rgba(82, 181, 233, 0.08);
+}
+
+.salesforce-ridge-heading {
+    margin: 0 auto 42px;
+    max-width: 900px;
+    text-align: center;
+}
+
+.salesforce-ridge-image-card {
+    border-radius: 8px;
+    box-shadow: 0 24px 64px rgba(17, 24, 39, 0.12);
+    overflow: hidden;
+}
+
+.salesforce-ridge-image-card img {
+    aspect-ratio: 4 / 3;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+.salesforce-ridge-tier-guide,
+.salesforce-ridge-card-grid,
+.salesforce-ridge-success-grid,
+.salesforce-ridge-faq,
+.salesforce-ridge-timeline {
+    display: grid;
+    gap: 22px;
+}
+
+.salesforce-ridge-tier-guide {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    position: relative;
+}
+
+.salesforce-ridge-tier-guide::before {
+    background: linear-gradient(90deg, var(--vtc-bg-main-bg-1), var(--vtc-bg-main-bg-6), var(--vtc-bg-main-bg-3));
+    content: "";
+    height: 2px;
+    left: 8%;
+    position: absolute;
+    right: 8%;
+    top: 54px;
+}
+
+.salesforce-ridge-tier-guide article {
+    position: relative;
+    z-index: 1;
+}
+
+.salesforce-ridge-tier-guide article.active {
+    border-color: rgba(183, 83, 58, 0.42);
+}
+
+.salesforce-ridge-card-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.salesforce-ridge-success-grid,
+.salesforce-ridge-timeline {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.salesforce-ridge-faq {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.salesforce-ridge-icon {
+    align-items: center;
+    background: rgba(0, 161, 225, 0.1);
+    border-radius: 8px;
+    color: var(--vtc-bg-main-bg-1);
+    display: inline-flex;
+    font-size: 20px;
+    height: 52px;
+    justify-content: center;
+    margin-bottom: 18px;
+    width: 52px;
+}
+
+.salesforce-ridge-page h3 {
+    color: var(--vtc-text-heading-text-3);
+    font-size: 21px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1.32;
+    margin-bottom: 10px;
+}
+
+.salesforce-ridge-tier-guide article > span,
+.salesforce-ridge-timeline article > span {
+    color: var(--vtc-bg-main-bg-3);
+    display: block;
+    font-size: 13px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1.35;
+    margin-bottom: 12px;
+}
+
+.salesforce-ridge-timeline article {
+    position: relative;
+}
+
+.salesforce-ridge-timeline article::before {
+    background: var(--vtc-bg-main-bg-6);
+    content: "";
+    height: 4px;
+    left: 28px;
+    position: absolute;
+    right: 28px;
+    top: 0;
+}
+
+.salesforce-ridge-read-more {
+    background: #ffffff;
+    border: 1px solid rgba(0, 161, 225, 0.16);
+    border-radius: 8px;
+    margin-top: 26px;
+    padding: 24px 28px;
+}
+
+.salesforce-ridge-read-more summary {
+    color: var(--vtc-bg-main-bg-1);
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1.35;
+}
+
+.salesforce-ridge-read-more p {
+    margin: 16px 0 0;
+}
+
+.salesforce-ridge-cta {
+    background: var(--vtc-bg-main-bg-1);
+    padding: 74px 0;
+}
+
+.salesforce-ridge-cta-inner {
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.salesforce-ridge-cta .salesforce-ridge-eyebrow,
+.salesforce-ridge-cta h2 {
+    color: var(--vtc-text-text-white-text-1);
+}
+
+.salesforce-ridge-cta h2 {
+    margin-bottom: 0;
+    max-width: 820px;
+}
+
+.salesforce-ridge-expertise ul {
+    background: #ffffff;
+    border: 1px solid rgba(0, 161, 225, 0.16);
+    border-radius: 8px;
+    box-shadow: 0 16px 42px rgba(17, 24, 39, 0.06);
+    display: grid;
+    gap: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+}
+
+.salesforce-ridge-expertise li {
+    color: var(--vtc-text-heading-text-3);
+    padding-left: 28px;
+    position: relative;
+}
+
+.salesforce-ridge-expertise li::before {
+    background: var(--vtc-bg-main-bg-6);
+    border-radius: 50%;
+    content: "";
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    width: 10px;
+}
+
+.salesforce-ridge-looking-ahead {
+    background: linear-gradient(135deg, var(--vtc-bg-main-bg-1) 0%, var(--vtc-bg-main-bg-6) 100%);
+    border-radius: 8px;
+    padding: 52px;
+}
+
+.salesforce-ridge-looking-ahead .salesforce-ridge-eyebrow,
+.salesforce-ridge-looking-ahead h2,
+.salesforce-ridge-looking-ahead p {
+    color: var(--vtc-text-text-white-text-1);
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .salesforce-ridge-hero h2 {
+        font-size: 48px;
+    }
+
+    .salesforce-ridge-card-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .salesforce-ridge-hero {
+        padding: 86px 0 72px;
+    }
+
+    .salesforce-ridge-hero-grid,
+    .salesforce-ridge-story,
+    .salesforce-ridge-expertise {
+        grid-template-columns: 1fr;
+    }
+
+    .salesforce-ridge-hero h2,
+    .salesforce-ridge-heading h2,
+    .salesforce-ridge-story h2,
+    .salesforce-ridge-expertise h2,
+    .salesforce-ridge-cta h2,
+    .salesforce-ridge-looking-ahead h2 {
+        font-size: 36px;
+    }
+
+    .salesforce-ridge-tier-guide,
+    .salesforce-ridge-card-grid,
+    .salesforce-ridge-success-grid,
+    .salesforce-ridge-timeline,
+    .salesforce-ridge-proof {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .salesforce-ridge-tier-guide::before {
+        display: none;
+    }
+
+    .salesforce-ridge-section {
+        padding: 74px 0;
+    }
+
+    .salesforce-ridge-cta-inner {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    .salesforce-ridge-hero {
+        padding: 62px 0 54px;
+    }
+
+    .salesforce-ridge-hero-grid,
+    .salesforce-ridge-story,
+    .salesforce-ridge-expertise,
+    .salesforce-ridge-tier-guide,
+    .salesforce-ridge-card-grid,
+    .salesforce-ridge-success-grid,
+    .salesforce-ridge-timeline,
+    .salesforce-ridge-proof {
+        grid-template-columns: 1fr;
+    }
+
+    .salesforce-ridge-tier-guide::before {
+        display: none;
+    }
+
+    .salesforce-ridge-hero h2,
+    .salesforce-ridge-heading h2,
+    .salesforce-ridge-story h2,
+    .salesforce-ridge-expertise h2,
+    .salesforce-ridge-cta h2,
+    .salesforce-ridge-looking-ahead h2 {
+        font-size: 30px;
+        line-height: 1.22;
+    }
+
+    .salesforce-ridge-hero p {
+        font-size: 16px;
+    }
+
+    .salesforce-ridge-actions,
+    .salesforce-ridge-cta-inner {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .salesforce-ridge-actions .theme-btn1,
+    .salesforce-ridge-cta .theme-btn2 {
+        width: 100%;
+    }
+
+    .salesforce-ridge-link {
+        text-align: center;
+    }
+
+    .salesforce-ridge-section {
+        padding: 58px 0;
+    }
+
+    .salesforce-ridge-heading {
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .salesforce-ridge-hero-card,
+    .salesforce-ridge-proof article,
+    .salesforce-ridge-card-grid article,
+    .salesforce-ridge-tier-guide article,
+    .salesforce-ridge-success-grid article,
+    .salesforce-ridge-faq article,
+    .salesforce-ridge-timeline article,
+    .salesforce-ridge-expertise ul {
+        padding: 24px;
+    }
+
+    .salesforce-ridge-looking-ahead {
+        padding: 32px 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .salesforce-ridge-hero h2,
+    .salesforce-ridge-heading h2,
+    .salesforce-ridge-story h2,
+    .salesforce-ridge-expertise h2,
+    .salesforce-ridge-cta h2,
+    .salesforce-ridge-looking-ahead h2 {
+        font-size: 27px;
+    }
+}

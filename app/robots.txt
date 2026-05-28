@@ -6,6 +6,12 @@ Disallow: /_not-found
 Disallow: /404
 Disallow: /not-found
 Disallow: /server-sitemap.xml
+Disallow: /draft/
+Disallow: /preview/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /backup/
+Disallow: /old/
 Disallow: /*?*
 
 Sitemap: https://codmsoftware.com/sitemap.xml

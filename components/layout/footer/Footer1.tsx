@@ -65,6 +65,9 @@ export default function Footer() {
                                     <li>
                                         <Link href="/banking-service">Banking Services</Link>
                                     </li>
+                                    <li>
+                                        <Link href="/salesforce-consulting-company-in-noida">Salesforce Consulting in Noida</Link>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
