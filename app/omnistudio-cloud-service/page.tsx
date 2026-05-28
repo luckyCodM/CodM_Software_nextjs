@@ -5,9 +5,12 @@ import Section2 from "@/components/sections/education-cloud/Section2";
 import Section3 from "@/components/sections/about-us/Section3";
 
 export const metadata = {
-  title: "Salesforce OmniStudio Cloud Service",
-  description:"CodM Software supports Salesforce omnistudio cloud service to automate workflows, enhance user experiences and boost digital transformation for businesses.",
-  keywords: "omnistudio cloud service",
+  title: "Salesforce OmniStudio Cloud Services | CodM Software",
+  description: "CodM Software supports Salesforce OmniStudio Cloud services to automate guided workflows, improve digital experiences and simplify business processes.",
+  keywords: "Salesforce OmniStudio Cloud services, OmniStudio consulting, Salesforce automation",
+  alternates: {
+    canonical: "/omnistudio-cloud-service",
+  },
 };
 
 export default function Home() {

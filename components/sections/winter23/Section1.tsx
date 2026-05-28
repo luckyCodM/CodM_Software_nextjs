@@ -576,7 +576,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/error">
+                                            <Link href="/blog">
                                                 Configuring Custom Domains in Salesforce
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />

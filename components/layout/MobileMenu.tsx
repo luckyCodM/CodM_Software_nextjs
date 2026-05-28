@@ -55,7 +55,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                 </div>
                 <div className="mobile-nav">
                     <ul>
-                          <li>
+                        <li>
                             <Link href="/">Home</Link>
                         </li>
                         <li>
@@ -68,13 +68,13 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                             <Link href="/salesforce-field-history-tracking">Products</Link>
                         </li>
                         <li>
-                           <Link href="/blog">Blogs</Link>
+                            <Link href="/blog">Blogs</Link>
                         </li>
                         <li>
-                           <Link href="/contact">Contact Us</Link>
+                            <Link href="/contact">Contact Us</Link>
                         </li>
                         <li>
-                           <Link href="/privacy-policy">Privacy  </Link>
+                            <Link href="/privacy-policy">Privacy  </Link>
                         </li>
                     </ul>
                     <div className="mobile-button">
@@ -108,8 +108,18 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                 <img src="/assets/img/icons/footer-icon3.png" alt="CodM Software office location icon" decoding="async" loading="lazy" />
                             </div>
                             <div className="pera">
-                                <Link href="https://maps.app.goo.gl/raw5PFBoNkRiFTtQA" target="_blank_Page_Map" rel="noopener noreferrer"> 
-                                   RPS Infinia 12th Avenue,<br /> Near Sarai Metro Station, <br /> Sector 27C, Faridabad, <br /> Haryana - 121003
+                                <Link href="https://maps.app.goo.gl/khuKHv98Q7EJxX4M7" target="_blank_Page_Map" rel="noopener noreferrer">
+                                    RPS Infinia 12th Avenue,<br /> Near Sarai Metro Station, <br /> Sector 27C, Faridabad, <br /> Haryana - 121003
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="contact-box">
+                            <div className="icon">
+                                <img src="/assets/img/icons/footer-icon3.png" alt="CodM Software office location icon" decoding="async" loading="lazy" />
+                            </div>
+                            <div className="pera">
+                                <Link href="https://maps.app.goo.gl/MAWX5CUWK2Dk3ATS7" target="_blank_Page_Map" rel="noopener noreferrer">
+                                    Supertech Astralis Plot No. 1,<br /> Sector 94, Noida, Uttar Pradesh 201301
                                 </Link>
                             </div>
                         </div>
@@ -129,7 +139,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                             </li>
                             <li>
                                 <Link href="https://www.youtube.com/@CodMSoftware"
-                                              target="_blank" rel="noopener noreferrer">
+                                    target="_blank" rel="noopener noreferrer">
                                     <i className="fa-brands fa-youtube" />
                                 </Link>
                             </li>

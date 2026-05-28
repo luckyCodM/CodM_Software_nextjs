@@ -5,9 +5,12 @@ import Section2 from "@/components/sections/education-cloud/Section2";
 import Section3 from "@/components/sections/about-us/Section3";
 
 export const metadata = {
-  title: "Salesforce Education Cloud Consultants|  Education Cloud Consulting Services",
-  description: "Transform education with CodM Software’s Salesforce Education Cloud solutions that streamline admissions, enhance engagement and improve student success.",
-  keywords: "Salesforce Education Cloud service India",
+  title: "Salesforce Education Cloud Consulting Services | CodM Software",
+  description: "Transform education operations with CodM Software Salesforce Education Cloud consulting for admissions, engagement, student success and connected campus experiences.",
+  keywords: "Salesforce Education Cloud consulting, Education Cloud services, education CRM",
+  alternates: {
+    canonical: "/education-cloud",
+  },
 };
 
 export default function Home() {

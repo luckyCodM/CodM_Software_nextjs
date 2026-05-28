@@ -8,9 +8,12 @@ import Section5 from "@/components/sections/about-us/Section5";
 
 
 export const metadata = {
-  title: "About Us CodM Software",
-  description: "CodM Software is your trusted Salesforce Consulting Company helping businesses innovate, streamline operations and achieve growth with smart CRM solutions.",
-  keywords: "About us CodM Software",
+  title: "About CodM Software | Salesforce Consulting Company",
+  description: "Learn about CodM Software, a Salesforce consulting company helping businesses improve CRM implementation, automation, integrations and digital growth.",
+  keywords: "CodM Software, about CodM Software, Salesforce consulting company",
+  alternates: {
+    canonical: "/about-us",
+  },
 };
 
 export default function Home() {

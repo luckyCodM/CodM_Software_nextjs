@@ -5,9 +5,12 @@ import Section2 from "@/components/sections/salesforce-financial-services-cloud-
 import Section3 from "@/components/sections/about-us/Section3";
 
 export const metadata = {
-  title: "Salesforce financial services cloud consultant| Codm Software",
-  description:"CodM Software helps financial institutions streamline operations and achieve measurable success with expert Salesforce Financial Services Cloud consulting.",
-  keywords: "Salesforce financial services cloud consultant",
+  title: "Salesforce Financial Services Cloud Consultant | CodM Software",
+  description: "CodM Software helps financial institutions streamline operations and customer engagement with expert Salesforce Financial Services Cloud consulting.",
+  keywords: "Salesforce Financial Services Cloud consultant, FSC consulting, financial CRM",
+  alternates: {
+    canonical: "/salesforce-financial-services-cloud-consultant",
+  },
 };
 
 export default function Home() {

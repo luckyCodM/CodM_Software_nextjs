@@ -261,12 +261,12 @@ export default function Section1() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">The Staffing Strategist: Your Guide to Talent Acquisition</Link>
+                                        <Link href="/blog">The Staffing Strategist: Your Guide to Talent Acquisition</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>Staffing professionals, as we strive to help you succeed in your staffing endeavors.</p>
                                     <div className="space16" />
-                                    <Link href="/blog-details" className="learn">
+                                    <Link href="/blog" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />

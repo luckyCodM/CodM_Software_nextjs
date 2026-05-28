@@ -1,17 +1,43 @@
 'use client';
 
+const officeMaps = [
+    {
+        name: "Faridabad",
+        address: "RPS Infinia 12th Avenue, Lower Ground Floor, Near Sarai Metro Station, Sector 27C, Faridabad, Haryana - 121003",
+        mapUrl: "https://www.google.com/maps?q=RPS%20Infinia%2012th%20Avenue%2C%20Lower%20Ground%20Floor%2C%20Near%20Sarai%20Metro%20Station%2C%20Sector%2027C%2C%20Faridabad%2C%20Haryana%20121003&output=embed",
+    },
+    {
+        name: "Noida",
+        address: "Supertech Astralis, Plot No. 1, Sector 94, Noida, Uttar Pradesh 201301",
+        mapUrl: "https://www.google.com/maps?q=Supertech%20Astralis%20Sector%2094%20Noida%20Uttar%20Pradesh&output=embed",
+    },
+];
+
 export default function Section2() {
     return (
         <div className="contact-map-page">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23464.542406850942!2d77.33267225507917!3d28.54666666269996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cddc81aaaaaab%3A0xbd1d506ff880556b!2sCodM%20Software!5e1!3m2!1sen!2sin!4v1756301422672!5m2!1sen!2sin"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen={true}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-            />
+            <div className="container">
+                <div className="contact-map-grid">
+                    {officeMaps.map((office) => (
+                        <div className="contact-map-card" key={office.name}>
+                            <div className="contact-map-heading">
+                                <h3>{office.name}</h3>
+                                <p>{office.address}</p>
+                            </div>
+                            <iframe
+                                title={`${office.name} office map`}
+                                src={office.mapUrl}
+                                width="600"
+                                height="450"
+                                style={{ border: 0 }}
+                                allowFullScreen={true}
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                            />
+                        </div>
+                    ))}
+                </div>
+            </div>
         </div>
     );
 }

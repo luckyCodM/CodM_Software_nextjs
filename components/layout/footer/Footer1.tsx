@@ -31,7 +31,7 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <Link href="https://www.youtube.com/@CodMSoftware"
-                                              target="_blank" rel="noopener noreferrer">
+                                            target="_blank" rel="noopener noreferrer">
                                             <i className="fa-brands fa-youtube" />
                                         </Link>
                                     </li>
@@ -62,7 +62,7 @@ export default function Footer() {
                                     <li>
                                         <Link href="/industry-cloud">Industries Services</Link>
                                     </li>
-                                     <li>
+                                    <li>
                                         <Link href="/banking-service">Banking Services</Link>
                                     </li>
                                 </ul>
@@ -117,8 +117,18 @@ export default function Footer() {
                                         <img src="/assets/img/icons/footer-icon3.png" alt="CodM Software office location icon" decoding="async" loading="lazy" />
                                     </div>
                                     <div className="pera">
-                                        <Link href="https://maps.app.goo.gl/jgc5Jq8gupKgrDhb9" target="_blank" rel="noopener noreferrer">
+                                        <Link href="https://maps.app.goo.gl/khuKHv98Q7EJxX4M7" target="_blank" rel="noopener noreferrer">
                                             RPS Infinia 12th Avenue,<br /> Near Sarai Metro Station, <br /> Sector 27C, Faridabad, <br /> Haryana - 121003
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div className="contact-box">
+                                    <div className="icon">
+                                        <img src="/assets/img/icons/footer-icon3.png" alt="CodM Software office location icon" decoding="async" loading="lazy" />
+                                    </div>
+                                    <div className="pera">
+                                        <Link href="https://maps.app.goo.gl/MAWX5CUWK2Dk3ATS7" target="_blank_Page_Map" rel="noopener noreferrer">
+                                            Supertech Astralis Plot No. 1,<br /> Sector 94, Noida, Uttar Pradesh 201301
                                         </Link>
                                     </div>
                                 </div>

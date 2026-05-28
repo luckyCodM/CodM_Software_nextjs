@@ -82,10 +82,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/customer_360_degree">Salesforce Customer 360</Link>
+                                        <Link href="/customer-360-degree">Salesforce Customer 360</Link>
                                     </h4>
                                     <p> Helping businesses deliver the seamless, personalized solutions with Salesforce Customer 360 degree. </p>
-                                    <Link href="/customer_360_degree" className="learn">
+                                    <Link href="/customer-360-degree" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -120,10 +120,10 @@ export default function Section4() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/banking_service">Banking Services</Link>
+                                        <Link href="/banking-service">Banking Services</Link>
                                     </h4>
                                     <p>Helping banks to enhance their customer relationship and streamline processes using Salesforce Banking Service.</p>
-                                    <Link href="/banking_service" className="learn">
+                                    <Link href="/banking-service" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />

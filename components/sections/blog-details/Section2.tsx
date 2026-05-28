@@ -30,12 +30,12 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Price Rule</Link>
+                                        <Link href="/blog">Price Rule</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>A systematic approach guiding businesses in setting prices for products or services, balancing factors like demand, costs </p>
                                     <div className="space16" />
-                                    <Link href="/blog-details" className="learn">
+                                    <Link href="/blog" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -59,12 +59,12 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Salesforce winter 23 release</Link>
+                                        <Link href="/blog">Salesforce winter 23 release</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>In Salesforce CPQ, Product Validation Rules empower businesses to enforce specific criteria or conditions to ensure accurate configuration</p>
                                     <div className="space16" />
-                                    <Link href="/blog-details" className="learn">
+                                    <Link href="/blog" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -88,12 +88,12 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/blog-details">Salesforce winter 24 release</Link>
+                                        <Link href="/blog">Salesforce winter 24 release</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>Winter ’24 Release brings powerful new features, enhancements, and innovations to elevate productivity and customer experiences.</p>
                                     <div className="space16" />
-                                    <Link href="/blog-details" className="learn">
+                                    <Link href="/blog" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />

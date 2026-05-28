@@ -30,12 +30,12 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/error">Best Practices Omniscript & Data Mapper and IP</Link>
+                                        <Link href="/blog">Best Practices Omniscript & Data Mapper and IP</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>Our blog shares IT insights, industry trends, and expert tips to help businesses and professionals grow. </p>
                                     <div className="space16" />
-                                    <Link href="/error" className="learn">
+                                    <Link href="/blog" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -59,12 +59,12 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/error">Salesforce winter 23 release</Link>
+                                        <Link href="/blog">Salesforce winter 23 release</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>New data table component and enhanced lookup and filtering options, and enhancements to Dynamic Forms.</p>
                                     <div className="space16" />
-                                    <Link href="/error" className="learn">
+                                    <Link href="/blog" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -88,12 +88,12 @@ export default function Section2() {
                                         </Link>
                                     </div>
                                     <h4>
-                                        <Link href="/error">Salesforce winter 24 release</Link>
+                                        <Link href="/blog">Salesforce winter 24 release</Link>
                                     </h4>
                                     <div className="space16" />
                                     <p>Winter ’24 Release brings powerful new features, enhancements, and innovations to elevate productivity and customer experiences.</p>
                                     <div className="space16" />
-                                    <Link href="/error" className="learn">
+                                    <Link href="/blog" className="learn">
                                         Read More
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />

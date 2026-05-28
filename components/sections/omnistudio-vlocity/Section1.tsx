@@ -449,7 +449,7 @@ export default function Section1() {
                                                     <img src="/assets/img/icons/recent-date.png" alt="Published date icon" decoding="async" loading="lazy" /> 20 Apr, 2025
                                                 </Link>
                                                 <h5>
-                                                    <Link href="/blog-details">Financial Services Cloud: Key Features for 2025</Link>
+                                                    <Link href="/blog">Financial Services Cloud: Key Features for 2025</Link>
                                                 </h5>
                                             </div>
                                         </div> */}
@@ -464,7 +464,7 @@ export default function Section1() {
                                                     <img src="/assets/img/icons/recent-date.png" alt="Published date icon" decoding="async" loading="lazy" /> 20 Apr, 2025
                                                 </Link>
                                                 <h5>
-                                                    <Link href="/error">Configuring Custom Domains in Salesforce</Link>
+                                                    <Link href="/blog">Configuring Custom Domains in Salesforce</Link>
                                                 </h5>
                                             </div>
                                         </div>
@@ -479,7 +479,7 @@ export default function Section1() {
                                                     <img src="/assets/img/icons/recent-date.png" alt="Published date icon" decoding="async" loading="lazy" /> 20 Apr, 2025
                                                 </Link>
                                                 <h5>
-                                                    <Link href="/blog-details">Salesforce CPQ Product Validation Rule</Link>
+                                                    <Link href="/blog">Salesforce CPQ Product Validation Rule</Link>
                                                 </h5>
                                             </div>
                                         </div>
@@ -494,7 +494,7 @@ export default function Section1() {
                                                     <img src="/assets/img/icons/recent-date.png" alt="Published date icon" decoding="async" loading="lazy" /> 20 Apr, 2025
                                                 </Link>
                                                 <h5>
-                                                    <Link href="/blog-details">Salesforce winter 23 release</Link>
+                                                    <Link href="/blog">Salesforce winter 23 release</Link>
                                                 </h5>
                                             </div>
                                         </div> */}
@@ -537,7 +537,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/error">
+                                            <Link href="/blog">
                                                 Configuring Custom Domains in Salesforce
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />

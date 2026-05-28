@@ -4,9 +4,12 @@ import Section1 from "@/components/sections/contact/Section1";
 import Section2 from "@/components/sections/contact/Section2";
 
 export const metadata = {
-  title: "Contact Us Salesforce Implementation, Consulting Solutions",
-  description: "Get in touch with CodM Software for Salesforce consulting services, custom CRM solutions, and expert support to drive your business growth.",
-  keywords: "Contact us Salesforce Implementation, Consulting Solutions",
+  title: "Contact CodM Software | Salesforce Consulting Services",
+  description: "Contact CodM Software for Salesforce consulting, CRM implementation, integrations, support and business technology services.",
+  keywords: "contact CodM Software, Salesforce consulting contact, CRM implementation support",
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 export default function Home() {

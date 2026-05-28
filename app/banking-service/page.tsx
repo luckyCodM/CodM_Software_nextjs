@@ -5,9 +5,12 @@ import Section2 from "@/components/sections/service-details/Section2";
 import Section3 from "@/components/sections/about-us/Section3";
 
 export const metadata = {
-  title: "Salesforce banking | Salesforce banking solution",
-  description: "CodM Software empowers banks with Salesforce banking solutions to enhance customer trust, automate processes and drive smarter financial experiences.",
-  keywords: "Salesforce banking | Salesforce banking solution",
+  title: "Salesforce Banking Solutions | CodM Software",
+  description: "CodM Software helps banks and financial teams use Salesforce banking solutions to improve trust, automate workflows and deliver smarter customer experiences.",
+  keywords: "Salesforce banking solutions, banking CRM, Salesforce banking service",
+  alternates: {
+    canonical: "/banking-service",
+  },
 };
 
 export default function Home() {
