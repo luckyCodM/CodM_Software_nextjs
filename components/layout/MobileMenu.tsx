@@ -74,8 +74,15 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                             <Link href="/contact">Contact Us</Link>
                         </li>
                         <li>
-                            <Link href="/privacy-policy">Privacy  </Link>
+                            <Link href="/privacy-policy">Privacy Policy  </Link>
                         </li>
+                        <li>
+                            <Link href="/terms-of-service">Terms of Service</Link>
+                        </li>
+                        <li>
+                            <Link href="/womens-safety-workplace-well-being">Women's Safety</Link>
+                        </li>
+                        
                     </ul>
                     <div className="mobile-button">
                         <Link className="theme-btn1" href="/service">

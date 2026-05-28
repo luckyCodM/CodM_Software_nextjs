@@ -1570,7 +1570,7 @@ body.body {
 }
 .mobile-sidebar .contact-infos .box {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     padding-top: 12px;
 }
 .mobile-sidebar .contact-infos .box .icon span {

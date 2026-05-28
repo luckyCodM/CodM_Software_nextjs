@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
-import "react-modal-video/css/modal-video.css";
+// import "react-modal-video/css/modal-video.css";
 
 export default function Section1() {
     const [isOpen, setIsOpen] = useState(false);
@@ -21,20 +21,20 @@ export default function Section1() {
                                 <article>
                                     <div className="blog-details-box">
                                         <div className="image">
-                                            <img src="/assets/img/blog/blog2-fin1.png" alt="Salesforce Financial Services Cloud article cover image" decoding="async" loading="lazy" />
+                                            <img src="/assets/img/blog/blog2-fin1.png" alt="Salesforce Financial Services Cloud: Key Features for 2025 article cover image" decoding="async" loading="lazy" />
                                         </div>
                                         <ul className="users">
                                             <li>
-                                                <img className="author" src="/assets/img/blog/blogF-img1.png" alt="CodM Software author Tannu Singh avatar" decoding="async" loading="lazy" /> <Link href="#"> Tannu Singh </Link>
+                                                <img className="author" src="/assets/img/blog/blogF-img1.png" alt="CodM Software author Tannu Singh avatar" decoding="async" loading="lazy" /> <Link href="#">Tannu Singh </Link>
                                             </li>
                                             <li>
-                                                <img src="/assets/img/icons/blog-details-icon1.png" alt="Published date icon" decoding="async" loading="lazy" /> <Link href="#"> March 11, 2025</Link>
+                                                <img src="/assets/img/icons/blog-details-icon1.png" alt="Published date icon" decoding="async" loading="lazy" /> <Link href="#">March 11, 2025</Link>
                                             </li>
                                             <li>
-                                                <img src="/assets/img/icons/blog-details-icon2.png" alt="Article category icon" decoding="async" loading="lazy" /> <Link href="#">Financial Services Cloud 2025 </Link>
+                                                <img src="/assets/img/icons/blog-details-icon2.png" alt="Article category icon" decoding="async" loading="lazy" /> <Link href="#">Financial Services Cloud </Link>
                                             </li>
                                             <li>
-                                                <img src="/assets/img/icons/blog-details-icon3.png" alt="Article comments icon" decoding="async" loading="lazy" /> <Link href="#"> 2 Comments</Link>
+                                                <img src="/assets/img/icons/blog-details-icon3.png" alt="Article comments icon" decoding="async" loading="lazy" /> <Link href="#">2 Comments</Link>
                                             </li>
                                         </ul>
                                         <div className="space10" />

@@ -2,7 +2,8 @@
 import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
-import "react-modal-video/css/modal-video.css";
+// import ModalVideo from "react-modal-video";
+// import "react-modal-video/css/modal-video.css";
 
 export default function Section1() {
     const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +26,7 @@ export default function Section1() {
                                         </div>
                                         <ul className="users">
                                             <li>
-                                                <img className="author" src="/assets/img/blog/blog-details-othor.png" alt="CodM Software article author avatar" decoding="async" loading="lazy" /> <Link href="#">Bhav Malhotra </Link>
+                                                <img className="author" src="/assets/img/blog/blog-details-othor.png" alt="CodM Software article author avatar" decoding="async" loading="lazy" /> <Link href="#">Tannu Singh </Link>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icons/blog-details-icon1.png" alt="Published date icon" decoding="async" loading="lazy" /> <Link href="#"> October 11, 2023</Link>

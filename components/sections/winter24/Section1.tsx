@@ -25,7 +25,7 @@ export default function Section1() {
                                         </div>
                                         <ul className="users">
                                             <li>
-                                                <img className="author" src="/assets/img/blog/blog-details-othor.png" alt="CodM Software article author avatar" decoding="async" loading="lazy" /> <Link href="#">Bhav Malhotra </Link>
+                                                <img className="author" src="/assets/img/blog/blog-details-othor.png" alt="CodM Software article author avatar" decoding="async" loading="lazy" /> <Link href="#">Ankit Rawat </Link>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icons/blog-details-icon1.png" alt="Published date icon" decoding="async" loading="lazy" /> <Link href="#"> October 11, 2023</Link>

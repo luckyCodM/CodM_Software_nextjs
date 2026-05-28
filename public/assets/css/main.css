@@ -11751,7 +11751,7 @@ body.body {
     position: absolute;
     width: 100%;
     right: 0;
-    justify-content: start;
+    justify-content: flex-start;
 }
 .tes2 .swiper-pagination .swiper-pagination-bullet {
     position: relative;
@@ -21124,5 +21124,317 @@ button {
 
     .privacy-policy-section h2 {
         font-size: 19px;
+    }
+}
+
+.womens-safety-page {
+    background: linear-gradient(180deg, rgba(82, 181, 233, 0.12) 0%, #ffffff 36%, rgba(0, 161, 225, 0.06) 100%);
+    padding: 90px 0 100px;
+}
+
+.womens-safety-hero {
+    background: linear-gradient(135deg, rgba(0, 161, 225, 0.95) 0%, rgba(82, 181, 233, 0.92) 58%, rgba(183, 83, 58, 0.92) 100%);
+    border-radius: 8px;
+    color: var(--vtc-text-text-white-text-1);
+    overflow: hidden;
+    padding: 64px;
+    position: relative;
+}
+
+.womens-safety-hero::after {
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 999px;
+    content: "";
+    height: 220px;
+    position: absolute;
+    right: -70px;
+    top: -70px;
+    width: 220px;
+}
+
+.womens-safety-kicker,
+.womens-safety-eyebrow {
+    color: var(--vtc-bg-main-bg-3);
+    display: inline-block;
+    font-size: 13px;
+    font-weight: var(--f-fw-bold);
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+
+.womens-safety-kicker {
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 4px;
+    padding: 10px 14px;
+}
+
+.womens-safety-hero h1 {
+    color: var(--vtc-text-text-white-text-1);
+    font-size: 54px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1.12;
+    margin: 0 0 20px;
+    max-width: 880px;
+    position: relative;
+    z-index: 1;
+}
+
+.womens-safety-hero p {
+    color: var(--vtc-text-text-white-text-1);
+    font-size: 18px;
+    font-weight: var(--f-fw-medium);
+    line-height: 1.75;
+    margin: 0;
+    max-width: 780px;
+    opacity: 0.96;
+    position: relative;
+    z-index: 1;
+}
+
+.womens-safety-hero-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 32px;
+    position: relative;
+    z-index: 1;
+}
+
+.womens-safety-hero-points span {
+    background: rgba(255, 255, 255, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    border-radius: 4px;
+    color: var(--vtc-text-text-white-text-1);
+    font-size: 14px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1;
+    padding: 11px 14px;
+}
+
+.womens-safety-summary {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: -34px auto 44px;
+    max-width: 1040px;
+    padding: 0 24px;
+    position: relative;
+    z-index: 2;
+}
+
+.womens-safety-summary article {
+    background: #ffffff;
+    border: 1px solid rgba(0, 161, 225, 0.18);
+    border-radius: 8px;
+    box-shadow: 0 18px 45px rgba(17, 24, 39, 0.08);
+    padding: 24px;
+}
+
+.womens-safety-summary strong {
+    color: var(--vtc-bg-main-bg-1);
+    display: block;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 8px;
+}
+
+.womens-safety-summary span {
+    color: var(--vtc-text-pera-text-1);
+    display: block;
+    font-size: 15px;
+    line-height: 1.65;
+}
+
+.womens-safety-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.womens-safety-card {
+    background: #ffffff;
+    border: 1px solid rgba(82, 181, 233, 0.22);
+    border-radius: 8px;
+    box-shadow: 0 14px 40px rgba(17, 24, 39, 0.06);
+    min-height: 100%;
+    padding: 34px;
+    position: relative;
+}
+
+.womens-safety-card::before {
+    background: var(--vtc-bg-main-bg-6);
+    border-radius: 8px 8px 0 0;
+    content: "";
+    height: 4px;
+    left: -1px;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
+
+.womens-safety-card:nth-child(3n + 2)::before {
+    background: var(--vtc-bg-main-bg-1);
+}
+
+.womens-safety-card:nth-child(3n)::before {
+    background: var(--vtc-bg-main-bg-3);
+}
+
+.womens-safety-card-number {
+    color: rgba(0, 161, 225, 0.14);
+    font-size: 54px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1;
+    position: absolute;
+    right: 26px;
+    top: 24px;
+}
+
+.womens-safety-card h2 {
+    color: var(--vtc-text-heading-text-3);
+    font-size: 26px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1.28;
+    margin: 0 0 16px;
+    padding-right: 56px;
+}
+
+.womens-safety-card p {
+    color: var(--vtc-text-pera-text-3);
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 14px;
+}
+
+.womens-safety-card ul {
+    display: grid;
+    gap: 10px;
+    list-style: none;
+    margin: 18px 0 0;
+    padding: 0;
+}
+
+.womens-safety-card li {
+    color: var(--vtc-text-heading-text-3);
+    font-size: 15px;
+    line-height: 1.55;
+    padding-left: 26px;
+    position: relative;
+}
+
+.womens-safety-card li::before {
+    background: var(--vtc-bg-main-bg-3);
+    border-radius: 50%;
+    content: "";
+    height: 9px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    width: 9px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .womens-safety-page {
+        padding: 74px 0 84px;
+    }
+
+    .womens-safety-hero {
+        padding: 48px;
+    }
+
+    .womens-safety-hero h1 {
+        font-size: 44px;
+    }
+
+    .womens-safety-summary {
+        grid-template-columns: 1fr;
+        margin-top: 24px;
+        padding: 0;
+    }
+
+    .womens-safety-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .womens-safety-page {
+        padding: 56px 0 68px;
+    }
+
+    .womens-safety-hero {
+        padding: 34px 22px;
+    }
+
+    .womens-safety-hero::after {
+        height: 150px;
+        right: -74px;
+        top: -74px;
+        width: 150px;
+    }
+
+    .womens-safety-hero h1 {
+        font-size: 34px;
+        line-height: 1.18;
+    }
+
+    .womens-safety-hero p {
+        font-size: 16px;
+        line-height: 1.65;
+    }
+
+    .womens-safety-hero-points {
+        gap: 10px;
+    }
+
+    .womens-safety-hero-points span {
+        font-size: 13px;
+        padding: 10px 12px;
+    }
+
+    .womens-safety-summary {
+        grid-template-columns: 1fr;
+        margin: 20px 0 28px;
+        padding: 0;
+    }
+
+    .womens-safety-summary article {
+        padding: 20px;
+    }
+
+    .womens-safety-grid {
+        gap: 18px;
+        grid-template-columns: 1fr;
+    }
+
+    .womens-safety-card {
+        padding: 28px 22px;
+    }
+
+    .womens-safety-card-number {
+        font-size: 42px;
+        right: 20px;
+        top: 22px;
+    }
+
+    .womens-safety-card h2 {
+        font-size: 23px;
+        padding-right: 44px;
+    }
+
+    .womens-safety-card p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .womens-safety-hero h1 {
+        font-size: 30px;
+    }
+
+    .womens-safety-card h2 {
+        font-size: 21px;
     }
 }

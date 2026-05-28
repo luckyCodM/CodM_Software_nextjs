@@ -274,7 +274,7 @@ Desc: This plugin provides a multi-level drop-down menu for mobile devices, allo
 
 .mobile-menu-icon-box {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     padding: 5px 0;
 }
 

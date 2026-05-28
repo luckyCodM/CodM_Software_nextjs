@@ -1,8 +1,11 @@
 User-agent: *
 Allow: /
+Disallow: /api/
 Disallow: /comingsoon
 Disallow: /_not-found
 Disallow: /404
 Disallow: /not-found
+Disallow: /server-sitemap.xml
+Disallow: /*?*
 
 Sitemap: https://codmsoftware.com/sitemap.xml

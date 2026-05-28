@@ -19,7 +19,7 @@ export default function Home() {
     return (
         <>
             <Layout>
-                <SectionHeader title="Financial Services Cloud" group_page="Blog" current_page="Financial Services Cloud" display="d-block" />
+                <SectionHeader title="Financial Services Cloud: Key Features for 2025" group_page="Blog" current_page="Financial Services Cloud: Key Features for 2025" display="d-block" />
                 <Section1 />
                 <Section2 />
                 <Section3 />
