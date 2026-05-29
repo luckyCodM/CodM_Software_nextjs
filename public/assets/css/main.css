@@ -20700,6 +20700,51 @@ li.has-dropdown1 span {
     outline-offset: 4px;
 }
 
+.floating-whatsapp-button {
+    align-items: center;
+    background: #25d366;
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    border-radius: 999px;
+    bottom: 90px;
+    box-shadow: 0 16px 38px rgba(18, 140, 126, 0.28);
+    color: #ffffff;
+    display: inline-flex;
+    gap: 10px;
+    left: 22px;
+    min-height: 56px;
+    padding: 0 18px;
+    position: fixed;
+    text-decoration: none;
+    transform: translateY(-50%);
+    transition: background-color 0.25s, box-shadow 0.25s, transform 0.25s, padding 0.25s;
+    z-index: 1001;
+}
+
+.floating-whatsapp-button i {
+    font-size: 28px;
+    line-height: 1;
+}
+
+.floating-whatsapp-button span {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.floating-whatsapp-button:hover {
+    background: #128c7e;
+    box-shadow: 0 20px 46px rgba(18, 140, 126, 0.34);
+    color: #ffffff;
+    padding-right: 22px;
+    transform: translateY(-50%) translateX(4px);
+}
+
+.floating-whatsapp-button:focus-visible {
+    outline: 3px solid rgba(37, 211, 102, 0.42);
+    outline-offset: 4px;
+}
+
 html,
 body {
     max-width: 100%;
@@ -20735,6 +20780,34 @@ button {
 
     .floating-partner-badge img {
         width: 46px;
+    }
+
+    .floating-whatsapp-button {
+        gap: 0;
+        height: 56px;
+        justify-content: center;
+        left: 18px;
+        min-height: 56px;
+        padding: 0;
+        top: 50%;
+        width: 56px;
+    }
+
+    .floating-whatsapp-button:hover {
+        padding: 0;
+        transform: translateY(-50%) translateX(4px);
+    }
+
+    .floating-whatsapp-button i {
+        font-size: 30px;
+    }
+
+    .floating-whatsapp-button span {
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
     }
 }
 

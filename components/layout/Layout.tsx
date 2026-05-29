@@ -117,6 +117,17 @@ export default function Layout({ headerStyle, mainMenuStyle, footerStyle, childr
                 />
             </Link>
 
+            <a
+                href="https://wa.me/919871717425"
+                className="floating-whatsapp-button"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Chat with CodM Software on WhatsApp"
+            >
+                <i className="fa-brands fa-whatsapp" aria-hidden="true" />
+                <span>WhatsApp</span>
+            </a>
+
             <ScrollToTop />
         </div>
     );
