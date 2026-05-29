@@ -10,6 +10,7 @@ import useTextAnimation3 from "@/util/useTextAnimation3";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 import type { FC } from "react";
 import { useCallback, useEffect, useState } from "react";
 import ScrollToTop from "../elements/BackToTop";
@@ -105,11 +106,16 @@ export default function Layout({ headerStyle, mainMenuStyle, footerStyle, childr
             {!footerStyle && <Footer1 />}
             {footerStyle == 1 ? <Footer1 /> : null}
 
-            <img
-                src="/assets/img/logo/srplogo.png" 
-                alt="Salesforce Ridge Partner logo"
-                className="floating-partner-badge" decoding="async" loading="lazy"
-            />
+            <Link href="/salesforce-ridge-partner" className="floating-partner-badge" aria-label="Open Salesforce Ridge Partner page">
+                <img
+                    src="/assets/img/logo/srplogo.png"
+                    alt="Salesforce Ridge Partner logo"
+                    width="96"
+                    height="96"
+                    decoding="async"
+                    loading="lazy"
+                />
+            </Link>
 
             <ScrollToTop />
         </div>

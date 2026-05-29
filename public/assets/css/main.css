@@ -20667,13 +20667,38 @@ li.has-dropdown1 span {
     line-height: var(--f-fs-font-fs16);
 }
 .floating-partner-badge {
-    position: fixed; 
-    bottom: 90px;    
-    right: 25px;     
-    width: 70px;     
-    height: auto;   
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 161, 225, 0.18);
+    border-radius: 999px;
+    bottom: 90px;
+    box-shadow: 0 14px 34px rgba(17, 24, 39, 0.14);
+    display: inline-flex;
+    height: 76px;
+    justify-content: center;
+    padding: 10px;
+    position: fixed;
+    right: 25px;
+    transition: box-shadow 0.25s, transform 0.25s;
+    width: 76px;
     z-index: 999;
-  }
+}
+
+.floating-partner-badge img {
+    display: block;
+    height: auto;
+    width: 54px;
+}
+
+.floating-partner-badge:hover {
+    box-shadow: 0 18px 42px rgba(0, 161, 225, 0.24);
+    transform: translateY(-4px);
+}
+
+.floating-partner-badge:focus-visible {
+    outline: 3px solid rgba(0, 161, 225, 0.45);
+    outline-offset: 4px;
+}
 
 html,
 body {
@@ -20704,7 +20729,12 @@ button {
     .floating-partner-badge {
         bottom: 90px;
         right: 30px;
-        width: 60px;
+        height: 64px;
+        width: 64px;
+    }
+
+    .floating-partner-badge img {
+        width: 46px;
     }
 }
 
@@ -21170,7 +21200,7 @@ button {
     padding: 10px 14px;
 }
 
-.womens-safety-hero h1 {
+.womens-safety-hero h2 {
     color: var(--vtc-text-text-white-text-1);
     font-size: 54px;
     font-weight: var(--f-fw-bold);
@@ -22690,5 +22720,687 @@ button {
     .salesforce-ridge-cta h2,
     .salesforce-ridge-looking-ahead h2 {
         font-size: 27px;
+    }
+}
+
+/* Salesforce Ridge Partner page refresh */
+.salesforce-ridge-page {
+    --ridge-blue: #00a1e1;
+    --ridge-blue-dark: #0b5cab;
+    --ridge-ink: #111827;
+    --ridge-muted: #5f6b7a;
+    --ridge-line: rgba(0, 161, 225, 0.16);
+    --ridge-warm: #b7533a;
+    --ridge-soft: #f3f9fd;
+    background: #ffffff;
+    color: var(--ridge-ink);
+    overflow: hidden;
+}
+
+.salesforce-ridge-page * {
+    letter-spacing: 0;
+}
+
+.salesforce-ridge-hero {
+    background:
+        radial-gradient(circle at 82% 16%, rgba(0, 161, 225, 0.2), transparent 32%),
+        radial-gradient(circle at 10% 24%, rgba(183, 83, 58, 0.12), transparent 28%),
+        linear-gradient(180deg, #f7fbff 0%, #ffffff 100%);
+    padding: 112px 0 88px;
+    position: relative;
+}
+
+.salesforce-ridge-hero::before {
+    background-image:
+        linear-gradient(rgba(0, 161, 225, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 161, 225, 0.08) 1px, transparent 1px);
+    background-size: 42px 42px;
+    content: "";
+    inset: 0;
+    opacity: 0.34;
+    pointer-events: none;
+    position: absolute;
+}
+
+.salesforce-ridge-hero .container,
+.salesforce-ridge-section .container,
+.salesforce-ridge-cta .container {
+    position: relative;
+    z-index: 1;
+}
+
+.salesforce-ridge-hero-grid,
+.salesforce-ridge-story,
+.salesforce-ridge-success-layout,
+.salesforce-ridge-link-band {
+    align-items: center;
+    display: grid;
+    gap: 56px;
+    grid-template-columns: minmax(0, 1.05fr) minmax(360px, 0.95fr);
+}
+
+.salesforce-ridge-eyebrow {
+    align-items: center;
+    color: var(--ridge-blue-dark);
+    display: inline-flex;
+    font-size: 13px;
+    font-weight: 800;
+    gap: 10px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.salesforce-ridge-eyebrow::before {
+    background: var(--ridge-warm);
+    border-radius: 999px;
+    content: "";
+    height: 8px;
+    width: 8px;
+}
+
+.salesforce-ridge-page h2,
+.salesforce-ridge-page h3 {
+    color: var(--ridge-ink);
+    font-weight: 800;
+}
+
+.salesforce-ridge-page h2 {
+    font-size: 44px;
+    line-height: 1.14;
+    margin: 0 0 18px;
+}
+
+.salesforce-ridge-hero h2 {
+    font-size: 60px;
+    max-width: 780px;
+}
+
+.salesforce-ridge-page h3 {
+    font-size: 21px;
+    line-height: 1.3;
+    margin: 0 0 10px;
+}
+
+.salesforce-ridge-page p,
+.salesforce-ridge-page li {
+    color: var(--ridge-muted);
+    font-size: 16px;
+    line-height: 1.76;
+}
+
+.salesforce-ridge-hero p {
+    font-size: 18px;
+    max-width: 760px;
+}
+
+.salesforce-ridge-actions {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 34px;
+}
+
+.salesforce-ridge-actions .theme-btn1,
+.salesforce-ridge-cta .theme-btn2 {
+    margin-left: 0;
+}
+
+.salesforce-ridge-link {
+    color: var(--ridge-blue-dark);
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.3;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 161, 225, 0.3);
+    text-underline-offset: 5px;
+}
+
+.salesforce-ridge-link:hover {
+    color: var(--ridge-warm);
+}
+
+.salesforce-ridge-visual {
+    min-height: 420px;
+    position: relative;
+}
+
+.salesforce-ridge-map {
+    color: var(--ridge-blue);
+    height: auto;
+    inset: 0;
+    margin: auto;
+    opacity: 0.58;
+    position: absolute;
+    width: 100%;
+}
+
+.salesforce-ridge-map path,
+.salesforce-ridge-map circle {
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 8;
+}
+
+.salesforce-ridge-map circle {
+    fill: #ffffff;
+}
+
+.salesforce-ridge-badge-card {
+    align-items: center;
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid var(--ridge-line);
+    border-radius: 8px;
+    box-shadow: 0 32px 80px rgba(17, 24, 39, 0.14);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    left: 50%;
+    padding: 42px 38px 34px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: min(310px, 84%);
+}
+
+.salesforce-ridge-badge-card img {
+    display: block;
+    height: auto;
+    width: 176px;
+}
+
+.salesforce-ridge-badge-card span {
+    color: var(--ridge-ink);
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.salesforce-ridge-mini-card {
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid var(--ridge-line);
+    border-radius: 8px;
+    box-shadow: 0 18px 48px rgba(17, 24, 39, 0.12);
+    color: var(--ridge-ink);
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 800;
+    gap: 10px;
+    padding: 14px 16px;
+    position: absolute;
+}
+
+.salesforce-ridge-mini-card i {
+    color: var(--ridge-blue);
+}
+
+.salesforce-ridge-mini-card.one {
+    left: 0;
+    top: 72px;
+}
+
+.salesforce-ridge-mini-card.two {
+    bottom: 66px;
+    right: 6px;
+}
+
+.salesforce-ridge-proof,
+.salesforce-ridge-card-grid,
+.salesforce-ridge-process,
+.salesforce-ridge-tier-guide,
+.salesforce-ridge-success-grid {
+    display: grid;
+    gap: 22px;
+}
+
+.salesforce-ridge-proof {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 42px;
+}
+
+.salesforce-ridge-proof article,
+.salesforce-ridge-card-grid article,
+.salesforce-ridge-process article,
+.salesforce-ridge-tier-guide article,
+.salesforce-ridge-success-grid article,
+.salesforce-ridge-story-panel,
+.salesforce-ridge-read-more,
+.salesforce-ridge-faq details {
+    background: #ffffff;
+    border: 1px solid var(--ridge-line);
+    border-radius: 8px;
+    box-shadow: 0 14px 42px rgba(17, 24, 39, 0.06);
+}
+
+.salesforce-ridge-proof article {
+    padding: 28px;
+}
+
+.salesforce-ridge-proof strong {
+    color: var(--ridge-blue-dark);
+    display: block;
+    font-size: 30px;
+    line-height: 1.1;
+    margin-bottom: 8px;
+}
+
+.salesforce-ridge-proof span {
+    color: var(--ridge-muted);
+    display: block;
+    font-size: 15px;
+    line-height: 1.45;
+}
+
+.salesforce-ridge-section {
+    padding: 96px 0;
+}
+
+.salesforce-ridge-muted {
+    background: var(--ridge-soft);
+}
+
+.salesforce-ridge-heading {
+    margin: 0 auto 44px;
+    max-width: 920px;
+    text-align: center;
+}
+
+.salesforce-ridge-story-panel {
+    padding: 34px;
+}
+
+.salesforce-ridge-story-panel ul {
+    display: grid;
+    gap: 14px;
+    list-style: none;
+    margin: 22px 0 0;
+    padding: 0;
+}
+
+.salesforce-ridge-story-panel li {
+    color: var(--ridge-ink);
+    padding-left: 30px;
+    position: relative;
+}
+
+.salesforce-ridge-story-panel li::before {
+    color: var(--ridge-blue);
+    content: "\f00c";
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 900;
+    left: 0;
+    position: absolute;
+    top: 1px;
+}
+
+.salesforce-ridge-card-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.salesforce-ridge-card-grid article,
+.salesforce-ridge-success-grid article {
+    min-height: 100%;
+    padding: 30px;
+    transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+.salesforce-ridge-card-grid article:hover,
+.salesforce-ridge-success-grid article:hover,
+.salesforce-ridge-tier-guide article:hover,
+.salesforce-ridge-process article:hover {
+    border-color: rgba(0, 161, 225, 0.34);
+    box-shadow: 0 22px 52px rgba(17, 24, 39, 0.1);
+    transform: translateY(-5px);
+}
+
+.salesforce-ridge-icon {
+    align-items: center;
+    background: rgba(0, 161, 225, 0.1);
+    border-radius: 8px;
+    color: var(--ridge-blue-dark);
+    display: inline-flex;
+    font-size: 21px;
+    height: 54px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 54px;
+}
+
+.salesforce-ridge-process {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.salesforce-ridge-process article {
+    padding: 30px;
+    position: relative;
+    transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+.salesforce-ridge-process article span {
+    color: rgba(0, 161, 225, 0.2);
+    display: block;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 14px;
+}
+
+.salesforce-ridge-tier-guide {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    position: relative;
+}
+
+.salesforce-ridge-tier-guide::before {
+    background: linear-gradient(90deg, var(--ridge-blue), var(--ridge-warm), var(--ridge-blue-dark));
+    content: "";
+    height: 3px;
+    left: 8%;
+    position: absolute;
+    right: 8%;
+    top: 54px;
+}
+
+.salesforce-ridge-tier-guide article {
+    padding: 30px;
+    position: relative;
+    transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    z-index: 1;
+}
+
+.salesforce-ridge-tier-guide article.active {
+    border-color: rgba(183, 83, 58, 0.48);
+}
+
+.salesforce-ridge-tier-guide article > span {
+    color: var(--ridge-warm);
+    display: block;
+    font-size: 13px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.salesforce-ridge-cta {
+    background:
+        linear-gradient(135deg, rgba(7, 68, 129, 0.96), rgba(0, 161, 225, 0.92)),
+        var(--ridge-blue-dark);
+    padding: 78px 0;
+}
+
+.salesforce-ridge-cta-inner {
+    align-items: center;
+    display: flex;
+    gap: 28px;
+    justify-content: space-between;
+}
+
+.salesforce-ridge-cta .salesforce-ridge-eyebrow,
+.salesforce-ridge-cta h2 {
+    color: #ffffff;
+}
+
+.salesforce-ridge-cta .salesforce-ridge-eyebrow::before {
+    background: #ffffff;
+}
+
+.salesforce-ridge-cta h2 {
+    margin-bottom: 0;
+    max-width: 820px;
+}
+
+.salesforce-ridge-success-layout {
+    align-items: start;
+}
+
+.salesforce-ridge-success-grid {
+    grid-template-columns: 1fr;
+}
+
+.salesforce-ridge-read-more {
+    margin-top: 28px;
+    padding: 24px 28px;
+}
+
+.salesforce-ridge-read-more summary,
+.salesforce-ridge-faq summary {
+    color: var(--ridge-ink);
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+.salesforce-ridge-read-more p,
+.salesforce-ridge-faq p {
+    margin: 16px 0 0;
+}
+
+.salesforce-ridge-link-band {
+    background: #ffffff;
+    border: 1px solid var(--ridge-line);
+    border-radius: 8px;
+    box-shadow: 0 18px 54px rgba(17, 24, 39, 0.07);
+    padding: 38px;
+}
+
+.salesforce-ridge-link-band h2 {
+    font-size: 34px;
+    margin-bottom: 0;
+}
+
+.salesforce-ridge-link-list {
+    display: grid;
+    gap: 12px;
+}
+
+.salesforce-ridge-link-list a {
+    align-items: center;
+    background: var(--ridge-soft);
+    border: 1px solid var(--ridge-line);
+    border-radius: 8px;
+    color: var(--ridge-ink);
+    display: flex;
+    font-weight: 800;
+    justify-content: space-between;
+    padding: 16px 18px;
+}
+
+.salesforce-ridge-link-list a::after {
+    color: var(--ridge-blue);
+    content: "\f061";
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 900;
+}
+
+.salesforce-ridge-link-list a:hover {
+    background: #ffffff;
+    border-color: rgba(0, 161, 225, 0.34);
+    color: var(--ridge-blue-dark);
+}
+
+.salesforce-ridge-faq {
+    display: grid;
+    gap: 16px;
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.salesforce-ridge-faq details {
+    padding: 24px 28px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .salesforce-ridge-hero h2 {
+        font-size: 50px;
+    }
+
+    .salesforce-ridge-card-grid,
+    .salesforce-ridge-process,
+    .salesforce-ridge-tier-guide {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .salesforce-ridge-tier-guide::before {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .salesforce-ridge-hero {
+        padding: 84px 0 70px;
+    }
+
+    .salesforce-ridge-hero-grid,
+    .salesforce-ridge-story,
+    .salesforce-ridge-success-layout,
+    .salesforce-ridge-link-band {
+        grid-template-columns: 1fr;
+    }
+
+    .salesforce-ridge-hero h2,
+    .salesforce-ridge-page h2 {
+        font-size: 38px;
+    }
+
+    .salesforce-ridge-proof,
+    .salesforce-ridge-card-grid,
+    .salesforce-ridge-process,
+    .salesforce-ridge-tier-guide {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .salesforce-ridge-tier-guide::before {
+        display: none;
+    }
+
+    .salesforce-ridge-section {
+        padding: 76px 0;
+    }
+
+    .salesforce-ridge-cta-inner {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    .salesforce-ridge-hero {
+        padding: 62px 0 54px;
+    }
+
+    .salesforce-ridge-hero-grid,
+    .salesforce-ridge-story,
+    .salesforce-ridge-success-layout,
+    .salesforce-ridge-link-band,
+    .salesforce-ridge-proof,
+    .salesforce-ridge-card-grid,
+    .salesforce-ridge-process,
+    .salesforce-ridge-tier-guide {
+        grid-template-columns: 1fr;
+    }
+
+    .salesforce-ridge-hero h2,
+    .salesforce-ridge-page h2 {
+        font-size: 31px;
+        line-height: 1.22;
+    }
+
+    .salesforce-ridge-hero p {
+        font-size: 16px;
+    }
+
+    .salesforce-ridge-visual {
+        min-height: 350px;
+    }
+
+    .salesforce-ridge-badge-card {
+        padding: 34px 28px 28px;
+    }
+
+    .salesforce-ridge-badge-card img {
+        width: 142px;
+    }
+
+    .salesforce-ridge-mini-card {
+        position: relative;
+    }
+
+    .salesforce-ridge-mini-card.one,
+    .salesforce-ridge-mini-card.two {
+        bottom: auto;
+        left: auto;
+        right: auto;
+        top: auto;
+    }
+
+    .salesforce-ridge-mini-card.one {
+        margin-top: 18px;
+    }
+
+    .salesforce-ridge-mini-card.two {
+        float: right;
+        margin-top: 222px;
+    }
+
+    .salesforce-ridge-actions,
+    .salesforce-ridge-cta-inner {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .salesforce-ridge-actions .theme-btn1,
+    .salesforce-ridge-cta .theme-btn2 {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .salesforce-ridge-link {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .salesforce-ridge-heading {
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .salesforce-ridge-section {
+        padding: 58px 0;
+    }
+
+    .salesforce-ridge-proof article,
+    .salesforce-ridge-card-grid article,
+    .salesforce-ridge-process article,
+    .salesforce-ridge-tier-guide article,
+    .salesforce-ridge-success-grid article,
+    .salesforce-ridge-story-panel,
+    .salesforce-ridge-read-more,
+    .salesforce-ridge-faq details,
+    .salesforce-ridge-link-band {
+        padding: 24px;
+    }
+
+    .salesforce-ridge-tier-guide::before {
+        display: none;
+    }
+
+    .salesforce-ridge-link-band h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .salesforce-ridge-hero h2,
+    .salesforce-ridge-page h2 {
+        font-size: 28px;
+    }
+
+    .salesforce-ridge-visual {
+        min-height: 320px;
     }
 }

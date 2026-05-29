@@ -153,7 +153,7 @@ export default function TermsOfService() {
                     <div className="row justify-content-center">
                         <div className="col-lg-10">
                             <article className="privacy-policy-content">
-                                <h1 id="terms-of-service-title">Terms of Service</h1>
+                                <h2 id="terms-of-service-title">Terms of Service</h2>
                                 <p>
                                     These Terms of Service explain the rules, rights and responsibilities that apply when
                                     you access or use the CodM Software website, content and related digital resources.

@@ -209,7 +209,7 @@ export default function WomensSafetyWorkplaceWellBeing() {
                 <div className="container">
                     <div className="womens-safety-hero">
                         <span className="womens-safety-kicker">Workplace Well-Being</span>
-                        <h1 id="womens-safety-title">Women's Safety & Workplace Well-Being at CodM Software</h1>
+                        <h2 id="womens-safety-title">Women's Safety & Workplace Well-Being at CodM Software</h2>
                         <p>
                             Creating a safe, respectful and inclusive workplace for women in IT through clear policies,
                             confidential reporting, ethical conduct and continuous support.

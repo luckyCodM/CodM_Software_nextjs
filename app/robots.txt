@@ -1,17 +1,38 @@
 User-agent: *
+
 Allow: /
+
+# Block APIs & private areas
+
 Disallow: /api/
+Disallow: /admin/
+Disallow: /login
+Disallow: /dashboard/
+
+# Block error & utility pages
+
 Disallow: /comingsoon
 Disallow: /_not-found
 Disallow: /404
 Disallow: /not-found
-Disallow: /server-sitemap.xml
+Disallow: /search
+Disallow: /privacy-policy
+Disallow: /terms-of-service
+
+
+# Block development & private folders
+
 Disallow: /draft/
 Disallow: /preview/
 Disallow: /private/
 Disallow: /tmp/
 Disallow: /backup/
-Disallow: /old/
+Disallow: /test/
+Disallow: /staging/
+Disallow: /dev/
+
+# Block parameter URLs
+
 Disallow: /*?*
 
 Sitemap: https://codmsoftware.com/sitemap.xml
