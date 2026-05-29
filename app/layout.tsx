@@ -45,6 +45,8 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "Salesforce Consulting Company in India | CodM Software",
         description: "Salesforce consulting, CRM implementation, automation, AI, integrations, and staff augmentation services by CodM Software.",
+        images: ["https://codmsoftware.com/og-image.jpg"],
+        creator: "@CodMSoftware",
     },
 };
 
@@ -54,21 +56,21 @@ export const viewport: Viewport = {
 };
 
 const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: "CodM Software",
-    url: "https://codmsoftware.com",
-    logo: "https://codmsoftware.com/assets/img/logo/header-logo.png",
-    sameAs: [
-        "https://www.linkedin.com/company/codm-software",
-    ],
-    contactPoint: {
-        "@type": "ContactPoint",
-        telephone: "+91-9871717425",
-        contactType: "customer service",
-        areaServed: "IN",
-        availableLanguage: ["en", "hi"],
-    },
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "CodM Software",
+  url: "https://codmsoftware.com",
+  logo: "https://codmsoftware.com/assets/img/logo/header-logo.png",
+  sameAs: [
+    "https://www.linkedin.com/company/codm-software/"
+  ],
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+91-9871717425",
+    contactType: "customer service",
+    areaServed: "IN",
+    availableLanguage: ["English", "Hindi"]
+  }
 };
 
 export default function RootLayout({
