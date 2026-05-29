@@ -68,6 +68,11 @@ export default function Footer() {
                                     <li>
                                         <Link href="/salesforce-consulting-company-in-noida">Salesforce Consulting in Noida</Link>
                                     </li>
+                                    <li>
+                                        <Link href="/salesforce-consulting-company-in-delhi">Salesforce Consulting in Delhi</Link>
+                                    </li><li>
+                                        <Link href="/salesforce-consulting-company-in-bangalore">Salesforce Consulting in bangalore</Link>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -98,6 +103,9 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <Link href="/womens-safety-workplace-well-being">Women's Safety</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/salesforce-consulting-company-in-pune">Salesforce Consulting in Pune</Link>
                                     </li>
                                 </ul>
                             </div>

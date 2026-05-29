@@ -22092,6 +22092,65 @@ button {
     max-width: 980px;
 }
 
+.salesforce-delhi-faq-accordion {
+    display: grid;
+    gap: 16px;
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.salesforce-delhi-faq-accordion details {
+    background: #ffffff;
+    border: 1px solid rgba(0, 161, 225, 0.16);
+    border-radius: 8px;
+    box-shadow: 0 12px 38px rgba(17, 24, 39, 0.06);
+    padding: 24px 28px;
+    transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.salesforce-delhi-faq-accordion details:hover,
+.salesforce-delhi-faq-accordion details[open] {
+    border-color: rgba(0, 161, 225, 0.32);
+    box-shadow: 0 16px 42px rgba(17, 24, 39, 0.09);
+    transform: translateY(-2px);
+}
+
+.salesforce-delhi-faq-accordion summary {
+    color: var(--vtc-text-heading-text-3);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: var(--f-fw-bold);
+    line-height: 1.4;
+    list-style: none;
+    padding-right: 34px;
+    position: relative;
+}
+
+.salesforce-delhi-faq-accordion summary::-webkit-details-marker {
+    display: none;
+}
+
+.salesforce-delhi-faq-accordion summary::after {
+    color: var(--vtc-bg-main-bg-1);
+    content: "\2b";
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 900;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.salesforce-delhi-faq-accordion details[open] summary::after {
+    content: "\f068";
+}
+
+.salesforce-delhi-faq-accordion p {
+    color: var(--vtc-text-pera-text-3);
+    font-size: 16px;
+    line-height: 1.75;
+    margin: 16px 0 0;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .salesforce-noida-hero h2 {
         font-size: 50px;

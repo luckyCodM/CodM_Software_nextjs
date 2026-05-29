@@ -25,6 +25,7 @@ Disallow: /terms-of-service
 Disallow: /draft/
 Disallow: /preview/
 Disallow: /private/
+Disallow: /temp/
 Disallow: /tmp/
 Disallow: /backup/
 Disallow: /test/
