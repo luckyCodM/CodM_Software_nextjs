@@ -70,8 +70,12 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <Link href="/salesforce-consulting-company-in-delhi">Salesforce Consulting in Delhi</Link>
-                                    </li><li>
+                                    </li>
+                                    <li>
                                         <Link href="/salesforce-consulting-company-in-bangalore">Salesforce Consulting in bangalore</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/premium-salesforce-consulting">Salesforce Consulting</Link>
                                     </li>
                                 </ul>
                             </div>

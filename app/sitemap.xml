@@ -16,6 +16,16 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://codmsoftware.com/salesforce-consulting</loc>
+    <lastmod>2026-05-30</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/premium-salesforce-consulting</loc>
+    <lastmod>2026-05-30</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <url>
     <loc>https://codmsoftware.com/salesforce-financial-services-cloud-consultant</loc>
     <lastmod>2026-05-28</lastmod>
     <priority>0.80</priority>
