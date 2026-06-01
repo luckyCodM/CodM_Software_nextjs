@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     metadataBase: new URL("https://codmsoftware.com"),
     title: "Salesforce Consulting Company in India | CodM Software",
     description:
-        "CodM Software is a Salesforce consulting company helping businesses with CRM implementation, Financial Services Cloud, Agentforce AI, Education Cloud, Customer 360, integrations, and staff augmentation.",
+        "CodM Software provides Salesforce consulting, CRM implementation, Agentforce AI, Financial Services Cloud, integrations, and staffing solutions.",
     keywords:
         "salesforce consulting company in india, salesforce consulting services, salesforce implementation, salesforce financial services cloud, salesforce agentforce ai, salesforce education cloud, salesforce customer 360, salesforce integrations, salesforce staff augmentation",
 
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     },
     openGraph: {
         title: "Salesforce Consulting Company in India | CodM Software",
-        description: "CodM Software helps businesses implement, customize, and scale Salesforce CRM across Financial Services Cloud, Agentforce AI, Education Cloud, Customer 360, integrations, and staff augmentation.",
+        description: "CodM Software provides Salesforce consulting, CRM implementation, Agentforce AI, Financial Services Cloud, integrations, and staffing solutions.",
         url: "https://codmsoftware.com",
         siteName: "CodM Software",
         type: "website",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Salesforce Consulting Company in India | CodM Software",
-        description: "Salesforce consulting, CRM implementation, automation, AI, integrations, and staff augmentation services by CodM Software.",
+        description: "CodM Software provides Salesforce consulting, CRM implementation, Agentforce AI, Financial Services Cloud, integrations, and staffing solutions.",
         images: ["https://codmsoftware.com/og-image.jpg"],
         creator: "@CodMSoftware",
     },
