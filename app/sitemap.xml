@@ -26,6 +26,111 @@
     <priority>0.90</priority>
   </url>
   <url>
+    <loc>https://codmsoftware.com/case-studies</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/case-studies/rjim-salesforce-financial-services-cloud</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/case-studies/goeasy-salesforce-digital-transformation</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/case-studies/insurance-salesforce-platform-modernization</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/case-studies/agentforce-ai-automation</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/case-studies/customer-360-implementation</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/case-studies/education-cloud-transformation</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/case-studies/sales-cadence-automation</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/case-studies/crm-integration-modernization</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/case-studies/staff-augmentation-salesforce-delivery</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/case-studies/financial-services-cloud-advisor-productivity</loc>
+    <lastmod>2026-06-02</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/case-studies/future-focus-enterprise-lead-architecture-geospatial-automation</loc>
+    <lastmod>2026-06-03</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/blogs</loc>
+    <lastmod>2026-06-03</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/blogs/salesforce-implementation-best-practices</loc>
+    <lastmod>2026-06-03</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/blogs/agentforce-ai-for-salesforce-automation</loc>
+    <lastmod>2026-06-03</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/blogs/financial-services-cloud-guide</loc>
+    <lastmod>2026-06-03</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/blogs/customer-360-crm-strategy</loc>
+    <lastmod>2026-06-03</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/blogs/salesforce-integration-best-practices</loc>
+    <lastmod>2026-06-03</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/blogs/education-cloud-student-engagement</loc>
+    <lastmod>2026-06-03</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/blogs/crm-automation-workflows</loc>
+    <lastmod>2026-06-03</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://codmsoftware.com/blogs/salesforce-staff-augmentation-guide</loc>
+    <lastmod>2026-06-03</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>https://codmsoftware.com/salesforce-financial-services-cloud-consultant</loc>
     <lastmod>2026-05-28</lastmod>
     <priority>0.80</priority>
@@ -107,11 +212,6 @@
   </url>
   <url>
     <loc>https://codmsoftware.com/winter24</loc>
-    <lastmod>2026-05-28</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://codmsoftware.com/blog</loc>
     <lastmod>2026-05-28</lastmod>
     <priority>0.80</priority>
   </url>

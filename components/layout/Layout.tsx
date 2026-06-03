@@ -14,6 +14,7 @@ import Link from "next/link";
 import type { FC } from "react";
 import { useCallback, useEffect, useState } from "react";
 import ScrollToTop from "../elements/BackToTop";
+import ChatbotWidget from "../elements/chatbot/ChatbotWidget";
 import Footer1 from "./footer/Footer1";
 import Header1 from "./header/Header1";
 import "wowjs/css/libs/animate.css";
@@ -127,6 +128,8 @@ export default function Layout({ headerStyle, mainMenuStyle, footerStyle, childr
                 <i className="fa-brands fa-whatsapp" aria-hidden="true" />
                 <span>WhatsApp</span>
             </a>
+
+            <ChatbotWidget />
 
             <ScrollToTop />
         </div>

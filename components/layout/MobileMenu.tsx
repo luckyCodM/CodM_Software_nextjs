@@ -68,10 +68,13 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                             <Link href="/salesforce-field-history-tracking">Products</Link>
                         </li>
                         <li>
-                            <Link href="/blog">Blogs</Link>
+                            <Link href="/blogs" className={pathname.startsWith("/blogs") ? "active" : ""}>Blogs</Link>
                         </li>
                         <li>
-                            <Link href="/contact">Contact Us</Link>
+                            <Link href="/case-studies" className={pathname.startsWith("/case-studies") ? "active" : ""}>Case Studies</Link>
+                        </li>
+                        <li>
+                            <Link href="/contact" className={pathname === "/contact" ? "active" : ""}>Contact Us</Link>
                         </li>
                         <li>
                             <Link href="/privacy-policy">Privacy Policy  </Link>
