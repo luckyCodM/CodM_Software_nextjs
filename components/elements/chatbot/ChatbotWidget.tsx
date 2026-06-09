@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useMemo, useRef, useState } from "react";
+import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
 
 type Role = "bot" | "user";
 
@@ -10,9 +10,23 @@ type Message = {
     text: string;
 };
 
+type ApiMessage = {
+    role: "user" | "assistant";
+    content: string;
+};
+
 type LeadField = "name" | "email" | "phone" | "company" | "message";
 
 type LeadData = Record<LeadField, string>;
+
+const storageKey = "codm-chatbot-messages-v2";
+const sessionKey = "codm-chatbot-session-id";
+
+const welcomeMessage: Message = {
+    id: 1,
+    role: "bot",
+    text: "Hi, I am CodM AI Assistant. Ask me about Salesforce consulting, CRM implementation, Agentforce AI, integrations, case studies, or how CodM Software can help your business.",
+};
 
 const initialLead: LeadData = {
     name: "",
@@ -41,78 +55,92 @@ const fieldLabels: Record<LeadField, string> = {
 const leadFields: LeadField[] = ["name", "email", "phone", "company", "message"];
 
 const quickReplies = [
-    "Salesforce implementation",
-    "Agentforce AI services",
-    "Financial Services Cloud",
-    "Education Cloud",
-    "Integrations",
-    "Staff augmentation",
+    "How can CodM improve my Salesforce setup?",
+    "Explain Agentforce AI for my business",
+    "Show me relevant Salesforce case studies",
+    "How do you handle Salesforce integrations?",
+    "Do you provide Salesforce developers?",
     "Book consultation",
 ];
-
-function getServiceResponse(input: string): string {
-    const value = input.toLowerCase();
-
-    if (value.includes("agentforce") || value.includes(" ai")) {
-        return "CodM Software helps businesses use Agentforce AI to automate workflows, improve service productivity, and create smarter Salesforce experiences. We can help with AI strategy, setup, integration, testing, and ongoing optimization.";
-    }
-
-    if (value.includes("financial") || value.includes("fsc") || value.includes("banking")) {
-        return "For Financial Services Cloud, CodM Software supports implementation, client lifecycle management, advisor workflows, secure role-based access, integrations, automation, and reporting for financial teams.";
-    }
-
-    if (value.includes("education")) {
-        return "CodM Software implements Salesforce Education Cloud for admissions, student engagement, support workflows, lifecycle tracking, communication, and connected campus operations.";
-    }
-
-    if (value.includes("integration") || value.includes("api") || value.includes("mulesoft")) {
-        return "We help integrate Salesforce with websites, ERP systems, finance platforms, marketing tools, service platforms, REST APIs, and third-party business applications to create reliable data flow.";
-    }
-
-    if (value.includes("staff") || value.includes("augmentation") || value.includes("developer")) {
-        return "CodM Software provides Salesforce staffing and staff augmentation for admins, developers, consultants, QA, architects, and support resources based on your project needs.";
-    }
-
-    if (value.includes("implementation") || value.includes("crm") || value.includes("consulting")) {
-        return "CodM Software provides Salesforce consulting and CRM implementation services including discovery, solution architecture, configuration, customization, automation, migration, integrations, testing, training, and support.";
-    }
-
-    if (value.includes("demo") || value.includes("consultation") || value.includes("sales") || value.includes("contact")) {
-        return "Absolutely. I can collect a few details and have our Salesforce team contact you for a consultation or demo.";
-    }
-
-    if (value.includes("whatsapp")) {
-        return "You can also reach CodM Software on WhatsApp at +91 9871717425. I can still capture your details here for faster follow-up.";
-    }
-
-    return "CodM Software helps businesses with Salesforce consulting, CRM implementation, Agentforce AI, Financial Services Cloud, Education Cloud, integrations, Customer 360, automation, and staffing solutions. Tell me what you are trying to solve, and I will guide you.";
-}
 
 function shouldStartLeadCapture(input: string): boolean {
     const value = input.toLowerCase();
     return ["book", "consultation", "demo", "contact sales", "talk to", "call me", "lead", "pricing", "quote"].some((keyword) => value.includes(keyword));
 }
 
+function toApiMessages(messages: Message[]): ApiMessage[] {
+    return messages
+        .filter((message) => message.text.trim())
+        .map((message): ApiMessage => ({
+            role: message.role === "bot" ? "assistant" : "user",
+            content: message.text,
+        }))
+        .slice(-14);
+}
+
+function readStoredSessionId() {
+    const existing = window.sessionStorage.getItem(sessionKey);
+
+    if (existing) return existing;
+
+    const nextId = `codm_${Date.now()}_${Math.random().toString(16).slice(2)}`;
+    window.sessionStorage.setItem(sessionKey, nextId);
+    return nextId;
+}
+
+function readStoredMessages() {
+    try {
+        const raw = window.sessionStorage.getItem(storageKey);
+        if (!raw) return [welcomeMessage];
+
+        const parsed = JSON.parse(raw) as Message[];
+        const validMessages = parsed.filter((message) => (
+            message
+            && typeof message.id === "number"
+            && (message.role === "bot" || message.role === "user")
+            && typeof message.text === "string"
+        ));
+
+        return validMessages.length ? validMessages.slice(-30) : [welcomeMessage];
+    } catch {
+        return [welcomeMessage];
+    }
+}
+
 export default function ChatbotWidget() {
     const [isOpen, setIsOpen] = useState(false);
     const [input, setInput] = useState("");
-    const [messages, setMessages] = useState<Message[]>([
-        {
-            id: 1,
-            role: "bot",
-            text: "Hi, I am CodM Assistant. I can help with Salesforce consulting, CRM implementation, Agentforce AI, integrations, and connect you with our sales team.",
-        },
-    ]);
+    const [messages, setMessages] = useState<Message[]>([welcomeMessage]);
     const [isTyping, setIsTyping] = useState(false);
     const [leadMode, setLeadMode] = useState(false);
     const [leadData, setLeadData] = useState<LeadData>(initialLead);
     const [activeField, setActiveField] = useState<LeadField | null>(null);
     const messageId = useRef(2);
+    const messagesEndRef = useRef<HTMLDivElement | null>(null);
+    const sessionId = useRef<string>("");
 
     const nextMissingField = useMemo(() => leadFields.find((field) => !leadData[field].trim()) ?? null, [leadData]);
 
+    useEffect(() => {
+        const storedMessages = readStoredMessages();
+        setMessages(storedMessages);
+        messageId.current = Math.max(...storedMessages.map((message) => message.id), 1) + 1;
+        sessionId.current = readStoredSessionId();
+    }, []);
+
+    useEffect(() => {
+        window.sessionStorage.setItem(storageKey, JSON.stringify(messages.slice(-30)));
+        messagesEndRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
+    }, [messages, isTyping]);
+
     const addMessage = (role: Role, text: string) => {
-        setMessages((previous) => [...previous, { id: messageId.current++, role, text }]);
+        const id = messageId.current++;
+        setMessages((previous) => [...previous, { id, role, text }]);
+        return id;
+    };
+
+    const replaceMessage = (id: number, text: string) => {
+        setMessages((previous) => previous.map((message) => (message.id === id ? { ...message, text } : message)));
     };
 
     const addBotMessage = (text: string) => {
@@ -120,7 +148,7 @@ export default function ChatbotWidget() {
         window.setTimeout(() => {
             setIsTyping(false);
             addMessage("bot", text);
-        }, 450);
+        }, 350);
     };
 
     const startLeadCapture = () => {
@@ -177,11 +205,61 @@ export default function ChatbotWidget() {
         await submitLead(updatedLead);
     };
 
+    const streamAiResponse = async (nextMessages: Message[]) => {
+        const botMessageId = addMessage("bot", "");
+        setIsTyping(true);
+        let streamedText = "";
+
+        try {
+            const response = await fetch("/api/chatbot", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    sessionId: sessionId.current,
+                    pageUrl: window.location.href,
+                    messages: toApiMessages(nextMessages),
+                }),
+            });
+
+            if (!response.ok) {
+                const error = await response.json().catch(() => null) as { message?: string } | null;
+                throw new Error(error?.message || "CodM AI could not answer right now.");
+            }
+
+            if (!response.body) {
+                throw new Error("CodM AI did not return a response body.");
+            }
+
+            const reader = response.body.getReader();
+            const decoder = new TextDecoder();
+
+            while (true) {
+                const { done, value } = await reader.read();
+                if (done) break;
+
+                streamedText += decoder.decode(value, { stream: true });
+                replaceMessage(botMessageId, streamedText);
+            }
+
+            if (!streamedText.trim()) {
+                throw new Error("CodM AI returned an empty response.");
+            }
+        } catch (error) {
+            const message = error instanceof Error ? error.message : "CodM AI could not answer right now.";
+            replaceMessage(botMessageId, `${message} You can still reach CodM at sales@codmsoftware.com or WhatsApp +91 9871717425.`);
+        } finally {
+            setIsTyping(false);
+        }
+    };
+
     const sendMessage = async (text: string) => {
         const cleanText = text.trim();
-        if (!cleanText) return;
+        if (!cleanText || isTyping) return;
 
-        addMessage("user", cleanText);
+        const userMessage: Message = { id: messageId.current++, role: "user", text: cleanText };
+        const nextMessages = [...messages, userMessage];
+
+        setMessages(nextMessages);
         setInput("");
 
         if (leadMode) {
@@ -189,11 +267,10 @@ export default function ChatbotWidget() {
             return;
         }
 
-        const response = getServiceResponse(cleanText);
-        addBotMessage(response);
+        await streamAiResponse(nextMessages);
 
         if (shouldStartLeadCapture(cleanText)) {
-            window.setTimeout(startLeadCapture, 700);
+            window.setTimeout(startLeadCapture, 500);
         }
     };
 
@@ -208,40 +285,43 @@ export default function ChatbotWidget() {
                 <section className="codm-chatbot-panel" aria-label="CodM Software chatbot">
                     <header className="codm-chatbot-header">
                         <div>
-                            <span>CodM Assistant</span>
-                            <strong>Salesforce help desk</strong>
+                            <span>CodM Software&apos;s AI</span>
+                            <strong>CodM AI Assistant</strong>
                         </div>
                         <button type="button" onClick={() => setIsOpen(false)} aria-label="Close chatbot">
                             <i className="fa-solid fa-xmark" aria-hidden="true" />
                         </button>
                     </header>
 
-                    <div className="codm-chatbot-messages">
+                    <div className="codm-chatbot-messages" role="log" aria-label="Chat messages">
                         {messages.map((message) => (
                             <div className={`codm-chatbot-message ${message.role}`} key={message.id}>
-                                {message.text.split("\n").map((line) => <p key={line}>{line}</p>)}
+                                {message.text
+                                    ? message.text.split("\n").map((line, index) => <p key={`${message.id}-${index}`}>{line}</p>)
+                                    : <p>Thinking...</p>}
                             </div>
                         ))}
                         {isTyping && (
-                            <div className="codm-chatbot-message bot typing">
+                            <div className="codm-chatbot-message bot typing" aria-label="CodM AI is typing">
                                 <span />
                                 <span />
                                 <span />
                             </div>
                         )}
+                        <div ref={messagesEndRef} />
                     </div>
 
                     <div className="codm-chatbot-quick-replies" aria-label="Suggested questions">
                         {quickReplies.map((reply) => (
-                            <button type="button" key={reply} onClick={() => void sendMessage(reply)}>
+                            <button type="button" key={reply} onClick={() => void sendMessage(reply)} disabled={isTyping}>
                                 {reply}
                             </button>
                         ))}
                     </div>
 
                     <div className="codm-chatbot-ctas">
-                        <button type="button" onClick={startLeadCapture}>Book Consultation</button>
-                        <button type="button" onClick={() => void sendMessage("Request demo")}>Request Demo</button>
+                        <button type="button" onClick={startLeadCapture} disabled={isTyping}>Book Consultation</button>
+                        <button type="button" onClick={() => void sendMessage("Request demo")} disabled={isTyping}>Request Demo</button>
                         <a href="mailto:sales@codmsoftware.com">Contact Sales</a>
                     </div>
 
@@ -250,10 +330,11 @@ export default function ChatbotWidget() {
                             type="text"
                             value={input}
                             onChange={(event) => setInput(event.target.value)}
-                            placeholder={leadMode && activeField ? fieldPrompts[activeField] : "Ask about Salesforce services..."}
+                            placeholder={leadMode && activeField ? fieldPrompts[activeField] : "Ask CodM AI anything..."}
                             aria-label="Chat message"
+                            disabled={isTyping}
                         />
-                        <button type="submit" aria-label="Send message">
+                        <button type="submit" aria-label="Send message" disabled={isTyping || !input.trim()}>
                             <i className="fa-solid fa-paper-plane" aria-hidden="true" />
                         </button>
                     </form>
