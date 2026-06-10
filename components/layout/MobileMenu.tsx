@@ -47,7 +47,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
             <div className={`mobile-sidebar d-block d-lg-none ${isMobileMenu ? "mobile-menu-active" : ""}`}>
                 <div className="logo-m">
                     <Link href="/">
-                        <img src="/assets/img/logo/header-logo.png" alt="CodM Software logo" decoding="async" />
+                        <img src="/assets/img/logo/header-logo.png" alt="CodM Software logo" width="180" height="76" decoding="async" />
                     </Link>
                 </div>
                 <div className="menu-close" onClick={handleMobileMenu}>

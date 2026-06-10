@@ -11,7 +11,7 @@ export default function Footer() {
                             <div className="single-footer-items footer-logo-area">
                                 <div className="footer-logo">
                                     <Link href="/">
-                                        <img src="/assets/img/logo/codm-footer-logo.png" alt="CodM Software footer logo" decoding="async" />
+                                        <img src="/assets/img/logo/codm-footer-logo.png" alt="CodM Software footer logo" width="180" height="76" decoding="async" />
                                     </Link>
                                 </div>
                                 <div className="space20" />

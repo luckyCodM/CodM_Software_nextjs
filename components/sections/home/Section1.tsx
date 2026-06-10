@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Section1() {
@@ -38,16 +39,16 @@ export default function Section1() {
                         <div className="col-lg-6">
                             <div className="hero1-images">
                                 <div className="image1">
-                                    <img src="/assets/img/bg/hero1-main-bg.png" alt="Salesforce CRM consulting background design" decoding="async" />
+                                    <Image src="/assets/img/bg/hero1-main-bg.png" alt="Salesforce CRM consulting background design" width={614} height={540} priority sizes="(max-width: 991px) 92vw, 42vw" />
                                 </div>
                                 <div className="image2 overlay-anim" data-aos="zoom-in-up" data-aos-duration={700}>
-                                    <img src="/assets/img/hero/hero1-main-img.png" alt="CodM Software Salesforce consulting services hero image" decoding="async" />
+                                    <Image src="/assets/img/hero/hero1-main-img.png" alt="CodM Software Salesforce consulting services hero image" width={500} height={500} priority sizes="(max-width: 991px) 68vw, 32vw" />
                                 </div>
                                 <div className="image3 shape-animaiton2" data-aos="zoom-in-up" data-aos-duration={700}>
-                                    <img src="/assets/img/shapes/review-img.png" alt="Client review rating graphic for CodM Software" decoding="async" loading="lazy" />
+                                    <Image src="/assets/img/shapes/review-img.png" alt="Client review rating graphic for CodM Software" width={360} height={224} sizes="(max-width: 991px) 42vw, 18vw" />
                                 </div>
                                 <div className="image4 shape-animaiton3">
-                                    <img src="/assets/img/shapes/hero1-shape.png" alt="Decorative Salesforce consulting shape" decoding="async" loading="lazy" />
+                                    <Image src="/assets/img/shapes/hero1-shape.png" alt="Decorative Salesforce consulting shape" width={37} height={48} sizes="48px" />
                                 </div>
                             </div>
                         </div>

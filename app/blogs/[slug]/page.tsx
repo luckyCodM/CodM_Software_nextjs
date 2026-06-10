@@ -2,7 +2,6 @@ import Layout from "@/components/layout/Layout";
 import SectionHeader from "@/components/layout/SectionHeader";
 import Image from "next/image";
 import Link from "next/link";
-import Script from "next/script";
 import { notFound } from "next/navigation";
 import { blogPosts, getBlogPost } from "../blogData";
 
@@ -134,10 +133,10 @@ export default async function BlogDetailPage({ params }: BlogDetailProps) {
 
     return (
         <Layout>
-            <Script id={`${post.slug}-breadcrumb-schema`} type="application/ld+json" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-            <Script id={`${post.slug}-article-schema`} type="application/ld+json" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-            <Script id={`${post.slug}-faq-schema`} type="application/ld+json" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id={`${post.slug}-organization-schema`} type="application/ld+json" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+            <script id="blog-breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+            <script id="blog-article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+            <script id="blog-faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+            <script id="blog-organization-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
             <SectionHeader title={post.title} group_page="Blogs" current_page={post.title} display="d-none" />
 
             <main className="codm-blog-detail">
@@ -156,7 +155,7 @@ export default async function BlogDetailPage({ params }: BlogDetailProps) {
                                     <i className={categoryIcons[post.category]} aria-hidden="true" />
                                     {post.category}
                                 </span>
-                                <h1 id="blog-title">{post.title}</h1>
+                                <h2 id="blog-title">{post.title}</h2>
                                 <p>{post.excerpt}</p>
                                 <div className="codm-blog-meta">
                                     <span><i className="fa-solid fa-user" aria-hidden="true" /> {post.author.name}</span>

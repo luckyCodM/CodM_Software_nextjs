@@ -40,12 +40,20 @@ export const metadata: Metadata = {
         url: "https://codmsoftware.com",
         siteName: "CodM Software",
         type: "website",
+        images: [
+            {
+                url: "/assets/img/logo/header-logo.png",
+                width: 180,
+                height: 76,
+                alt: "CodM Software logo",
+            },
+        ],
     },
     twitter: {
         card: "summary_large_image",
         title: "Salesforce Consulting Company in India | CodM Software",
         description: "CodM Software provides Salesforce consulting, CRM implementation, Agentforce AI, Financial Services Cloud, integrations, and staffing solutions.",
-        images: ["https://codmsoftware.com/og-image.jpg"],
+        images: ["https://codmsoftware.com/assets/img/logo/header-logo.png"],
         creator: "@CodMSoftware",
     },
 };
@@ -93,10 +101,9 @@ export default function RootLayout({
                         gtag('config', 'G-V0YX51T6W4');
                     `}
                 </Script>
-                <Script
+                <script
                     id="organization-schema"
                     type="application/ld+json"
-                    strategy="afterInteractive"
                     dangerouslySetInnerHTML={{
                         __html: JSON.stringify(organizationSchema),
                     }}

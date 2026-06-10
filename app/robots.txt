@@ -23,9 +23,6 @@ Disallow: /_not-found
 Disallow: /404
 Disallow: /not-found
 Disallow: /search
-Disallow: /privacy-policy
-Disallow: /terms-of-service
-
 
 # Block development & private folders
 

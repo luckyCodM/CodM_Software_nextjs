@@ -29698,3 +29698,504 @@ img {
         font-size: 14px;
     }
 }
+
+/* Responsive stability layer: keeps the existing design while preventing overlap and overflow */
+:root {
+    --codm-safe-x: clamp(16px, 4vw, 32px);
+    --codm-fixed-gap: 12px;
+    --codm-fixed-size: 56px;
+    --codm-mobile-header-h: 66px;
+}
+
+html,
+body,
+.body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+}
+
+@supports not (overflow-x: clip) {
+    html,
+    body,
+    .body {
+        overflow-x: hidden;
+    }
+}
+
+.body main {
+    width: 100%;
+    min-width: 0;
+}
+
+.body main .container,
+.footer1 > .container,
+.footer1 .copyright-area .container {
+    max-width: min(var(--codm-container-max, 1320px), calc(100vw - (var(--codm-page-gutter, 24px) * 2)));
+}
+
+.body main .row,
+.footer1 .row {
+    min-width: 0;
+}
+
+.body main [class*="col-"],
+.footer1 [class*="col-"] {
+    min-width: 0;
+}
+
+.body main img,
+.body main video,
+.body main canvas,
+.footer1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.swiper,
+.swiper-wrapper,
+.swiper-slide {
+    max-width: 100%;
+}
+
+.theme-btn1,
+.theme-btn2 {
+    white-space: normal;
+}
+
+.hero-area1 {
+    overflow: hidden;
+}
+
+.hero-area1 .hero1-images {
+    isolation: isolate;
+    overflow: visible;
+}
+
+.hero-area1 .hero1-images .image1,
+.hero-area1 .hero1-images .image2,
+.hero-area1 .hero1-images .image3,
+.hero-area1 .hero1-images .image4 {
+    max-width: 100%;
+}
+
+.hero-area1 .hero1-images .image1 img,
+.hero-area1 .hero1-images .image2 img,
+.hero-area1 .hero1-images .image3 img,
+.hero-area1 .hero1-images .image4 img {
+    display: block;
+    height: auto;
+}
+
+.hero1-slider {
+    overflow: hidden;
+}
+
+.hero1-slider .slider-pera p {
+    margin-bottom: clamp(18px, 3vw, 34px);
+    text-align: center;
+}
+
+.floating-whatsapp-button,
+.codm-chatbot,
+.floating-partner-badge,
+.progress-wrap {
+    will-change: transform;
+}
+
+.codm-chatbot {
+    right: 28px;
+    bottom: 28px;
+    transform: none !important;
+    will-change: auto !important;
+    z-index: 1200;
+}
+
+.floating-partner-badge {
+    right: 30px;
+    bottom: 102px;
+    z-index: 1190;
+}
+
+.progress-wrap {
+    right: 30px;
+    bottom: 202px;
+    z-index: 1180;
+}
+
+.floating-whatsapp-button {
+    left: 28px;
+    bottom: 28px;
+    transform: none;
+    z-index: 1190;
+}
+
+.floating-whatsapp-button:hover {
+    transform: translateY(-3px);
+}
+
+.codm-chatbot-panel {
+    right: 0;
+    bottom: calc(100% + 14px);
+    max-height: min(680px, calc(100dvh - 120px));
+}
+
+.codm-chatbot-messages {
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+}
+
+.codm-chatbot-messages,
+.codm-chatbot-quick-replies,
+.codm-chatbot-ctas {
+    scrollbar-width: none;
+}
+
+.codm-chatbot-messages::-webkit-scrollbar,
+.codm-chatbot-quick-replies::-webkit-scrollbar,
+.codm-chatbot-ctas::-webkit-scrollbar {
+    display: none;
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+    :root {
+        --codm-container-max: 1560px;
+    }
+
+    .hero-area1 .main-heading h1 {
+        font-size: clamp(68px, 4.2vw, 92px);
+    }
+}
+
+@media (min-width: 1921px) {
+    :root {
+        --codm-container-max: 1760px;
+        --codm-page-gutter: clamp(72px, 5vw, 150px);
+    }
+
+    .hero-area1 .main-heading h1 {
+        font-size: clamp(82px, 3.8vw, 112px);
+    }
+
+    .hero-area1 .main-heading p {
+        max-width: 760px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    :root {
+        --codm-page-gutter: 28px;
+    }
+
+    .hero-area1 {
+        padding-top: 104px;
+        padding-bottom: 56px;
+    }
+
+    .hero-area1 .row {
+        row-gap: 34px;
+    }
+
+    .hero-area1 .main-heading {
+        max-width: 760px;
+        text-align: center;
+    }
+
+    .hero-area1 .main-heading h1 {
+        font-size: clamp(46px, 7vw, 66px);
+    }
+
+    .hero1-buttons {
+        justify-content: center;
+    }
+
+    .hero-area1 .hero1-images {
+        height: clamp(420px, 56vw, 560px);
+        margin: 0 auto;
+    }
+
+    .hero-area1 .hero1-images .image2 {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%) !important;
+    }
+}
+
+@media (max-width: 767px) {
+    :root {
+        --codm-page-gutter: var(--codm-safe-x);
+        --codm-fixed-size: 52px;
+    }
+
+    .body {
+        padding-bottom: calc((var(--codm-fixed-size) * 2) + (var(--codm-fixed-gap) * 3) + env(safe-area-inset-bottom));
+    }
+
+    .mobile-header,
+    .mobile-header.mobile-header-main {
+        min-height: var(--codm-mobile-header-h);
+    }
+
+    main {
+        padding-top: var(--codm-mobile-header-h);
+    }
+
+    .body main .container,
+    .footer1 > .container,
+    .footer1 .copyright-area .container {
+        width: calc(100% - (var(--codm-safe-x) * 2));
+        max-width: calc(100vw - (var(--codm-safe-x) * 2));
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .body main .row {
+        --bs-gutter-x: 0;
+        row-gap: 28px;
+    }
+
+    .hero-area1 {
+        min-height: auto;
+        padding-top: clamp(34px, 8vw, 54px);
+        padding-bottom: 42px;
+    }
+
+    .hero-area1 .main-heading {
+        max-width: 100%;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .hero-area1 .main-heading [data-aos],
+    .hero-area1 .hero1-images [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+
+    .hero-area1 .main-heading span.span {
+        margin-bottom: 12px;
+    }
+
+    .hero-area1 .main-heading h1 {
+        font-size: clamp(34px, 10.2vw, 46px);
+        line-height: 1.08;
+        max-width: 12ch;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-area1 .main-heading p {
+        max-width: 34rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        line-height: 1.62;
+    }
+
+    .hero1-buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hero1-buttons .theme-btn1,
+    .hero1-buttons .theme-btn2 {
+        width: 100%;
+        min-height: 50px;
+        justify-content: center;
+        margin: 0;
+        text-align: center;
+    }
+
+    .hero-area1 .hero1-images {
+        width: min(100%, 430px);
+        height: clamp(300px, 86vw, 410px);
+        margin: 4px auto 0;
+        transform: none;
+    }
+
+    .hero-area1 .hero1-images .image1 {
+        width: min(96%, 390px);
+        margin: 0 auto;
+    }
+
+    .hero-area1 .hero1-images .image2 {
+        top: 20px;
+        left: 50%;
+        right: auto;
+        width: min(74%, 320px);
+        transform: translateX(-50%) !important;
+    }
+
+    .hero-area1 .hero1-images .image3 {
+        left: clamp(0px, 5vw, 22px);
+        bottom: clamp(4px, 5vw, 22px);
+        width: min(50%, 190px);
+    }
+
+    .hero-area1 .hero1-images .image4 {
+        top: 34px;
+        right: 14%;
+        width: 34px;
+    }
+
+    .hero1-slider .logo-slider-area.sp {
+        padding-top: 40px;
+        padding-bottom: 24px;
+    }
+
+    .hero1-slider .slider-pera p {
+        font-size: clamp(22px, 7vw, 30px);
+        line-height: 1.18;
+    }
+
+    .hero1-slider .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 70px;
+    }
+
+    .hero1-slider .swiper-slide img {
+        max-height: 52px;
+        object-fit: contain;
+    }
+
+    .floating-whatsapp-button {
+        left: var(--codm-safe-x);
+        bottom: calc(16px + env(safe-area-inset-bottom));
+        width: var(--codm-fixed-size);
+        height: var(--codm-fixed-size);
+        min-height: var(--codm-fixed-size);
+        justify-content: center;
+        gap: 0;
+        padding: 0;
+        transform: none;
+    }
+
+    .floating-whatsapp-button:hover {
+        padding: 0;
+        transform: translateY(-3px);
+    }
+
+    .floating-whatsapp-button i {
+        font-size: 28px;
+    }
+
+    .floating-whatsapp-button span {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        white-space: nowrap;
+    }
+
+    .codm-chatbot {
+        right: var(--codm-safe-x);
+        bottom: calc(16px + env(safe-area-inset-bottom));
+    }
+
+    .codm-chatbot-toggle {
+        width: var(--codm-fixed-size);
+        height: var(--codm-fixed-size);
+        min-height: var(--codm-fixed-size);
+        justify-content: center;
+        padding: 0;
+    }
+
+    .codm-chatbot-toggle span {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        white-space: nowrap;
+    }
+
+    .floating-partner-badge {
+        display: none;
+    }
+
+    .floating-partner-badge img {
+        width: 36px;
+    }
+
+    .progress-wrap {
+        right: var(--codm-safe-x);
+        bottom: calc(16px + (var(--codm-fixed-size) * 2) + (var(--codm-fixed-gap) * 3) + env(safe-area-inset-bottom));
+        width: 50px;
+        height: 50px;
+    }
+
+    .progress-wrap::before,
+    .progress-wrap::after {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .codm-chatbot-panel {
+        position: fixed;
+        left: var(--codm-safe-x);
+        right: var(--codm-safe-x);
+        top: calc(var(--codm-mobile-header-h) + 10px);
+        bottom: calc(16px + var(--codm-fixed-size) + var(--codm-fixed-gap) + env(safe-area-inset-bottom));
+        width: auto;
+        max-height: none;
+        border-radius: 8px;
+    }
+
+    .codm-chatbot-messages {
+        height: auto;
+        min-height: 0;
+        flex: 1 1 auto;
+    }
+
+    .codm-chatbot-quick-replies,
+    .codm-chatbot-ctas {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding: 10px 12px;
+    }
+
+    .codm-chatbot-quick-replies button,
+    .codm-chatbot-ctas button,
+    .codm-chatbot-ctas a {
+        flex: 0 0 auto;
+        max-width: min(280px, 78vw);
+        white-space: normal;
+    }
+
+    .footer1 {
+        padding-bottom: 24px;
+    }
+
+    .footer1 > .container > .row {
+        --bs-gutter-x: 0;
+    }
+}
+
+@media (max-width: 380px) {
+    :root {
+        --codm-safe-x: 12px;
+        --codm-fixed-size: 48px;
+    }
+
+    .hero-area1 .main-heading h1 {
+        font-size: clamp(31px, 10.4vw, 38px);
+    }
+
+    .hero-area1 .hero1-images {
+        height: 292px;
+    }
+
+    .codm-chatbot-panel {
+        left: 8px;
+        right: 8px;
+    }
+}
