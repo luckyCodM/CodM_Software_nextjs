@@ -8,6 +8,7 @@ import "../public/assets/css/mobile-menu.css";
 import "../public/assets/css/main.css";
 import "../public/assets/css/about-us-journey-section.css";
 import "../public/assets/css/certifications-section.css";
+import "./tailwind.css";
 
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";

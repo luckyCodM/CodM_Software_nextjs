@@ -66,19 +66,7 @@ export default function Footer() {
                                         <Link href="/banking-service">Banking Services</Link>
                                     </li>
                                     <li>
-                                        <Link href="/salesforce-consulting-company-in-noida">Salesforce Consulting in Noida</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/salesforce-consulting-company-in-delhi">Salesforce Consulting in Delhi</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/salesforce-consulting-company-in-bangalore">Salesforce Consulting in bangalore</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/premium-salesforce-consulting">Salesforce Consulting</Link>
-                                    </li>
-                                     <li>
-                                        <Link href="/salesforce-consulting-company-in-pune">Salesforce Consulting in Pune</Link>
+                                        <Link href="/salesforce-consulting">Salesforce Consulting</Link>
                                     </li>
                                 </ul>
                             </div>

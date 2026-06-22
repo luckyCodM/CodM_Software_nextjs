@@ -17,19 +17,109 @@ export const metadata = {
 const stats = [
     { value: "35+", label: "Salesforce-certified specialists" },
     { value: "20+", label: "CRM transformation projects" },
-    { value: "8", label: "Salesforce service tracks" },
+    { value: "14", label: "specialist Salesforce service pages" },
     { value: "360°", label: "customer visibility focus" },
 ];
 
 const services = [
-    { title: "Salesforce Consulting", text: "Define the right CRM roadmap, governance model and success metrics.", icon: "fa-solid fa-compass-drafting", href: "/contact" },
-    { title: "Salesforce Implementation", text: "Launch Salesforce with clean configuration, useful automation and adoption-ready workflows.", icon: "fa-solid fa-rocket", href: "/service" },
-    { title: "Salesforce Integration", text: "Connect Salesforce with ERP, websites, marketing tools, payment systems and APIs.", icon: "fa-solid fa-plug-circle-bolt", href: "/service" },
-    { title: "CRM Customization", text: "Customize objects, dashboards, flows, roles and experiences around your business process.", icon: "fa-solid fa-pen-ruler", href: "/service" },
-    { title: "Sales Cloud", text: "Improve pipeline visibility, lead follow-up and sales productivity.", icon: "fa-solid fa-chart-line", href: "/service" },
-    { title: "Service Cloud", text: "Streamline case management, support automation and customer response.", icon: "fa-solid fa-headset", href: "/service" },
-    { title: "Marketing Cloud", text: "Build smarter engagement journeys and customer communication workflows.", icon: "fa-solid fa-bullhorn", href: "/service" },
-    { title: "Managed Services", text: "Keep Salesforce secure, optimized and aligned with business growth after launch.", icon: "fa-solid fa-shield-halved", href: "/contact" },
+    {
+        title: "Agentforce Consulting Services",
+        text: "Plan Agentforce strategy, architecture, adoption and continuous optimization with expert guidance.",
+        icon: "fa-solid fa-brain",
+        href: "/salesforce-agentforce-consulting-services-india",
+        category: "AI Strategy",
+    },
+    {
+        title: "Agentforce AI Implementation",
+        text: "Deploy trusted Salesforce AI agents that automate work and improve customer engagement.",
+        icon: "fa-solid fa-robot",
+        href: "/salesforce-agentforce-implementation-partner-india",
+        category: "AI & Automation",
+    },
+    {
+        title: "Education Cloud Consulting",
+        text: "Connect recruitment, admissions, student success and alumni engagement in one platform.",
+        icon: "fa-solid fa-graduation-cap",
+        href: "/salesforce-education-cloud-consulting-india",
+        category: "Industry Cloud",
+    },
+    {
+        title: "Financial Services Cloud",
+        text: "Create connected client experiences for banking, insurance and wealth management teams.",
+        icon: "fa-solid fa-landmark",
+        href: "/salesforce-financial-services-cloud-consultant",
+        category: "Financial Services",
+    },
+    {
+        title: "FSC Consulting Experts",
+        text: "Work with specialists who align Financial Services Cloud with your client lifecycle.",
+        icon: "fa-solid fa-user-tie",
+        href: "/salesforce-fsc-consulting-experts-india",
+        category: "Financial Services",
+    },
+    {
+        title: "FSC Strategy & Advisory",
+        text: "Build a practical Financial Services Cloud roadmap, operating model and rollout plan.",
+        icon: "fa-solid fa-compass-drafting",
+        href: "/salesforce-fsc-strategy-advisory-india",
+        category: "Strategy",
+    },
+    {
+        title: "FSC Migration Services",
+        text: "Move financial data and workflows to Salesforce with validation, governance and control.",
+        icon: "fa-solid fa-database",
+        href: "/salesforce-fsc-migration-services-india",
+        category: "Data & Migration",
+    },
+    {
+        title: "Industry Cloud Consulting",
+        text: "Configure Salesforce industry solutions around your data, processes and customer journeys.",
+        icon: "fa-solid fa-layer-group",
+        href: "/salesforce-industry-cloud-consulting-services-india",
+        category: "Industry Cloud",
+    },
+    {
+        title: "Field History Tracking",
+        text: "Strengthen audit visibility, compliance and long-term Salesforce field change reporting.",
+        icon: "fa-solid fa-clock-rotate-left",
+        href: "/salesforce-field-history-tracking-consulting-india",
+        category: "Compliance",
+    },
+    {
+        title: "Salesforce Ridge Partner",
+        text: "Explore CodM Software's Salesforce expertise, certifications and partner capabilities.",
+        icon: "fa-solid fa-award",
+        href: "/salesforce-ridge-partner",
+        category: "Our Credentials",
+    },
+    {
+        title: "Salesforce Consulting in Bangalore",
+        text: "Local Salesforce consulting and implementation support for businesses in Bangalore.",
+        icon: "fa-solid fa-location-dot",
+        href: "/salesforce-consulting-company-in-bangalore",
+        category: "Bangalore",
+    },
+    {
+        title: "Salesforce Consulting in Delhi",
+        text: "Salesforce strategy, implementation and optimization services for teams in Delhi.",
+        icon: "fa-solid fa-location-dot",
+        href: "/salesforce-consulting-company-in-delhi",
+        category: "Delhi",
+    },
+    {
+        title: "Salesforce Consulting in Noida",
+        text: "Build scalable Salesforce solutions with an experienced consulting team in Noida.",
+        icon: "fa-solid fa-location-dot",
+        href: "/salesforce-consulting-company-in-noida",
+        category: "Noida",
+    },
+    {
+        title: "Salesforce Consulting in Pune",
+        text: "Modernize sales, service and CRM operations with Salesforce specialists in Pune.",
+        icon: "fa-solid fa-location-dot",
+        href: "/salesforce-consulting-company-in-pune",
+        category: "Pune",
+    },
 ];
 
 const reasons = [
@@ -113,6 +203,19 @@ const serviceSchema = {
         "@type": "Organization",
         name: "CodM Software",
         url: "https://codmsoftware.com",
+    },
+    hasOfferCatalog: {
+        "@type": "OfferCatalog",
+        name: "Salesforce Consulting Services",
+        itemListElement: services.map((service) => ({
+            "@type": "Offer",
+            itemOffered: {
+                "@type": "Service",
+                name: service.title,
+                description: service.text,
+                url: `https://codmsoftware.com${service.href}`,
+            },
+        })),
     },
 };
 
@@ -252,19 +355,26 @@ export default function SalesforceConsultingPage() {
                 <section className="codm-premium-section codm-premium-muted" aria-labelledby="codm-consulting-services">
                     <div className="container">
                         <div className="codm-premium-heading">
-                            <span className="codm-premium-eyebrow">Salesforce services</span>
-                            <h2 id="codm-consulting-services">A complete Salesforce service model from strategy to managed support.</h2>
+                            <span className="codm-premium-eyebrow">Explore our Salesforce expertise</span>
+                            <h2 id="codm-consulting-services">Specialist Salesforce solutions for every stage of your CRM journey.</h2>
+                            <p>
+                                Browse our consulting capabilities, industry solutions, migration services and
+                                location-specific Salesforce teams.
+                            </p>
                         </div>
-                        <div className="codm-premium-service-grid">
+                        <nav className="codm-premium-service-grid" aria-label="Salesforce consulting services and locations">
                             {services.map((service) => (
                                 <Link href={service.href} className="codm-premium-service-card" key={service.title}>
                                     <i className={service.icon} aria-hidden="true" />
+                                    <span className="codm-premium-service-category">{service.category}</span>
                                     <h3>{service.title}</h3>
                                     <p>{service.text}</p>
-                                    <span>Explore service</span>
+                                    <span className="codm-premium-service-link">
+                                        Explore page <i className="fa-solid fa-arrow-right" aria-hidden="true" />
+                                    </span>
                                 </Link>
                             ))}
-                        </div>
+                        </nav>
                     </div>
                 </section>
 
