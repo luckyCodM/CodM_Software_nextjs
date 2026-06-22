@@ -120,6 +120,13 @@ const services = [
         href: "/salesforce-consulting-company-in-pune",
         category: "Pune",
     },
+    {
+        title: "FSC Insurance Solutions in India",
+        text: "Design and implement Financial Services Cloud for insurance companies in India.",
+        icon: "fa-solid fa-location-dot",
+        href: "/salesforce-fsc-insurance-solutions-india",
+        category: "India",
+    },
 ];
 
 const reasons = [

@@ -90,15 +90,6 @@ export default function Footer() {
                                     <li>
                                         <Link href="/contact">Contact Us</Link>
                                     </li>
-                                    <li>
-                                        <Link href="/privacy-policy">Privacy Policy</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/terms-of-service">Terms of Service</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/womens-safety-workplace-well-being">Women's Safety</Link>
-                                    </li>
                                    <li>
                                         <Link href="/case-studies">Case Studies</Link>
                                     </li>
@@ -151,11 +142,14 @@ export default function Footer() {
                 </div>
                 <div className="copyright-area _relative">
                     <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-md-12">
-                                <div className="coppyright">
-                                    <p>© All Rights Reserved CodM Software.</p>
-                                </div>
+                        <div className="footer-legal-bar">
+                            <nav className="footer-legal-links" aria-label="Legal links">
+                                <Link href="/privacy-policy">Privacy Policy</Link>
+                                <Link href="/terms-of-service">Terms of Service</Link>
+                                <Link href="/womens-safety-workplace-well-being">Women&apos;s Safety</Link>
+                            </nav>
+                            <div className="coppyright">
+                                <p>&copy; 2026 CodM Software. All rights reserved.</p>
                             </div>
                         </div>
                     </div>
