@@ -2741,7 +2741,7 @@ body.body {
 */
 .theme-btn1 {
     position: relative;
-    display: inline-block;
+    display: -webkit-inline-box;
     vertical-align: middle;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -2815,7 +2815,7 @@ body.body {
 
 .theme-btn2 {
     position: relative;
-    display: inline-block;
+    display: -webkit-inline-box;
     vertical-align: middle;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -35804,6 +35804,10 @@ body,
 @media (max-width: 575px) {
     .fsc-migration-hero {
         padding-bottom: 84px;
+    }
+
+    .fsc-migration-assurance {
+        display: none !important;
     }
 
     .fsc-migration-console {

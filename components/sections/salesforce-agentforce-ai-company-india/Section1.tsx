@@ -187,7 +187,7 @@ export default function Section1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/Industry-cloud">
+                                            <Link href="/industry-cloud">
                                                 Industries Services
                                                 <span>
                                                     <i className="fa-regular fa-arrow-right" />

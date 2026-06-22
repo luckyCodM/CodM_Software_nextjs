@@ -65,10 +65,10 @@ export default function Section8({ classList }: any) {
                             </div>
                             <div className="col-lg-6">
                                 <div className="tes7-buttons" data-aos="fade-right" data-aos-duration={900}>
-                                    <button className="testimonial-prev-arrow1">
+                                    <button type="button" className="testimonial-prev-arrow1">
                                         <i className="fa-regular fa-arrow-left" />
                                     </button>
-                                    <button className="testimonial-next-arrow1">
+                                    <button type="button" className="testimonial-next-arrow1">
                                         <i className="fa-regular fa-arrow-right" />
                                     </button>
                                 </div>
