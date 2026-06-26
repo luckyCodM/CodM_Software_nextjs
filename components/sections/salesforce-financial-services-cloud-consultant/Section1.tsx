@@ -25,18 +25,18 @@ export default function Section1() {
                                         <p>✔Maintain Regulatory compliance</p>
                                         <p>✔Financial advice as per requirements</p>
                                         <div className="space30" />
-                                        <h3>Benefits of Financial Service Cloud</h3>
+                                        <h3>Benefits of Financial Services Cloud</h3>
                                         <div className="space16" />
-                                        <p><b>1. 360 degree client view:-</b> An all in one place to access complete client profiles, financial accounts, interaction and goals.</p>
-                                        <p><b>2. Personalized Client experience:-</b> Helps in delivering tailored solution, recommendations and financial advice with real time insights.</p>
-                                        <p><b>3. Improved Productivity:-</b> Automate tasks, manage workflow efficiently and let the team foucus on building client relationships</p>
+                                        <p><b>1. 360 degree client view:-</b> An all-in-one place to access complete client profiles, financial accounts, interaction and goals.</p>
+                                        <p><b>2. Personalized Client Experience:-</b> Helps in delivering tailored solution, recommendations and financial advice with real time insights.</p>
+                                        <p><b>3. Improved Productivity:-</b> Automate tasks, manage workflow efficiently and let the team focus on building client relationships</p>
                                         <p><b>4. Built-in Compliance and Security:-</b> While protecting client data also stay compliant with industry regulations.</p>
-                                        <p><b>5. Streamlined Collaboration:-</b> Teams across various department can work together with shared data and simplified process.</p>
+                                        <p><b>5. Streamlined Collaboration:-</b> Teams across various departments can work together with shared data and simplified process.</p>
                                         <p><b>6. Scalable for Growth:-</b> FSC evolves with your business, supporting everything from startups to large enterprises.</p>
                                         <div className="space30" />
-                                        <h3>Why Choose CodM Software for Financial Service Cloud?</h3>
+                                        <h3>Why Choose CodM Software for Financial Services Cloud?</h3>
                                         <div className="space16" />
-                                        <p>1. <b>Certified Salesforce Experts:-</b> We have Salesforce-certified consultants and developers who specializes in FSC implementation.</p>
+                                        <p>1. <b>Certified Salesforce Experts:-</b> We have Salesforce-certified consultants and developers who specialize in FSC implementation.</p>
                                         <div className="space16" />
                                         <p>2. <b>Industry-Specific Knowledge:-</b> We provide FSC support & solutions to meet the unique needs of every industry, whether it's banking, insurance, manufacturing or education.</p>
                                         <div className="space16" />

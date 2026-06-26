@@ -26,7 +26,7 @@ export default function Section1() {
                                         <div className="space16" />
                                         <p>1. <b>Improved Agent Productivity:-</b> Agents can access everything in one place to reduce the overall data handling time whether it is customer data, knowledge bases or workflow.</p>
                                         <div className="space10" />
-                                        <p>2. <b>Enhanced Customer Experience:-</b> We provide personalized interaction that are powered by AI suggestions and advanced analytics to create more meaning ful interactions.</p>
+                                        <p>2. <b>Enhanced Customer Experience:-</b> We provide personalized interaction that are powered by AI suggestions and advanced analytics to create more meaningful interactions.</p>
                                         <div className="space10" />
                                         <p>3. <b>Faster Case Resolution:-</b> Automation tools are used to ensure all the cases are addressed on priority by the agents.</p>
                                         <div className="space10" />
@@ -93,7 +93,7 @@ export default function Section1() {
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">Agentsforce aims on providing agents with tools, workflow and data access to enhance productivity, while AI focuses on advanced algorithms to provide insights, forecasts and automation to guide agents and enhance decision-making.</div>
+                                                <div className="accordion-body">Agentforce aims on providing agents with tools, workflow and data access to enhance productivity, while AI focuses on advanced algorithms to provide insights, forecasts and automation to guide agents and enhance decision-making.</div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -113,7 +113,7 @@ export default function Section1() {
                                                 </button>
                                             </h2>
                                             <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body">TAI can enhance, not replace, human agents. It automates the monotonous work and provides meaningful insights, but it cannot replace the empathy and human judgment that are essential for customer interactions. </div>
+                                                <div className="accordion-body">AI can enhance, not replace, human agents. It automates the monotonous work and provides meaningful insights, but it cannot replace the empathy and human judgment that are essential for customer interactions. </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
